@@ -9,6 +9,7 @@ import {
   TrendingUp,
   Users,
   Zap,
+  ArrowDown,
 } from "lucide-react";
 import Logo from "@/components/Logo";
 import TallyForm from "@/components/TallyForm";
@@ -234,12 +235,9 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-12 relative">
             {steps.map((s, i) => (
               <div key={i} className="relative">
-                <div className="text-gold text-xs tracking-luxe mb-6">{s.n}</div>
+                <ArrowDown className="text-gold w-6 h-6 mb-6" strokeWidth={1.5} />
                 <h3 className="text-3xl text-ivory mb-4">{s.t}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">{s.d}</p>
-                {i < 2 && (
-                  <div className="hidden md:block absolute top-2 -right-6 w-12 h-px bg-gold/30" />
-                )}
               </div>
             ))}
           </div>
