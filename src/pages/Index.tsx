@@ -24,9 +24,9 @@ const benefits = [
 ];
 
 const problems = [
-  { emoji: "📉", t: "Pipeline irrégulier", d: "Votre flux de prospects dépend du bouche-à-oreille ou de l'opportunisme." },
-  { emoji: "🎲", t: "Closing aléatoire", d: "Des deals qualifiés sont perdus par simple manque de structure de suivi." },
-  { emoji: "💸", t: "Coûts fixes toxiques", d: "Payer des frais d'agence avant d'avoir généré le moindre euro de profit." },
+  { t: "Pipeline irrégulier", d: "Votre flux de prospects dépend du bouche-à-oreille ou de l'opportunisme." },
+  { t: "Closing aléatoire", d: "Des deals qualifiés sont perdus par simple manque de structure de suivi." },
+  { t: "Coûts fixes toxiques", d: "Payer des frais d'agence avant d'avoir généré le moindre euro de profit." },
 ];
 
 const steps = [
@@ -164,7 +164,7 @@ const Index = () => {
             {problems.map((p, i) => (
               <li key={i}>
                 <div className="flex items-start gap-6 py-8">
-                  <span className="text-3xl leading-none flex-shrink-0" aria-hidden>{p.emoji}</span>
+                  <ArrowRight className="text-gold w-6 h-6 mt-1 flex-shrink-0" strokeWidth={1.5} />
                   <div>
                     <h3 className="text-2xl text-ivory mb-2">{p.t}</h3>
                     <p className="text-muted-foreground text-sm leading-relaxed">{p.d}</p>
