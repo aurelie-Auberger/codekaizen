@@ -11,6 +11,7 @@ import {
   Zap,
 } from "lucide-react";
 import Logo from "@/components/Logo";
+import TallyForm from "@/components/TallyForm";
 
 const benefits = [
   { id: "01", t: "Système outbound prêt en 14 jours", icon: Zap },
@@ -290,32 +291,13 @@ const Index = () => {
             Diagnostic stratégique gratuit de 30 minutes.
           </p>
 
-          <div className="border border-border p-10 mb-10 text-left bg-secondary/20">
-            <div className="grid sm:grid-cols-2 gap-6 mb-6">
-              <div>
-                <label className="block text-[10px] tracking-luxe uppercase text-muted-foreground mb-2">Nom</label>
-                <input className="w-full bg-transparent border-b border-border focus:border-gold outline-none py-2 text-ivory transition-colors" />
-              </div>
-              <div>
-                <label className="block text-[10px] tracking-luxe uppercase text-muted-foreground mb-2">Email pro</label>
-                <input type="email" className="w-full bg-transparent border-b border-border focus:border-gold outline-none py-2 text-ivory transition-colors" />
-              </div>
-            </div>
-            <div>
-              <label className="block text-[10px] tracking-luxe uppercase text-muted-foreground mb-2">Votre offre en une phrase</label>
-              <input className="w-full bg-transparent border-b border-border focus:border-gold outline-none py-2 text-ivory transition-colors" />
-            </div>
+          <div className="border border-border p-6 md:p-10 mb-8 text-left bg-secondary/20">
+            <TallyForm />
           </div>
 
-          <p className="text-[10px] tracking-luxe uppercase text-muted-foreground mb-8">
+          <p className="text-[10px] tracking-luxe uppercase text-muted-foreground">
             Confidentialité garantie · Aucun démarchage
           </p>
-          <button
-            onClick={() => setCurrentPage("merci")}
-            className="bg-gold text-ink px-16 py-7 rounded-[2px] font-bold text-xs tracking-luxe uppercase hover:bg-ivory transition-all shadow-[var(--shadow-gold)]"
-          >
-            Confirmer ma demande de RDV
-          </button>
         </div>
       </section>
 
