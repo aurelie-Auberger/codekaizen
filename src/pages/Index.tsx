@@ -200,7 +200,6 @@ const Index = () => {
                 key={i}
                 className="border border-gold/40 bg-background/40 p-10 flex flex-col gap-4 hover:border-gold transition-colors"
               >
-                <div className="text-gold text-xs tracking-luxe">{`0${i + 1}`}</div>
                 <h3 className="text-2xl text-ivory leading-snug">{item.t}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">{item.d}</p>
               </div>
@@ -262,9 +261,6 @@ const Index = () => {
               </article>
             ))}
           </div>
-          <p className="text-center text-[10px] tracking-luxe uppercase text-muted-foreground mt-12">
-            Études de cas réalisées en contexte réel
-          </p>
         </div>
       </section>
 
@@ -322,9 +318,7 @@ const Index = () => {
                 
               ].map((item, i) => (
                 <div key={i} className="flex gap-4">
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full border border-gold/40 flex items-center justify-center text-gold text-[10px] tracking-luxe">
-                    0{i + 1}
-                  </div>
+                  <div className="flex-shrink-0 w-2 h-2 mt-2 rounded-full bg-gold" />
                   <div>
                     <h3 className="text-ivory text-base mb-1.5 font-sans font-medium">{item.t}</h3>
                     <p className="text-muted-foreground text-sm leading-relaxed">{item.d}</p>
