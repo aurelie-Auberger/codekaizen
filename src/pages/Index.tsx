@@ -124,12 +124,14 @@ const Index = () => {
             Zéro coût fixe.
           </p>
           <div className="flex flex-col items-center gap-8">
-            <button
-              onClick={() => scrollTo("conversion")}
+            <a
+              href="https://calendly.com/aurelie-codekaizen/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gold text-ink px-14 py-6 rounded-[2px] font-bold text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
             >
               Réserver mon Audit Flash
-            </button>
+            </a>
             <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 text-[11px] tracking-[0.2em] uppercase text-muted-foreground">
               <span className="flex items-center gap-2">
                 <Clock className="w-3 h-3 text-gold" /> Système opérationnel sous 2 semaines
