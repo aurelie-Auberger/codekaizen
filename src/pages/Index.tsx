@@ -134,7 +134,7 @@ const Index = () => {
                 <Clock className="w-3 h-3 text-gold" /> Système opérationnel sous 2 semaines
               </span>
               <span className="flex items-center gap-2">
-                <Zap className="w-3 h-3 text-gold" /> Premiers résultats rapides
+                <Zap className="w-3 h-3 text-gold" /> Premiers résultats en 60 jours
               </span>
             </div>
           </div>
