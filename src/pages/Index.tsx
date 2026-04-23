@@ -321,7 +321,7 @@ const Index = () => {
               {[
                 { t: "Confidentialité totale", d: "Vos informations restent strictement entre nous. Aucun partage, aucun démarchage." },
                 { t: "Sans engagement", d: "L'audit est offert. Vous repartez avec un diagnostic actionnable, même sans collaboration." },
-                { t: "Réponse sous 24h", d: "Vous recevez une proposition de créneau dans les 24 heures ouvrées suivant votre demande." },
+                
               ].map((item, i) => (
                 <div key={i} className="flex gap-4">
                   <div className="flex-shrink-0 w-8 h-8 rounded-full border border-gold/40 flex items-center justify-center text-gold text-[10px] tracking-luxe">
