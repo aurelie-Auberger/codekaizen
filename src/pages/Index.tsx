@@ -114,14 +114,14 @@ const Index = () => {
             <Logo />
           </div>
           <h1 className="text-5xl md:text-7xl lg:text-8xl text-ivory leading-[1.05] mb-10">
-            Un système d'acquisition complet.
-            <br />
-            <span className="italic text-gold-soft">Zéro coût fixe.</span>
-          </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-14 leading-relaxed font-light">
             On construit votre machine de vente. On la pilote.
             <br />
-            Vous payez sur les résultats uniquement.
+            <span className="italic text-gold-soft">Vous payez sur les résultats uniquement.</span>
+          </h1>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-14 leading-relaxed font-light">
+            Un système d'acquisition complet.
+            <br />
+            Zéro coût fixe.
           </p>
           <div className="flex flex-col items-center gap-8">
             <button
