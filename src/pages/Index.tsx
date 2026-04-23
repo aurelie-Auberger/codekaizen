@@ -171,21 +171,38 @@ const Index = () => {
 
       {/* PROMESSE */}
       <section className="py-32 px-6 md:px-10 bg-secondary/30">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-6xl mx-auto">
           <div className="gold-line mb-16" />
-          <div className="text-[10px] tracking-luxe uppercase text-gold mb-8">
-            Modèle 100% Performance
+          <div className="text-center mb-16">
+            <span className="inline-block border border-gold/60 text-gold text-[10px] tracking-luxe uppercase px-5 py-2 rounded-full">
+              Rémunération sur résultats uniquement
+            </span>
           </div>
-          <h2 className="text-5xl md:text-7xl text-ivory mb-10 leading-tight">
-            Un système complet.
-            <br />
-            <span className="italic text-gold-soft">Aucun coût fixe.</span>
-          </h2>
-          <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-            Commission déclenchée uniquement sur encaissement effectif.
-            <br />
-            Nous prenons le risque financier à notre charge.
-          </p>
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                t: "Zéro coût fixe",
+                d: "Commission uniquement sur les ventes encaissées.",
+              },
+              {
+                t: "Système opérationnel en 2 semaines",
+                d: "Pipeline actif, closing piloté, reporting hebdomadaire.",
+              },
+              {
+                t: "Workflow acquérable",
+                d: "Le système est un actif. Vous pouvez le racheter et le garder.",
+              },
+            ].map((item, i) => (
+              <div
+                key={i}
+                className="border border-gold/40 bg-background/40 p-10 flex flex-col gap-4 hover:border-gold transition-colors"
+              >
+                <div className="text-gold text-xs tracking-luxe">{`0${i + 1}`}</div>
+                <h3 className="text-2xl text-ivory leading-snug">{item.t}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">{item.d}</p>
+              </div>
+            ))}
+          </div>
           <div className="gold-line mt-16" />
         </div>
       </section>
