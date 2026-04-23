@@ -24,9 +24,9 @@ const benefits = [
 ];
 
 const problems = [
-  { t: "Pipeline irrégulier", d: "Votre flux de prospects dépend du bouche-à-oreille ou de l'opportunisme." },
-  { t: "Closing aléatoire", d: "Des deals qualifiés sont perdus par simple manque de structure de suivi." },
-  { t: "Coûts fixes toxiques", d: "Payer des frais d'agence avant d'avoir généré le moindre euro de profit." },
+  { emoji: "📉", t: "Pipeline irrégulier", d: "Votre flux de prospects dépend du bouche-à-oreille ou de l'opportunisme." },
+  { emoji: "🎲", t: "Closing aléatoire", d: "Des deals qualifiés sont perdus par simple manque de structure de suivi." },
+  { emoji: "💸", t: "Coûts fixes toxiques", d: "Payer des frais d'agence avant d'avoir généré le moindre euro de profit." },
 ];
 
 const steps = [
@@ -160,15 +160,20 @@ const Index = () => {
               La croissance erratique est le symptôme d'une architecture de vente inexistante. Nous remplaçons le hasard par un workflow rigoureux.
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-px bg-border">
+          <ul className="max-w-3xl mx-auto">
             {problems.map((p, i) => (
-              <div key={i} className="bg-background p-10">
-                <div className="text-gold text-xs tracking-luxe mb-6">0{i + 1}</div>
-                <h3 className="text-2xl text-ivory mb-4">{p.t}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{p.d}</p>
-              </div>
+              <li key={i}>
+                <div className="flex items-start gap-6 py-8">
+                  <span className="text-3xl leading-none flex-shrink-0" aria-hidden>{p.emoji}</span>
+                  <div>
+                    <h3 className="text-2xl text-ivory mb-2">{p.t}</h3>
+                    <p className="text-muted-foreground text-sm leading-relaxed">{p.d}</p>
+                  </div>
+                </div>
+                <div className="h-px bg-gradient-to-r from-transparent via-gold/60 to-transparent" />
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
 
@@ -200,7 +205,6 @@ const Index = () => {
                 key={i}
                 className="border border-gold/40 bg-background/40 p-10 flex flex-col gap-4 hover:border-gold transition-colors"
               >
-                <div className="text-gold text-xs tracking-luxe">{`0${i + 1}`}</div>
                 <h3 className="text-2xl text-ivory leading-snug">{item.t}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">{item.d}</p>
               </div>
@@ -212,16 +216,22 @@ const Index = () => {
 
       {/* BÉNÉFICES */}
       <section className="py-32 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
-          {benefits.map(({ id, t, icon: Icon }) => (
-            <div key={id} className="bg-background p-10 group hover:bg-secondary/30 transition-colors">
-              <div className="flex items-start justify-between mb-8">
-                <span className="text-gold text-xs tracking-luxe">{id}</span>
-                <Icon className="w-5 h-5 text-gold/60 group-hover:text-gold transition-colors" strokeWidth={1.2} />
-              </div>
-              <h3 className="text-xl text-ivory leading-snug">{t}</h3>
+        <div className="max-w-6xl mx-auto">
+          <div className="border-2 border-gold p-8 md:p-14">
+            <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight">
+              Ingénierie d'acquisition,
+              <br />
+              <span className="italic text-gold-soft">ce que vous obtenez.</span>
+            </h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-gold/30">
+              {benefits.map(({ id, t, icon: Icon }) => (
+                <div key={id} className="bg-background p-8 group hover:bg-secondary/30 transition-colors">
+                  <Icon className="w-6 h-6 text-gold mb-6 group-hover:text-gold-soft transition-colors" strokeWidth={1.2} />
+                  <h3 className="text-lg text-ivory leading-snug">{t}</h3>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
       </section>
 
@@ -262,9 +272,6 @@ const Index = () => {
               </article>
             ))}
           </div>
-          <p className="text-center text-[10px] tracking-luxe uppercase text-muted-foreground mt-12">
-            Études de cas réalisées en contexte réel
-          </p>
         </div>
       </section>
 
@@ -322,9 +329,7 @@ const Index = () => {
                 
               ].map((item, i) => (
                 <div key={i} className="flex gap-4">
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full border border-gold/40 flex items-center justify-center text-gold text-[10px] tracking-luxe">
-                    0{i + 1}
-                  </div>
+                  <div className="flex-shrink-0 w-2 h-2 mt-2 rounded-full bg-gold" />
                   <div>
                     <h3 className="text-ivory text-base mb-1.5 font-sans font-medium">{item.t}</h3>
                     <p className="text-muted-foreground text-sm leading-relaxed">{item.d}</p>
