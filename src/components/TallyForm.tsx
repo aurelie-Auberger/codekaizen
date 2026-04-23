@@ -39,12 +39,13 @@ const TallyForm = () => {
 
   return (
     <iframe
-      data-tally-src="https://tally.so/embed/zx0Nrg?alignLeft=1&hideTitle=1&transparentBackground=1"
+      data-tally-src="https://tally.so/embed/zx0Nrg?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
       loading="lazy"
       width="100%"
-      height="400"
+      height="500"
       frameBorder={0}
       title="Audit Flash — Code Kaizen"
+      className="w-full block"
     />
   );
 };

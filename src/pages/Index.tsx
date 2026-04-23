@@ -282,22 +282,62 @@ const Index = () => {
       </section>
 
       {/* CONVERSION */}
-      <section id="conversion" className="py-32 px-6 md:px-10">
-        <div className="max-w-3xl mx-auto text-center">
-          <div className="gold-line mb-16" />
-          <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Audit Flash · 30 min</div>
-          <h2 className="text-4xl md:text-6xl text-ivory mb-6">Réservez votre Audit Flash</h2>
-          <p className="text-muted-foreground mb-14 leading-relaxed">
-            Diagnostic stratégique gratuit de 30 minutes.
-          </p>
-
-          <div className="border border-border p-6 md:p-10 mb-8 text-left bg-secondary/20">
-            <TallyForm />
+      <section id="conversion" className="py-32 px-6 md:px-10 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/20 to-transparent pointer-events-none" />
+        <div className="max-w-6xl mx-auto relative">
+          <div className="gold-line mb-16 max-w-3xl mx-auto" />
+          <div className="text-center mb-16">
+            <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Audit Flash · 30 min · Gratuit</div>
+            <h2 className="text-4xl md:text-6xl text-ivory mb-6 leading-tight">
+              Réservez votre <span className="italic text-gold-soft">Audit Flash</span>
+            </h2>
+            <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
+              Diagnostic stratégique de 30 minutes pour valider l'adéquation de votre offre avec notre système.
+            </p>
           </div>
 
-          <p className="text-[10px] tracking-luxe uppercase text-muted-foreground">
-            Confidentialité garantie · Aucun démarchage
-          </p>
+          <div className="grid lg:grid-cols-[1fr_1.4fr] gap-10 items-start">
+            {/* Assurances */}
+            <aside className="lg:sticky lg:top-32 space-y-8 lg:py-4">
+              {[
+                { t: "Confidentialité totale", d: "Vos informations restent strictement entre nous. Aucun partage, aucun démarchage." },
+                { t: "Sans engagement", d: "L'audit est offert. Vous repartez avec un diagnostic actionnable, même sans collaboration." },
+                { t: "Réponse sous 24h", d: "Vous recevez une proposition de créneau dans les 24 heures ouvrées suivant votre demande." },
+              ].map((item, i) => (
+                <div key={i} className="flex gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full border border-gold/40 flex items-center justify-center text-gold text-[10px] tracking-luxe">
+                    0{i + 1}
+                  </div>
+                  <div>
+                    <h3 className="text-ivory text-base mb-1.5 font-sans font-medium">{item.t}</h3>
+                    <p className="text-muted-foreground text-sm leading-relaxed">{item.d}</p>
+                  </div>
+                </div>
+              ))}
+            </aside>
+
+            {/* Form card */}
+            <div className="relative">
+              <div className="absolute -inset-px bg-gradient-to-br from-gold/40 via-transparent to-gold/10 rounded-[3px] pointer-events-none" />
+              <div className="relative bg-background border border-border p-6 sm:p-10 rounded-[2px]">
+                <div className="flex items-center justify-between mb-8 pb-6 border-b border-border">
+                  <div>
+                    <div className="text-[10px] tracking-luxe uppercase text-gold mb-1">Formulaire sécurisé</div>
+                    <div className="text-ivory text-sm font-sans">Quelques informations pour préparer l'échange.</div>
+                  </div>
+                  <div className="hidden sm:flex items-end gap-[3px] h-5">
+                    <span className="block w-[2px] h-2 bg-gold/60" />
+                    <span className="block w-[2px] h-3 bg-gold/80" />
+                    <span className="block w-[2px] h-5 bg-gold" />
+                  </div>
+                </div>
+                <TallyForm />
+              </div>
+              <p className="text-[10px] tracking-luxe uppercase text-muted-foreground mt-6 text-center">
+                Confidentialité garantie · Aucun démarchage
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
