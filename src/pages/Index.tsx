@@ -28,7 +28,7 @@ const problems = [
 ];
 
 const steps = [
-  { n: "01", t: "Audit Flash", d: "Diagnostic de 30 min pour valider l'adéquation de votre offre avec notre système." },
+  { n: "01", t: "Audit Flash gratuit", d: "Diagnostic gratuit de 30 min pour valider l'adéquation de votre offre avec notre système." },
   { n: "02", t: "Construction", d: "Déploiement de l'infrastructure (CRM, copies, séquences) en moins de 15 jours." },
   { n: "03", t: "Pilotage", d: "On génère les leads, on close les ventes, vous encaissez le chiffre d'affaires." },
 ];
