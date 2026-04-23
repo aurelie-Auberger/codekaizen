@@ -363,7 +363,6 @@ const Index = () => {
         <div className="max-w-6xl mx-auto flex flex-col items-center gap-8">
           <Logo />
           <nav className="flex flex-wrap justify-center gap-8 text-[10px] tracking-luxe uppercase text-muted-foreground">
-            <span>SASU Code Kaizen</span>
             <a href="#" className="hover:text-gold transition-colors">Mentions légales</a>
             <a href="#" className="hover:text-gold transition-colors">Confidentialité</a>
           </nav>
