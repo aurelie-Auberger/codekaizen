@@ -4,7 +4,6 @@ import {
   ChevronDown,
   Clock,
   Zap,
-  ArrowDown,
 } from "lucide-react";
 import Logo from "@/components/Logo";
 import TallyForm from "@/components/TallyForm";
@@ -116,9 +115,7 @@ const Index = () => {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-14 leading-relaxed font-light">
-            Un système d'acquisition complet.
-            <br />
-            Zéro coût fixe.
+            On construit votre machine de vente. On la pilote. Vous payez sur les résultats.
           </p>
           <div className="flex flex-col items-center gap-8">
             <button
@@ -237,22 +234,22 @@ const Index = () => {
       {/* BÉNÉFICES */}
       <section className="py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
-          <div className="border-2 border-gold p-8 md:p-14">
-            <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight">
-              Ingénierie d'acquisition,
-              <br />
-              <span className="italic text-gold-soft">ce que vous obtenez.</span>
-            </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-gold/30">
-              {benefits.map(({ id, t }) => (
-                <div key={id} className="bg-background p-8 group hover:bg-secondary/30 transition-colors">
-                  <div className="font-serif text-4xl text-gold mb-6 group-hover:text-gold-soft transition-colors leading-none">
-                    {id}
-                  </div>
-                  <h3 className="text-lg text-ivory leading-snug">{t}</h3>
+          <h2 className="text-4xl md:text-6xl text-ivory text-center mb-20 leading-tight font-serif tracking-wide">
+            Ingénierie d'acquisition,{" "}
+            <span className="italic" style={{ color: "#c9a24e" }}>ce que vous obtenez.</span>
+          </h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-gold/30">
+            {benefits.map(({ id, t }) => (
+              <div key={id} className="bg-background p-8 group hover:bg-secondary/30 transition-colors">
+                <div
+                  className="font-serif mb-6 group-hover:text-gold-soft transition-colors leading-none"
+                  style={{ color: "#c9a24e", fontSize: "32px" }}
+                >
+                  {id}
                 </div>
-              ))}
-            </div>
+                <h3 className="text-lg text-ivory leading-snug">{t}</h3>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -267,7 +264,12 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-12 relative">
             {steps.map((s, i) => (
               <div key={i} className="relative">
-                <ArrowDown className="text-gold w-6 h-6 mb-6" strokeWidth={1.5} />
+                <div
+                  className="font-serif mb-6 leading-none"
+                  style={{ color: "#c9a24e", fontSize: "32px" }}
+                >
+                  {s.n}
+                </div>
                 <h3 className="text-3xl text-ivory mb-4">{s.t}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">{s.d}</p>
               </div>
@@ -386,15 +388,25 @@ const Index = () => {
       </section>
 
       {/* FOOTER */}
-      <footer className="border-t border-border py-16 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto flex flex-col items-center gap-8">
-          <Logo />
-          <nav className="flex flex-wrap justify-center gap-8 text-[10px] tracking-luxe uppercase text-muted-foreground">
-            <a href="#" className="hover:text-gold transition-colors">Mentions légales</a>
-            <a href="#" className="hover:text-gold transition-colors">Confidentialité</a>
-          </nav>
-          <p className="text-[10px] tracking-luxe uppercase text-gold/60 italic font-serif text-base">
+      <footer
+        className="py-16 px-6 md:px-10"
+        style={{
+          backgroundColor: "#0d1420",
+          color: "#7b8da8",
+          borderTop: "1px solid rgba(201, 162, 78, 0.3)",
+        }}
+      >
+        <div className="max-w-6xl mx-auto flex flex-col items-center gap-6 text-center">
+          <div className="flex items-center gap-2">
+            <span className="tracking-[0.35em] text-sm font-medium" style={{ color: "#edeae2" }}>CODE</span>
+            <span className="block w-4 h-px" style={{ backgroundColor: "#c9a24e" }} />
+            <span className="tracking-[0.35em] text-sm font-medium" style={{ color: "#edeae2" }}>KAIZEN</span>
+          </div>
+          <p className="text-[10px] tracking-[0.4em] uppercase" style={{ color: "#c9a24e", opacity: 0.8 }}>
             Revenue, by system.
+          </p>
+          <p className="text-[11px] tracking-[0.15em]" style={{ color: "#7b8da8" }}>
+            SASU Code Kaizen · Mentions légales · Politique de confidentialité
           </p>
         </div>
       </footer>
