@@ -145,70 +145,90 @@ const Index = () => {
 
       <div className="gold-line max-w-5xl mx-auto" />
 
-      {/* PROBLÈME */}
+      {/* PROBLÈME / PROMESSE — 2 colonnes */}
       <section className="py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-20">
-            <h2 className="text-4xl md:text-6xl text-ivory mb-8 leading-tight">
-              Vous avez une offre premium.
-              <br />
-              <span className="italic text-gold-soft">Vous n'avez pas de système.</span>
-            </h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              La croissance erratique est le symptôme d'une architecture de vente inexistante. Nous remplaçons le hasard par un workflow rigoureux.
-            </p>
-          </div>
-          <ul className="max-w-3xl mx-auto">
-            {problems.map((p, i) => (
-              <li key={i}>
-                <div className="flex items-start gap-6 py-8">
-                  <ArrowRight className="text-gold w-6 h-6 mt-1 flex-shrink-0" strokeWidth={1.5} />
-                  <div>
-                    <h3 className="text-2xl text-ivory mb-2">{p.t}</h3>
-                    <p className="text-muted-foreground text-sm leading-relaxed">{p.d}</p>
-                  </div>
-                </div>
-                <div className="h-px bg-gradient-to-r from-transparent via-gold/60 to-transparent" />
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
+          <h2 className="text-3xl md:text-5xl text-ivory text-center mb-20 leading-tight tracking-wide font-serif">
+            Ingénierie d'acquisition <span className="italic text-gold-soft">— ce que vous obtenez.</span>
+          </h2>
 
-      {/* PROMESSE */}
-      <section className="py-32 px-6 md:px-10 bg-secondary/30">
-        <div className="max-w-6xl mx-auto">
-          <div className="gold-line mb-16" />
-          <div className="text-center mb-16">
-            <span className="inline-block border border-gold/60 text-gold text-[10px] tracking-luxe uppercase px-5 py-2 rounded-full">
+          <div className="relative grid md:grid-cols-2 gap-12 md:gap-0">
+            {/* Ligne verticale dorée */}
+            <div
+              aria-hidden
+              className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px"
+              style={{ backgroundColor: "#c9a24e", opacity: 0.3 }}
+            />
+
+            {/* Colonne gauche — Le hasard */}
+            <div className="md:pr-16 py-10 px-8 md:px-10" style={{ backgroundColor: "#0a1018" }}>
+              <h3
+                className="text-2xl md:text-3xl mb-12 font-serif tracking-wide"
+                style={{ color: "#edeae2" }}
+              >
+                Le hasard
+              </h3>
+              <ul className="space-y-10">
+                {[
+                  { t: "Pipeline irrégulier", d: "Votre flux dépend du bouche-à-oreille ou de l'opportunisme." },
+                  { t: "Closing aléatoire", d: "Des deals qualifiés sont perdus par manque de structure de suivi." },
+                  { t: "Coûts fixes toxiques", d: "Vous payez des frais avant d'avoir généré le moindre euro." },
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-5">
+                    <span
+                      className="text-2xl leading-none mt-0.5 flex-shrink-0 font-light"
+                      style={{ color: "#8b3a3a" }}
+                      aria-hidden
+                    >
+                      ×
+                    </span>
+                    <div>
+                      <h4 className="text-lg text-ivory mb-2 font-sans font-medium">{item.t}</h4>
+                      <p className="text-muted-foreground text-sm leading-relaxed">{item.d}</p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Colonne droite — Le système */}
+            <div className="md:pl-16 py-10 px-8 md:px-10">
+              <h3
+                className="text-2xl md:text-3xl mb-12 font-serif tracking-wide"
+                style={{ color: "#c9a24e" }}
+              >
+                Le système
+              </h3>
+              <ul className="space-y-10">
+                {[
+                  { t: "Système outbound opérationnel en 2 semaines", d: "Pipeline actif, closing piloté." },
+                  { t: "Closing intégral pris en charge", d: "Zéro deal perdu faute de suivi." },
+                  { t: "Zéro coût fixe", d: "Commission uniquement sur les ventes encaissées." },
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-5">
+                    <span
+                      className="text-2xl leading-none mt-0.5 flex-shrink-0 font-light"
+                      style={{ color: "#c9a24e" }}
+                      aria-hidden
+                    >
+                      ✓
+                    </span>
+                    <div>
+                      <h4 className="text-lg text-ivory mb-2 font-sans font-medium">{item.t}</h4>
+                      <p className="text-muted-foreground text-sm leading-relaxed">{item.d}</p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          {/* Badge bas */}
+          <div className="flex justify-center mt-20">
+            <span className="inline-block border border-gold text-gold text-[10px] tracking-luxe uppercase px-6 py-2.5 rounded-full">
               Rémunération sur résultats uniquement
             </span>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-                t: "Zéro coût fixe",
-                d: "Commission uniquement sur les ventes encaissées.",
-              },
-              {
-                t: "Système opérationnel en 2 semaines",
-                d: "Pipeline actif, closing piloté, reporting hebdomadaire.",
-              },
-              {
-                t: "Workflow acquérable",
-                d: "Le système est un actif. Vous pouvez le racheter et le garder.",
-              },
-            ].map((item, i) => (
-              <div
-                key={i}
-                className="border border-gold/40 bg-background/40 p-10 flex flex-col gap-4 hover:border-gold transition-colors"
-              >
-                <h3 className="text-2xl text-ivory leading-snug">{item.t}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{item.d}</p>
-              </div>
-            ))}
-          </div>
-          <div className="gold-line mt-16" />
         </div>
       </section>
 
