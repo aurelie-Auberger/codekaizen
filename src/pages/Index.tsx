@@ -1,13 +1,8 @@
 import { useEffect, useState } from "react";
 import {
   ArrowRight,
-  BarChart3,
-  CheckCircle,
   ChevronDown,
   Clock,
-  Target,
-  TrendingUp,
-  Users,
   Zap,
   ArrowDown,
 } from "lucide-react";
@@ -15,12 +10,12 @@ import Logo from "@/components/Logo";
 import TallyForm from "@/components/TallyForm";
 
 const benefits = [
-  { id: "01", t: "Système outbound prêt en 14 jours", icon: Zap },
-  { id: "02", t: "Closing intégral pris en charge", icon: Users },
-  { id: "03", t: "Zéro coût fixe d'installation", icon: CheckCircle },
-  { id: "04", t: "Ciblage ICP ultra-précis (Data-driven)", icon: Target },
-  { id: "05", t: "Reporting hebdomadaire transparent", icon: BarChart3 },
-  { id: "06", t: "Résultats mesurables et prévisibles", icon: TrendingUp },
+  { id: "01", t: "Système outbound prêt en 14 jours" },
+  { id: "02", t: "Closing intégral pris en charge" },
+  { id: "03", t: "Zéro coût fixe d'installation" },
+  { id: "04", t: "Ciblage ICP ultra-précis (Data-driven)" },
+  { id: "05", t: "Reporting hebdomadaire transparent" },
+  { id: "06", t: "Résultats mesurables et prévisibles" },
 ];
 
 const problems = [
@@ -115,9 +110,8 @@ const Index = () => {
             <Logo />
           </div>
           <h1 className="text-5xl md:text-7xl lg:text-8xl text-ivory leading-[1.05] mb-10">
-            On construit votre machine de vente. On la pilote.
-            <br />
-            <span className="italic text-gold-soft">Vous payez sur les résultats uniquement.</span>
+            Un système d'acquisition complet. Zéro coût fixe.{" "}
+            <span className="italic text-gold-soft">60 jours.</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-14 leading-relaxed font-light">
             Un système d'acquisition complet.
@@ -158,7 +152,7 @@ const Index = () => {
             </span>
           </h2>
 
-          <div className="relative grid md:grid-cols-2 gap-12 md:gap-0">
+          <div className="relative flex flex-col md:flex-row gap-12 md:gap-0">
             {/* Ligne verticale dorée */}
             <div
               aria-hidden
@@ -167,7 +161,7 @@ const Index = () => {
             />
 
             {/* Colonne gauche — Le hasard */}
-            <div className="md:pr-16 py-10 px-8 md:px-10" style={{ backgroundColor: "#0a1018" }}>
+            <div className="flex-1 md:pr-16 py-10 px-8 md:px-10" style={{ backgroundColor: "#0a1018" }}>
               <h3
                 className="text-2xl md:text-3xl mb-12 font-serif tracking-wide"
                 style={{ color: "#edeae2" }}
@@ -198,7 +192,7 @@ const Index = () => {
             </div>
 
             {/* Colonne droite — Le système */}
-            <div className="md:pl-16 py-10 px-8 md:px-10">
+            <div className="flex-1 md:pl-16 py-10 px-8 md:px-10">
               <h3
                 className="text-2xl md:text-3xl mb-12 font-serif tracking-wide"
                 style={{ color: "#c9a24e" }}
@@ -248,9 +242,11 @@ const Index = () => {
               <span className="italic text-gold-soft">ce que vous obtenez.</span>
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-gold/30">
-              {benefits.map(({ id, t, icon: Icon }) => (
+              {benefits.map(({ id, t }) => (
                 <div key={id} className="bg-background p-8 group hover:bg-secondary/30 transition-colors">
-                  <Icon className="w-6 h-6 text-gold mb-6 group-hover:text-gold-soft transition-colors" strokeWidth={1.2} />
+                  <div className="font-serif text-4xl text-gold mb-6 group-hover:text-gold-soft transition-colors leading-none">
+                    {id}
+                  </div>
                   <h3 className="text-lg text-ivory leading-snug">{t}</h3>
                 </div>
               ))}
