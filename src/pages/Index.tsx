@@ -1,20 +1,26 @@
 import { useEffect, useState } from "react";
 import {
   ArrowRight,
+  BarChart3,
+  CheckCircle,
   ChevronDown,
   Clock,
+  Target,
+  TrendingUp,
+  Users,
   Zap,
+  ArrowDown,
 } from "lucide-react";
 import Logo from "@/components/Logo";
 import TallyForm from "@/components/TallyForm";
 
 const benefits = [
-  { id: "01", t: "Système outbound prêt en 14 jours" },
-  { id: "02", t: "Closing intégral pris en charge" },
-  { id: "03", t: "Zéro coût fixe d'installation" },
-  { id: "04", t: "Ciblage ICP ultra-précis (Data-driven)" },
-  { id: "05", t: "Reporting hebdomadaire transparent" },
-  { id: "06", t: "Résultats mesurables et prévisibles" },
+  { id: "01", t: "Système outbound prêt en 14 jours", icon: Zap },
+  { id: "02", t: "Closing intégral pris en charge", icon: Users },
+  { id: "03", t: "Zéro coût fixe d'installation", icon: CheckCircle },
+  { id: "04", t: "Ciblage ICP ultra-précis (Data-driven)", icon: Target },
+  { id: "05", t: "Reporting hebdomadaire transparent", icon: BarChart3 },
+  { id: "06", t: "Résultats mesurables et prévisibles", icon: TrendingUp },
 ];
 
 const problems = [
@@ -109,13 +115,14 @@ const Index = () => {
             <Logo />
           </div>
           <h1 className="text-5xl md:text-7xl lg:text-8xl text-ivory leading-[1.05] mb-10">
-            Un système d'acquisition complet.{" "}
-            <span className="italic" style={{ color: "#c9a24e" }}>
-              Zéro coût fixe. 60 jours.
-            </span>
+            On construit votre machine de vente. On la pilote.
+            <br />
+            <span className="italic text-gold-soft">Vous payez sur les résultats uniquement.</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-14 leading-relaxed font-light">
-            On construit votre machine de vente. On la pilote. Vous payez sur les résultats.
+            Un système d'acquisition complet.
+            <br />
+            Zéro coût fixe.
           </p>
           <div className="flex flex-col items-center gap-8">
             <button
@@ -141,26 +148,20 @@ const Index = () => {
       {/* PROBLÈME / PROMESSE — 2 colonnes */}
       <section className="py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
-          <h2
-            className="text-4xl md:text-6xl text-center mb-20 leading-tight tracking-wide font-serif"
-            style={{ color: "#edeae2" }}
-          >
-            Deux trajectoires.{" "}
-            <span className="italic" style={{ color: "#c9a24e" }}>
-              Une seule est un système.
-            </span>
+          <h2 className="text-3xl md:text-5xl text-ivory text-center mb-20 leading-tight tracking-wide font-serif">
+            Ingénierie d'acquisition <span className="italic text-gold-soft">— ce que vous obtenez.</span>
           </h2>
 
-          <div className="relative flex flex-row gap-0">
+          <div className="relative grid md:grid-cols-2 gap-12 md:gap-0">
             {/* Ligne verticale dorée */}
             <div
               aria-hidden
-              className="absolute left-1/2 top-0 bottom-0 w-px"
+              className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px"
               style={{ backgroundColor: "#c9a24e", opacity: 0.3 }}
             />
 
             {/* Colonne gauche — Le hasard */}
-            <div className="flex-1 pr-6 sm:pr-10 md:pr-16 py-10 pl-4 sm:pl-8 md:pl-10" style={{ backgroundColor: "#0a1018" }}>
+            <div className="md:pr-16 py-10 px-8 md:px-10" style={{ backgroundColor: "#0a1018" }}>
               <h3
                 className="text-2xl md:text-3xl mb-12 font-serif tracking-wide"
                 style={{ color: "#edeae2" }}
@@ -191,7 +192,7 @@ const Index = () => {
             </div>
 
             {/* Colonne droite — Le système */}
-            <div className="flex-1 pl-6 sm:pl-10 md:pl-16 py-10 pr-4 sm:pr-8 md:pr-10">
+            <div className="md:pl-16 py-10 px-8 md:px-10">
               <h3
                 className="text-2xl md:text-3xl mb-12 font-serif tracking-wide"
                 style={{ color: "#c9a24e" }}
@@ -234,22 +235,20 @@ const Index = () => {
       {/* BÉNÉFICES */}
       <section className="py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-6xl text-ivory text-center mb-20 leading-tight font-serif tracking-wide">
-            Ingénierie d'acquisition,{" "}
-            <span className="italic" style={{ color: "#c9a24e" }}>ce que vous obtenez.</span>
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-gold/30">
-            {benefits.map(({ id, t }) => (
-              <div key={id} className="bg-background p-8 group hover:bg-secondary/30 transition-colors">
-                <div
-                  className="font-serif mb-6 group-hover:text-gold-soft transition-colors leading-none"
-                  style={{ color: "#c9a24e", fontSize: "32px" }}
-                >
-                  {id}
+          <div className="border-2 border-gold p-8 md:p-14">
+            <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight">
+              Ingénierie d'acquisition,
+              <br />
+              <span className="italic text-gold-soft">ce que vous obtenez.</span>
+            </h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-gold/30">
+              {benefits.map(({ id, t, icon: Icon }) => (
+                <div key={id} className="bg-background p-8 group hover:bg-secondary/30 transition-colors">
+                  <Icon className="w-6 h-6 text-gold mb-6 group-hover:text-gold-soft transition-colors" strokeWidth={1.2} />
+                  <h3 className="text-lg text-ivory leading-snug">{t}</h3>
                 </div>
-                <h3 className="text-lg text-ivory leading-snug">{t}</h3>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -264,12 +263,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-12 relative">
             {steps.map((s, i) => (
               <div key={i} className="relative">
-                <div
-                  className="font-serif mb-6 leading-none"
-                  style={{ color: "#c9a24e", fontSize: "32px" }}
-                >
-                  {s.n}
-                </div>
+                <ArrowDown className="text-gold w-6 h-6 mb-6" strokeWidth={1.5} />
                 <h3 className="text-3xl text-ivory mb-4">{s.t}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">{s.d}</p>
               </div>
@@ -388,25 +382,15 @@ const Index = () => {
       </section>
 
       {/* FOOTER */}
-      <footer
-        className="py-16 px-6 md:px-10"
-        style={{
-          backgroundColor: "#0d1420",
-          color: "#7b8da8",
-          borderTop: "1px solid rgba(201, 162, 78, 0.3)",
-        }}
-      >
-        <div className="max-w-6xl mx-auto flex flex-col items-center gap-6 text-center">
-          <div className="flex items-center gap-2">
-            <span className="tracking-[0.35em] text-sm font-medium" style={{ color: "#edeae2" }}>CODE</span>
-            <span className="block w-4 h-px" style={{ backgroundColor: "#c9a24e" }} />
-            <span className="tracking-[0.35em] text-sm font-medium" style={{ color: "#edeae2" }}>KAIZEN</span>
-          </div>
-          <p className="text-[10px] tracking-[0.4em] uppercase" style={{ color: "#c9a24e", opacity: 0.8 }}>
+      <footer className="border-t border-border py-16 px-6 md:px-10">
+        <div className="max-w-6xl mx-auto flex flex-col items-center gap-8">
+          <Logo />
+          <nav className="flex flex-wrap justify-center gap-8 text-[10px] tracking-luxe uppercase text-muted-foreground">
+            <a href="#" className="hover:text-gold transition-colors">Mentions légales</a>
+            <a href="#" className="hover:text-gold transition-colors">Confidentialité</a>
+          </nav>
+          <p className="text-[10px] tracking-luxe uppercase text-gold/60 italic font-serif text-base">
             Revenue, by system.
-          </p>
-          <p className="text-[11px] tracking-[0.15em]" style={{ color: "#7b8da8" }}>
-            SASU Code Kaizen · Mentions légales · Politique de confidentialité
           </p>
         </div>
       </footer>
