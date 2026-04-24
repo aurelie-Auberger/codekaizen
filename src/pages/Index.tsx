@@ -314,7 +314,7 @@ const Index = () => {
               Réservez votre <span className="italic text-gold-soft">Audit Flash</span>
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
-              Diagnostic stratégique de 30 minutes pour valider l'adéquation de votre offre avec notre système.
+              30 minutes. Gratuit. Sans engagement.
             </p>
           </div>
 
@@ -354,7 +354,7 @@ const Index = () => {
                 <TallyForm />
               </div>
               <p className="text-[10px] tracking-luxe uppercase text-muted-foreground mt-6 text-center">
-                Confidentialité garantie · Aucun démarchage
+                Vos données restent confidentielles. Aucun démarchage.
               </p>
             </div>
           </div>
