@@ -154,16 +154,16 @@ const Index = () => {
             </span>
           </h2>
 
-          <div className="relative flex flex-col md:flex-row gap-12 md:gap-0">
+          <div className="relative flex flex-row gap-0">
             {/* Ligne verticale dorée */}
             <div
               aria-hidden
-              className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px"
+              className="absolute left-1/2 top-0 bottom-0 w-px"
               style={{ backgroundColor: "#c9a24e", opacity: 0.3 }}
             />
 
             {/* Colonne gauche — Le hasard */}
-            <div className="flex-1 md:pr-16 py-10 px-8 md:px-10" style={{ backgroundColor: "#0a1018" }}>
+            <div className="flex-1 pr-6 sm:pr-10 md:pr-16 py-10 pl-4 sm:pl-8 md:pl-10" style={{ backgroundColor: "#0a1018" }}>
               <h3
                 className="text-2xl md:text-3xl mb-12 font-serif tracking-wide"
                 style={{ color: "#edeae2" }}
@@ -194,7 +194,7 @@ const Index = () => {
             </div>
 
             {/* Colonne droite — Le système */}
-            <div className="flex-1 md:pl-16 py-10 px-8 md:px-10">
+            <div className="flex-1 pl-6 sm:pl-10 md:pl-16 py-10 pr-4 sm:pr-8 md:pr-10">
               <h3
                 className="text-2xl md:text-3xl mb-12 font-serif tracking-wide"
                 style={{ color: "#c9a24e" }}
