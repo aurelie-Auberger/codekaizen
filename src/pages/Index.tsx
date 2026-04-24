@@ -110,8 +110,10 @@ const Index = () => {
             <Logo />
           </div>
           <h1 className="text-5xl md:text-7xl lg:text-8xl text-ivory leading-[1.05] mb-10">
-            Un système d'acquisition complet. Zéro coût fixe.{" "}
-            <span className="italic text-gold-soft">60 jours.</span>
+            Un système d'acquisition complet.{" "}
+            <span className="italic" style={{ color: "#c9a24e" }}>
+              Zéro coût fixe. 60 jours.
+            </span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-14 leading-relaxed font-light">
             Un système d'acquisition complet.
