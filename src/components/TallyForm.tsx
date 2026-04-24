@@ -7,6 +7,7 @@ declare global {
 }
 
 const TALLY_SRC = "https://tally.so/widgets/embed.js";
+const CALENDLY_URL = "https://calendly.com/aurelie-codekaizen/30min";
 
 const TallyForm = () => {
   useEffect(() => {
@@ -24,17 +25,35 @@ const TallyForm = () => {
 
     if (window.Tally) {
       load();
-      return;
-    }
-    if (document.querySelector(`script[src="${TALLY_SRC}"]`)) {
+    } else if (document.querySelector(`script[src="${TALLY_SRC}"]`)) {
       load();
-      return;
+    } else {
+      const s = document.createElement("script");
+      s.src = TALLY_SRC;
+      s.onload = load;
+      s.onerror = load;
+      document.body.appendChild(s);
     }
-    const s = document.createElement("script");
-    s.src = TALLY_SRC;
-    s.onload = load;
-    s.onerror = load;
-    document.body.appendChild(s);
+
+    // Listen for Tally form submission and redirect to Calendly
+    const handleMessage = (e: MessageEvent) => {
+      const data = e.data;
+      if (typeof data === "string" && data.includes("Tally.FormSubmitted")) {
+        window.open(CALENDLY_URL, "_blank");
+      } else if (data && typeof data === "object") {
+        try {
+          const str = JSON.stringify(data);
+          if (str.includes("Tally.FormSubmitted")) {
+            window.open(CALENDLY_URL, "_blank");
+          }
+        } catch {
+          // ignore
+        }
+      }
+    };
+
+    window.addEventListener("message", handleMessage);
+    return () => window.removeEventListener("message", handleMessage);
   }, []);
 
   return (
