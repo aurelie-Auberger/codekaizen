@@ -151,7 +151,7 @@ const Index = () => {
       <section className="py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-5xl text-ivory text-center mb-20 leading-tight tracking-wide font-serif">
-            Ingénierie d'acquisition <span className="italic text-gold-soft">— ce que vous obtenez.</span>
+            Deux trajectoires. <span className="italic text-gold-soft">Une seule est un système.</span>
           </h2>
 
           <div className="relative grid md:grid-cols-2 gap-12 md:gap-0">
