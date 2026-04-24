@@ -4,7 +4,6 @@ import {
   ChevronDown,
   Clock,
   Zap,
-  ArrowDown,
 } from "lucide-react";
 import Logo from "@/components/Logo";
 import TallyForm from "@/components/TallyForm";
