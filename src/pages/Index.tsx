@@ -109,34 +109,36 @@ const Index = () => {
       </header>
 
       {/* HERO */}
-      <section className="pt-48 pb-32 px-6 md:px-10">
+      <section className="pt-32 sm:pt-40 md:pt-48 pb-20 md:pb-32 px-5 sm:px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
-          <div className="mb-10 flex justify-center">
+          <div className="mb-8 md:mb-10 flex justify-center">
             <Logo />
           </div>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl text-ivory leading-[1.05] mb-10">
+          <h1 className="text-[2rem] leading-[1.1] sm:text-5xl md:text-7xl lg:text-8xl md:leading-[1.05] text-ivory mb-6 md:mb-10 tracking-tight">
             On construit votre machine de vente. On la pilote.
-            <br />
-            <span className="italic text-gold-soft">Vous payez sur les résultats uniquement.</span>
+            <br className="hidden sm:block" />
+            <span className="italic text-gold-soft block sm:inline mt-3 sm:mt-0">
+              Vous payez sur les résultats uniquement.
+            </span>
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-14 leading-relaxed font-light">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 md:mb-14 leading-relaxed font-light">
             Un système d'acquisition complet.
             <br />
             Zéro coût fixe.
           </p>
-          <div className="flex flex-col items-center gap-8">
+          <div className="flex flex-col items-center gap-6 md:gap-8">
             <button
               onClick={() => scrollTo("conversion")}
-              className="bg-gold text-ink px-14 py-6 rounded-[2px] font-bold text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
+              className="bg-gold text-ink w-full sm:w-auto px-8 sm:px-14 py-5 sm:py-6 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
             >
               Réserver mon Audit Flash
             </button>
-            <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 text-[11px] tracking-[0.2em] uppercase text-muted-foreground">
-              <span className="flex items-center gap-2">
-                <Clock className="w-3 h-3 text-gold" /> Système opérationnel sous 2 semaines
+            <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-x-8 gap-y-3 text-[10px] sm:text-[11px] tracking-[0.2em] uppercase text-muted-foreground">
+              <span className="flex items-center justify-center gap-2">
+                <Clock className="w-3 h-3 text-gold flex-shrink-0" /> Système opérationnel sous 2 semaines
               </span>
-              <span className="flex items-center gap-2">
-                <Zap className="w-3 h-3 text-gold" /> Premiers résultats en 60 jours
+              <span className="flex items-center justify-center gap-2">
+                <Zap className="w-3 h-3 text-gold flex-shrink-0" /> Premiers résultats en 60 jours
               </span>
             </div>
           </div>
