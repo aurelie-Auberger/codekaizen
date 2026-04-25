@@ -114,7 +114,7 @@ const Index = () => {
           <div className="mb-8 md:mb-10 flex justify-center">
             <Logo />
           </div>
-          <h1 className="text-[2rem] leading-[1.1] sm:text-5xl md:text-7xl lg:text-8xl md:leading-[1.05] text-ivory mb-6 md:mb-10 tracking-tight">
+          <h1 className="font-serif text-[1.75rem] leading-[1.15] sm:text-4xl md:text-6xl lg:text-7xl md:leading-[1.1] text-ivory mb-6 md:mb-10 tracking-tight">
             On construit et pilote votre système d'acquisition.
             <br className="hidden sm:block" />
             <span className="italic text-gold-soft block sm:inline mt-3 sm:mt-0">
