@@ -152,39 +152,39 @@ const Index = () => {
             Deux trajectoires. <span className="italic text-gold-soft">Une seule est un système.</span>
           </h2>
 
-          <div className="relative grid md:grid-cols-2 gap-12 md:gap-0">
+          <div className="relative grid grid-cols-2 gap-0">
             {/* Ligne verticale dorée */}
             <div
               aria-hidden
-              className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px"
+              className="absolute left-1/2 top-0 bottom-0 w-px"
               style={{ backgroundColor: "#c9a24e", opacity: 0.3 }}
             />
 
             {/* Colonne gauche — Le hasard */}
-            <div className="md:pr-16 py-10 px-8 md:px-10" style={{ backgroundColor: "#0a1018" }}>
+            <div className="pr-4 sm:pr-8 md:pr-16 py-8 md:py-10 pl-4 sm:pl-8 md:px-10" style={{ backgroundColor: "#0a1018" }}>
               <h3
-                className="text-2xl md:text-3xl mb-12 font-serif tracking-wide"
+                className="text-lg sm:text-2xl md:text-3xl mb-8 md:mb-12 font-serif tracking-wide"
                 style={{ color: "#edeae2" }}
               >
                 Le hasard
               </h3>
-              <ul className="space-y-10">
+              <ul className="space-y-6 sm:space-y-8 md:space-y-10">
                 {[
                   { t: "Pipeline irrégulier", d: "Votre flux dépend du bouche-à-oreille ou de l'opportunisme." },
                   { t: "Closing aléatoire", d: "Des deals qualifiés sont perdus par manque de structure de suivi." },
                   { t: "Coûts fixes toxiques", d: "Vous payez des frais avant d'avoir généré le moindre euro." },
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-5">
+                  <li key={i} className="flex items-start gap-2 sm:gap-4 md:gap-5">
                     <span
-                      className="text-2xl leading-none mt-0.5 flex-shrink-0 font-light"
+                      className="text-lg sm:text-2xl leading-none mt-0.5 flex-shrink-0 font-light"
                       style={{ color: "#8b3a3a" }}
                       aria-hidden
                     >
                       ×
                     </span>
                     <div>
-                      <h4 className="text-lg text-ivory mb-2 font-sans font-medium">{item.t}</h4>
-                      <p className="text-muted-foreground text-sm leading-relaxed">{item.d}</p>
+                      <h4 className="text-sm sm:text-base md:text-lg text-ivory mb-1 sm:mb-2 font-sans font-medium leading-snug">{item.t}</h4>
+                      <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">{item.d}</p>
                     </div>
                   </li>
                 ))}
@@ -192,30 +192,30 @@ const Index = () => {
             </div>
 
             {/* Colonne droite — Le système */}
-            <div className="md:pl-16 py-10 px-8 md:px-10">
+            <div className="pl-4 sm:pl-8 md:pl-16 py-8 md:py-10 pr-4 sm:pr-8 md:px-10">
               <h3
-                className="text-2xl md:text-3xl mb-12 font-serif tracking-wide"
+                className="text-lg sm:text-2xl md:text-3xl mb-8 md:mb-12 font-serif tracking-wide"
                 style={{ color: "#c9a24e" }}
               >
                 Le système
               </h3>
-              <ul className="space-y-10">
+              <ul className="space-y-6 sm:space-y-8 md:space-y-10">
                 {[
                   { t: "Système outbound opérationnel en 2 semaines", d: "Pipeline actif, closing piloté." },
                   { t: "Closing intégral pris en charge", d: "Zéro deal perdu faute de suivi." },
                   { t: "Zéro coût fixe", d: "Commission uniquement sur les ventes encaissées." },
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-5">
+                  <li key={i} className="flex items-start gap-2 sm:gap-4 md:gap-5">
                     <span
-                      className="text-2xl leading-none mt-0.5 flex-shrink-0 font-light"
+                      className="text-lg sm:text-2xl leading-none mt-0.5 flex-shrink-0 font-light"
                       style={{ color: "#c9a24e" }}
                       aria-hidden
                     >
                       ✓
                     </span>
                     <div>
-                      <h4 className="text-lg text-ivory mb-2 font-sans font-medium">{item.t}</h4>
-                      <p className="text-muted-foreground text-sm leading-relaxed">{item.d}</p>
+                      <h4 className="text-sm sm:text-base md:text-lg text-ivory mb-1 sm:mb-2 font-sans font-medium leading-snug">{item.t}</h4>
+                      <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">{item.d}</p>
                     </div>
                   </li>
                 ))}
