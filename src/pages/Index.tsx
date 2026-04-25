@@ -115,10 +115,10 @@ const Index = () => {
             <Logo />
           </div>
           <h1 className="text-[2rem] leading-[1.1] sm:text-5xl md:text-7xl lg:text-8xl md:leading-[1.05] text-ivory mb-6 md:mb-10 tracking-tight">
-            On construit votre machine de vente. On la pilote.
+            On construit et pilote votre système d'acquisition.
             <br className="hidden sm:block" />
             <span className="italic text-gold-soft block sm:inline mt-3 sm:mt-0">
-              Vous payez sur les résultats uniquement.
+              Notre rémunération reflète la valeur générée.
             </span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 md:mb-14 leading-relaxed font-light">
