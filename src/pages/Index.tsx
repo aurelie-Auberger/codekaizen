@@ -167,7 +167,7 @@ const Index = () => {
               </h3>
               <ul className="space-y-6 sm:space-y-8 md:space-y-10">
                 {[
-                  { t: "Pipeline irrégulier", d: "Votre flux dépend du bouche-à-oreille ou de l'opportunisme." },
+                  { t: "Revenus imprévisibles", d: "Ce mois est bon. Le suivant, vous ne savez pas. Votre chiffre d'affaires dépend de votre réseau pas de votre valeur." },
                   { t: "Closing aléatoire", d: "Des deals qualifiés sont perdus par manque de structure de suivi." },
                   { t: "Coûts fixes toxiques", d: "Vous payez des frais avant d'avoir généré le moindre euro." },
                 ].map((item, i) => (
