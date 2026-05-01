@@ -168,7 +168,7 @@ const Index = () => {
               <ul className="space-y-6 sm:space-y-8 md:space-y-10">
                 {[
                   { t: "Revenus imprévisibles", d: "Ce mois est bon. Le suivant, vous ne savez pas. Votre chiffre d'affaires dépend de votre réseau pas de votre valeur." },
-                  { t: "Closing aléatoire", d: "Des deals qualifiés sont perdus par manque de structure de suivi." },
+                  { t: "Des deals qui disparaissent", d: "Vous avez des prospects intéressés. Sans suivi structuré, ils signent ailleurs. Pas parce qu'ils ne voulaient pas parce que personne n'était là pour closer." },
                   { t: "Coûts fixes toxiques", d: "Vous payez des frais avant d'avoir généré le moindre euro." },
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2 sm:gap-4 md:gap-5">
