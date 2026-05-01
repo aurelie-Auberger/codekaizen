@@ -115,7 +115,7 @@ const Index = () => {
             <Logo />
           </div>
           <h1 className="font-serif text-[1.75rem] leading-[1.15] sm:text-4xl md:text-6xl lg:text-7xl md:leading-[1.1] text-ivory mb-6 md:mb-10 tracking-tight">
-            On construit et pilote votre système d'acquisition.
+            Votre prochain client ne viendra pas par hasard.
             <br className="hidden sm:block" />
             <span className="italic text-gold-soft block sm:inline mt-3 sm:mt-0">
               Notre rémunération reflète la valeur générée.
