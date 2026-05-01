@@ -163,7 +163,7 @@ const Index = () => {
                 className="text-lg sm:text-2xl md:text-3xl mb-8 md:mb-12 font-serif tracking-wide"
                 style={{ color: "#edeae2" }}
               >
-                Le hasard
+                Sans système
               </h3>
               <ul className="space-y-6 sm:space-y-8 md:space-y-10">
                 {[
