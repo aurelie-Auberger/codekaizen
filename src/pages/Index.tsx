@@ -133,10 +133,10 @@ const Index = () => {
             </button>
             <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-x-8 gap-y-3 text-[10px] sm:text-[11px] tracking-[0.2em] uppercase text-muted-foreground">
               <span className="flex items-center justify-center gap-2">
-                <Clock className="w-3 h-3 text-gold flex-shrink-0" /> Système opérationnel sous 2 semaines
+                <Clock className="w-3 h-3 text-gold flex-shrink-0" /> Système opérationnel en 14 jours
               </span>
               <span className="flex items-center justify-center gap-2">
-                <Zap className="w-3 h-3 text-gold flex-shrink-0" /> Premiers résultats en 60 jours
+                <Zap className="w-3 h-3 text-gold flex-shrink-0" /> Commission sur résultats uniquement
               </span>
             </div>
           </div>
