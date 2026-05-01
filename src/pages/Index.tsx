@@ -118,7 +118,7 @@ const Index = () => {
             Votre prochain client ne viendra pas par hasard.
             <br className="hidden sm:block" />
             <span className="italic text-gold-soft block sm:inline mt-3 sm:mt-0">
-              Notre rémunération reflète la valeur générée.
+              Vous formez. On remplit votre pipeline.
             </span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 md:mb-14 leading-relaxed font-light">
