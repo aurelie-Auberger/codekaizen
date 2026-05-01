@@ -121,9 +121,6 @@ const Index = () => {
               Vous formez. On remplit votre pipeline.
             </span>
           </h1>
-          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 md:mb-14 leading-relaxed font-light">
-            Zéro coût fixe.
-          </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
             <button
               onClick={() => scrollTo("conversion")}
