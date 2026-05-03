@@ -200,7 +200,7 @@ const Index = () => {
                 {[
                   { t: "Un pipeline actif, chaque mois", d: "Des entreprises ciblées, contactées, qualifiées. Votre agenda se remplit — pas par hasard." },
                   { t: "Closing intégral pris en charge", d: "Zéro deal perdu faute de suivi." },
-                  { t: "Zéro coût fixe", d: "Commission uniquement sur les ventes encaissées." },
+                  { t: "Vous payez quand ça génère", d: "Aucun frais fixe. Commission uniquement sur les ventes encaissées." },
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2 sm:gap-4 md:gap-5">
                     <span
