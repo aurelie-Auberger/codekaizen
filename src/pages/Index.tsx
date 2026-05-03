@@ -167,7 +167,7 @@ const Index = () => {
               </h3>
               <ul className="space-y-6 sm:space-y-8 md:space-y-10">
                 {[
-                  { t: "Revenus imprévisibles", d: "Ce mois est bon. Le suivant, vous ne savez pas. Votre chiffre d'affaires dépend de votre réseau pas de votre valeur." },
+                  { t: "Revenus imprévisibles", d: "Ce mois est bon. Le suivant, vous ne savez pas. Votre chiffre d'affaires dépend de votre réseau — pas de votre valeur." },
                   { t: "Des deals qui disparaissent", d: "Vous avez des prospects intéressés. Sans suivi structuré, ils signent ailleurs. Pas parce qu'ils ne voulaient pas parce que personne n'était là pour closer." },
                   { t: "Vous payez avant de gagner", d: "Agences, freelances, outils, la facture arrive avant les résultats." },
                 ].map((item, i) => (
