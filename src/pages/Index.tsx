@@ -169,7 +169,7 @@ const Index = () => {
                 {[
                   { t: "Revenus imprévisibles", d: "Ce mois est bon. Le suivant, vous ne savez pas. Votre chiffre d'affaires dépend de votre réseau — pas de votre valeur." },
                   { t: "Des deals qui disparaissent", d: "Vous avez des prospects intéressés. Sans suivi structuré, ils signent ailleurs. Pas parce qu'ils ne voulaient pas — parce que personne n'était là pour closer." },
-                  { t: "Vous payez avant de gagner", d: "Agences, freelances, outils, la facture arrive avant les résultats." },
+                  { t: "Vous payez avant de gagner", d: "Agences, freelances, outils — la facture arrive avant les résultats." },
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2 sm:gap-4 md:gap-5">
                     <span
