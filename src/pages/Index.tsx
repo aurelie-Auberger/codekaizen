@@ -198,7 +198,7 @@ const Index = () => {
               </h3>
               <ul className="space-y-6 sm:space-y-8 md:space-y-10">
                 {[
-                  { t: "Un pipeline actif, chaque mois", d: "Des entreprises ciblées, contactées, qualifiées. Votre agenda se remplit pas par hasard." },
+                  { t: "Un pipeline actif, chaque mois", d: "Des entreprises ciblées, contactées, qualifiées. Votre agenda se remplit — pas par hasard." },
                   { t: "Closing intégral pris en charge", d: "Zéro deal perdu faute de suivi." },
                   { t: "Zéro coût fixe", d: "Commission uniquement sur les ventes encaissées." },
                 ].map((item, i) => (
