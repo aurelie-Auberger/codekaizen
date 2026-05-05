@@ -121,12 +121,6 @@ const Index = () => {
             </span>
           </h1>
           <div className="flex flex-col items-center gap-6 md:gap-8">
-            <button
-              onClick={() => scrollTo("conversion")}
-              className="bg-gold text-ink w-full sm:w-auto px-8 sm:px-14 py-5 sm:py-6 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
-            >
-              Réserver mon Audit Flash
-            </button>
             <p className="max-w-3xl text-center text-[12px] sm:text-sm md:text-base leading-relaxed text-muted-foreground px-2">
               Pour les fondateurs et prestataires de services premium dont le ticket dépasse 5 000 € et dont la croissance repose encore sur le réseau.
             </p>
