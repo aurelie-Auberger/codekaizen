@@ -39,12 +39,12 @@ const cases = [
   {
     c: "SPECGEN · 2025",
     s: "+2 778 prospects qualifiés générés",
-    d: "Startup IA B2B. Système outbound 100% data-driven : scraping LinkedIn, enrichissement, séquences email. Pipeline construit de zéro en 2 mois.",
+    d: "Startup IA B2B. Système outbound 100% data-driven : scraping LinkedIn, enrichissement, séquences email. Pipeline actif livré en 14 jours.",
   },
   {
     c: "OC ARCHITECTURE · 2025",
     s: "0 → site + acquisition opérationnelle",
-    d: "Agence architecture intérieur. Création site Framer, Meta Ads et contenu organique déployés. Base d'acquisition complète livrée en 2 mois.",
+    d: "Agence architecture intérieur. Site Framer, Meta Ads et contenu organique déployés. Base d'acquisition complète opérationnelle en 14 jours.",
   },
   {
     c: "MISSIONS B2B · 2024-2025",
