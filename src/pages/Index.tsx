@@ -30,9 +30,9 @@ const problems = [
 ];
 
 const steps = [
-  { n: "01", t: "Audit Flash gratuit", d: "Diagnostic gratuit de 30 min pour valider l'adéquation de votre offre avec notre système." },
-  { n: "02", t: "Construction", d: "Déploiement de l'infrastructure (CRM, copies, séquences) en moins de 15 jours." },
-  { n: "03", t: "Pilotage", d: "On génère les leads, on close les ventes, vous encaissez le chiffre d'affaires." },
+ { n: "01", t: "Audit Flash gratuit", d: "On commence par 30 minutes ensemble. Pas un appel commercial, un diagnostic réel. On cartographie votre offre, votre cible, ce qui bloque. Vous repartez avec une lecture claire de votre situation, que vous travailliez avec nous ou non." },
+ { n: "02", t: "Construction", d: "Si on décide d'avancer, on construit l'infrastructure complète en moins de 15 jours. CRM, séquences de prospection, scripts de qualification et de closing. Tout ce dont vous auriez eu besoin depuis longtemps." },
+ { n: "03", t: "Pilotage", d: "On prend en charge l'acquisition de bout en bout. Génération de leads, qualification, closing. Vous vous concentrez sur ce que vous faites le mieux. On s'occupe de remplir votre agenda." },
 ];
 
 const cases = [
@@ -255,7 +255,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Méthode</div>
-            <h2 className="text-4xl md:text-6xl text-ivory">Comment ça marche</h2>
+            <h2 className="text-4xl md:text-6xl text-ivory">Ce qui se passe concrètement</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-12 relative">
             {steps.map((s, i) => (
