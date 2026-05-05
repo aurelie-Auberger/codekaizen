@@ -15,7 +15,7 @@ import Logo from "@/components/Logo";
 import TallyForm from "@/components/TallyForm";
 
 const benefits = [
-  { id: "01", t: "Système outbound prêt en 14 jours", d: "Séquences, CRM et scripts opérationnels en deux semaines.", icon: Zap },
+  { id: "01", t: "Système outbound prêt en 14 jours", d: "Séquences, CRM et scripts opérationnels en 14 jours.", icon: Zap },
   { id: "02", t: "Closing intégral pris en charge", d: "Qualification et négociation jusqu'à la signature.", icon: Users },
   { id: "03", t: "Zéro coût fixe d'installation", d: "Aucun investissement avant les premiers résultats.", icon: CheckCircle },
   { id: "04", t: "Ciblage ICP ultra-précis", d: "Chaque prospect contacté correspond exactement à votre client idéal.", icon: Target },
@@ -31,7 +31,7 @@ const problems = [
 
 const steps = [
  { n: "01", t: "Audit Flash gratuit", d: "On commence par 30 minutes ensemble. Pas un appel commercial, un diagnostic réel. On cartographie votre offre, votre cible, ce qui bloque. Vous repartez avec une lecture claire de votre situation, que vous travailliez avec nous ou non." },
- { n: "02", t: "Construction", d: "Si on décide d'avancer, on construit l'infrastructure complète en moins de 15 jours. CRM, séquences de prospection, scripts de qualification et de closing. Tout ce dont vous auriez eu besoin depuis longtemps." },
+ { n: "02", t: "Construction", d: "Si on décide d'avancer, on construit l'infrastructure complète en 14 jours. CRM, séquences de prospection, scripts de qualification et de closing. Tout ce dont vous auriez eu besoin depuis longtemps." },
  { n: "03", t: "Pilotage", d: "On prend en charge l'acquisition de bout en bout. Génération de leads, qualification, closing. Vous vous concentrez sur ce que vous faites le mieux. On s'occupe de remplir votre agenda." },
 ];
 
