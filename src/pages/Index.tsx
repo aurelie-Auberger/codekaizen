@@ -146,9 +146,9 @@ const Index = () => {
       <div className="gold-line max-w-5xl mx-auto" />
 
       {/* PROBLÈME / PROMESSE — 2 colonnes */}
-      <section className="py-32 px-6 md:px-10">
+      <section className="py-20 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-5xl text-ivory text-center mb-20 leading-tight tracking-wide font-serif">
+          <h2 className="text-3xl md:text-5xl text-ivory text-center mb-14 leading-tight tracking-wide font-serif">
             Sans système. <span className="italic text-gold-soft">Avec système.</span>
           </h2>
 
@@ -233,7 +233,7 @@ const Index = () => {
       </section>
 
       {/* BÉNÉFICES */}
-      <section className="py-32 px-6 md:px-10">
+      <section className="py-20 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <div className="border-2 border-gold p-8 md:p-14">
             <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight">
@@ -255,9 +255,9 @@ const Index = () => {
       </section>
 
       {/* COMMENT ÇA MARCHE */}
-      <section className="py-32 px-6 md:px-10 bg-secondary/30">
+      <section className="py-20 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-20">
+          <div className="text-center mb-14">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Méthode</div>
             <h2 className="text-4xl md:text-6xl text-ivory">Ce qui se passe concrètement</h2>
           </div>
@@ -274,9 +274,9 @@ const Index = () => {
       </section>
 
       {/* PREUVES SOCIALES */}
-      <section className="py-32 px-6 md:px-10">
+      <section className="py-20 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-20">
+          <div className="text-center mb-14">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Études de cas</div>
             <h2 className="text-4xl md:text-6xl text-ivory">Des résultats, pas des promesses.</h2>
           </div>
@@ -312,9 +312,9 @@ const Index = () => {
       </section>
 
       {/* FAQ */}
-      <section className="py-32 px-6 md:px-10 bg-secondary/30">
+      <section className="py-20 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl text-ivory text-center mb-16">Questions fréquentes</h2>
+          <h2 className="text-4xl md:text-5xl text-ivory text-center mb-12">Questions fréquentes</h2>
           <div className="divide-y divide-border border-y border-border">
             {faqs.map((faq, i) => {
               const open = openFaq.includes(i);
@@ -342,11 +342,11 @@ const Index = () => {
       </section>
 
       {/* CONVERSION */}
-      <section id="conversion" className="py-32 px-6 md:px-10 relative overflow-hidden">
+      <section id="conversion" className="py-20 px-6 md:px-10 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/20 to-transparent pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
-          <div className="gold-line mb-16 max-w-3xl mx-auto" />
-          <div className="text-center mb-16">
+          <div className="gold-line mb-12 max-w-3xl mx-auto" />
+          <div className="text-center mb-12">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Audit Flash · 30 min · Gratuit</div>
             <h2 className="text-4xl md:text-6xl text-ivory mb-6 leading-tight">
               Vous voulez savoir si ça peut marcher <span className="italic text-gold-soft">pour vous</span> ?
