@@ -246,7 +246,7 @@ const Index = () => {
       <section className="py-20 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <div className="border-2 border-gold p-8 md:p-14">
-            <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight">
+            <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight font-serif">
               Ingénierie d'acquisition,
               <br />
               <span className="italic text-gold-soft">ce que vous obtenez.</span>
@@ -269,7 +269,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Méthode</div>
-            <h2 className="text-4xl md:text-6xl text-ivory">Ce qui se passe concrètement</h2>
+            <h2 className="text-3xl md:text-5xl text-ivory leading-tight font-serif">Ce qui se passe concrètement</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-12 relative">
             {steps.map((s, i) => (
@@ -288,7 +288,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Études de cas</div>
-            <h2 className="text-4xl md:text-6xl text-ivory">Des résultats, pas des promesses.</h2>
+            <h2 className="text-3xl md:text-5xl text-ivory leading-tight font-serif">Des résultats, pas des promesses.</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {cases.map((card, i) => (
@@ -324,7 +324,7 @@ const Index = () => {
       {/* FAQ */}
       <section className="py-20 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl text-ivory text-center mb-12">Questions fréquentes</h2>
+          <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight font-serif">Questions fréquentes</h2>
           <div className="divide-y divide-border border-y border-border">
             {faqs.map((faq, i) => {
               const open = openFaq.includes(i);
