@@ -139,6 +139,14 @@ const Index = () => {
             >
               Réserver mon Audit Flash
             </button>
+            <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-x-8 gap-y-3 text-[10px] sm:text-[11px] tracking-[0.2em] uppercase text-muted-foreground">
+              <span className="flex items-center justify-center gap-2">
+                <Clock className="w-3 h-3 text-gold flex-shrink-0" /> Système actif en 14 jours
+              </span>
+              <span className="flex items-center justify-center gap-2">
+                <Zap className="w-3 h-3 text-gold flex-shrink-0" /> Zéro frais fixe
+              </span>
+            </div>
           </div>
         </div>
       </section>
@@ -170,8 +178,8 @@ const Index = () => {
               </h3>
               <ul className="space-y-6 sm:space-y-8 md:space-y-10">
                 {[
-                  { t: "Revenus imprévisibles", d: "Ce mois est bon. Le suivant, vous ne savez pas. Votre chiffre d'affaires dépend de votre réseau — pas de votre valeur." },
-                  { t: "Des deals qui disparaissent", d: "Vous avez des prospects intéressés. Sans suivi structuré, ils signent ailleurs. Pas parce qu'ils ne voulaient pas — parce que personne n'était là pour closer." },
+                  { t: "Revenus imprévisibles", d: "Ce mois est bon. Le suivant, vous ne savez pas. Votre chiffre d'affaires dépend de votre réseau, pas de votre valeur." },
+                  { t: "Des deals qui disparaissent", d: "Vous avez des prospects intéressés. Sans suivi structuré, ils signent ailleurs. Pas parce qu'ils ne voulaient pas, mais parce que personne n'était là pour closer." },
                   { t: "Vous payez avant de gagner", d: "Agences, freelances, outils. La facture arrive avant les résultats." },
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2 sm:gap-4 md:gap-5">
@@ -201,7 +209,7 @@ const Index = () => {
               </h3>
               <ul className="space-y-6 sm:space-y-8 md:space-y-10">
                 {[
-                  { t: "Un pipeline actif, chaque mois", d: "Des entreprises ciblées, contactées, qualifiées. Votre agenda se remplit — pas par hasard." },
+                  { t: "Un pipeline actif, chaque mois", d: "Des entreprises ciblées, contactées, qualifiées. Votre agenda se remplit, sans hasard." },
                   { t: "Closing intégral pris en charge", d: "Zéro deal perdu faute de suivi." },
                   { t: "Vous payez quand ça génère", d: "Aucun frais fixe. Commission uniquement sur les ventes encaissées." },
                 ].map((item, i) => (
@@ -299,12 +307,12 @@ const Index = () => {
             >
               Réserver mon Audit Flash
             </button>
-            <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-x-8 gap-y-3 text-[10px] sm:text-[11px] tracking-[0.2em] uppercase text-muted-foreground">
-              <span className="flex items-center justify-center gap-2">
-                <Clock className="w-3 h-3 text-gold flex-shrink-0" /> Système actif en 14 jours
+            <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-x-8 gap-y-3 text-xs sm:text-sm tracking-[0.2em] uppercase text-ivory/80 font-semibold">
+              <span className="flex items-center justify-center gap-2.5">
+                <Clock className="w-4 h-4 text-gold flex-shrink-0" /> Système actif en 14 jours
               </span>
-              <span className="flex items-center justify-center gap-2">
-                <Zap className="w-3 h-3 text-gold flex-shrink-0" /> Zéro frais fixe
+              <span className="flex items-center justify-center gap-2.5">
+                <Zap className="w-4 h-4 text-gold flex-shrink-0" /> Zéro frais fixe
               </span>
             </div>
           </div>
@@ -348,7 +356,7 @@ const Index = () => {
           <div className="gold-line mb-12 max-w-3xl mx-auto" />
           <div className="text-center mb-12">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Audit Flash · 30 min · Gratuit</div>
-            <h2 className="text-4xl md:text-6xl text-ivory mb-6 leading-tight">
+            <h2 className="text-3xl md:text-5xl text-ivory mb-6 leading-tight font-serif">
               Vous voulez savoir si ça peut marcher <span className="italic text-gold-soft">pour vous</span> ?
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
