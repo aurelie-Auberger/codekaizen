@@ -15,12 +15,12 @@ import Logo from "@/components/Logo";
 import TallyForm from "@/components/TallyForm";
 
 const benefits = [
-  { id: "01", t: "Système outbound prêt en 14 jours", icon: Zap },
-  { id: "02", t: "Closing intégral pris en charge", icon: Users },
-  { id: "03", t: "Zéro coût fixe d'installation", icon: CheckCircle },
-  { id: "04", t: "Ciblage ICP ultra-précis (Data-driven)", icon: Target },
-  { id: "05", t: "Reporting hebdomadaire transparent", icon: BarChart3 },
-  { id: "06", t: "Résultats mesurables et prévisibles", icon: TrendingUp },
+  { id: "01", t: "Système outbound prêt en 14 jours", d: "Séquences, CRM et scripts opérationnels en deux semaines.", icon: Zap },
+  { id: "02", t: "Closing intégral pris en charge", d: "Qualification et négociation jusqu'à la signature.", icon: Users },
+  { id: "03", t: "Zéro coût fixe d'installation", d: "Aucun investissement avant les premiers résultats.", icon: CheckCircle },
+  { id: "04", t: "Ciblage ICP ultra-précis", d: "Chaque prospect contacté correspond exactement à votre client idéal.", icon: Target },
+  { id: "05", t: "Reporting hebdomadaire transparent", d: "Vous voyez exactement ce qui se passe, chaque semaine.", icon: BarChart3 },
+  { id: "06", t: "Résultats mesurables et prévisibles", d: "Des indicateurs clairs pour piloter la croissance.", icon: TrendingUp },
 ];
 
 const problems = [
@@ -121,14 +121,11 @@ const Index = () => {
       </header>
 
       {/* HERO */}
-      <section className="pt-32 sm:pt-40 md:pt-48 pb-20 md:pb-32 px-5 sm:px-6 md:px-10">
+      <section className="pt-24 sm:pt-28 md:pt-36 pb-14 md:pb-20 px-5 sm:px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
-          <div className="mb-8 md:mb-10 flex justify-center">
-            <Logo />
-          </div>
-          <h1 className="font-serif text-[1.75rem] leading-[1.15] sm:text-4xl md:text-6xl lg:text-7xl md:leading-[1.1] text-ivory mb-6 md:mb-10 tracking-tight">
+          <h1 className="font-serif text-[1.4rem] leading-[1.15] sm:text-3xl md:text-5xl lg:text-[3.5rem] md:leading-[1.1] text-ivory mb-5 md:mb-8 tracking-tight">
             Votre offre est solide. Votre pipeline, lui, dépend encore de votre carnet d'adresses.
-            <span className="italic text-gold-soft block mt-3 sm:mt-4 text-[1.25rem] sm:text-2xl md:text-4xl lg:text-5xl">
+            <span className="italic text-gold-soft block mt-3 sm:mt-4 text-[1rem] sm:text-xl md:text-3xl lg:text-4xl">
               C'est exactement le problème qu'on règle.
             </span>
           </h1>
@@ -136,6 +133,12 @@ const Index = () => {
             <p className="max-w-3xl text-center text-[12px] sm:text-sm md:text-base leading-relaxed text-muted-foreground px-2">
               Code Kaizen construit et pilote votre système d'acquisition, rémunéré uniquement sur les résultats qu'on génère.
             </p>
+            <button
+              onClick={() => scrollTo("conversion")}
+              className="bg-gold text-ink px-8 sm:px-12 py-4 sm:py-5 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
+            >
+              Réserver mon Audit Flash
+            </button>
           </div>
         </div>
       </section>
@@ -143,9 +146,9 @@ const Index = () => {
       <div className="gold-line max-w-5xl mx-auto" />
 
       {/* PROBLÈME / PROMESSE — 2 colonnes */}
-      <section className="py-32 px-6 md:px-10">
+      <section className="py-20 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-5xl text-ivory text-center mb-20 leading-tight tracking-wide font-serif">
+          <h2 className="text-3xl md:text-5xl text-ivory text-center mb-14 leading-tight tracking-wide font-serif">
             Sans système. <span className="italic text-gold-soft">Avec système.</span>
           </h2>
 
@@ -169,7 +172,7 @@ const Index = () => {
                 {[
                   { t: "Revenus imprévisibles", d: "Ce mois est bon. Le suivant, vous ne savez pas. Votre chiffre d'affaires dépend de votre réseau — pas de votre valeur." },
                   { t: "Des deals qui disparaissent", d: "Vous avez des prospects intéressés. Sans suivi structuré, ils signent ailleurs. Pas parce qu'ils ne voulaient pas — parce que personne n'était là pour closer." },
-                  { t: "Vous payez avant de gagner", d: "Agences, freelances, outils — la facture arrive avant les résultats." },
+                  { t: "Vous payez avant de gagner", d: "Agences, freelances, outils. La facture arrive avant les résultats." },
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2 sm:gap-4 md:gap-5">
                     <span
@@ -230,7 +233,7 @@ const Index = () => {
       </section>
 
       {/* BÉNÉFICES */}
-      <section className="py-32 px-6 md:px-10">
+      <section className="py-20 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <div className="border-2 border-gold p-8 md:p-14">
             <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight">
@@ -239,10 +242,11 @@ const Index = () => {
               <span className="italic text-gold-soft">ce que vous obtenez.</span>
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-gold/30">
-              {benefits.map(({ id, t, icon: Icon }) => (
+              {benefits.map(({ id, t, d, icon: Icon }) => (
                 <div key={id} className="bg-background p-8 group hover:bg-secondary/30 transition-colors">
                   <Icon className="w-6 h-6 text-gold mb-6 group-hover:text-gold-soft transition-colors" strokeWidth={1.2} />
-                  <h3 className="text-lg text-ivory leading-snug">{t}</h3>
+                  <h3 className="text-lg text-ivory leading-snug mb-3">{t}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{d}</p>
                 </div>
               ))}
             </div>
@@ -251,9 +255,9 @@ const Index = () => {
       </section>
 
       {/* COMMENT ÇA MARCHE */}
-      <section className="py-32 px-6 md:px-10 bg-secondary/30">
+      <section className="py-20 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-20">
+          <div className="text-center mb-14">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Méthode</div>
             <h2 className="text-4xl md:text-6xl text-ivory">Ce qui se passe concrètement</h2>
           </div>
@@ -270,9 +274,9 @@ const Index = () => {
       </section>
 
       {/* PREUVES SOCIALES */}
-      <section className="py-32 px-6 md:px-10">
+      <section className="py-20 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-20">
+          <div className="text-center mb-14">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Études de cas</div>
             <h2 className="text-4xl md:text-6xl text-ivory">Des résultats, pas des promesses.</h2>
           </div>
@@ -308,9 +312,9 @@ const Index = () => {
       </section>
 
       {/* FAQ */}
-      <section className="py-32 px-6 md:px-10 bg-secondary/30">
+      <section className="py-20 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl text-ivory text-center mb-16">Questions fréquentes</h2>
+          <h2 className="text-4xl md:text-5xl text-ivory text-center mb-12">Questions fréquentes</h2>
           <div className="divide-y divide-border border-y border-border">
             {faqs.map((faq, i) => {
               const open = openFaq.includes(i);
@@ -338,11 +342,11 @@ const Index = () => {
       </section>
 
       {/* CONVERSION */}
-      <section id="conversion" className="py-32 px-6 md:px-10 relative overflow-hidden">
+      <section id="conversion" className="py-20 px-6 md:px-10 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/20 to-transparent pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
-          <div className="gold-line mb-16 max-w-3xl mx-auto" />
-          <div className="text-center mb-16">
+          <div className="gold-line mb-12 max-w-3xl mx-auto" />
+          <div className="text-center mb-12">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Audit Flash · 30 min · Gratuit</div>
             <h2 className="text-4xl md:text-6xl text-ivory mb-6 leading-tight">
               Vous voulez savoir si ça peut marcher <span className="italic text-gold-soft">pour vous</span> ?
