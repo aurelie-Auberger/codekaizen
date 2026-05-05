@@ -36,9 +36,21 @@ const steps = [
 ];
 
 const cases = [
-  { c: "SPECGEN", s: "+2 778 prospects", d: "Système 100% data-driven livré rapidement pour une startup IA B2B." },
-  { c: "OC ARCHITECTURE", s: "Scale Digital Complet", d: "Framer + Ads + Acquisition organique opérationnels en un temps record." },
-  { c: "MISSIONS B2B", s: "Outbound Masterclass", d: "Séquences email et ciblage ICP sur marchés complexes et saturés." },
+  {
+    c: "SPECGEN · 2025",
+    s: "+2 778 prospects qualifiés générés",
+    d: "Startup IA B2B. Système outbound 100% data-driven : scraping LinkedIn, enrichissement, séquences email. Pipeline construit de zéro en 2 mois.",
+  },
+  {
+    c: "OC ARCHITECTURE · 2025",
+    s: "0 → site + acquisition opérationnelle",
+    d: "Agence architecture intérieur. Création site Framer, Meta Ads et contenu organique déployés. Base d'acquisition complète livrée en 2 mois.",
+  },
+  {
+    c: "MISSIONS B2B · 2024-2025",
+    s: "Plusieurs missions",
+    d: "Construction de systèmes outbound sur marchés B2B variés. Ciblage ICP, séquences email, qualification des leads.",
+  },
 ];
 
 const faqs = [
@@ -268,7 +280,7 @@ const Index = () => {
             {cases.map((card, i) => (
               <article key={i} className="border border-border p-10 hover:border-gold/50 transition-colors">
                 <div className="mb-6">
-                  <div className="text-[10px] tracking-luxe uppercase text-muted-foreground mb-3">{card.c} · 2025</div>
+                  <div className="text-[10px] tracking-luxe uppercase text-muted-foreground mb-3">{card.c}</div>
                   <h3 className="text-2xl text-gold-soft">{card.s}</h3>
                 </div>
                 <p className="text-muted-foreground text-sm leading-relaxed">{card.d}</p>
