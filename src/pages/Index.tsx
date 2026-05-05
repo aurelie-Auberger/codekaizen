@@ -57,7 +57,7 @@ const faqs = [
   { q: "Comment vous rémunérez-vous ?", r: "Commission uniquement sur le chiffre d'affaires encaissé via notre système. Aucun frais fixe, aucun abonnement, aucun risque de votre côté. On gagne quand vous gagnez, c'est aussi simple que ça." },
   { q: "Qui gère le closing ?", r: "Nous. De la qualification jusqu'à la signature. Vous n'avez pas à vous impliquer dans le processus commercial si vous ne le souhaitez pas." },
   { q: "Est-ce adapté aux offres complexes ?", r: "C'est précisément là qu'on est le plus utiles. Les offres premium avec un cycle de décision long et un interlocuteur exigeant, c'est notre terrain." },
-  { q: "En combien de temps voit-on des résultats ?", r: "Les premiers leads qualifiés arrivent dans les 30 premiers jours. Les premières ventes entre 45 et 90 jours selon votre cycle de closing habituel. On vous donne une projection réaliste dès l'Audit Flash." },
+  { q: "En combien de temps voit-on des résultats ?", r: "Ça dépend de votre cycle de vente habituel. Le système outbound est opérationnel en 14 jours. Les premiers leads qualifiés arrivent rapidement. Les premières ventes, elles, suivent le rythme naturel de votre marché. On vous donne une projection réaliste dès l'Audit Flash, pas une promesse à l'aveugle." },
   { q: "Le système m'appartient-il ?", r: "Il reste la propriété de Code Kaizen pendant le partenariat. Après 6 mois vous avez une option de rachat à prix fixe, workflow complet, formation et documentation inclus. Vous gardez tout." },
 ];
 
