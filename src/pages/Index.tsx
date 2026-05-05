@@ -115,10 +115,9 @@ const Index = () => {
             <Logo />
           </div>
           <h1 className="font-serif text-[1.75rem] leading-[1.15] sm:text-4xl md:text-6xl lg:text-7xl md:leading-[1.1] text-ivory mb-6 md:mb-10 tracking-tight">
-            Votre prochain client ne viendra pas par hasard.
-            <br className="hidden sm:block" />
-            <span className="italic text-gold-soft block sm:inline mt-3 sm:mt-0">
-              Vous formez. On remplit votre pipeline.
+            On construit et pilote votre système d'acquisition.
+            <span className="italic text-gold-soft block mt-3 sm:mt-4 text-[1.25rem] sm:text-2xl md:text-4xl lg:text-5xl">
+              Notre rémunération reflète la valeur générée.
             </span>
           </h1>
           <div className="flex flex-col items-center gap-6 md:gap-8">
@@ -128,14 +127,9 @@ const Index = () => {
             >
               Réserver mon Audit Flash
             </button>
-            <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-x-8 gap-y-3 text-[10px] sm:text-[11px] tracking-[0.2em] uppercase text-muted-foreground">
-              <span className="flex items-center justify-center gap-2">
-                <Clock className="w-3 h-3 text-gold flex-shrink-0" /> Système opérationnel en 14 jours
-              </span>
-              <span className="flex items-center justify-center gap-2">
-                <Zap className="w-3 h-3 text-gold flex-shrink-0" /> Commission sur résultats uniquement
-              </span>
-            </div>
+            <p className="max-w-3xl text-center text-[12px] sm:text-sm md:text-base leading-relaxed text-muted-foreground px-2">
+              Pour les fondateurs et prestataires de services premium dont le ticket dépasse 5 000 € et dont la croissance repose encore sur le réseau.
+            </p>
           </div>
         </div>
       </section>
