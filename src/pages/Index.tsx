@@ -345,10 +345,10 @@ const Index = () => {
           <div className="text-center mb-16">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Audit Flash · 30 min · Gratuit</div>
             <h2 className="text-4xl md:text-6xl text-ivory mb-6 leading-tight">
-              Réservez votre <span className="italic text-gold-soft">Audit Flash</span>
+              Vous voulez savoir si ça peut marcher <span className="italic text-gold-soft">pour vous</span> ?
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
-              30 minutes. Gratuit. Sans engagement.
+              30 minutes. Gratuit. Sans argumentaire commercial.
             </p>
           </div>
 
@@ -356,8 +356,8 @@ const Index = () => {
             {/* Assurances */}
             <aside className="lg:sticky lg:top-32 space-y-8 lg:py-4">
               {[
-                { t: "Confidentialité totale", d: "Vos informations restent strictement entre nous. Aucun partage, aucun démarchage." },
-                { t: "Sans engagement", d: "L'audit est offert. Vous repartez avec un diagnostic actionnable, même sans collaboration." },
+                { t: "Ce que vous obtenez", d: "On analyse votre offre, votre cible, et ce qui freine votre acquisition aujourd'hui. Vous repartez avec un diagnostic concret, pas un pitch." },
+                { t: "Sans engagement", d: "Si on n'est pas le bon fit, on vous le dit directement. Le temps est la seule chose qu'on ne peut pas se rembourser." },
                 
               ].map((item, i) => (
                 <div key={i} className="flex gap-4">
