@@ -121,16 +121,16 @@ const Index = () => {
       </header>
 
       {/* HERO */}
-      <section className="pt-24 sm:pt-28 md:pt-36 pb-14 md:pb-20 px-5 sm:px-6 md:px-10">
-        <div className="max-w-5xl mx-auto text-center">
-          <h1 className="font-serif text-[1.4rem] leading-[1.15] sm:text-3xl md:text-5xl lg:text-[3.5rem] md:leading-[1.1] text-ivory mb-5 md:mb-8 tracking-tight">
+      <section className="min-h-screen flex items-center pt-32 sm:pt-36 md:pt-40 pb-20 md:pb-28 px-5 sm:px-6 md:px-10">
+        <div className="max-w-6xl mx-auto text-center w-full">
+          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5rem] leading-[1.05] text-ivory mb-8 md:mb-12 tracking-tight">
             Votre offre est solide. Votre pipeline, lui, dépend encore de votre carnet d'adresses.
-            <span className="italic text-gold-soft block mt-3 sm:mt-4 text-[1rem] sm:text-xl md:text-3xl lg:text-4xl">
+            <span className="italic text-gold-soft block mt-4 sm:mt-6 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
               C'est exactement le problème qu'on règle.
             </span>
           </h1>
           <div className="flex flex-col items-center gap-6 md:gap-8">
-            <p className="max-w-3xl text-center text-[12px] sm:text-sm md:text-base leading-relaxed text-muted-foreground px-2">
+            <p className="max-w-3xl text-center text-sm sm:text-base md:text-lg leading-relaxed text-muted-foreground px-2">
               Code Kaizen construit et pilote votre système d'acquisition, rémunéré uniquement sur les résultats qu'on génère.
             </p>
             <button
