@@ -280,7 +280,7 @@ const Index = () => {
             {cases.map((card, i) => (
               <article key={i} className="border border-border p-10 hover:border-gold/50 transition-colors">
                 <div className="mb-6">
-                  <div className="text-[10px] tracking-luxe uppercase text-muted-foreground mb-3">{card.c} · 2025</div>
+                  <div className="text-[10px] tracking-luxe uppercase text-muted-foreground mb-3">{card.c}</div>
                   <h3 className="text-2xl text-gold-soft">{card.s}</h3>
                 </div>
                 <p className="text-muted-foreground text-sm leading-relaxed">{card.d}</p>
