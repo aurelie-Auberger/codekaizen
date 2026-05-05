@@ -123,9 +123,9 @@ const Index = () => {
       {/* HERO */}
       <section className="min-h-screen flex items-center pt-32 sm:pt-36 md:pt-40 pb-20 md:pb-28 px-5 sm:px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center w-full">
-          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[4.25rem] leading-[1.1] text-ivory mb-8 md:mb-12 tracking-tight max-w-4xl mx-auto">
+          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[3.75rem] xl:text-[4rem] leading-[1.1] text-ivory mb-8 md:mb-12 tracking-tight max-w-5xl mx-auto">
             Votre offre est solide.
-            <br />
+            <br className="hidden md:block" />{" "}
             Votre pipeline dépend de votre réseau.
             <span className="italic text-gold-soft block mt-4 sm:mt-6 text-xl sm:text-2xl md:text-3xl lg:text-4xl tracking-[0.06em]">
               C’est exactement le problème qu’on règle.
@@ -246,7 +246,7 @@ const Index = () => {
       <section className="py-20 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <div className="border-2 border-gold p-8 md:p-14">
-            <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight">
+            <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight font-serif">
               Ingénierie d'acquisition,
               <br />
               <span className="italic text-gold-soft">ce que vous obtenez.</span>
@@ -269,7 +269,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Méthode</div>
-            <h2 className="text-4xl md:text-6xl text-ivory">Ce qui se passe concrètement</h2>
+            <h2 className="text-3xl md:text-5xl text-ivory leading-tight font-serif">Ce qui se passe concrètement</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-12 relative">
             {steps.map((s, i) => (
@@ -288,7 +288,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Études de cas</div>
-            <h2 className="text-4xl md:text-6xl text-ivory">Des résultats, pas des promesses.</h2>
+            <h2 className="text-3xl md:text-5xl text-ivory leading-tight font-serif">Des résultats, pas des promesses.</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {cases.map((card, i) => (
@@ -324,7 +324,7 @@ const Index = () => {
       {/* FAQ */}
       <section className="py-20 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl text-ivory text-center mb-12">Questions fréquentes</h2>
+          <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight font-serif">Questions fréquentes</h2>
           <div className="divide-y divide-border border-y border-border">
             {faqs.map((faq, i) => {
               const open = openFaq.includes(i);
