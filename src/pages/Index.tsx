@@ -214,6 +214,7 @@ const Index = () => {
                   { t: "Un pipeline actif, chaque mois", d: "Des entreprises ciblées, contactées, qualifiées. Votre agenda se remplit, sans hasard." },
                   { t: "Closing intégral pris en charge", d: "Zéro deal perdu faute de suivi." },
                   { t: "Vous payez quand ça génère", d: "Aucun frais fixe. Commission uniquement sur les ventes encaissées." },
+                  { t: "Un système qui vous appartient", d: "Le workflow, les séquences et le CRM restent les vôtres. Vous construisez un actif, pas une dépendance." },
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2 sm:gap-4 md:gap-5">
                     <span
