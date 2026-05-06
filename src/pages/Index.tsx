@@ -124,16 +124,16 @@ const Index = () => {
       <section className="min-h-screen flex items-center pt-32 sm:pt-36 md:pt-40 pb-20 md:pb-28 px-5 sm:px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center w-full">
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[3.75rem] xl:text-[4rem] leading-[1.1] text-ivory mb-8 md:mb-12 tracking-tight max-w-5xl mx-auto">
-            Votre offre est solide.
+            Vous vendez du service premium.
             <br className="hidden md:block" />{" "}
-            Votre pipeline dépend de votre réseau.
+            Votre acquisition repose encore sur votre réseau.
             <span className="italic text-gold-soft block mt-4 sm:mt-6 text-xl sm:text-2xl md:text-3xl lg:text-4xl tracking-[0.06em]">
-              C’est exactement le problème qu’on règle.
+              On construit le système qui remplace le réseau. Rémunéré uniquement sur ce qu’on génère.
             </span>
           </h1>
           <div className="flex flex-col items-center gap-6 md:gap-8">
             <p className="max-w-3xl text-center text-sm sm:text-base md:text-lg leading-relaxed text-muted-foreground px-2">
-              Code Kaizen construit et pilote votre système d'acquisition, rémunéré uniquement sur les résultats qu'on génère.
+              Commission pure. Zéro frais fixe. Le système est prêt en 14 jours.
             </p>
             <button
               onClick={() => scrollTo("conversion")}
@@ -233,8 +233,13 @@ const Index = () => {
             </div>
           </div>
 
+          {/* Signal de crédibilité */}
+          <p className="mt-12 text-center text-[11px] sm:text-xs tracking-[0.18em] uppercase text-muted-foreground/80">
+            Cadre contractuel SASU · Propriété intellectuelle protégée · Paiement déclenché à l'encaissement uniquement
+          </p>
+
           {/* Badge bas */}
-          <div className="flex justify-center mt-20">
+          <div className="flex justify-center mt-10">
             <span className="inline-block border border-gold text-gold text-[10px] tracking-luxe uppercase px-6 py-2.5 rounded-full">
               Rémunération sur résultats uniquement
             </span>
@@ -274,7 +279,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-12 relative">
             {steps.map((s, i) => (
               <div key={i} className="relative">
-                <ArrowDown className="text-gold w-6 h-6 mb-6" strokeWidth={1.5} />
+                <div className="font-serif text-gold text-2xl mb-6 tracking-wide leading-none">{s.n}</div>
                 <h3 className="text-3xl text-ivory mb-4">{s.t}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">{s.d}</p>
               </div>
@@ -361,8 +366,8 @@ const Index = () => {
             <h2 className="text-3xl md:text-5xl text-ivory mb-6 leading-tight font-serif">
               Vous voulez savoir si ça peut marcher <span className="italic text-gold-soft">pour vous</span> ?
             </h2>
-            <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
-              30 minutes. Gratuit. Sans argumentaire commercial.
+            <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+              En 30 minutes, vous repartez avec un diagnostic clair de ce qui bloque votre acquisition — que vous travailliez avec nous ou non.
             </p>
           </div>
 
