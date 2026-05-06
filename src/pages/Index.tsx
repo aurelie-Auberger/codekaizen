@@ -54,6 +54,7 @@ const cases = [
 ];
 
 const faqs = [
+  { q: "Pour qui c'est fait ?", r: "Pour les dirigeants et fondateurs qui vendent du service premium à plus de 5 000 euros. Si votre croissance repose sur votre réseau sans système d'acquisition structuré, on peut probablement vous aider." },
   { q: "Comment vous rémunérez-vous ?", r: "Commission uniquement sur le chiffre d'affaires encaissé via notre système. Aucun frais fixe, aucun abonnement, aucun risque de votre côté. On gagne quand vous gagnez, c'est aussi simple que ça." },
   { q: "Qui gère le closing ?", r: "Nous. De la qualification jusqu'à la signature. Vous n'avez pas à vous impliquer dans le processus commercial si vous ne le souhaitez pas." },
   { q: "Est-ce adapté aux offres complexes ?", r: "C'est précisément là qu'on est le plus utiles. Les offres premium avec un cycle de décision long et un interlocuteur exigeant, c'est notre terrain." },
@@ -124,11 +125,9 @@ const Index = () => {
       <section className="min-h-screen flex items-center pt-32 sm:pt-36 md:pt-40 pb-20 md:pb-28 px-5 sm:px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center w-full">
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[3.75rem] xl:text-[4rem] leading-[1.1] text-ivory mb-8 md:mb-12 tracking-tight max-w-5xl mx-auto">
-            Vous vendez du service premium.
-            <br className="hidden md:block" />{" "}
-            Votre acquisition repose encore sur votre réseau.
+            Chaque mois sans système d'acquisition, vous laissez des deals à quelqu'un d'autre.
             <span className="italic text-gold-soft block mt-4 sm:mt-6 text-xl sm:text-2xl md:text-3xl lg:text-4xl tracking-[0.06em]">
-              On construit le système qui remplace le réseau. Rémunéré uniquement sur ce qu’on génère.
+              Le système. Pas l'abonnement.
             </span>
           </h1>
           <div className="flex flex-col items-center gap-6 md:gap-8">
@@ -139,7 +138,7 @@ const Index = () => {
               onClick={() => scrollTo("conversion")}
               className="bg-gold text-ink px-8 sm:px-12 py-4 sm:py-5 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
             >
-              Réserver mon Audit Flash
+              Obtenir mon diagnostic gratuit
             </button>
             <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-x-8 gap-y-3 text-[10px] sm:text-[11px] tracking-[0.2em] uppercase text-muted-foreground">
               <span className="flex items-center justify-center gap-2">
@@ -183,6 +182,7 @@ const Index = () => {
                   { t: "Revenus imprévisibles", d: "Ce mois est bon. Le suivant, vous ne savez pas. Votre chiffre d'affaires dépend de votre réseau, pas de votre valeur." },
                   { t: "Des deals qui disparaissent", d: "Vous avez des prospects intéressés. Sans suivi structuré, ils signent ailleurs. Pas parce qu'ils ne voulaient pas, mais parce que personne n'était là pour closer." },
                   { t: "Vous payez avant de gagner", d: "Agences, freelances, outils. La facture arrive avant les résultats." },
+                  { t: "Vous dépendez de prestataires qui facturent avant de livrer", d: "Agences, freelances, outils. La facture arrive avant les résultats, et parfois les résultats n'arrivent pas." },
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2 sm:gap-4 md:gap-5">
                     <span
@@ -313,7 +313,7 @@ const Index = () => {
               onClick={() => scrollTo("conversion")}
               className="bg-gold text-ink w-full sm:w-auto px-8 sm:px-14 py-5 sm:py-6 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
             >
-              Réserver mon Audit Flash
+              Obtenir mon diagnostic gratuit
             </button>
             <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-x-8 gap-y-3 text-xs sm:text-sm tracking-[0.2em] uppercase text-ivory/80 font-semibold">
               <span className="flex items-center justify-center gap-2.5">
