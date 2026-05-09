@@ -363,6 +363,44 @@ const Index = () => {
         </div>
       </section>
 
+      {/* URGENCE */}
+      <section
+        className="py-20 px-6 md:px-10"
+        style={{
+          backgroundColor: "rgba(201, 162, 78, 0.06)",
+          borderTop: "1px solid rgba(201, 162, 78, 0.15)",
+          borderBottom: "1px solid rgba(201, 162, 78, 0.15)",
+        }}
+      >
+        <div className="max-w-3xl mx-auto">
+          <p className="italic text-center mb-6" style={{ color: "#a0aec0" }}>
+            Et si vous attendez encore six mois ?
+          </p>
+          <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight font-serif">
+            Le coût de l'attente
+          </h2>
+          <div className="space-y-8 text-muted-foreground leading-relaxed">
+            <p>
+              Un fondateur B2B qui prospecte manuellement consacre en moyenne <span style={{ color: "#c9a24e" }}>30%</span> de son temps à une activité qui devrait être systématisée. À un taux journalier de <span style={{ color: "#c9a24e" }}>800 EUR</span>, c'est entre <span style={{ color: "#c9a24e" }}>40 000 et 60 000 EUR</span> de capacité productive mobilisée chaque année sur de la prospection artisanale. Pendant ce temps, votre pipeline reste otage de votre agenda personnel.
+            </p>
+            <p>
+              Un recrutement commercial sans infrastructure coûte en moyenne <span style={{ color: "#c9a24e" }}>45 000 EUR</span> sur <span style={{ color: "#c9a24e" }}>12 mois</span> pour un résultat aléatoire. La cause principale d'échec d'un premier commercial est identique dans <span style={{ color: "#c9a24e" }}>80%</span> des cas : l'absence de système dans lequel travailler. Vous ne résolvez pas le problème en ajoutant une personne. Vous le déplacez.
+            </p>
+            <p>
+              Chaque mois sans système d'acquisition est un mois où votre pipeline dépend d'un événement que vous ne contrôlez pas. Vos concurrents qui construisent leur infrastructure aujourd'hui auront une longueur d'avance structurelle dans <span style={{ color: "#c9a24e" }}>12 mois</span>. Le bon moment pour construire le système, c'était il y a <span style={{ color: "#c9a24e" }}>18 mois</span>. Le deuxième meilleur moment, c'est maintenant.
+            </p>
+          </div>
+          <div className="flex justify-center mt-12">
+            <button
+              onClick={() => scrollTo("formulaire")}
+              className="bg-gold text-ink px-8 sm:px-14 py-5 sm:py-6 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
+            >
+              Obtenir mon Diagnostic
+            </button>
+          </div>
+        </div>
+      </section>
+
       {/* CONVERSION */}
       <section id="conversion" className="py-20 px-6 md:px-10 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/20 to-transparent pointer-events-none" />
