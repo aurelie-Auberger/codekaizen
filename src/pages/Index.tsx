@@ -30,9 +30,9 @@ const problems = [
 ];
 
 const steps = [
- { n: "01", t: "Audit Flash gratuit", d: "On commence par 30 minutes ensemble. Pas un appel commercial, un diagnostic réel. On cartographie votre offre, votre cible, ce qui bloque. Vous repartez avec une lecture claire de votre situation, que vous travailliez avec nous ou non." },
- { n: "02", t: "Construction", d: "Si on décide d'avancer, on construit l'infrastructure complète en 14 jours. CRM, séquences de prospection, scripts de qualification et de closing. Tout ce dont vous auriez eu besoin depuis longtemps." },
- { n: "03", t: "Pilotage", d: "On prend en charge l'acquisition de bout en bout. Génération de leads, qualification, closing. Vous vous concentrez sur ce que vous faites le mieux. On s'occupe de remplir votre agenda." },
+ { n: "01", t: "Diagnostic de précision", d: "En 5 jours, nous identifions le levier exact qui bloque votre acquisition. Pas un audit généraliste. Un diagnostic chirurgical avec un livrable actionnable le jour de la restitution." },
+ { n: "02", t: "Système déployé", d: "Nous construisons et opérons l'infrastructure d'acquisition adaptée à votre marché, votre ticket et vos ressources. Le fondateur sort de la prospection. Le système entre en fonction." },
+ { n: "03", t: "Modèle à la performance", d: "Zéro coût fixe sur le suivi opérationnel. 10% sur le chiffre d'affaires généré pendant 12 mois. Vous ne payez que les résultats encaissés. Pas avant." },
 ];
 
 const cases = [
