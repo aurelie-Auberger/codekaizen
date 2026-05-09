@@ -503,8 +503,8 @@ const Index = () => {
             <a href="#" className="hover:text-gold transition-colors">Mentions légales</a>
             <a href="#" className="hover:text-gold transition-colors">Confidentialité</a>
           </nav>
-          <p className="text-[10px] tracking-luxe uppercase text-gold/60 italic font-serif text-base">
-            Revenue, by system.
+          <p style={{ color: "#a0aec0", letterSpacing: "0.1em", fontSize: "0.75rem" }}>
+            REVENUE, BY SYSTEM.
           </p>
         </div>
       </footer>
