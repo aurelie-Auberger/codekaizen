@@ -305,6 +305,11 @@ const Index = () => {
                   <h3 className="text-2xl text-gold-soft">{card.s}</h3>
                 </div>
                 <p className="text-muted-foreground text-sm leading-relaxed">{card.d}</p>
+                {card.q && (
+                  <p className="mt-6 pt-6 border-t border-border italic text-sm leading-relaxed" style={{ color: '#c9a24e' }}>
+                    "{card.q}"
+                  </p>
+                )}
               </article>
             ))}
           </div>
