@@ -111,12 +111,12 @@ const Index = () => {
             <Logo showTagline={false} />
           </button>
           <button
-            onClick={() => scrollTo("conversion")}
+            onClick={() => scrollTo("formulaire")}
             className={`border border-gold text-gold px-6 py-2.5 text-[10px] tracking-luxe uppercase font-semibold hover:bg-gold hover:text-ink transition-all duration-500 ${
               scrolled ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"
             }`}
           >
-            Audit Flash
+            Obtenir mon Diagnostic
           </button>
         </div>
       </header>
@@ -391,7 +391,7 @@ const Index = () => {
             </aside>
 
             {/* Form card */}
-            <div className="relative">
+            <div id="formulaire" className="relative scroll-mt-32">
               <div className="absolute -inset-px bg-gradient-to-br from-gold/40 via-transparent to-gold/10 rounded-[3px] pointer-events-none" />
               <div className="relative bg-background border border-border p-6 sm:p-10 rounded-[2px]">
                 <div className="flex items-center justify-between mb-8 pb-6 border-b border-border">
