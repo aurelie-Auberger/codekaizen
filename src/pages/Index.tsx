@@ -363,6 +363,42 @@ const Index = () => {
         </div>
       </section>
 
+      {/* OFFRE */}
+      <section className="py-20 px-6 md:px-10">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight font-serif">
+            Le Diagnostic Acquisition — 800 EUR HT
+          </h2>
+          <div
+            className="border border-gold p-6 md:p-10"
+            style={{ borderRadius: "12px" }}
+          >
+            <div className="space-y-6 text-muted-foreground leading-relaxed">
+              <p>
+                Le Diagnostic Acquisition est un engagement de 5 jours ouvrés. À l'issue de ces 5 jours, vous recevez un document structuré couvrant trois points : la radiographie de votre situation d'acquisition réelle, l'identification des freins qui empêchent le scale, et la recommandation du levier prioritaire à activer avec une projection chiffrée sur 90 jours.
+              </p>
+              <p>
+                La restitution se fait lors d'un call de 45 minutes où nous travaillons les conclusions ensemble. Vous repartez avec une décision à prendre, pas avec un rapport à lire seul.
+              </p>
+              <p>
+                800 EUR HT. C'est le coût d'une mauvaise décision de recrutement commercial sur une semaine. Payable à la commande. Aucun engagement sur la suite.
+              </p>
+              <p>
+                Si le Diagnostic révèle un levier actionnable et que vous souhaitez que nous l'opérions pour vous, nous proposons un suivi à la performance : zéro coût fixe, 10% sur le chiffre d'affaires généré pendant 12 mois.
+              </p>
+            </div>
+            <div className="flex justify-center mt-10">
+              <button
+                onClick={() => scrollTo("formulaire")}
+                className="bg-gold text-ink px-8 sm:px-14 py-5 sm:py-6 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
+              >
+                Réserver mon Diagnostic — 800 EUR HT
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* URGENCE */}
       <section
         className="py-20 px-6 md:px-10"
