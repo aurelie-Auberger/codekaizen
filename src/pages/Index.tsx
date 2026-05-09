@@ -125,20 +125,20 @@ const Index = () => {
       <section className="min-h-screen flex items-center pt-32 sm:pt-36 md:pt-40 pb-20 md:pb-28 px-5 sm:px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center w-full">
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[3.75rem] xl:text-[4rem] leading-[1.1] text-ivory mb-8 md:mb-12 tracking-tight max-w-5xl mx-auto">
-            Chaque mois sans système d'acquisition, vous laissez des deals à quelqu'un d'autre.
-            <span className="italic text-gold-soft block mt-4 sm:mt-6 text-xl sm:text-2xl md:text-3xl lg:text-4xl tracking-[0.06em]">
-              Le système. Pas l'abonnement.
-            </span>
+            Votre meilleur commercial, c'est encore vous. Ce n'est pas un compliment.
           </h1>
           <div className="flex flex-col items-center gap-6 md:gap-8">
             <p className="max-w-3xl text-center text-sm sm:text-base md:text-lg leading-relaxed text-muted-foreground px-2">
-              Commission pure. Zéro frais fixe. Le système est prêt en 14 jours.
+              Chaque mois sans système d'acquisition, c'est un mois où votre pipeline dépend d'un appel que quelqu'un accepte de vous passer. Code Kaizen construit l'infrastructure qui change ça.
+            </p>
+            <p className="max-w-3xl text-center text-sm sm:text-base md:text-lg leading-relaxed px-2" style={{ color: '#a0aec0' }}>
+              Vous avez validé votre offre. Vos clients ont besoin de vous. Ce qui manque, ce n'est pas le produit. C'est le système qui l'amène aux bons prospects, sans que vous ayez à le chercher vous-même.
             </p>
             <button
-              onClick={() => scrollTo("conversion")}
+              onClick={() => scrollTo("formulaire")}
               className="bg-gold text-ink px-8 sm:px-12 py-4 sm:py-5 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
             >
-              Obtenir mon diagnostic gratuit
+              Obtenir mon Diagnostic
             </button>
             <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-x-8 gap-y-3 text-[10px] sm:text-[11px] tracking-[0.2em] uppercase text-muted-foreground">
               <span className="flex items-center justify-center gap-2">
