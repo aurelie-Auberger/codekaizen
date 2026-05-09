@@ -111,12 +111,12 @@ const Index = () => {
             <Logo showTagline={false} />
           </button>
           <button
-            onClick={() => scrollTo("conversion")}
+            onClick={() => scrollTo("formulaire")}
             className={`border border-gold text-gold px-6 py-2.5 text-[10px] tracking-luxe uppercase font-semibold hover:bg-gold hover:text-ink transition-all duration-500 ${
               scrolled ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"
             }`}
           >
-            Audit Flash
+            Obtenir mon Diagnostic
           </button>
         </div>
       </header>
