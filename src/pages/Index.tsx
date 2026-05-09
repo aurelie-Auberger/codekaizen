@@ -391,7 +391,7 @@ const Index = () => {
             </aside>
 
             {/* Form card */}
-            <div className="relative">
+            <div id="formulaire" className="relative scroll-mt-32">
               <div className="absolute -inset-px bg-gradient-to-br from-gold/40 via-transparent to-gold/10 rounded-[3px] pointer-events-none" />
               <div className="relative bg-background border border-border p-6 sm:p-10 rounded-[2px]">
                 <div className="flex items-center justify-between mb-8 pb-6 border-b border-border">
