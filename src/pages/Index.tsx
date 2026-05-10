@@ -209,10 +209,10 @@ const Index = () => {
                 >
                   {step.n}
                 </span>
-                <h3 className="font-serif text-[20px] md:text-2xl text-ivory mb-2 md:mb-3 leading-snug">
+                <h3 className="font-sans text-[17px] md:text-[20px] text-ivory mb-2 md:mb-3 leading-snug font-semibold">
                   {step.t}
                 </h3>
-                <p className="text-muted-foreground text-[13px] md:text-base leading-relaxed">
+                <p className="text-ivory/85 text-[15px] md:text-[16px] font-normal leading-relaxed">
                   {step.d}
                 </p>
               </li>
