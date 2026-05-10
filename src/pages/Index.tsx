@@ -156,7 +156,7 @@ const Index = () => {
       {/* BÉNÉFICES */}
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
-          <div className="border-2 border-gold p-8 md:p-14">
+          <div className="border-gold p-8 md:p-14" style={{ borderWidth: '0.5px' }}>
             <h2 className="font-serif font-normal text-[26px] md:text-[40px] text-ivory text-center mb-8 md:mb-12 leading-tight">
               Ce que Code Kaizen <span className="italic text-gold-soft">construit pour vous.</span>
             </h2>
