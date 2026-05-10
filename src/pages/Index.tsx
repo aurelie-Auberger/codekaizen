@@ -326,7 +326,7 @@ const Index = () => {
                 Évaluer mon éligibilité
               </a>
             </div>
-            <p className="text-center italic text-gold/60 text-[12px] leading-relaxed">
+            <p className="text-center italic text-ivory/80 text-[13px] leading-relaxed mt-4">
               Discrétion totale. Nous ne divulguons jamais l'identité de nos partenaires.
             </p>
           </div>
