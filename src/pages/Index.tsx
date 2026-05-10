@@ -244,7 +244,7 @@ const Index = () => {
       {/* FAQ */}
       <section className="py-32 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl text-ivory text-center mb-16">Questions fréquentes</h2>
+          <h2 className="text-4xl md:text-5xl text-ivory text-center mb-16">Ce qu'on nous demande.</h2>
           <div className="divide-y divide-border border-y border-border">
             {faqs.map((faq, i) => {
               const open = openFaq.includes(i);
