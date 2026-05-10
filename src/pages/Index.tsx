@@ -123,7 +123,7 @@ const Index = () => {
       </header>
 
       {/* HERO */}
-      <section className="min-h-screen flex items-center pt-32 sm:pt-36 md:pt-40 pb-20 md:pb-28 px-5 sm:px-6 md:px-10">
+      <section className="min-h-screen flex items-center py-10 md:py-16 px-5 sm:px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center w-full">
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[3.75rem] xl:text-[4rem] leading-[1.1] text-ivory mb-8 md:mb-12 tracking-tight max-w-5xl mx-auto">
             Votre meilleur commercial, c'est encore vous. Ce n'est pas un compliment.
@@ -193,7 +193,7 @@ const Index = () => {
       </section>
 
       {/* BÉNÉFICES */}
-      <section className="py-20 px-6 md:px-10">
+      <section className="py-10 md:py-16 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <div className="border-2 border-gold p-8 md:p-14">
             <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight font-serif">
@@ -215,7 +215,7 @@ const Index = () => {
       </section>
 
       {/* COMMENT ÇA MARCHE */}
-      <section className="py-20 px-6 md:px-10 bg-secondary/30">
+      <section className="py-10 md:py-16 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Méthode</div>
@@ -255,7 +255,7 @@ const Index = () => {
         </div>
       </section>
       {/* CONFIANCE */}
-      <section className="px-6 md:px-10" style={{ paddingTop: "64px", paddingBottom: "64px" }}>
+      <section className="px-6 md:px-10 py-10 md:py-16">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl text-ivory mb-12 leading-tight font-serif">
             Ils nous ont fait confiance
@@ -306,7 +306,7 @@ const Index = () => {
         </div>
       </section>
       {/* OFFRE */}
-      <section className="py-20 px-6 md:px-10">
+      <section className="py-10 md:py-16 px-6 md:px-10">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight font-serif">
             Le Diagnostic Acquisition — 800 EUR HT
@@ -343,7 +343,7 @@ const Index = () => {
 
       {/* URGENCE */}
       <section
-        className="py-20 px-6 md:px-10"
+        className="py-10 md:py-16 px-6 md:px-10"
         style={{
           backgroundColor: "rgba(201, 162, 78, 0.06)",
           borderTop: "1px solid rgba(201, 162, 78, 0.15)",
@@ -380,7 +380,7 @@ const Index = () => {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 px-6 md:px-10 bg-secondary/30">
+      <section className="py-10 md:py-16 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight font-serif">Questions fréquentes</h2>
           <div className="divide-y divide-border border-y border-border">
@@ -410,7 +410,7 @@ const Index = () => {
       </section>
 
       {/* CONVERSION */}
-      <section id="formulaire" className="py-20 px-6 md:px-10 relative overflow-hidden scroll-mt-32">
+      <section id="formulaire" className="py-10 md:py-16 px-6 md:px-10 relative overflow-hidden scroll-mt-32">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/20 to-transparent pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
           <div className="gold-line mb-12 max-w-3xl mx-auto" />
