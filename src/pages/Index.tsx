@@ -126,7 +126,7 @@ const Index = () => {
           <div className="flex flex-col items-center gap-6 md:gap-8">
             <button
               onClick={() => scrollTo("conversion")}
-              className="bg-gold text-ink w-full sm:w-auto px-8 sm:px-14 py-5 sm:py-6 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
+              className="bg-gold text-ink w-full sm:w-auto px-6 py-[14px] sm:px-14 sm:py-6 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
             >
               Évaluer mon éligibilité
             </button>
@@ -175,7 +175,7 @@ const Index = () => {
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10 md:mb-20">
-            <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Le modèle</div>
+            <div className="text-[10px] tracking-[0.15em] md:tracking-luxe uppercase text-gold mb-6">Le modèle</div>
             <h2 className="font-serif text-[26px] md:text-5xl text-ivory leading-tight">
               Un modèle aligné sur vos résultats.
               <br />
@@ -223,7 +223,7 @@ const Index = () => {
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10 md:mb-20">
-            <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Notre expertise</div>
+            <div className="text-[10px] tracking-[0.15em] md:tracking-luxe uppercase text-gold mb-6">Notre expertise</div>
             <h2 className="text-[26px] md:text-6xl text-ivory">Notre expertise.</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
@@ -273,7 +273,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto relative">
           <div className="gold-line mb-10 md:mb-16 max-w-3xl mx-auto" />
           <div className="text-center mb-10 md:mb-16">
-            <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Diagnostic stratégique · 5 jours · 500€</div>
+            <div className="text-[10px] tracking-[0.15em] md:tracking-luxe uppercase text-gold mb-6">Diagnostic stratégique · 5 jours · 500€</div>
             <h2 className="text-[26px] md:text-6xl text-ivory mb-5 md:mb-6 leading-tight">
               Un pipeline qui ne s'arrête pas <span className="italic text-gold-soft">quand vous vous arrêtez.</span>
             </h2>
@@ -301,7 +301,7 @@ const Index = () => {
                 href="https://calendly.com/aurelie-codekaizen/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gold text-ink px-10 sm:px-14 py-5 sm:py-6 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
+                className="bg-gold text-ink px-6 py-[14px] sm:px-14 sm:py-6 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
               >
                 Évaluer mon éligibilité
               </a>
