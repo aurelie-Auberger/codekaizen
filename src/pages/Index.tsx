@@ -274,12 +274,12 @@ const Index = () => {
         <div className="max-w-6xl mx-auto relative">
           <div className="gold-line mb-10 md:mb-16 max-w-3xl mx-auto" />
           <div className="text-center mb-10 md:mb-16">
-            <div className="text-[10px] tracking-[0.15em] md:tracking-luxe uppercase text-gold mb-6">Diagnostic stratégique · 5 jours · 500€</div>
-            <h2 className="text-[26px] md:text-6xl text-ivory mb-5 md:mb-6 leading-tight">
+            <div className="font-sans text-[11px] tracking-[0.12em] uppercase font-medium text-gold mb-6">Diagnostic stratégique · 5 jours · 500€</div>
+            <h2 className="font-serif font-normal text-[26px] md:text-[40px] text-ivory mb-5 md:mb-6 leading-tight">
               Chaque semaine sans système, <span className="italic text-gold-soft">c'est un deal signé ailleurs.</span>
             </h2>
-            <p className="font-serif italic text-gold text-[18px] md:text-xl mb-4">Revenue, by system.</p>
-            <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed text-[13px] md:text-base">
+            <p className="font-serif italic text-gold text-[18px] md:text-[22px] mb-4">Revenue, by system.</p>
+            <p className="text-ivory/85 max-w-xl mx-auto leading-relaxed text-[15px] md:text-[16px] font-normal">
               Le diagnostic stratégique est la première étape. 500€. 5 jours. Un plan d'action précis sur votre situation réelle.
             </p>
           </div>
