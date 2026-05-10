@@ -15,12 +15,21 @@ import Logo from "@/components/Logo";
 import TallyForm from "@/components/TallyForm";
 
 const benefits = [
-  { id: "01", t: "Système outbound prêt en 14 jours", icon: Zap },
-  { id: "02", t: "Closing intégral pris en charge", icon: Users },
-  { id: "03", t: "Zéro coût fixe d'installation", icon: CheckCircle },
-  { id: "04", t: "Ciblage ICP ultra-précis (Data-driven)", icon: Target },
-  { id: "05", t: "Reporting hebdomadaire transparent", icon: BarChart3 },
-  { id: "06", t: "Résultats mesurables et prévisibles", icon: TrendingUp },
+  { id: "01", t: "ICP et ciblage", d: "Identification précise de vos prospects idéaux. Chaque contact ciblé correspond à un décideur qui a une raison réelle d'acheter ce que vous vendez.", icon: Target },
+  { id: "02", t: "Système outbound complet", d: "Séquences multicanal, scripts de qualification, CRM opérationnel. Une infrastructure commerciale qui travaille indépendamment de votre agenda.", icon: Zap },
+  { id: "03", t: "Closing intégré", d: "Qualification, traitement des objections, accompagnement jusqu'à la signature. Vous gardez la relation client. On prend en charge la conversion.", icon: Users },
+  { id: "04", t: "Reporting et pilotage", d: "Vous voyez exactement ce qui se passe chaque semaine : taux d'ouverture, leads qualifiés, deals en cours. Aucune boîte noire.", icon: BarChart3 },
+];
+
+const tickerItems = [
+  "Diagnostic stratégique",
+  "Système d'acquisition sur-mesure",
+  "Rémunération à la performance",
+  "Propriété intellectuelle préservée",
+  "Closing intégré",
+  "Reporting hebdomadaire",
+  "Pipeline prévisible",
+  "B2B premium uniquement",
 ];
 
 const problems = [
