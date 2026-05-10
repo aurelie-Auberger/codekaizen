@@ -15,12 +15,21 @@ import Logo from "@/components/Logo";
 import TallyForm from "@/components/TallyForm";
 
 const benefits = [
-  { id: "01", t: "Système outbound prêt en 14 jours", icon: Zap },
-  { id: "02", t: "Closing intégral pris en charge", icon: Users },
-  { id: "03", t: "Zéro coût fixe d'installation", icon: CheckCircle },
-  { id: "04", t: "Ciblage ICP ultra-précis (Data-driven)", icon: Target },
-  { id: "05", t: "Reporting hebdomadaire transparent", icon: BarChart3 },
-  { id: "06", t: "Résultats mesurables et prévisibles", icon: TrendingUp },
+  { id: "01", t: "ICP et ciblage", d: "Identification précise de vos prospects idéaux. Chaque contact ciblé correspond à un décideur qui a une raison réelle d'acheter ce que vous vendez.", icon: Target },
+  { id: "02", t: "Système outbound complet", d: "Séquences multicanal, scripts de qualification, CRM opérationnel. Une infrastructure commerciale qui travaille indépendamment de votre agenda.", icon: Zap },
+  { id: "03", t: "Closing intégré", d: "Qualification, traitement des objections, accompagnement jusqu'à la signature. Vous gardez la relation client. On prend en charge la conversion.", icon: Users },
+  { id: "04", t: "Reporting et pilotage", d: "Vous voyez exactement ce qui se passe chaque semaine : taux d'ouverture, leads qualifiés, deals en cours. Aucune boîte noire.", icon: BarChart3 },
+];
+
+const tickerItems = [
+  "Diagnostic stratégique",
+  "Système d'acquisition sur-mesure",
+  "Rémunération à la performance",
+  "Propriété intellectuelle préservée",
+  "Closing intégré",
+  "Reporting hebdomadaire",
+  "Pipeline prévisible",
+  "B2B premium uniquement",
 ];
 
 const problems = [
@@ -131,17 +140,24 @@ const Index = () => {
             >
               Réserver mon diagnostic stratégique
             </button>
-            <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-x-8 gap-y-3 text-[10px] sm:text-[11px] tracking-[0.2em] uppercase text-muted-foreground">
-              <span className="flex items-center justify-center gap-2">
-                <Clock className="w-3 h-3 text-gold flex-shrink-0" /> Système opérationnel en 14 jours
-              </span>
-              <span className="flex items-center justify-center gap-2">
-                <Zap className="w-3 h-3 text-gold flex-shrink-0" /> Commission sur résultats uniquement
-              </span>
-            </div>
           </div>
         </div>
       </section>
+
+      {/* TICKER */}
+      <div className="border-y border-gold/30 bg-background overflow-hidden py-4">
+        <div className="flex whitespace-nowrap animate-ticker">
+          {[...tickerItems, ...tickerItems].map((item, i) => (
+            <span
+              key={i}
+              className="flex items-center text-[10px] sm:text-[11px] tracking-luxe uppercase text-gold/80 px-6"
+            >
+              {item}
+              <span className="ml-12 text-gold/40">·</span>
+            </span>
+          ))}
+        </div>
+      </div>
 
       <div className="gold-line max-w-5xl mx-auto" />
 
@@ -237,15 +253,14 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="border-2 border-gold p-8 md:p-14">
             <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight">
-              Ingénierie d'acquisition,
-              <br />
-              <span className="italic text-gold-soft">ce que vous obtenez.</span>
+              Ce que Code Kaizen <span className="italic text-gold-soft">construit pour vous.</span>
             </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-gold/30">
-              {benefits.map(({ id, t, icon: Icon }) => (
+            <div className="grid md:grid-cols-2 gap-px bg-gold/30">
+              {benefits.map(({ id, t, d, icon: Icon }) => (
                 <div key={id} className="bg-background p-8 group hover:bg-secondary/30 transition-colors">
                   <Icon className="w-6 h-6 text-gold mb-6 group-hover:text-gold-soft transition-colors" strokeWidth={1.2} />
-                  <h3 className="text-lg text-ivory leading-snug">{t}</h3>
+                  <h3 className="text-lg text-ivory leading-snug mb-3">{t}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{d}</p>
                 </div>
               ))}
             </div>
