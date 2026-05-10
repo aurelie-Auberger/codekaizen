@@ -113,7 +113,7 @@ const Index = () => {
       </header>
 
       {/* HERO */}
-      <section className="pt-24 sm:pt-40 md:pt-48 pb-12 sm:pb-20 md:pb-32 px-5 sm:px-6 md:px-10">
+      <section className="pt-24 sm:pt-40 md:pt-48 pb-3 sm:pb-20 md:pb-32 px-5 sm:px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="font-serif text-[2rem] leading-[1.15] sm:text-4xl md:text-6xl lg:text-7xl md:leading-[1.1] text-ivory mb-5 md:mb-10 tracking-tight">
             Votre pipeline ne devrait pas dépendre de vous.
@@ -133,7 +133,7 @@ const Index = () => {
       </section>
 
       {/* MARCHÉS */}
-      <section className="pt-4 pb-12 md:pt-8 md:pb-20 px-6 md:px-10">
+      <section className="pt-3 pb-12 md:pt-8 md:pb-20 px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
           <p className="font-serif italic text-muted-foreground text-[14px] md:text-base mb-6 md:mb-8">
             Des systèmes déjà construits et opérés sur des marchés B2B variés.
