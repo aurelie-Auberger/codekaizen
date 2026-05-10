@@ -135,8 +135,8 @@ const Index = () => {
       {/* MARCHÉS */}
       <section className="pt-3 pb-12 md:pt-8 md:pb-20 px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
-          <p className="font-serif italic text-muted-foreground text-[14px] md:text-base mb-6 md:mb-8">
-            Des systèmes déjà construits et opérés sur des marchés B2B variés.
+          <p className="font-serif italic text-muted-foreground text-[15px] md:text-[17px] mb-6 md:mb-8">
+            Déjà opéré sur des marchés B2B premium.
           </p>
           <div className="flex flex-wrap justify-center gap-3 md:gap-4">
             {["SaaS", "Fintech", "ESN / IT", "SaaS IA", "Formation B2B", "Architecture", "Logiciel"].map((tag) => (
