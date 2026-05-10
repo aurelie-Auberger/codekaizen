@@ -140,17 +140,24 @@ const Index = () => {
             >
               Réserver mon diagnostic stratégique
             </button>
-            <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-x-8 gap-y-3 text-[10px] sm:text-[11px] tracking-[0.2em] uppercase text-muted-foreground">
-              <span className="flex items-center justify-center gap-2">
-                <Clock className="w-3 h-3 text-gold flex-shrink-0" /> Système opérationnel en 14 jours
-              </span>
-              <span className="flex items-center justify-center gap-2">
-                <Zap className="w-3 h-3 text-gold flex-shrink-0" /> Commission sur résultats uniquement
-              </span>
-            </div>
           </div>
         </div>
       </section>
+
+      {/* TICKER */}
+      <div className="border-y border-gold/30 bg-background overflow-hidden py-4">
+        <div className="flex whitespace-nowrap animate-ticker">
+          {[...tickerItems, ...tickerItems].map((item, i) => (
+            <span
+              key={i}
+              className="flex items-center text-[10px] sm:text-[11px] tracking-luxe uppercase text-gold/80 px-6"
+            >
+              {item}
+              <span className="ml-12 text-gold/40">·</span>
+            </span>
+          ))}
+        </div>
+      </div>
 
       <div className="gold-line max-w-5xl mx-auto" />
 
