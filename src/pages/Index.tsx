@@ -284,7 +284,7 @@ const Index = () => {
               onClick={() => scrollTo("conversion")}
               className="bg-gold text-ink w-full sm:w-auto px-8 sm:px-14 py-5 sm:py-6 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
             >
-              Obtenir mon diagnostic gratuit
+              Obtenir mon Diagnostic — 800 EUR HT
             </button>
             <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-x-8 gap-y-3 text-xs sm:text-sm tracking-[0.2em] uppercase text-ivory/80 font-semibold">
               <span className="flex items-center justify-center gap-2.5">
