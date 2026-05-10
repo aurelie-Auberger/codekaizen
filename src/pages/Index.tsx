@@ -78,7 +78,7 @@ const Index = () => {
         <div className="max-w-xl text-center">
           <div className="gold-line mb-12" />
           <h1 className="text-5xl md:text-6xl text-ivory mb-8">C'est noté.</h1>
-          <p className="text-muted-foreground mb-12 leading-relaxed">
+          <p className="text-[#F5F0E8] mb-12 leading-relaxed">
             Vous recevrez une confirmation par email. On se retrouve à l'heure convenue.
           </p>
           <a
@@ -118,7 +118,7 @@ const Index = () => {
           <h1 className="font-serif text-[2rem] leading-[1.15] sm:text-4xl md:text-6xl lg:text-7xl md:leading-[1.1] text-ivory mb-5 md:mb-10 tracking-tight">
             Votre pipeline ne devrait pas dépendre de vous.
           </h1>
-          <p className="text-muted-foreground max-w-2xl mx-auto text-[15px] leading-[1.6] sm:text-base sm:leading-relaxed mb-8 md:mb-10">
+          <p className="text-[#F5F0E8] max-w-2xl mx-auto text-[15px] leading-[1.6] sm:text-base sm:leading-relaxed mb-8 md:mb-10">
             Vous avez une offre. Ce qui manque, c'est le système qui la vend sans que vous soyez dans chaque deal.
           </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
@@ -135,7 +135,7 @@ const Index = () => {
       {/* MARCHÉS */}
       <section className="pt-3 pb-12 md:pt-8 md:pb-20 px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
-          <p className="font-serif italic text-muted-foreground text-[15px] md:text-[17px] mb-6 md:mb-8">
+          <p className="font-serif italic text-[#F5F0E8] text-[15px] md:text-[17px] mb-6 md:mb-8">
             Déjà opéré sur des marchés B2B premium.
           </p>
           <div className="flex flex-wrap justify-center gap-3 md:gap-4">
@@ -165,7 +165,7 @@ const Index = () => {
                 <div key={id} className="bg-background p-6 md:p-8 group hover:bg-secondary/30 transition-colors">
                   <Icon className="w-6 h-6 text-gold mb-5 md:mb-6 group-hover:text-gold-soft transition-colors" strokeWidth={1.2} />
                   <h3 className="text-[18px] md:text-lg text-gold leading-snug mb-2 md:mb-3 font-medium">{t}</h3>
-                  <p className="text-muted-foreground text-[13px] md:text-sm leading-relaxed">{d}</p>
+                  <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">{d}</p>
                 </div>
               ))}
             </div>
@@ -212,7 +212,7 @@ const Index = () => {
                 <h3 className="font-serif text-[20px] md:text-2xl text-gold mb-2 md:mb-3 leading-snug">
                   {step.t}
                 </h3>
-                <p className="text-muted-foreground text-[13px] md:text-base leading-relaxed">
+                <p className="text-[#F5F0E8] text-[13px] md:text-base leading-relaxed">
                   {step.d}
                 </p>
               </li>
@@ -231,7 +231,7 @@ const Index = () => {
             {expertise.map((card, i) => (
               <article key={i} className="border border-border p-6 md:p-10 hover:border-gold/50 transition-colors">
                 <h3 className="text-[20px] md:text-2xl text-gold mb-3 md:mb-6 font-semibold">{card.t}</h3>
-                <p className="text-muted-foreground/90 text-[15px] md:text-sm leading-relaxed font-normal">{card.d}</p>
+                <p className="text-[#F5F0E8] text-[15px] md:text-sm leading-relaxed font-normal">{card.d}</p>
               </article>
             ))}
           </div>
@@ -259,7 +259,7 @@ const Index = () => {
                   <div
                     className={`overflow-hidden transition-all duration-500 ${open ? "max-h-40 pb-6" : "max-h-0"}`}
                   >
-                    <p className="text-muted-foreground leading-relaxed text-[13px] md:text-sm">{faq.r}</p>
+                    <p className="text-[#F5F0E8] leading-relaxed text-[13px] md:text-sm">{faq.r}</p>
                   </div>
                 </div>
               );
@@ -279,7 +279,7 @@ const Index = () => {
               Chaque semaine sans système, <span className="italic text-gold-soft">c'est un deal signé ailleurs.</span>
             </h2>
             <p className="font-serif italic text-gold text-[18px] md:text-xl mb-4">Revenue, by system.</p>
-            <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed text-[13px] md:text-base">
+            <p className="text-[#F5F0E8] max-w-xl mx-auto leading-relaxed text-[13px] md:text-base">
               Le diagnostic stratégique est la première étape. 500€. 5 jours. Un plan d'action précis sur votre situation réelle.
             </p>
           </div>
