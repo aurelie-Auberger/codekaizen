@@ -177,8 +177,8 @@ const Index = () => {
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10 md:mb-20">
-            <div className="text-[10px] tracking-[0.15em] md:tracking-luxe uppercase text-gold mb-6">Le modèle</div>
-            <h2 className="font-serif text-[26px] md:text-5xl text-ivory leading-tight">
+            <div className="font-sans text-[11px] tracking-[0.12em] uppercase font-medium text-gold mb-6">Le modèle</div>
+            <h2 className="font-serif font-normal text-[26px] md:text-[40px] text-ivory leading-tight">
               Un modèle aligné sur vos résultats.
               <br />
               <span className="italic text-gold-soft">Vous ne payez que ce qui produit.</span>
