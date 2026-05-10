@@ -118,14 +118,10 @@ const Index = () => {
             <Logo />
           </div>
           <h1 className="font-serif text-[1.75rem] leading-[1.15] sm:text-4xl md:text-6xl lg:text-7xl md:leading-[1.1] text-ivory mb-6 md:mb-10 tracking-tight">
-            Votre meilleur commercial, c'est encore vous. Et votre pipeline le sait.
-            <br className="hidden sm:block" />
-            <span className="italic text-gold-soft block sm:inline mt-3 sm:mt-0">
-              Le système. Pas l'effort.
-            </span>
+            Votre pipeline ne devrait pas dépendre de vous.
           </h1>
           <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed text-sm sm:text-base mb-8 md:mb-10">
-            Vous avez une offre qui fonctionne. Peut-être même des commerciaux. Ce qui manque, c'est la mécanique qui alimente tout ça sans dépendre de vous. Code Kaizen construit ce système et se rémunère uniquement sur ce qui rentre.
+            Vous avez une offre. Ce qui manque, c'est le système qui la vend sans que vous soyez dans chaque deal.
           </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
             <button
