@@ -225,13 +225,13 @@ const Index = () => {
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10 md:mb-20">
-            <div className="text-[10px] tracking-[0.15em] md:tracking-luxe uppercase text-gold">Notre expertise</div>
+            <div className="font-sans text-[11px] tracking-[0.12em] uppercase font-medium text-gold">Notre expertise</div>
           </div>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             {expertise.map((card, i) => (
               <article key={i} className="border border-border p-6 md:p-10 hover:border-gold/50 transition-colors">
-                <h3 className="text-[20px] md:text-2xl text-gold-soft mb-3 md:mb-6 font-semibold">{card.t}</h3>
-                <p className="text-muted-foreground/90 text-[15px] md:text-sm leading-relaxed font-normal">{card.d}</p>
+                <h3 className="font-sans text-[17px] md:text-[20px] text-ivory mb-3 md:mb-6 font-semibold">{card.t}</h3>
+                <p className="text-ivory/85 text-[15px] md:text-[16px] leading-relaxed font-normal">{card.d}</p>
               </article>
             ))}
           </div>
