@@ -135,6 +135,25 @@ const Index = () => {
         </div>
       </section>
 
+      {/* MARCHÉS */}
+      <section className="pt-4 pb-12 md:pt-8 md:pb-20 px-6 md:px-10">
+        <div className="max-w-5xl mx-auto text-center">
+          <p className="font-serif italic text-muted-foreground text-[14px] md:text-base mb-6 md:mb-8">
+            Des systèmes déjà construits et opérés sur des marchés B2B variés.
+          </p>
+          <div className="flex flex-wrap justify-center gap-3 md:gap-4">
+            {["SaaS", "Fintech", "ESN / IT", "SaaS IA", "Formation B2B", "Architecture", "Logiciel"].map((tag) => (
+              <span
+                key={tag}
+                className="border border-gold/40 text-gold-soft px-4 py-2 text-[10px] tracking-[0.15em] md:tracking-luxe uppercase rounded-[2px] hover:border-gold/70 transition-colors"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* TICKER */}
       <div className="border-y border-gold/30 bg-background overflow-hidden py-4">
         <div className="flex whitespace-nowrap animate-ticker">
@@ -234,22 +253,6 @@ const Index = () => {
                 <p className="text-muted-foreground text-[13px] md:text-sm leading-relaxed">{card.d}</p>
               </article>
             ))}
-          </div>
-
-          <div className="mt-12 md:mt-20 text-center">
-            <p className="font-serif italic text-muted-foreground text-[14px] md:text-base mb-6 md:mb-8">
-              Des systèmes déjà construits et opérés sur des marchés B2B variés.
-            </p>
-            <div className="flex flex-wrap justify-center gap-3 md:gap-4">
-              {["SaaS", "Fintech", "ESN / IT", "SaaS IA", "Formation B2B", "Architecture", "Logiciel"].map((tag) => (
-                <span
-                  key={tag}
-                  className="border border-gold/40 text-gold-soft px-4 py-2 text-[10px] tracking-[0.15em] md:tracking-luxe uppercase rounded-[2px] hover:border-gold/70 transition-colors"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
           </div>
         </div>
       </section>
