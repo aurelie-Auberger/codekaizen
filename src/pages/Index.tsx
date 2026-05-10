@@ -228,7 +228,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Notre expertise</div>
-            <h2 className="text-4xl md:text-6xl text-ivory">Trois savoir-faire, un système.</h2>
+            <h2 className="text-4xl md:text-6xl text-ivory">Notre expertise.</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {expertise.map((card, i) => (
