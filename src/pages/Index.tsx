@@ -193,7 +193,7 @@ const Index = () => {
       </section>
 
       {/* BÉNÉFICES */}
-      <section className="py-20 px-6 md:px-10">
+      <section className="py-10 md:py-16 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <div className="border-2 border-gold p-8 md:p-14">
             <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight font-serif">
@@ -215,7 +215,7 @@ const Index = () => {
       </section>
 
       {/* COMMENT ÇA MARCHE */}
-      <section className="py-20 px-6 md:px-10 bg-secondary/30">
+      <section className="py-10 md:py-16 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Méthode</div>
@@ -306,7 +306,7 @@ const Index = () => {
         </div>
       </section>
       {/* OFFRE */}
-      <section className="py-20 px-6 md:px-10">
+      <section className="py-10 md:py-16 px-6 md:px-10">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight font-serif">
             Le Diagnostic Acquisition — 800 EUR HT
@@ -343,7 +343,7 @@ const Index = () => {
 
       {/* URGENCE */}
       <section
-        className="py-20 px-6 md:px-10"
+        className="py-10 md:py-16 px-6 md:px-10"
         style={{
           backgroundColor: "rgba(201, 162, 78, 0.06)",
           borderTop: "1px solid rgba(201, 162, 78, 0.15)",
@@ -380,7 +380,7 @@ const Index = () => {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 px-6 md:px-10 bg-secondary/30">
+      <section className="py-10 md:py-16 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight font-serif">Questions fréquentes</h2>
           <div className="divide-y divide-border border-y border-border">
@@ -410,7 +410,7 @@ const Index = () => {
       </section>
 
       {/* CONVERSION */}
-      <section id="formulaire" className="py-20 px-6 md:px-10 relative overflow-hidden scroll-mt-32">
+      <section id="formulaire" className="py-10 md:py-16 px-6 md:px-10 relative overflow-hidden scroll-mt-32">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/20 to-transparent pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
           <div className="gold-line mb-12 max-w-3xl mx-auto" />
