@@ -15,10 +15,10 @@ import Logo from "@/components/Logo";
 
 
 const benefits = [
-  { id: "01", t: "ICP et ciblage", d: "Identification précise de vos prospects idéaux. Chaque contact ciblé correspond à un décideur qui a une raison réelle d'acheter ce que vous vendez.", icon: Target },
-  { id: "02", t: "Système outbound complet", d: "Séquences multicanal, scripts de qualification, CRM opérationnel. Une infrastructure commerciale qui travaille indépendamment de votre agenda.", icon: Zap },
-  { id: "03", t: "Closing intégré", d: "Qualification, traitement des objections, accompagnement jusqu'à la signature. Vous gardez la relation client. On prend en charge la conversion.", icon: Users },
-  { id: "04", t: "Reporting et pilotage", d: "Vous voyez exactement ce qui se passe chaque semaine : leads qualifiés, deals en cours, résultats tracés. Aucune boîte noire.", icon: BarChart3 },
+  { id: "01", t: "ICP et ciblage", d: "On identifie les décideurs qui ont un problème que vous résolvez. Pas de masse, pas de hasard.", icon: Target },
+  { id: "02", t: "Système outbound complet", d: "Le système prospecte, qualifie et relance pendant que vous faites autre chose.", icon: Zap },
+  { id: "03", t: "Closing intégré", d: "On traite les objections et on accompagne jusqu'à la signature. Vous intervenez quand vous le choisissez.", icon: Users },
+  { id: "04", t: "Reporting et pilotage", d: "Chaque semaine : leads qualifiés, deals en cours. Reporting hebdomadaire.", icon: BarChart3 },
 ];
 
 const tickerItems = [
