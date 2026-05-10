@@ -44,10 +44,10 @@ const steps = [
   { n: "03", t: "Pilotage", d: "On génère les leads, on close les ventes, vous encaissez le chiffre d'affaires." },
 ];
 
-const cases = [
-  { c: "SPECGEN", s: "+2 778 prospects", d: "Système 100% data-driven livré rapidement pour une startup IA B2B." },
-  { c: "OC ARCHITECTURE", s: "Scale Digital Complet", d: "Framer + Ads + Acquisition organique opérationnels en un temps record." },
-  { c: "MISSIONS B2B", s: "Outbound Masterclass", d: "Séquences email et ciblage ICP sur marchés complexes et saturés." },
+const expertise = [
+  { t: "Outbound B2B structuré", d: "Construction de systèmes de prospection multicanal : LinkedIn, cold email, séquences automatisées. Ciblage ICP, enrichissement de données, A/B test sur les accroches. De zéro à pipeline actif." },
+  { t: "Closing et conversion", d: "Qualification des leads entrants, scripts d'argumentation, traitement des objections. Accompagnement jusqu'à la signature et au premier encaissement." },
+  { t: "Pilotage orienté ROI", d: "Chaque action est tracée, mesurée, ajustée. Reporting hebdomadaire, attribution précise, optimisation continue. Vous savez exactement d'où vient chaque deal." },
 ];
 
 const faqs = [
@@ -335,20 +335,17 @@ const Index = () => {
         </div>
       </section>
 
-      {/* PREUVES SOCIALES */}
+      {/* NOTRE EXPERTISE */}
       <section className="py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20">
-            <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Études de cas</div>
-            <h2 className="text-4xl md:text-6xl text-ivory">Des résultats, pas des promesses.</h2>
+            <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Notre expertise</div>
+            <h2 className="text-4xl md:text-6xl text-ivory">Trois savoir-faire, un système.</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            {cases.map((card, i) => (
+            {expertise.map((card, i) => (
               <article key={i} className="border border-border p-10 hover:border-gold/50 transition-colors">
-                <div className="mb-6">
-                  <div className="text-[10px] tracking-luxe uppercase text-muted-foreground mb-3">{card.c} · 2025</div>
-                  <h3 className="text-2xl text-gold-soft">{card.s}</h3>
-                </div>
+                <h3 className="text-2xl text-gold-soft mb-6">{card.t}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">{card.d}</p>
               </article>
             ))}
