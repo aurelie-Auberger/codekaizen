@@ -103,7 +103,7 @@ const Index = () => {
               scrolled ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"
             }`}
           >
-            Audit Flash
+            Réserver mon diagnostic
           </button>
         </div>
       </header>
