@@ -302,7 +302,7 @@ const Index = () => {
             ))}
             <div className="pt-6 flex justify-center">
               <a
-                href="https://tally.so"
+                href="https://calendly.com/aurelie-codekaizen/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gold text-ink px-10 sm:px-14 py-5 sm:py-6 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
