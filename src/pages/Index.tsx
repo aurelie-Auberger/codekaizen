@@ -443,7 +443,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto relative">
           <div className="gold-line mb-12 max-w-3xl mx-auto" />
           <div className="text-center mb-12">
-            <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Audit Flash · 30 min · Gratuit</div>
+            <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Diagnostic Acquisition · 5 jours · 800 EUR HT</div>
             <h2 className="text-3xl md:text-5xl text-ivory mb-6 leading-tight font-serif">
               Réservez votre Diagnostic
             </h2>
