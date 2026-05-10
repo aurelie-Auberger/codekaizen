@@ -336,37 +336,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-
-      {/* FAQ */}
-      <section className="py-20 px-6 md:px-10 bg-secondary/30">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight font-serif">Questions fréquentes</h2>
-          <div className="divide-y divide-border border-y border-border">
-            {faqs.map((faq, i) => {
-              const open = openFaq.includes(i);
-              return (
-                <div key={i}>
-                  <button
-                    onClick={() => toggleFaq(i)}
-                    className="w-full py-6 flex justify-between items-center text-left hover:text-gold transition-colors group"
-                  >
-                    <span className="text-lg text-ivory group-hover:text-gold transition-colors pr-6">{faq.q}</span>
-                    <ChevronDown
-                      className={`w-4 h-4 text-gold flex-shrink-0 transition-transform duration-300 ${open ? "rotate-180" : ""}`}
-                    />
-                  </button>
-                  <div
-                    className={`overflow-hidden transition-all duration-500 ${open ? "max-h-40 pb-6" : "max-h-0"}`}
-                  >
-                    <p className="text-muted-foreground leading-relaxed text-sm">{faq.r}</p>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
       {/* OFFRE */}
       <section className="py-20 px-6 md:px-10">
         <div className="max-w-3xl mx-auto">
@@ -437,6 +406,36 @@ const Index = () => {
             >
               Obtenir mon Diagnostic
             </button>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-20 px-6 md:px-10 bg-secondary/30">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight font-serif">Questions fréquentes</h2>
+          <div className="divide-y divide-border border-y border-border">
+            {faqs.map((faq, i) => {
+              const open = openFaq.includes(i);
+              return (
+                <div key={i}>
+                  <button
+                    onClick={() => toggleFaq(i)}
+                    className="w-full py-6 flex justify-between items-center text-left hover:text-gold transition-colors group"
+                  >
+                    <span className="text-lg text-ivory group-hover:text-gold transition-colors pr-6">{faq.q}</span>
+                    <ChevronDown
+                      className={`w-4 h-4 text-gold flex-shrink-0 transition-transform duration-300 ${open ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  <div
+                    className={`overflow-hidden transition-all duration-500 ${open ? "max-h-40 pb-6" : "max-h-0"}`}
+                  >
+                    <p className="text-muted-foreground leading-relaxed text-sm">{faq.r}</p>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
