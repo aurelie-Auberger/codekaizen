@@ -115,10 +115,10 @@ const Index = () => {
       {/* HERO */}
       <section className="pt-24 sm:pt-40 md:pt-48 pb-3 sm:pb-20 md:pb-32 px-5 sm:px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
-          <h1 className="font-serif text-[32px] md:text-[56px] leading-[1.15] md:leading-[1.1] font-normal text-ivory mb-5 md:mb-10 tracking-tight">
+          <h1 className="font-serif text-[2rem] leading-[1.15] sm:text-4xl md:text-6xl lg:text-7xl md:leading-[1.1] text-ivory mb-5 md:mb-10 tracking-tight">
             Votre pipeline ne devrait pas dépendre de vous.
           </h1>
-          <p className="text-white max-w-2xl mx-auto text-[14px] md:text-[15px] font-light leading-relaxed mb-8 md:mb-10">
+          <p className="text-muted-foreground max-w-2xl mx-auto text-[15px] leading-[1.6] sm:text-base sm:leading-relaxed mb-8 md:mb-10">
             Vous avez une offre. Ce qui manque, c'est le système qui la vend sans que vous soyez dans chaque deal.
           </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
@@ -135,7 +135,7 @@ const Index = () => {
       {/* MARCHÉS */}
       <section className="pt-3 pb-12 md:pt-8 md:pb-20 px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
-          <p className="font-serif italic text-gold text-[18px] md:text-[22px] mb-6 md:mb-8">
+          <p className="font-serif italic text-muted-foreground text-[15px] md:text-[17px] mb-6 md:mb-8">
             Déjà opéré sur des marchés B2B premium.
           </p>
           <div className="flex flex-wrap justify-center gap-3 md:gap-4">
@@ -157,15 +157,15 @@ const Index = () => {
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <div className="border-gold p-8 md:p-14" style={{ borderWidth: '0.5px' }}>
-            <h2 className="font-serif font-normal text-[26px] md:text-[40px] text-ivory text-center mb-8 md:mb-12 leading-tight">
+            <h2 className="text-[26px] md:text-5xl text-ivory text-center mb-8 md:mb-12 leading-tight">
               Ce que Code Kaizen <span className="italic text-gold-soft">construit pour vous.</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-[0.5px] bg-gold/30">
               {benefits.map(({ id, t, d, icon: Icon }) => (
                 <div key={id} className="bg-background p-6 md:p-8 group hover:bg-secondary/30 transition-colors">
                   <Icon className="w-6 h-6 text-gold mb-5 md:mb-6 group-hover:text-gold-soft transition-colors" strokeWidth={1.2} />
-                  <h3 className="font-serif font-semibold text-gold text-[20px] md:text-[22px] leading-snug mb-2 md:mb-3">{t}</h3>
-                  <p className="text-white text-[14px] md:text-[15px] font-light leading-relaxed">{d}</p>
+                  <h3 className="text-[18px] md:text-lg text-ivory leading-snug mb-2 md:mb-3 font-medium">{t}</h3>
+                  <p className="text-muted-foreground text-[13px] md:text-sm leading-relaxed">{d}</p>
                 </div>
               ))}
             </div>
@@ -177,8 +177,8 @@ const Index = () => {
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10 md:mb-20">
-            <div className="font-sans text-[11px] tracking-[0.12em] uppercase font-medium text-gold mb-6">Le modèle</div>
-            <h2 className="font-serif font-normal text-[26px] md:text-[40px] text-ivory leading-tight">
+            <div className="text-[10px] tracking-[0.15em] md:tracking-luxe uppercase text-gold mb-6">Le modèle</div>
+            <h2 className="font-serif text-[26px] md:text-5xl text-ivory leading-tight">
               Un modèle aligné sur vos résultats.
               <br />
               <span className="italic text-gold-soft">Vous ne payez que ce qui produit.</span>
@@ -209,10 +209,10 @@ const Index = () => {
                 >
                   {step.n}
                 </span>
-                <h3 className="font-serif font-semibold text-gold text-[20px] md:text-[22px] mb-2 md:mb-3 leading-snug">
+                <h3 className="font-serif text-[20px] md:text-2xl text-ivory mb-2 md:mb-3 leading-snug">
                   {step.t}
                 </h3>
-                <p className="text-white text-[14px] md:text-[15px] font-light leading-relaxed">
+                <p className="text-muted-foreground text-[13px] md:text-base leading-relaxed">
                   {step.d}
                 </p>
               </li>
@@ -225,13 +225,13 @@ const Index = () => {
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10 md:mb-20">
-            <div className="font-sans text-[11px] tracking-[0.12em] uppercase font-medium text-gold">Notre expertise</div>
+            <div className="text-[10px] tracking-[0.15em] md:tracking-luxe uppercase text-gold">Notre expertise</div>
           </div>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             {expertise.map((card, i) => (
               <article key={i} className="border border-border p-6 md:p-10 hover:border-gold/50 transition-colors">
-                <h3 className="font-serif font-semibold text-gold text-[20px] md:text-[22px] mb-3 md:mb-6">{card.t}</h3>
-                <p className="text-white text-[14px] md:text-[15px] leading-relaxed font-light">{card.d}</p>
+                <h3 className="text-[20px] md:text-2xl text-gold-soft mb-3 md:mb-6 font-semibold">{card.t}</h3>
+                <p className="text-muted-foreground/90 text-[15px] md:text-sm leading-relaxed font-normal">{card.d}</p>
               </article>
             ))}
           </div>
@@ -241,7 +241,7 @@ const Index = () => {
       {/* FAQ */}
       <section className="py-16 md:py-32 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
-          <h2 className="font-serif font-normal text-[26px] md:text-[40px] text-ivory text-center mb-10 md:mb-16">Ce qu'on nous demande.</h2>
+          <h2 className="text-[26px] md:text-5xl text-ivory text-center mb-10 md:mb-16">Ce qu'on nous demande.</h2>
           <div className="divide-y divide-border border-y border-border">
             {faqs.map((faq, i) => {
               const open = openFaq.includes(i);
@@ -251,7 +251,7 @@ const Index = () => {
                     onClick={() => toggleFaq(i)}
                     className="w-full py-6 flex justify-between items-center text-left hover:text-gold transition-colors group"
                   >
-                    <span className="font-sans text-[17px] md:text-[20px] text-ivory group-hover:text-gold transition-colors pr-6 font-semibold">{faq.q}</span>
+                    <span className="text-base md:text-lg text-ivory group-hover:text-gold transition-colors pr-6 font-medium">{faq.q}</span>
                     <ChevronDown
                       className={`w-4 h-4 text-gold flex-shrink-0 transition-transform duration-300 ${open ? "rotate-180" : ""}`}
                     />
@@ -259,7 +259,7 @@ const Index = () => {
                   <div
                     className={`overflow-hidden transition-all duration-500 ${open ? "max-h-40 pb-6" : "max-h-0"}`}
                   >
-                    <p className="text-white leading-relaxed text-[14px] md:text-[15px] font-light">{faq.r}</p>
+                    <p className="text-muted-foreground leading-relaxed text-[13px] md:text-sm">{faq.r}</p>
                   </div>
                 </div>
               );
@@ -274,12 +274,12 @@ const Index = () => {
         <div className="max-w-6xl mx-auto relative">
           <div className="gold-line mb-10 md:mb-16 max-w-3xl mx-auto" />
           <div className="text-center mb-10 md:mb-16">
-            <div className="font-sans text-[11px] tracking-[0.12em] uppercase font-medium text-gold mb-6">Diagnostic stratégique · 5 jours · 500€</div>
-            <h2 className="font-serif font-normal text-[26px] md:text-[40px] text-ivory mb-5 md:mb-6 leading-tight">
+            <div className="text-[10px] tracking-[0.15em] md:tracking-luxe uppercase text-gold mb-6">Diagnostic stratégique · 5 jours · 500€</div>
+            <h2 className="text-[26px] md:text-6xl text-ivory mb-5 md:mb-6 leading-tight">
               Chaque semaine sans système, <span className="italic text-gold-soft">c'est un deal signé ailleurs.</span>
             </h2>
-            <p className="font-serif italic text-gold text-[18px] md:text-[22px] mb-4">Revenue, by system.</p>
-            <p className="text-white max-w-xl mx-auto leading-relaxed text-[14px] md:text-[15px] font-light">
+            <p className="font-serif italic text-gold text-[18px] md:text-xl mb-4">Revenue, by system.</p>
+            <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed text-[13px] md:text-base">
               Le diagnostic stratégique est la première étape. 500€. 5 jours. Un plan d'action précis sur votre situation réelle.
             </p>
           </div>
