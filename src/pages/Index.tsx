@@ -221,23 +221,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* NOTRE EXPERTISE */}
-      <section className="py-16 md:py-32 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-10 md:mb-20">
-            <div className="text-[10px] tracking-[0.15em] md:tracking-luxe uppercase text-gold">Notre expertise</div>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6 md:gap-8">
-            {expertise.map((card, i) => (
-              <article key={i} className="border border-border p-6 md:p-10 hover:border-gold/50 transition-colors">
-                <h3 className="text-[20px] md:text-2xl text-gold mb-3 md:mb-6 font-semibold">{card.t}</h3>
-                <p className="text-[#F5F0E8] text-[15px] md:text-sm leading-relaxed font-normal">{card.d}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* FAQ */}
       <section className="py-16 md:py-32 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
