@@ -298,6 +298,45 @@ const Index = () => {
         </div>
       </section>
 
+      {/* CONFIANCE */}
+      <section className="px-6 md:px-10" style={{ paddingTop: "64px", paddingBottom: "64px" }}>
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl md:text-5xl text-ivory mb-12 leading-tight font-serif">
+            Ils nous ont fait confiance
+          </h2>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8">
+            {[
+              { i: "S", n: "SpecGen", s: "SaaS IA B2B" },
+              { i: "O", n: "OC Architecture", s: "Conseil B2B" },
+            ].map((b) => (
+              <div key={b.n} className="flex flex-col items-center">
+                <div
+                  style={{
+                    width: "80px",
+                    height: "80px",
+                    backgroundColor: "#0d1420",
+                    border: "1px solid rgba(201, 162, 78, 0.3)",
+                    borderRadius: "8px",
+                    color: "#c9a24e",
+                    fontSize: "1.5rem",
+                    fontWeight: 700,
+                  }}
+                  className="flex items-center justify-center"
+                >
+                  {b.i}
+                </div>
+                <div style={{ color: "#f7f7f7", fontSize: "0.875rem", fontWeight: 500 }} className="mt-3">
+                  {b.n}
+                </div>
+                <div style={{ color: "#a0aec0", fontSize: "0.75rem" }} className="mt-1">
+                  {b.s}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-20 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
