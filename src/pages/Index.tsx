@@ -157,15 +157,15 @@ const Index = () => {
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <div className="border-2 border-gold p-8 md:p-14">
-            <h2 className="text-[26px] md:text-5xl text-ivory text-center mb-8 md:mb-12 leading-tight">
+            <h2 className="font-serif font-normal text-[26px] md:text-[40px] text-ivory text-center mb-8 md:mb-12 leading-tight">
               Ce que Code Kaizen <span className="italic text-gold-soft">construit pour vous.</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-[0.5px] bg-gold/30">
               {benefits.map(({ id, t, d, icon: Icon }) => (
                 <div key={id} className="bg-background p-6 md:p-8 group hover:bg-secondary/30 transition-colors">
                   <Icon className="w-6 h-6 text-gold mb-5 md:mb-6 group-hover:text-gold-soft transition-colors" strokeWidth={1.2} />
-                  <h3 className="text-[18px] md:text-lg text-ivory leading-snug mb-2 md:mb-3 font-medium">{t}</h3>
-                  <p className="text-muted-foreground text-[13px] md:text-sm leading-relaxed">{d}</p>
+                  <h3 className="font-sans text-[17px] md:text-[20px] text-ivory leading-snug mb-2 md:mb-3 font-semibold">{t}</h3>
+                  <p className="text-ivory/85 text-[15px] md:text-[16px] font-normal leading-relaxed">{d}</p>
                 </div>
               ))}
             </div>
