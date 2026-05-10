@@ -112,7 +112,7 @@ const Index = () => {
       </header>
 
       {/* HERO */}
-      <section className="pt-32 sm:pt-40 md:pt-48 pb-20 md:pb-32 px-5 sm:px-6 md:px-10">
+      <section className="pt-24 sm:pt-40 md:pt-48 pb-12 sm:pb-20 md:pb-32 px-5 sm:px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
           <div className="mb-8 md:mb-10 flex justify-center">
             <Logo />
@@ -152,10 +152,10 @@ const Index = () => {
       <div className="gold-line max-w-5xl mx-auto" />
 
       {/* BÉNÉFICES */}
-      <section className="py-32 px-6 md:px-10">
+      <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <div className="border-2 border-gold p-8 md:p-14">
-            <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight">
+            <h2 className="text-3xl md:text-5xl text-ivory text-center mb-8 md:mb-12 leading-tight">
               Ce que Code Kaizen <span className="italic text-gold-soft">construit pour vous.</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-px bg-gold/30">
@@ -172,9 +172,9 @@ const Index = () => {
       </section>
 
       {/* LE MODÈLE */}
-      <section className="py-32 px-6 md:px-10">
+      <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-20">
+          <div className="text-center mb-10 md:mb-20">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Le modèle</div>
             <h2 className="font-serif text-3xl md:text-5xl text-ivory leading-tight">
               Un modèle aligné sur vos résultats.
@@ -183,7 +183,7 @@ const Index = () => {
             </h2>
           </div>
 
-          <ol className="relative space-y-12 md:space-y-16 border-l border-gold/30 pl-8 md:pl-12">
+          <ol className="relative space-y-8 md:space-y-16 border-l border-gold/30 pl-8 md:pl-12">
             {[
               {
                 n: "01",
@@ -220,9 +220,9 @@ const Index = () => {
       </section>
 
       {/* NOTRE EXPERTISE */}
-      <section className="py-32 px-6 md:px-10">
+      <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-20">
+          <div className="text-center mb-10 md:mb-20">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Notre expertise</div>
             <h2 className="text-4xl md:text-6xl text-ivory">Notre expertise.</h2>
           </div>
@@ -238,9 +238,9 @@ const Index = () => {
       </section>
 
       {/* FAQ */}
-      <section className="py-32 px-6 md:px-10 bg-secondary/30">
+      <section className="py-16 md:py-32 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl text-ivory text-center mb-16">Ce qu'on nous demande.</h2>
+          <h2 className="text-4xl md:text-5xl text-ivory text-center mb-10 md:mb-16">Ce qu'on nous demande.</h2>
           <div className="divide-y divide-border border-y border-border">
             {faqs.map((faq, i) => {
               const open = openFaq.includes(i);
@@ -268,11 +268,11 @@ const Index = () => {
       </section>
 
       {/* CONVERSION */}
-      <section id="conversion" className="py-32 px-6 md:px-10 relative overflow-hidden">
+      <section id="conversion" className="py-16 md:py-32 px-6 md:px-10 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/20 to-transparent pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
-          <div className="gold-line mb-16 max-w-3xl mx-auto" />
-          <div className="text-center mb-16">
+          <div className="gold-line mb-10 md:mb-16 max-w-3xl mx-auto" />
+          <div className="text-center mb-10 md:mb-16">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Diagnostic stratégique · 5 jours · 500€</div>
             <h2 className="text-4xl md:text-6xl text-ivory mb-6 leading-tight">
               Un pipeline qui ne s'arrête pas <span className="italic text-gold-soft">quand vous vous arrêtez.</span>
@@ -311,7 +311,7 @@ const Index = () => {
       </section>
 
       {/* FOOTER */}
-      <footer className="border-t border-border py-16 px-6 md:px-10">
+      <footer className="border-t border-border py-10 md:py-16 px-6 md:px-10">
         <div className="max-w-6xl mx-auto flex flex-col items-center gap-8">
           <Logo />
           <nav className="flex flex-wrap justify-center gap-8 text-[10px] tracking-luxe uppercase text-muted-foreground">
