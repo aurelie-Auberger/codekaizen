@@ -276,16 +276,19 @@ const Index = () => {
           <div className="text-center mb-10 md:mb-16">
             <div className="text-[10px] tracking-[0.15em] md:tracking-luxe uppercase text-gold mb-6">Diagnostic stratégique · 5 jours · 500€</div>
             <h2 className="text-[26px] md:text-6xl text-ivory mb-5 md:mb-6 leading-tight">
-              Un pipeline qui ne s'arrête pas <span className="italic text-gold-soft">quand vous vous arrêtez.</span>
+              Chaque semaine sans système, <span className="italic text-gold-soft">c'est un deal signé ailleurs.</span>
             </h2>
-            <p className="text-gold-soft italic font-serif text-sm md:text-base mb-4">Revenue, by system.</p>
+            <p className="font-serif italic text-gold text-[18px] md:text-xl mb-4">Revenue, by system.</p>
             <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed text-[13px] md:text-base">
               Le diagnostic stratégique est la première étape. 500€. 5 jours. Un plan d'action précis sur votre situation réelle.
             </p>
           </div>
 
           <div className="max-w-2xl mx-auto space-y-8">
-            <div className="pt-6 flex justify-center">
+            <div className="pt-6 flex flex-col items-center gap-4">
+              <p className="italic text-ivory text-[14px] leading-relaxed text-center">
+                Discrétion totale. Nous ne divulguons jamais l'identité de nos partenaires.
+              </p>
               <a
                 href="https://calendly.com/aurelie-codekaizen/30min"
                 target="_blank"
@@ -295,9 +298,6 @@ const Index = () => {
                 Évaluer mon éligibilité
               </a>
             </div>
-            <p className="text-center italic text-ivory/80 text-[13px] leading-relaxed mt-4">
-              Discrétion totale. Nous ne divulguons jamais l'identité de nos partenaires.
-            </p>
           </div>
         </div>
       </section>
