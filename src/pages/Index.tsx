@@ -103,7 +103,7 @@ const Index = () => {
               scrolled ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"
             }`}
           >
-            Audit Flash
+            Réserver mon diagnostic
           </button>
         </div>
       </header>
@@ -115,18 +115,21 @@ const Index = () => {
             <Logo />
           </div>
           <h1 className="font-serif text-[1.75rem] leading-[1.15] sm:text-4xl md:text-6xl lg:text-7xl md:leading-[1.1] text-ivory mb-6 md:mb-10 tracking-tight">
-            Votre prochain client ne viendra pas par hasard.
+            Votre meilleur commercial, c'est encore vous. Et votre pipeline le sait.
             <br className="hidden sm:block" />
             <span className="italic text-gold-soft block sm:inline mt-3 sm:mt-0">
-              Vous formez. On remplit votre pipeline.
+              Le système. Pas l'effort.
             </span>
           </h1>
+          <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed text-sm sm:text-base mb-8 md:mb-10">
+            Vous avez une offre qui fonctionne. Peut-être même des commerciaux. Ce qui manque, c'est la mécanique qui alimente tout ça sans dépendre de vous. Code Kaizen construit ce système — et se rémunère uniquement sur ce qui rentre.
+          </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
             <button
               onClick={() => scrollTo("conversion")}
               className="bg-gold text-ink w-full sm:w-auto px-8 sm:px-14 py-5 sm:py-6 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
             >
-              Réserver mon Audit Flash
+              Réserver mon diagnostic stratégique
             </button>
             <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-x-8 gap-y-3 text-[10px] sm:text-[11px] tracking-[0.2em] uppercase text-muted-foreground">
               <span className="flex items-center justify-center gap-2">
