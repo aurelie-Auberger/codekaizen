@@ -9,7 +9,7 @@ import {
   TrendingUp,
   Users,
   Zap,
-  ArrowDown,
+  
 } from "lucide-react";
 import Logo from "@/components/Logo";
 import TallyForm from "@/components/TallyForm";
@@ -36,12 +36,6 @@ const problems = [
   { t: "Pipeline irrégulier", d: "Votre flux de prospects dépend du bouche-à-oreille ou de l'opportunisme." },
   { t: "Closing aléatoire", d: "Des deals qualifiés sont perdus par simple manque de structure de suivi." },
   { t: "Coûts fixes toxiques", d: "Payer des frais d'agence avant d'avoir généré le moindre euro de profit." },
-];
-
-const steps = [
-  { n: "01", t: "Audit Flash gratuit", d: "Diagnostic gratuit de 30 min pour valider l'adéquation de votre offre avec notre système." },
-  { n: "02", t: "Construction", d: "Déploiement de l'infrastructure (CRM, copies, séquences) en moins de 15 jours." },
-  { n: "03", t: "Pilotage", d: "On génère les leads, on close les ventes, vous encaissez le chiffre d'affaires." },
 ];
 
 const expertise = [
@@ -161,93 +155,6 @@ const Index = () => {
 
       <div className="gold-line max-w-5xl mx-auto" />
 
-      {/* PROBLÈME / PROMESSE — 2 colonnes */}
-      <section className="py-32 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-5xl text-ivory text-center mb-20 leading-tight tracking-wide font-serif">
-            Sans système. <span className="italic text-gold-soft">Avec système.</span>
-          </h2>
-
-          <div className="relative grid grid-cols-2 gap-0">
-            {/* Ligne verticale dorée */}
-            <div
-              aria-hidden
-              className="absolute left-1/2 top-0 bottom-0 w-px"
-              style={{ backgroundColor: "#c9a24e", opacity: 0.3 }}
-            />
-
-            {/* Colonne gauche — Le hasard */}
-            <div className="pr-4 sm:pr-8 md:pr-16 py-8 md:py-10 pl-4 sm:pl-8 md:px-10" style={{ backgroundColor: "#0a1018" }}>
-              <h3
-                className="text-lg sm:text-2xl md:text-3xl mb-8 md:mb-12 font-serif tracking-wide"
-                style={{ color: "#edeae2" }}
-              >
-                Sans système
-              </h3>
-              <ul className="space-y-6 sm:space-y-8 md:space-y-10">
-                {[
-                  { t: "Revenus imprévisibles", d: "Ce mois est bon. Le suivant, vous ne savez pas. Votre chiffre d'affaires dépend de votre réseau pas de votre valeur." },
-                  { t: "Des deals qui disparaissent", d: "Vous avez des prospects intéressés. Sans suivi structuré, ils signent ailleurs. Pas parce qu'ils ne voulaient pas parce que personne n'était là pour closer." },
-                  { t: "Vous payez avant de gagner", d: "Agences, freelances, outils, la facture arrive avant les résultats." },
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2 sm:gap-4 md:gap-5">
-                    <span
-                      className="text-lg sm:text-2xl leading-none mt-0.5 flex-shrink-0 font-light"
-                      style={{ color: "#8b3a3a" }}
-                      aria-hidden
-                    >
-                      ×
-                    </span>
-                    <div>
-                      <h4 className="text-sm sm:text-base md:text-lg text-ivory mb-1 sm:mb-2 font-sans font-medium leading-snug">{item.t}</h4>
-                      <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">{item.d}</p>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Colonne droite — Le système */}
-            <div className="pl-4 sm:pl-8 md:pl-16 py-8 md:py-10 pr-4 sm:pr-8 md:px-10">
-              <h3
-                className="text-lg sm:text-2xl md:text-3xl mb-8 md:mb-12 font-serif tracking-wide"
-                style={{ color: "#c9a24e" }}
-              >
-                Avec système
-              </h3>
-              <ul className="space-y-6 sm:space-y-8 md:space-y-10">
-                {[
-                  { t: "Système outbound opérationnel en 2 semaines", d: "Pipeline actif, closing piloté." },
-                  { t: "Closing intégral pris en charge", d: "Zéro deal perdu faute de suivi." },
-                  { t: "Rémunération à la performance", d: "Vous payez sur ce qui rentre, pas sur des promesses." },
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2 sm:gap-4 md:gap-5">
-                    <span
-                      className="text-lg sm:text-2xl leading-none mt-0.5 flex-shrink-0 font-light"
-                      style={{ color: "#c9a24e" }}
-                      aria-hidden
-                    >
-                      ✓
-                    </span>
-                    <div>
-                      <h4 className="text-sm sm:text-base md:text-lg text-ivory mb-1 sm:mb-2 font-sans font-medium leading-snug">{item.t}</h4>
-                      <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">{item.d}</p>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          {/* Badge bas */}
-          <div className="flex justify-center mt-20">
-            <span className="inline-block border border-gold text-gold text-[10px] tracking-luxe uppercase px-6 py-2.5 rounded-full">
-              Rémunération sur résultats uniquement
-            </span>
-          </div>
-        </div>
-      </section>
-
       {/* BÉNÉFICES */}
       <section className="py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
@@ -313,25 +220,6 @@ const Index = () => {
               </li>
             ))}
           </ol>
-        </div>
-      </section>
-
-      {/* COMMENT ÇA MARCHE */}
-      <section className="py-32 px-6 md:px-10 bg-secondary/30">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-20">
-            <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Méthode</div>
-            <h2 className="text-4xl md:text-6xl text-ivory">Comment ça marche</h2>
-          </div>
-          <div className="grid md:grid-cols-3 gap-12 relative">
-            {steps.map((s, i) => (
-              <div key={i} className="relative">
-                <ArrowDown className="text-gold w-6 h-6 mb-6" strokeWidth={1.5} />
-                <h3 className="text-3xl text-ivory mb-4">{s.t}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{s.d}</p>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
