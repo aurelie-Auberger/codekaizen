@@ -120,7 +120,7 @@ const Index = () => {
           <h1 className="font-serif text-[2rem] leading-[1.15] sm:text-4xl md:text-6xl lg:text-7xl md:leading-[1.1] text-ivory mb-5 md:mb-10 tracking-tight">
             Votre pipeline ne devrait pas dépendre de vous.
           </h1>
-          <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed text-[15px] sm:text-base mb-8 md:mb-10">
+          <p className="text-muted-foreground max-w-2xl mx-auto text-[15px] leading-[1.6] sm:text-base sm:leading-relaxed mb-8 md:mb-10">
             Vous avez une offre. Ce qui manque, c'est le système qui la vend sans que vous soyez dans chaque deal.
           </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
