@@ -123,7 +123,7 @@ const Index = () => {
       </header>
 
       {/* HERO */}
-      <section className="min-h-screen flex items-center pt-24 md:pt-28 pb-10 md:pb-16 px-5 sm:px-6 md:px-10">
+      <section className="min-h-screen flex items-center py-10 md:py-16 px-5 sm:px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center w-full">
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[3.75rem] xl:text-[4rem] leading-[1.1] text-ivory mb-8 md:mb-12 tracking-tight max-w-5xl mx-auto">
             Votre meilleur commercial, c'est encore vous. Ce n'est pas un compliment.
