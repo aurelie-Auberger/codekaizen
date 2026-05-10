@@ -160,7 +160,7 @@ const Index = () => {
             <h2 className="text-[26px] md:text-5xl text-ivory text-center mb-8 md:mb-12 leading-tight">
               Ce que Code Kaizen <span className="italic text-gold-soft">construit pour vous.</span>
             </h2>
-            <div className="grid md:grid-cols-2 gap-px bg-gold/30">
+            <div className="grid md:grid-cols-2 gap-[0.5px] bg-gold/30">
               {benefits.map(({ id, t, d, icon: Icon }) => (
                 <div key={id} className="bg-background p-6 md:p-8 group hover:bg-secondary/30 transition-colors">
                   <Icon className="w-6 h-6 text-gold mb-5 md:mb-6 group-hover:text-gold-soft transition-colors" strokeWidth={1.2} />
