@@ -155,43 +155,6 @@ const Index = () => {
 
       <div className="gold-line max-w-5xl mx-auto" />
 
-      {/* TICKER */}
-      <section
-        aria-label="Bénéfices clés"
-        className="overflow-hidden flex items-center"
-        style={{ backgroundColor: "#c9a24e", height: "44px" }}
-      >
-        <style>{`@keyframes ck-ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}`}</style>
-        <div
-          className="flex whitespace-nowrap"
-          style={{ animation: "ck-ticker 30s linear infinite" }}
-        >
-          {[0, 1].map((k) => (
-            <ul
-              key={k}
-              aria-hidden={k === 1}
-              className="flex shrink-0 items-center"
-              style={{ color: "#0d1420", fontWeight: 600, fontSize: "0.875rem" }}
-            >
-              {[
-                "Pipeline prévisible chaque mois",
-                "Zéro dépendance au réseau fondateur",
-                "Système actif en 30 jours",
-                "10% uniquement sur résultats encaissés",
-                "Diagnostic en 5 jours",
-                "Zéro coût fixe",
-                "Premiers rendez-vous entrants dès le premier mois",
-              ].map((t, i) => (
-                <li key={i} className="flex items-center">
-                  <span className="px-6">{t}</span>
-                  <span aria-hidden>·</span>
-                </li>
-              ))}
-            </ul>
-          ))}
-        </div>
-      </section>
-
       {/* BÉNÉFICES */}
       <section className="py-10 md:py-16 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
