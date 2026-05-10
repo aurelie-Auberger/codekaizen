@@ -115,9 +115,6 @@ const Index = () => {
       {/* HERO */}
       <section className="pt-24 sm:pt-40 md:pt-48 pb-12 sm:pb-20 md:pb-32 px-5 sm:px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
-          <div className="mb-8 md:mb-10 flex justify-center">
-            <Logo />
-          </div>
           <h1 className="font-serif text-[2rem] leading-[1.15] sm:text-4xl md:text-6xl lg:text-7xl md:leading-[1.1] text-ivory mb-5 md:mb-10 tracking-tight">
             Votre pipeline ne devrait pas dépendre de vous.
           </h1>
