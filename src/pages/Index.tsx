@@ -47,9 +47,9 @@ const expertise = [
 const faqs = [
   { q: "Pour qui est-ce fait ?", r: "Pour les fondateurs et dirigeants B2B dont l'offre est validée, le ticket supérieur à 5 000€, et la croissance encore dépendante du réseau ou de l'effort individuel. Pas pour ceux qui cherchent une agence prestataire classique." },
   { q: "Qu'est-ce que le diagnostic stratégique ?", r: "Un audit de votre situation commerciale : qui cibler, par quel canal, avec quel message, et ce qui bloque aujourd'hui. Livrable structuré en 5 jours. 500€, déductibles si vous continuez avec Code Kaizen." },
-  { q: "Comment fonctionne la commission ?", r: "Code Kaizen est rémunéré uniquement sur les encaissements générés — pas sur les leads, pas sur les rendez-vous. Si rien ne rentre, rien n'est dû." },
+  { q: "Comment fonctionne la commission ?", r: "Code Kaizen est rémunéré uniquement sur les encaissements générés, pas sur les leads, pas sur les rendez-vous. Si rien ne rentre, rien n'est dû." },
   { q: "Que se passe-t-il après 6 mois ?", r: "Vous pouvez acquérir le système complet : workflow, séquences, CRM, scripts et documentation. Formation à la prise en main incluse. Le système devient votre propriété." },
-  { q: "Quels sont les délais réalistes ?", r: "Le diagnostic est livré en 5 jours. Le système est opérationnel sous 30 jours. Les premiers résultats dépendent de votre cycle de vente — entre 30 et 90 jours selon le ticket et le marché." },
+  { q: "Quels sont les délais réalistes ?", r: "Le diagnostic est livré en 5 jours. Le système est opérationnel sous 30 jours. Les premiers résultats dépendent de votre cycle de vente, du ticket et du marché." },
 ];
 
 const Index = () => {
@@ -125,7 +125,7 @@ const Index = () => {
             </span>
           </h1>
           <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed text-sm sm:text-base mb-8 md:mb-10">
-            Vous avez une offre qui fonctionne. Peut-être même des commerciaux. Ce qui manque, c'est la mécanique qui alimente tout ça sans dépendre de vous. Code Kaizen construit ce système — et se rémunère uniquement sur ce qui rentre.
+            Vous avez une offre qui fonctionne. Peut-être même des commerciaux. Ce qui manque, c'est la mécanique qui alimente tout ça sans dépendre de vous. Code Kaizen construit ce système et se rémunère uniquement sur ce qui rentre.
           </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
             <button
