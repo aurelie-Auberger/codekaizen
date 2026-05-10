@@ -38,12 +38,6 @@ const problems = [
   { t: "Coûts fixes toxiques", d: "Payer des frais d'agence avant d'avoir généré le moindre euro de profit." },
 ];
 
-const steps = [
-  { n: "01", t: "Audit Flash gratuit", d: "Diagnostic gratuit de 30 min pour valider l'adéquation de votre offre avec notre système." },
-  { n: "02", t: "Construction", d: "Déploiement de l'infrastructure (CRM, copies, séquences) en moins de 15 jours." },
-  { n: "03", t: "Pilotage", d: "On génère les leads, on close les ventes, vous encaissez le chiffre d'affaires." },
-];
-
 const expertise = [
   { t: "Outbound B2B structuré", d: "Construction de systèmes de prospection multicanal : LinkedIn, cold email, séquences automatisées. Ciblage ICP, enrichissement de données, A/B test sur les accroches. De zéro à pipeline actif." },
   { t: "Closing et conversion", d: "Qualification des leads entrants, scripts d'argumentation, traitement des objections. Accompagnement jusqu'à la signature et au premier encaissement." },
