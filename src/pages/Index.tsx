@@ -389,12 +389,13 @@ const Index = () => {
         <div className="max-w-6xl mx-auto relative">
           <div className="gold-line mb-16 max-w-3xl mx-auto" />
           <div className="text-center mb-16">
-            <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Audit Flash · 30 min · Gratuit</div>
+            <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Diagnostic stratégique · 5 jours · 500€</div>
             <h2 className="text-4xl md:text-6xl text-ivory mb-6 leading-tight">
-              Réservez votre <span className="italic text-gold-soft">Audit Flash</span>
+              Un pipeline qui ne s'arrête pas <span className="italic text-gold-soft">quand vous vous arrêtez.</span>
             </h2>
+            <p className="text-gold-soft italic font-serif mb-4">Revenue, by system.</p>
             <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
-              30 minutes. Gratuit. Sans engagement.
+              Le diagnostic stratégique est la première étape. 500€. 5 jours. Un plan d'action précis sur votre situation réelle.
             </p>
           </div>
 
@@ -403,7 +404,7 @@ const Index = () => {
             <aside className="lg:sticky lg:top-32 space-y-8 lg:py-4">
               {[
                 { t: "Confidentialité totale", d: "Vos informations restent strictement entre nous. Aucun partage, aucun démarchage." },
-                { t: "Sans engagement", d: "L'audit est offert. Vous repartez avec un diagnostic actionnable, même sans collaboration." },
+                { t: "Diagnostic déductible", d: "Les 500€ du diagnostic sont déduits si vous poursuivez avec Code Kaizen." },
                 
               ].map((item, i) => (
                 <div key={i} className="flex gap-4">
