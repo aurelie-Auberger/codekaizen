@@ -117,10 +117,10 @@ const Index = () => {
           <div className="mb-8 md:mb-10 flex justify-center">
             <Logo />
           </div>
-          <h1 className="font-serif text-[1.75rem] leading-[1.15] sm:text-4xl md:text-6xl lg:text-7xl md:leading-[1.1] text-ivory mb-6 md:mb-10 tracking-tight">
+          <h1 className="font-serif text-[2rem] leading-[1.15] sm:text-4xl md:text-6xl lg:text-7xl md:leading-[1.1] text-ivory mb-5 md:mb-10 tracking-tight">
             Votre pipeline ne devrait pas dépendre de vous.
           </h1>
-          <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed text-sm sm:text-base mb-8 md:mb-10">
+          <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed text-[15px] sm:text-base mb-8 md:mb-10">
             Vous avez une offre. Ce qui manque, c'est le système qui la vend sans que vous soyez dans chaque deal.
           </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
@@ -155,15 +155,15 @@ const Index = () => {
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <div className="border-2 border-gold p-8 md:p-14">
-            <h2 className="text-3xl md:text-5xl text-ivory text-center mb-8 md:mb-12 leading-tight">
+            <h2 className="text-2xl md:text-5xl text-ivory text-center mb-8 md:mb-12 leading-tight">
               Ce que Code Kaizen <span className="italic text-gold-soft">construit pour vous.</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-px bg-gold/30">
               {benefits.map(({ id, t, d, icon: Icon }) => (
-                <div key={id} className="bg-background p-8 group hover:bg-secondary/30 transition-colors">
-                  <Icon className="w-6 h-6 text-gold mb-6 group-hover:text-gold-soft transition-colors" strokeWidth={1.2} />
-                  <h3 className="text-lg text-ivory leading-snug mb-3">{t}</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">{d}</p>
+                <div key={id} className="bg-background p-6 md:p-8 group hover:bg-secondary/30 transition-colors">
+                  <Icon className="w-6 h-6 text-gold mb-5 md:mb-6 group-hover:text-gold-soft transition-colors" strokeWidth={1.2} />
+                  <h3 className="text-base md:text-lg text-ivory leading-snug mb-2 md:mb-3 font-medium">{t}</h3>
+                  <p className="text-muted-foreground text-[13px] md:text-sm leading-relaxed">{d}</p>
                 </div>
               ))}
             </div>
@@ -176,7 +176,7 @@ const Index = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10 md:mb-20">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Le modèle</div>
-            <h2 className="font-serif text-3xl md:text-5xl text-ivory leading-tight">
+            <h2 className="font-serif text-2xl md:text-5xl text-ivory leading-tight">
               Un modèle aligné sur vos résultats.
               <br />
               <span className="italic text-gold-soft">Vous ne payez que ce qui produit.</span>
@@ -207,10 +207,10 @@ const Index = () => {
                 >
                   {step.n}
                 </span>
-                <h3 className="font-serif text-xl md:text-2xl text-ivory mb-3 leading-snug">
+                <h3 className="font-serif text-lg md:text-2xl text-ivory mb-2 md:mb-3 leading-snug">
                   {step.t}
                 </h3>
-                <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
+                <p className="text-muted-foreground text-[13px] md:text-base leading-relaxed">
                   {step.d}
                 </p>
               </li>
@@ -224,13 +224,13 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10 md:mb-20">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Notre expertise</div>
-            <h2 className="text-4xl md:text-6xl text-ivory">Notre expertise.</h2>
+            <h2 className="text-3xl md:text-6xl text-ivory">Notre expertise.</h2>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             {expertise.map((card, i) => (
-              <article key={i} className="border border-border p-10 hover:border-gold/50 transition-colors">
-                <h3 className="text-2xl text-gold-soft mb-6">{card.t}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{card.d}</p>
+              <article key={i} className="border border-border p-6 md:p-10 hover:border-gold/50 transition-colors">
+                <h3 className="text-lg md:text-2xl text-gold-soft mb-3 md:mb-6">{card.t}</h3>
+                <p className="text-muted-foreground text-[13px] md:text-sm leading-relaxed">{card.d}</p>
               </article>
             ))}
           </div>
@@ -240,7 +240,7 @@ const Index = () => {
       {/* FAQ */}
       <section className="py-16 md:py-32 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl text-ivory text-center mb-10 md:mb-16">Ce qu'on nous demande.</h2>
+          <h2 className="text-3xl md:text-5xl text-ivory text-center mb-10 md:mb-16">Ce qu'on nous demande.</h2>
           <div className="divide-y divide-border border-y border-border">
             {faqs.map((faq, i) => {
               const open = openFaq.includes(i);
@@ -250,7 +250,7 @@ const Index = () => {
                     onClick={() => toggleFaq(i)}
                     className="w-full py-6 flex justify-between items-center text-left hover:text-gold transition-colors group"
                   >
-                    <span className="text-lg text-ivory group-hover:text-gold transition-colors pr-6">{faq.q}</span>
+                    <span className="text-base md:text-lg text-ivory group-hover:text-gold transition-colors pr-6 font-medium">{faq.q}</span>
                     <ChevronDown
                       className={`w-4 h-4 text-gold flex-shrink-0 transition-transform duration-300 ${open ? "rotate-180" : ""}`}
                     />
@@ -258,7 +258,7 @@ const Index = () => {
                   <div
                     className={`overflow-hidden transition-all duration-500 ${open ? "max-h-40 pb-6" : "max-h-0"}`}
                   >
-                    <p className="text-muted-foreground leading-relaxed text-sm">{faq.r}</p>
+                    <p className="text-muted-foreground leading-relaxed text-[13px] md:text-sm">{faq.r}</p>
                   </div>
                 </div>
               );
@@ -274,11 +274,11 @@ const Index = () => {
           <div className="gold-line mb-10 md:mb-16 max-w-3xl mx-auto" />
           <div className="text-center mb-10 md:mb-16">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Diagnostic stratégique · 5 jours · 500€</div>
-            <h2 className="text-4xl md:text-6xl text-ivory mb-6 leading-tight">
+            <h2 className="text-3xl md:text-6xl text-ivory mb-5 md:mb-6 leading-tight">
               Un pipeline qui ne s'arrête pas <span className="italic text-gold-soft">quand vous vous arrêtez.</span>
             </h2>
-            <p className="text-gold-soft italic font-serif mb-4">Revenue, by system.</p>
-            <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
+            <p className="text-gold-soft italic font-serif text-sm md:text-base mb-4">Revenue, by system.</p>
+            <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed text-[13px] md:text-base">
               Le diagnostic stratégique est la première étape. 500€. 5 jours. Un plan d'action précis sur votre situation réelle.
             </p>
           </div>
@@ -291,8 +291,8 @@ const Index = () => {
               <div key={i} className="flex gap-4">
                 <div className="flex-shrink-0 w-2 h-2 mt-2 rounded-full bg-gold" />
                 <div>
-                  <h3 className="text-ivory text-base mb-1.5 font-sans font-medium">{item.t}</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">{item.d}</p>
+                  <h3 className="text-ivory text-sm md:text-base mb-1.5 font-sans font-medium">{item.t}</h3>
+                  <p className="text-muted-foreground text-[13px] md:text-sm leading-relaxed">{item.d}</p>
                 </div>
               </div>
             ))}
