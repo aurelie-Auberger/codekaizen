@@ -12,7 +12,7 @@ import {
   
 } from "lucide-react";
 import Logo from "@/components/Logo";
-import TallyForm from "@/components/TallyForm";
+
 
 const benefits = [
   { id: "01", t: "ICP et ciblage", d: "Identification précise de vos prospects idéaux. Chaque contact ciblé correspond à un décideur qui a une raison réelle d'acheter ce que vous vendez.", icon: Target },
@@ -228,7 +228,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Notre expertise</div>
-            <h2 className="text-4xl md:text-6xl text-ivory">Trois savoir-faire, un système.</h2>
+            <h2 className="text-4xl md:text-6xl text-ivory">Notre expertise.</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {expertise.map((card, i) => (
@@ -244,7 +244,7 @@ const Index = () => {
       {/* FAQ */}
       <section className="py-32 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl text-ivory text-center mb-16">Questions fréquentes</h2>
+          <h2 className="text-4xl md:text-5xl text-ivory text-center mb-16">Ce qu'on nous demande.</h2>
           <div className="divide-y divide-border border-y border-border">
             {faqs.map((faq, i) => {
               const open = openFaq.includes(i);
@@ -287,44 +287,28 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-[1fr_1.4fr] gap-10 items-start">
-            {/* Assurances */}
-            <aside className="lg:sticky lg:top-32 space-y-8 lg:py-4">
-              {[
-                { t: "Confidentialité totale", d: "Vos informations restent strictement entre nous. Aucun partage, aucun démarchage." },
-                { t: "Diagnostic déductible", d: "Les 500€ du diagnostic sont déduits si vous poursuivez avec Code Kaizen." },
-                
-              ].map((item, i) => (
-                <div key={i} className="flex gap-4">
-                  <div className="flex-shrink-0 w-2 h-2 mt-2 rounded-full bg-gold" />
-                  <div>
-                    <h3 className="text-ivory text-base mb-1.5 font-sans font-medium">{item.t}</h3>
-                    <p className="text-muted-foreground text-sm leading-relaxed">{item.d}</p>
-                  </div>
+          <div className="max-w-2xl mx-auto space-y-8">
+            {[
+              { t: "Confidentialité totale", d: "Vos informations restent strictement entre nous. Aucun partage, aucun démarchage." },
+              { t: "Diagnostic déductible", d: "Les 500€ du diagnostic sont déduits si vous poursuivez avec Code Kaizen." },
+            ].map((item, i) => (
+              <div key={i} className="flex gap-4">
+                <div className="flex-shrink-0 w-2 h-2 mt-2 rounded-full bg-gold" />
+                <div>
+                  <h3 className="text-ivory text-base mb-1.5 font-sans font-medium">{item.t}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{item.d}</p>
                 </div>
-              ))}
-            </aside>
-
-            {/* Form card */}
-            <div className="relative">
-              <div className="absolute -inset-px bg-gradient-to-br from-gold/40 via-transparent to-gold/10 rounded-[3px] pointer-events-none" />
-              <div className="relative bg-background border border-border p-6 sm:p-10 rounded-[2px]">
-                <div className="flex items-center justify-between mb-8 pb-6 border-b border-border">
-                  <div>
-                    <div className="text-[10px] tracking-luxe uppercase text-gold mb-1">Formulaire sécurisé</div>
-                    <div className="text-ivory text-sm font-sans">Quelques informations pour préparer l'échange.</div>
-                  </div>
-                  <div className="hidden sm:flex items-end gap-[3px] h-5">
-                    <span className="block w-[2px] h-2 bg-gold/60" />
-                    <span className="block w-[2px] h-3 bg-gold/80" />
-                    <span className="block w-[2px] h-5 bg-gold" />
-                  </div>
-                </div>
-                <TallyForm />
               </div>
-              <p className="text-[10px] tracking-luxe uppercase text-muted-foreground mt-6 text-center">
-                Vos données restent confidentielles. Aucun démarchage.
-              </p>
+            ))}
+            <div className="pt-6 flex justify-center">
+              <a
+                href="https://calendly.com/aurelie-codekaizen/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gold text-ink px-10 sm:px-14 py-5 sm:py-6 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
+              >
+                Évaluer mon éligibilité
+              </a>
             </div>
           </div>
         </div>
