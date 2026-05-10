@@ -438,17 +438,17 @@ const Index = () => {
       </section>
 
       {/* CONVERSION */}
-      <section id="conversion" className="py-20 px-6 md:px-10 relative overflow-hidden">
+      <section id="formulaire" className="py-20 px-6 md:px-10 relative overflow-hidden scroll-mt-32">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/20 to-transparent pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
           <div className="gold-line mb-12 max-w-3xl mx-auto" />
           <div className="text-center mb-12">
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Audit Flash · 30 min · Gratuit</div>
             <h2 className="text-3xl md:text-5xl text-ivory mb-6 leading-tight font-serif">
-              Vous voulez savoir si ça peut marcher <span className="italic text-gold-soft">pour vous</span> ?
+              Réservez votre <span className="italic text-gold-soft">Diagnostic</span>
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              En 30 minutes, vous repartez avec un diagnostic clair de ce qui bloque votre acquisition — que vous travailliez avec nous ou non.
+              Répondez aux questions ci-dessous. Nous revenons vers vous sous 2 heures pour confirmer votre créneau.
             </p>
           </div>
 
