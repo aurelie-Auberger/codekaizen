@@ -404,7 +404,7 @@ const Index = () => {
             <aside className="lg:sticky lg:top-32 space-y-8 lg:py-4">
               {[
                 { t: "Confidentialité totale", d: "Vos informations restent strictement entre nous. Aucun partage, aucun démarchage." },
-                { t: "Sans engagement", d: "L'audit est offert. Vous repartez avec un diagnostic actionnable, même sans collaboration." },
+                { t: "Diagnostic déductible", d: "Les 500€ du diagnostic sont déduits si vous poursuivez avec Code Kaizen." },
                 
               ].map((item, i) => (
                 <div key={i} className="flex gap-4">
