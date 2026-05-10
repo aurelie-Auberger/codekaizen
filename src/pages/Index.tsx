@@ -113,7 +113,7 @@ const Index = () => {
           </button>
           <button
             onClick={() => scrollTo("formulaire")}
-            className={`border border-gold text-gold px-6 py-2.5 text-[10px] tracking-luxe uppercase font-semibold hover:bg-gold hover:text-ink transition-all duration-500 ${
+            className={`border border-gold text-gold px-6 py-2.5 text-[10px] tracking-[0.02em] font-semibold hover:bg-gold hover:text-ink transition-all duration-500 ${
               scrolled ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"
             }`}
           >
@@ -137,7 +137,7 @@ const Index = () => {
             </p>
             <button
               onClick={() => scrollTo("formulaire")}
-              className="bg-gold text-ink px-8 sm:px-12 py-4 sm:py-5 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
+              className="bg-gold text-ink px-8 sm:px-12 py-4 sm:py-5 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-[0.02em] hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)] block w-full max-w-[280px] mx-auto sm:inline-block sm:w-auto sm:max-w-none"
             >
               Obtenir mon Diagnostic
             </button>
@@ -402,7 +402,7 @@ const Index = () => {
           <div className="flex justify-center mt-12">
             <button
               onClick={() => scrollTo("formulaire")}
-              className="bg-gold text-ink px-8 sm:px-14 py-5 sm:py-6 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
+              className="bg-gold text-ink px-8 sm:px-14 py-5 sm:py-6 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-[0.02em] hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)] block w-full max-w-[280px] mx-auto sm:inline-block sm:w-auto sm:max-w-none"
             >
               Obtenir mon Diagnostic
             </button>
