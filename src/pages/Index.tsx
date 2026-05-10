@@ -132,7 +132,7 @@ const Index = () => {
               onClick={() => scrollTo("conversion")}
               className="bg-gold text-ink w-full sm:w-auto px-8 sm:px-14 py-5 sm:py-6 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
             >
-              Réserver mon diagnostic stratégique
+              Évaluer mon éligibilité
             </button>
           </div>
         </div>
