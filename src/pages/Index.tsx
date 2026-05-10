@@ -254,50 +254,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-
-      {/* PREUVES SOCIALES */}
-      <section className="py-20 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-14">
-            <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Études de cas</div>
-            <h2 className="text-3xl md:text-5xl text-ivory leading-tight font-serif">Des résultats, pas des promesses.</h2>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {cases.map((card, i) => (
-              <article key={i} className="border border-border p-10 hover:border-gold/50 transition-colors">
-                <div className="mb-6">
-                  <div className="text-[10px] tracking-luxe uppercase text-muted-foreground mb-3">{card.c}</div>
-                  <h3 className="text-2xl text-gold-soft">{card.s}</h3>
-                </div>
-                <p className="text-muted-foreground text-sm leading-relaxed">{card.d}</p>
-                {card.q && (
-                  <p className="mt-6 pt-6 border-t border-border italic text-sm leading-relaxed" style={{ color: '#c9a24e' }}>
-                    "{card.q}"
-                  </p>
-                )}
-              </article>
-            ))}
-          </div>
-
-          <div className="mt-20 flex flex-col items-center gap-6 md:gap-8">
-            <button
-              onClick={() => scrollTo("conversion")}
-              className="bg-gold text-ink w-full sm:w-auto px-8 sm:px-14 py-5 sm:py-6 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
-            >
-              Obtenir mon Diagnostic — 800 EUR HT
-            </button>
-            <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-x-8 gap-y-3 text-xs sm:text-sm tracking-[0.2em] uppercase text-ivory/80 font-semibold">
-              <span className="flex items-center justify-center gap-2.5">
-                <Clock className="w-4 h-4 text-gold flex-shrink-0" /> Système actif en 14 jours
-              </span>
-              <span className="flex items-center justify-center gap-2.5">
-                <Zap className="w-4 h-4 text-gold flex-shrink-0" /> Zéro frais fixe
-              </span>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* CONFIANCE */}
       <section className="px-6 md:px-10" style={{ paddingTop: "64px", paddingBottom: "64px" }}>
         <div className="max-w-3xl mx-auto text-center">
