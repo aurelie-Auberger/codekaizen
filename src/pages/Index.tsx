@@ -260,12 +260,25 @@ const Index = () => {
           <h2 className="text-3xl md:text-5xl text-ivory mb-12 leading-tight font-serif">
             Ils nous ont fait confiance
           </h2>
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8">
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "center",
+              flexWrap: "wrap",
+              gap: "32px",
+            }}
+          >
             {[
               { i: "S", n: "SpecGen", s: "SaaS IA B2B" },
               { i: "O", n: "OC Architecture", s: "Conseil B2B" },
+              { i: "I", n: "ISSSA", s: "Conseil B2B" },
             ].map((b) => (
-              <div key={b.n} className="flex flex-col items-center">
+              <div
+                key={b.n}
+                style={{ width: "120px", textAlign: "center" }}
+                className="flex flex-col items-center"
+              >
                 <div
                   style={{
                     width: "80px",
@@ -281,10 +294,10 @@ const Index = () => {
                 >
                   {b.i}
                 </div>
-                <div style={{ color: "#f7f7f7", fontSize: "0.875rem", fontWeight: 500 }} className="mt-3">
+                <div style={{ color: "#f7f7f7", fontSize: "0.875rem", fontWeight: 500, marginTop: "12px" }}>
                   {b.n}
                 </div>
-                <div style={{ color: "#a0aec0", fontSize: "0.75rem" }} className="mt-1">
+                <div style={{ color: "#a0aec0", fontSize: "0.75rem", marginTop: "4px" }}>
                   {b.s}
                 </div>
               </div>
