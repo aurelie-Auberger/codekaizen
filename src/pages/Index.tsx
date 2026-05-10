@@ -132,9 +132,6 @@ const Index = () => {
             <p className="max-w-3xl text-center text-sm sm:text-base md:text-lg leading-relaxed text-muted-foreground px-2">
               Chaque mois sans système d'acquisition, c'est un mois où votre pipeline dépend d'un appel que quelqu'un accepte de vous passer. Code Kaizen construit l'infrastructure qui change ça.
             </p>
-            <p className="max-w-3xl text-center text-sm sm:text-base md:text-lg leading-relaxed px-2" style={{ color: '#a0aec0' }}>
-              Vous avez validé votre offre. Vos clients ont besoin de vous. Ce qui manque, ce n'est pas le produit. C'est le système qui l'amène aux bons prospects, sans que vous ayez à le chercher vous-même.
-            </p>
             <button
               onClick={() => scrollTo("formulaire")}
               className="bg-gold text-ink px-8 sm:px-12 py-4 sm:py-5 rounded-[2px] font-bold text-[11px] sm:text-xs tracking-[0.02em] hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)] block w-full max-w-[280px] mx-auto sm:inline-block sm:w-auto sm:max-w-none"
@@ -200,18 +197,6 @@ const Index = () => {
                 <h3 style={{ color: "#f7f7f7", fontWeight: 600, fontSize: "1.1rem" }} className="mb-2">
                   {s.t}
                 </h3>
-                <p
-                  style={{
-                    color: "#a0aec0",
-                    fontSize: "0.875rem",
-                    display: "-webkit-box",
-                    WebkitLineClamp: 2,
-                    WebkitBoxOrient: "vertical",
-                    overflow: "hidden",
-                  }}
-                >
-                  {s.d}
-                </p>
               </div>
             ))}
           </div>
@@ -322,13 +307,7 @@ const Index = () => {
           </h2>
           <div className="space-y-8 text-muted-foreground leading-relaxed">
             <p>
-              Un fondateur B2B qui prospecte manuellement consacre en moyenne <span style={{ color: "#c9a24e" }}>30%</span> de son temps à une activité qui devrait être systématisée. À un taux journalier de <span style={{ color: "#c9a24e" }}>800 EUR</span>, c'est entre <span style={{ color: "#c9a24e" }}>40 000 et 60 000 EUR</span> de capacité productive mobilisée chaque année sur de la prospection artisanale. Pendant ce temps, votre pipeline reste otage de votre agenda personnel.
-            </p>
-            <p>
               Un recrutement commercial sans infrastructure coûte en moyenne <span style={{ color: "#c9a24e" }}>45 000 EUR</span> sur <span style={{ color: "#c9a24e" }}>12 mois</span> pour un résultat aléatoire. La cause principale d'échec d'un premier commercial est identique dans <span style={{ color: "#c9a24e" }}>80%</span> des cas : l'absence de système dans lequel travailler. Vous ne résolvez pas le problème en ajoutant une personne. Vous le déplacez.
-            </p>
-            <p>
-              Chaque mois sans système d'acquisition est un mois où votre pipeline dépend d'un événement que vous ne contrôlez pas. Vos concurrents qui construisent leur infrastructure aujourd'hui auront une longueur d'avance structurelle dans <span style={{ color: "#c9a24e" }}>12 mois</span>. Le bon moment pour construire le système, c'était il y a <span style={{ color: "#c9a24e" }}>18 mois</span>. Le deuxième meilleur moment, c'est maintenant.
             </p>
           </div>
           <div className="flex justify-center mt-12">
@@ -383,7 +362,7 @@ const Index = () => {
               Réservez votre Diagnostic
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Répondez aux questions ci-dessous. Nous revenons vers vous sous 2 heures pour confirmer votre créneau.
+              Choisissez votre créneau directement. L'appel dure 30 minutes.
             </p>
           </div>
 
