@@ -253,15 +253,14 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="border-2 border-gold p-8 md:p-14">
             <h2 className="text-3xl md:text-5xl text-ivory text-center mb-12 leading-tight">
-              Ingénierie d'acquisition,
-              <br />
-              <span className="italic text-gold-soft">ce que vous obtenez.</span>
+              Ce que Code Kaizen <span className="italic text-gold-soft">construit pour vous.</span>
             </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-gold/30">
-              {benefits.map(({ id, t, icon: Icon }) => (
+            <div className="grid md:grid-cols-2 gap-px bg-gold/30">
+              {benefits.map(({ id, t, d, icon: Icon }) => (
                 <div key={id} className="bg-background p-8 group hover:bg-secondary/30 transition-colors">
                   <Icon className="w-6 h-6 text-gold mb-6 group-hover:text-gold-soft transition-colors" strokeWidth={1.2} />
-                  <h3 className="text-lg text-ivory leading-snug">{t}</h3>
+                  <h3 className="text-lg text-ivory leading-snug mb-3">{t}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{d}</p>
                 </div>
               ))}
             </div>
