@@ -251,7 +251,7 @@ const Index = () => {
                     onClick={() => toggleFaq(i)}
                     className="w-full py-6 flex justify-between items-center text-left hover:text-gold transition-colors group"
                   >
-                    <span className="text-base md:text-lg text-ivory group-hover:text-gold transition-colors pr-6 font-medium">{faq.q}</span>
+                    <span className="font-sans text-[17px] md:text-[20px] text-ivory group-hover:text-gold transition-colors pr-6 font-semibold">{faq.q}</span>
                     <ChevronDown
                       className={`w-4 h-4 text-gold flex-shrink-0 transition-transform duration-300 ${open ? "rotate-180" : ""}`}
                     />
@@ -259,7 +259,7 @@ const Index = () => {
                   <div
                     className={`overflow-hidden transition-all duration-500 ${open ? "max-h-40 pb-6" : "max-h-0"}`}
                   >
-                    <p className="text-muted-foreground leading-relaxed text-[13px] md:text-sm">{faq.r}</p>
+                    <p className="text-ivory/85 leading-relaxed text-[15px] md:text-[16px] font-normal">{faq.r}</p>
                   </div>
                 </div>
               );
