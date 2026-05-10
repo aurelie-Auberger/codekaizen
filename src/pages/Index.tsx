@@ -51,11 +51,11 @@ const expertise = [
 ];
 
 const faqs = [
-  { q: "Comment vous rémunérez-vous ?", r: "Nous prélevons une commission uniquement sur le CA encaissé via notre système. Aucun frais fixe, aucun risque pour vous." },
-  { q: "Qui gère le closing ?", r: "Nos équipes s'occupent de tout : qualification, argumentation et signature. Vous n'intervenez que pour la livraison du service." },
-  { q: "Est-ce adapté aux offres complexes ?", r: "C'est notre spécialité. Plus l'offre est premium et technique, plus notre système est performant." },
-  { q: "En combien de temps voit-on des ventes ?", r: "Le système est prêt en 15 jours. Les premières ventes surviennent généralement rapidement après le lancement." },
-  { q: "Le système m'appartient-il ?", r: "Oui. Vous pouvez racheter l'intégralité du workflow et de la data à tout moment pour 5 000€." },
+  { q: "Pour qui est-ce fait ?", r: "Pour les fondateurs et dirigeants B2B dont l'offre est validée, le ticket supérieur à 5 000€, et la croissance encore dépendante du réseau ou de l'effort individuel. Pas pour ceux qui cherchent une agence prestataire classique." },
+  { q: "Qu'est-ce que le diagnostic stratégique ?", r: "Un audit de votre situation commerciale : qui cibler, par quel canal, avec quel message, et ce qui bloque aujourd'hui. Livrable structuré en 5 jours. 500€, déductibles si vous continuez avec Code Kaizen." },
+  { q: "Comment fonctionne la commission ?", r: "Code Kaizen est rémunéré uniquement sur les encaissements générés — pas sur les leads, pas sur les rendez-vous. Si rien ne rentre, rien n'est dû." },
+  { q: "Que se passe-t-il après 6 mois ?", r: "Vous pouvez acquérir le système complet : workflow, séquences, CRM, scripts et documentation. Formation à la prise en main incluse. Le système devient votre propriété." },
+  { q: "Quels sont les délais réalistes ?", r: "Le diagnostic est livré en 5 jours. Le système est opérationnel sous 30 jours. Les premiers résultats dépendent de votre cycle de vente — entre 30 et 90 jours selon le ticket et le marché." },
 ];
 
 const Index = () => {
