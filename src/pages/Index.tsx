@@ -12,7 +12,7 @@ import {
   
 } from "lucide-react";
 import Logo from "@/components/Logo";
-import TallyForm from "@/components/TallyForm";
+
 
 const benefits = [
   { id: "01", t: "ICP et ciblage", d: "Identification précise de vos prospects idéaux. Chaque contact ciblé correspond à un décideur qui a une raison réelle d'acheter ce que vous vendez.", icon: Target },
