@@ -162,7 +162,7 @@ const Index = () => {
               {benefits.map(({ id, t, d, icon: Icon }) => (
                 <div key={id} className="bg-background p-6 md:p-8 group hover:bg-secondary/30 transition-colors">
                   <Icon className="w-6 h-6 text-gold mb-5 md:mb-6 group-hover:text-gold-soft transition-colors" strokeWidth={1.2} />
-                  <h3 className="text-[20px] md:text-lg text-ivory leading-snug mb-2 md:mb-3 font-medium">{t}</h3>
+                  <h3 className="text-[18px] md:text-lg text-ivory leading-snug mb-2 md:mb-3 font-medium">{t}</h3>
                   <p className="text-muted-foreground text-[13px] md:text-sm leading-relaxed">{d}</p>
                 </div>
               ))}
