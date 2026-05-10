@@ -155,97 +155,40 @@ const Index = () => {
 
       <div className="gold-line max-w-5xl mx-auto" />
 
-      {/* PROBLÈME / PROMESSE — 2 colonnes */}
-      <section className="py-20 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-5xl text-ivory text-center mb-14 leading-tight tracking-wide font-serif">
-            Sans système. <span className="italic text-gold-soft">Avec système.</span>
-          </h2>
-
-          <div className="relative grid grid-cols-2 gap-0">
-            {/* Ligne verticale dorée */}
-            <div
-              aria-hidden
-              className="absolute left-1/2 top-0 bottom-0 w-px"
-              style={{ backgroundColor: "#c9a24e", opacity: 0.3 }}
-            />
-
-            {/* Colonne gauche — Le hasard */}
-            <div className="pr-4 sm:pr-8 md:pr-16 py-8 md:py-10 pl-4 sm:pl-8 md:px-10" style={{ backgroundColor: "#0a1018" }}>
-              <h3
-                className="text-lg sm:text-2xl md:text-3xl mb-8 md:mb-12 font-serif tracking-wide"
-                style={{ color: "#edeae2" }}
-              >
-                Sans système
-              </h3>
-              <ul className="space-y-6 sm:space-y-8 md:space-y-10">
-                {[
-                  { t: "Revenus imprévisibles", d: "Ce mois est bon. Le suivant, vous ne savez pas. Votre chiffre d'affaires dépend de votre réseau, pas de votre valeur." },
-                  { t: "Des deals qui disparaissent", d: "Vous avez des prospects intéressés. Sans suivi structuré, ils signent ailleurs. Pas parce qu'ils ne voulaient pas, mais parce que personne n'était là pour closer." },
-                  { t: "Vous payez avant de gagner", d: "Agences, freelances, outils. La facture arrive avant les résultats." },
-                  { t: "Vous dépendez de prestataires qui facturent avant de livrer", d: "Agences, freelances, outils. La facture arrive avant les résultats, et parfois les résultats n'arrivent pas." },
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2 sm:gap-4 md:gap-5">
-                    <span
-                      className="text-lg sm:text-2xl leading-none mt-0.5 flex-shrink-0 font-light"
-                      style={{ color: "#8b3a3a" }}
-                      aria-hidden
-                    >
-                      ×
-                    </span>
-                    <div>
-                      <h4 className="text-sm sm:text-base md:text-lg text-ivory mb-1 sm:mb-2 font-sans font-medium leading-snug">{item.t}</h4>
-                      <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">{item.d}</p>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Colonne droite — Le système */}
-            <div className="pl-4 sm:pl-8 md:pl-16 py-8 md:py-10 pr-4 sm:pr-8 md:px-10">
-              <h3
-                className="text-lg sm:text-2xl md:text-3xl mb-8 md:mb-12 font-serif tracking-wide"
-                style={{ color: "#c9a24e" }}
-              >
-                Avec système
-              </h3>
-              <ul className="space-y-6 sm:space-y-8 md:space-y-10">
-                {[
-                  { t: "Un pipeline actif, chaque mois", d: "Des entreprises ciblées, contactées, qualifiées. Votre agenda se remplit, sans hasard." },
-                  { t: "Closing intégral pris en charge", d: "Zéro deal perdu faute de suivi." },
-                  { t: "Vous payez quand ça génère", d: "Aucun frais fixe. Commission uniquement sur les ventes encaissées." },
-                  { t: "Un partenaire rémunéré sur vos résultats", d: "Pas d’agence, pas de freelance qui facture à l’heure. On gagne quand vous gagnez." },
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2 sm:gap-4 md:gap-5">
-                    <span
-                      className="text-lg sm:text-2xl leading-none mt-0.5 flex-shrink-0 font-light"
-                      style={{ color: "#c9a24e" }}
-                      aria-hidden
-                    >
-                      ✓
-                    </span>
-                    <div>
-                      <h4 className="text-sm sm:text-base md:text-lg text-ivory mb-1 sm:mb-2 font-sans font-medium leading-snug">{item.t}</h4>
-                      <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">{item.d}</p>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          {/* Signal de crédibilité */}
-          <p className="mt-12 text-center text-[11px] sm:text-xs tracking-[0.18em] uppercase text-muted-foreground/80">
-            Cadre contractuel SASU · Propriété intellectuelle protégée · Paiement déclenché à l'encaissement uniquement
-          </p>
-
-          {/* Badge bas */}
-          <div className="flex justify-center mt-10">
-            <span className="inline-block border border-gold text-gold text-[10px] tracking-luxe uppercase px-6 py-2.5 rounded-full">
-              Rémunération sur résultats uniquement
-            </span>
-          </div>
+      {/* TICKER */}
+      <section
+        aria-label="Bénéfices clés"
+        className="overflow-hidden flex items-center"
+        style={{ backgroundColor: "#c9a24e", height: "44px" }}
+      >
+        <style>{`@keyframes ck-ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}`}</style>
+        <div
+          className="flex whitespace-nowrap"
+          style={{ animation: "ck-ticker 30s linear infinite" }}
+        >
+          {[0, 1].map((k) => (
+            <ul
+              key={k}
+              aria-hidden={k === 1}
+              className="flex shrink-0 items-center"
+              style={{ color: "#0d1420", fontWeight: 600, fontSize: "0.875rem" }}
+            >
+              {[
+                "Pipeline prévisible chaque mois",
+                "Zéro dépendance au réseau fondateur",
+                "Système actif en 30 jours",
+                "10% uniquement sur résultats encaissés",
+                "Diagnostic en 5 jours",
+                "Zéro coût fixe",
+                "Premiers rendez-vous entrants dès le premier mois",
+              ].map((t, i) => (
+                <li key={i} className="flex items-center">
+                  <span className="px-6">{t}</span>
+                  <span aria-hidden>·</span>
+                </li>
+              ))}
+            </ul>
+          ))}
         </div>
       </section>
 
