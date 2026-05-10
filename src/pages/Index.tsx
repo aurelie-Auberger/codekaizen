@@ -219,7 +219,7 @@ const Index = () => {
                 {[
                   { t: "Système outbound opérationnel en 2 semaines", d: "Pipeline actif, closing piloté." },
                   { t: "Closing intégral pris en charge", d: "Zéro deal perdu faute de suivi." },
-                  { t: "Zéro coût fixe", d: "Commission uniquement sur les ventes encaissées." },
+                  { t: "Rémunération à la performance", d: "Vous payez sur ce qui rentre, pas sur des promesses." },
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2 sm:gap-4 md:gap-5">
                     <span
