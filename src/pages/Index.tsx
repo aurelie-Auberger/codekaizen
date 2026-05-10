@@ -162,7 +162,7 @@ const Index = () => {
               {benefits.map(({ id, t, d, icon: Icon }) => (
                 <div key={id} className="bg-background p-6 md:p-8 group hover:bg-secondary/30 transition-colors">
                   <Icon className="w-6 h-6 text-gold mb-5 md:mb-6 group-hover:text-gold-soft transition-colors" strokeWidth={1.2} />
-                  <h3 className="text-base md:text-lg text-ivory leading-snug mb-2 md:mb-3 font-medium">{t}</h3>
+                  <h3 className="text-[20px] md:text-lg text-ivory leading-snug mb-2 md:mb-3 font-medium">{t}</h3>
                   <p className="text-muted-foreground text-[13px] md:text-sm leading-relaxed">{d}</p>
                 </div>
               ))}
@@ -207,7 +207,7 @@ const Index = () => {
                 >
                   {step.n}
                 </span>
-                <h3 className="font-serif text-lg md:text-2xl text-ivory mb-2 md:mb-3 leading-snug">
+                <h3 className="font-serif text-[20px] md:text-2xl text-ivory mb-2 md:mb-3 leading-snug">
                   {step.t}
                 </h3>
                 <p className="text-muted-foreground text-[13px] md:text-base leading-relaxed">
@@ -229,7 +229,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             {expertise.map((card, i) => (
               <article key={i} className="border border-border p-6 md:p-10 hover:border-gold/50 transition-colors">
-                <h3 className="text-lg md:text-2xl text-gold-soft mb-3 md:mb-6">{card.t}</h3>
+                <h3 className="text-[20px] md:text-2xl text-gold-soft mb-3 md:mb-6">{card.t}</h3>
                 <p className="text-muted-foreground text-[13px] md:text-sm leading-relaxed">{card.d}</p>
               </article>
             ))}
@@ -291,7 +291,7 @@ const Index = () => {
               <div key={i} className="flex gap-4">
                 <div className="flex-shrink-0 w-2 h-2 mt-2 rounded-full bg-gold" />
                 <div>
-                  <h3 className="text-ivory text-sm md:text-base mb-1.5 font-sans font-medium">{item.t}</h3>
+                  <h3 className="text-ivory text-[20px] md:text-base mb-1.5 font-sans font-medium">{item.t}</h3>
                   <p className="text-muted-foreground text-[13px] md:text-sm leading-relaxed">{item.d}</p>
                 </div>
               </div>
