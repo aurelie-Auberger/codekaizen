@@ -243,14 +243,13 @@ const Index = () => {
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10 md:mb-20">
-            <div className="text-[10px] tracking-[0.15em] md:tracking-luxe uppercase text-gold mb-6">Notre expertise</div>
-            <h2 className="text-[26px] md:text-6xl text-ivory">Notre expertise.</h2>
+            <div className="text-[10px] tracking-[0.15em] md:tracking-luxe uppercase text-gold">Notre expertise</div>
           </div>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             {expertise.map((card, i) => (
               <article key={i} className="border border-border p-6 md:p-10 hover:border-gold/50 transition-colors">
                 <h3 className="text-[20px] md:text-2xl text-gold-soft mb-3 md:mb-6">{card.t}</h3>
-                <p className="text-muted-foreground text-[13px] md:text-sm leading-relaxed">{card.d}</p>
+                <p className="text-muted-foreground text-[15px] md:text-sm leading-relaxed">{card.d}</p>
               </article>
             ))}
           </div>
@@ -304,18 +303,6 @@ const Index = () => {
           </div>
 
           <div className="max-w-2xl mx-auto space-y-8">
-            {[
-              { t: "Confidentialité totale", d: "Vos informations restent strictement entre nous. Aucun partage, aucun démarchage." },
-              { t: "Diagnostic déductible", d: "Les 500€ du diagnostic sont déduits si vous poursuivez avec Code Kaizen." },
-            ].map((item, i) => (
-              <div key={i} className="flex gap-4">
-                <div className="flex-shrink-0 w-2 h-2 mt-2 rounded-full bg-gold" />
-                <div>
-                  <h3 className="text-ivory text-[20px] md:text-base mb-1.5 font-sans font-medium">{item.t}</h3>
-                  <p className="text-muted-foreground text-[13px] md:text-sm leading-relaxed">{item.d}</p>
-                </div>
-              </div>
-            ))}
             <div className="pt-6 flex justify-center">
               <a
                 href="https://calendly.com/aurelie-codekaizen/30min"
