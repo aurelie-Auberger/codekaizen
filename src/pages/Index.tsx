@@ -221,12 +221,34 @@ const Index = () => {
             <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Méthode</div>
             <h2 className="text-3xl md:text-5xl text-ivory leading-tight font-serif">Ce qui se passe concrètement</h2>
           </div>
-          <div className="grid md:grid-cols-3 gap-12 relative">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {steps.map((s, i) => (
-              <div key={i} className="relative">
-                <div className="font-serif text-gold text-2xl mb-6 tracking-wide leading-none">{s.n}</div>
-                <h3 className="text-3xl text-ivory mb-4">{s.t}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{s.d}</p>
+              <div
+                key={i}
+                style={{
+                  padding: "20px",
+                  borderRadius: "8px",
+                  border: "1px solid rgba(201, 162, 78, 0.15)",
+                }}
+              >
+                <div style={{ color: "#c9a24e", opacity: 0.4, fontSize: "0.75rem" }} className="mb-2 tracking-luxe">
+                  {s.n}
+                </div>
+                <h3 style={{ color: "#f7f7f7", fontWeight: 600, fontSize: "1.1rem" }} className="mb-2">
+                  {s.t}
+                </h3>
+                <p
+                  style={{
+                    color: "#a0aec0",
+                    fontSize: "0.875rem",
+                    display: "-webkit-box",
+                    WebkitLineClamp: 2,
+                    WebkitBoxOrient: "vertical",
+                    overflow: "hidden",
+                  }}
+                >
+                  {s.d}
+                </p>
               </div>
             ))}
           </div>
