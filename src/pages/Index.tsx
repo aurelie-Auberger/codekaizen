@@ -268,6 +268,54 @@ const Index = () => {
         </div>
       </section>
 
+      {/* LE MODÈLE */}
+      <section className="py-32 px-6 md:px-10">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-20">
+            <div className="text-[10px] tracking-luxe uppercase text-gold mb-6">Le modèle</div>
+            <h2 className="font-serif text-3xl md:text-5xl text-ivory leading-tight">
+              Un modèle aligné sur vos résultats.
+              <br />
+              <span className="italic text-gold-soft">Vous ne payez que ce qui produit.</span>
+            </h2>
+          </div>
+
+          <ol className="relative space-y-12 md:space-y-16 border-l border-gold/30 pl-8 md:pl-12">
+            {[
+              {
+                n: "01",
+                t: "Diagnostic stratégique · 500€",
+                d: "Un audit de votre situation commerciale actuelle : ICP, canaux, gaps du système, plan d'action chiffré. Livré en 5 jours. Déductible si vous continuez.",
+              },
+              {
+                n: "02",
+                t: "Système d'acquisition · Commission uniquement",
+                d: "Construction et opération complète du système. Séquences, CRM, closing. Code Kaizen se rémunère uniquement sur les encaissements générés. Aucun coût fixe.",
+              },
+              {
+                n: "03",
+                t: "Option de rachat · À partir de 6 mois",
+                d: "Après 6 mois, vous pouvez acquérir le système complet : workflow, scripts, CRM documenté, formation à la prise en main. Le moteur devient le vôtre.",
+              },
+            ].map((step) => (
+              <li key={step.n} className="relative">
+                <span
+                  className="absolute -left-[3.05rem] md:-left-[4.05rem] top-0 flex items-center justify-center w-10 h-10 rounded-full border border-gold bg-background text-gold text-[10px] tracking-luxe"
+                >
+                  {step.n}
+                </span>
+                <h3 className="font-serif text-xl md:text-2xl text-ivory mb-3 leading-snug">
+                  {step.t}
+                </h3>
+                <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
+                  {step.d}
+                </p>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+
       {/* COMMENT ÇA MARCHE */}
       <section className="py-32 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-6xl mx-auto">
