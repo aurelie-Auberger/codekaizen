@@ -151,21 +151,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* TICKER */}
-      <div className="border-y border-gold/30 bg-background overflow-hidden py-4">
-        <div className="flex whitespace-nowrap animate-ticker">
-          {[...tickerItems, ...tickerItems].map((item, i) => (
-            <span
-              key={i}
-              className="flex items-center text-[10px] sm:text-[11px] tracking-luxe uppercase text-gold/80 px-6"
-            >
-              {item}
-              <span className="ml-12 text-gold/40">·</span>
-            </span>
-          ))}
-        </div>
-      </div>
-
       <div className="gold-line max-w-5xl mx-auto" />
 
       {/* BÉNÉFICES */}
