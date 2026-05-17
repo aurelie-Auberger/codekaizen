@@ -477,7 +477,7 @@ const Index = () => {
             <div>
               <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">18 mois</div>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                le retard structurel que vos concurrents qui construisent aujourd'hui auront sur vous dans 12 mois.
+                le retard structurel que vos concurrents qui construisent aujourd'hui auront sur vous dans 18 mois.
               </p>
             </div>
           </div>
