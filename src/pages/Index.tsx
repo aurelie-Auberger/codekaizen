@@ -435,7 +435,7 @@ const Index = () => {
               La restitution se fait en call de 45 minutes. Vous repartez avec une décision claire, pas un rapport à lire seul.
             </p>
             <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-5">
-              800 EUR HT. Si nous démarrons une mission ensemble, ce montant est déduit intégralement. Si vous ne continuez pas, vous conservez le livrable. Aucun engagement sur la suite.
+              800 EUR HT. Si nous démarrons une mission ensemble, ce montant est intégralement déduit de notre première facture de commission. Si vous ne continuez pas, vous conservez le livrable. Aucun engagement sur la suite.
             </p>
             <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-8">
               En cas de mission : zéro coût fixe, 10% sur le chiffre d'affaires généré par les deals sourcés via notre système, pendant 12 mois. Pas sur votre CA existant.
