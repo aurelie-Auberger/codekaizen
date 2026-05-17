@@ -379,6 +379,42 @@ const Index = () => {
         </div>
       </section>
 
+      {/* PROJECTION DES RÉSULTATS */}
+      <section className="py-16 md:py-32 px-6 md:px-10">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-4 md:mb-6 leading-tight">
+            Projection des résultats
+          </h2>
+          <p className="text-[#a0aec0] text-center text-[0.875rem] mb-10 md:mb-16">
+            Projection sur 90 jours. Basée sur des scénarios types observés.
+          </p>
+          <div className="space-y-6">
+            {[
+              { l: "Nouvelles opportunités", v: 40 },
+              { l: "En cours", v: 30 },
+              { l: "Qualifiées", v: 20 },
+              { l: "Négociation", v: 10 },
+            ].map((bar) => (
+              <div key={bar.l}>
+                <div className="flex justify-between items-center mb-2">
+                  <span className="text-[#f7f7f7] text-[0.85rem] font-medium">{bar.l}</span>
+                  <span className="text-[#c9a24e] text-[0.85rem] font-bold">{bar.v}%</span>
+                </div>
+                <div className="w-full bg-[rgba(201,162,78,0.1)] rounded-[4px] h-2.5">
+                  <div
+                    className="bg-[#c9a24e] h-2.5 rounded-[4px]"
+                    style={{ width: `${bar.v}%` }}
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="text-[#a0aec0] italic text-center mt-10 md:mt-14 text-[0.875rem]">
+            Projections basées sur des comportements moyens observés.
+          </p>
+        </div>
+      </section>
+
       {/* MÉTRIQUES */}
       <section className="bg-[#111927] border-t border-b border-[rgba(201,162,78,0.15)] py-8 md:py-12 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
