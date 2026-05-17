@@ -467,7 +467,7 @@ const Index = () => {
                 onClick={() => scrollTo("formulaire")}
                 className="bg-gold text-ink px-6 py-[14px] sm:px-14 sm:py-6 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
               >
-                Réserver mon Diagnostic — 800 EUR HT
+                Réserver mon Diagnostic
               </button>
             </div>
           </div>
