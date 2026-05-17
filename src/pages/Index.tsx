@@ -351,6 +351,44 @@ const Index = () => {
         </div>
       </section>
 
+      {/* COÛT DE L'ATTENTE */}
+      <section className="py-16 md:py-32 px-6 md:px-10 bg-[rgba(201,162,78,0.05)] border-t border-b border-[rgba(201,162,78,0.15)]">
+        <div className="max-w-6xl mx-auto text-center">
+          <p className="text-[#a0aec0] italic text-[13px] md:text-sm mb-4 md:mb-6">
+            Et si vous attendez encore six mois ?
+          </p>
+          <h2 className="font-serif text-[26px] md:text-5xl text-ivory mb-10 md:mb-16 leading-tight">
+            Le coût de l'attente
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8 md:gap-10 mb-10 md:mb-14">
+            <div>
+              <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">40–60 K€</div>
+              <p className="text-[#f7f7f7] text-[13px] md:text-sm leading-relaxed">
+                de capacité productive mobilisée chaque année sur de la prospection manuelle à 800 EUR/jour.
+              </p>
+            </div>
+            <div>
+              <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">45 K€</div>
+              <p className="text-[#f7f7f7] text-[13px] md:text-sm leading-relaxed">
+                le coût moyen d'un premier recrutement commercial raté. Dans 80% des cas : absence de système.
+              </p>
+            </div>
+            <div>
+              <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">18 mois</div>
+              <p className="text-[#f7f7f7] text-[13px] md:text-sm leading-relaxed">
+                le retard structurel que vos concurrents qui construisent aujourd'hui auront sur vous dans 12 mois.
+              </p>
+            </div>
+          </div>
+          <button
+            onClick={() => scrollTo("formulaire")}
+            className="bg-gold text-ink px-6 py-[14px] sm:px-14 sm:py-6 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
+          >
+            Obtenir mon Diagnostic
+          </button>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-16 md:py-32 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
