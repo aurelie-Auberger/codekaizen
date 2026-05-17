@@ -232,6 +232,94 @@ const Index = () => {
         </div>
       </section>
 
+      {/* CAS CLIENTS */}
+      <section className="py-16 md:py-32 px-6 md:px-10">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="font-serif text-[26px] md:text-5xl text-ivory text-center mb-4 md:mb-6 leading-tight">
+            Ce que le système produit
+          </h2>
+          <p className="text-[#a0aec0] text-center text-[13px] md:text-sm mb-10 md:mb-16">
+            Voici ce que cette infrastructure produit concrètement.
+          </p>
+          <div className="grid md:grid-cols-3 gap-6 md:gap-8">
+            <div className="bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6">
+              <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">Agence Marketing B2B · 3 mois</div>
+              <div className="grid grid-cols-2 gap-y-4 gap-x-4 text-[13px] md:text-sm">
+                <div>
+                  <div className="text-[#f7f7f7] font-bold text-lg">29</div>
+                  <div className="text-[#a0aec0] text-[0.7rem]">RDV qualifiés</div>
+                </div>
+                <div>
+                  <div className="text-[#f7f7f7] font-bold text-lg">17,2%</div>
+                  <div className="text-[#a0aec0] text-[0.7rem]">Taux de réponse</div>
+                </div>
+                <div>
+                  <div className="text-[#f7f7f7] font-bold text-lg">2</div>
+                  <div className="text-[#a0aec0] text-[0.7rem]">Deals signés</div>
+                </div>
+                <div>
+                  <div className="text-[#f7f7f7] font-bold text-lg">43 K€</div>
+                  <div className="text-[#a0aec0] text-[0.7rem]">Pipeline généré</div>
+                </div>
+              </div>
+            </div>
+            <div className="bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6">
+              <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">Cabinet IT · 4 mois</div>
+              <div className="grid grid-cols-2 gap-y-4 gap-x-4 text-[13px] md:text-sm">
+                <div>
+                  <div className="text-[#f7f7f7] font-bold text-lg">26</div>
+                  <div className="text-[#a0aec0] text-[0.7rem]">RDV qualifiés</div>
+                </div>
+                <div>
+                  <div className="text-[#f7f7f7] font-bold text-lg">19,1%</div>
+                  <div className="text-[#a0aec0] text-[0.7rem]">Taux de réponse</div>
+                </div>
+                <div>
+                  <div className="text-[#f7f7f7] font-bold text-lg">2</div>
+                  <div className="text-[#a0aec0] text-[0.7rem]">Deals signés</div>
+                </div>
+                <div>
+                  <div className="text-[#f7f7f7] font-bold text-lg">37 K€</div>
+                  <div className="text-[#a0aec0] text-[0.7rem]">Pipeline généré</div>
+                </div>
+              </div>
+            </div>
+            <div className="bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6">
+              <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">Solution SaaS B2B · 3 mois</div>
+              <div className="grid grid-cols-2 gap-y-4 gap-x-4 text-[13px] md:text-sm">
+                <div>
+                  <div className="text-[#f7f7f7] font-bold text-lg">23</div>
+                  <div className="text-[#a0aec0] text-[0.7rem]">RDV qualifiés</div>
+                </div>
+                <div>
+                  <div className="text-[#f7f7f7] font-bold text-lg">21,4%</div>
+                  <div className="text-[#a0aec0] text-[0.7rem]">Taux de réponse</div>
+                </div>
+                <div>
+                  <div className="text-[#f7f7f7] font-bold text-lg">2</div>
+                  <div className="text-[#a0aec0] text-[0.7rem]">Deals signés</div>
+                </div>
+                <div>
+                  <div className="text-[#f7f7f7] font-bold text-lg">62 K€</div>
+                  <div className="text-[#a0aec0] text-[0.7rem]">Pipeline généré</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p className="text-[#a0aec0] text-[0.75rem] italic text-center mt-8 md:mt-10">
+            Missions anonymisées. Données réelles.
+          </p>
+          <div className="max-w-2xl mx-auto mt-10 md:mt-14 text-center">
+            <p className="text-[#c9a24e] italic text-[15px] md:text-base leading-relaxed">
+              "Pour la première fois depuis trois ans, j'ai eu un rendez-vous qualifié que je n'avais pas été chercher moi-même."
+            </p>
+            <p className="text-[#a0aec0] text-[13px] mt-3">
+              — Fondateur, SaaS RH, France, 2025
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* LE MODÈLE */}
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-4xl mx-auto">
