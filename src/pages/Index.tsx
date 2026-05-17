@@ -170,9 +170,6 @@ const Index = () => {
       {/* BÉNÉFICES */}
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-[#a0aec0] text-[0.875rem] mb-6 md:mb-8 max-w-3xl mx-auto">
-            Code Kaizen construit l'infrastructure d'acquisition que votre entreprise aurait dû avoir dès le premier jour.
-          </p>
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
             Une infrastructure de revenus, pas une prestation de plus
           </h2>
