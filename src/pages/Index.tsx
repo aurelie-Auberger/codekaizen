@@ -354,28 +354,28 @@ const Index = () => {
       {/* COÛT DE L'ATTENTE */}
       <section className="py-16 md:py-32 px-6 md:px-10 bg-[rgba(201,162,78,0.05)] border-t border-b border-[rgba(201,162,78,0.15)]">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-[#a0aec0] italic text-[13px] md:text-sm mb-4 md:mb-6">
+          <p className="text-[#a0aec0] italic text-[0.875rem] mb-4 md:mb-6">
             Et si vous attendez encore six mois ?
           </p>
-          <h2 className="font-serif text-[26px] md:text-5xl text-ivory mb-10 md:mb-16 leading-tight">
+          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
             Le coût de l'attente
           </h2>
           <div className="grid md:grid-cols-3 gap-8 md:gap-10 mb-10 md:mb-14">
             <div>
               <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">40–60 K€</div>
-              <p className="text-[#f7f7f7] text-[13px] md:text-sm leading-relaxed">
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
                 de capacité productive mobilisée chaque année sur de la prospection manuelle à 800 EUR/jour.
               </p>
             </div>
             <div>
               <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">45 K€</div>
-              <p className="text-[#f7f7f7] text-[13px] md:text-sm leading-relaxed">
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
                 le coût moyen d'un premier recrutement commercial raté. Dans 80% des cas : absence de système.
               </p>
             </div>
             <div>
               <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">18 mois</div>
-              <p className="text-[#f7f7f7] text-[13px] md:text-sm leading-relaxed">
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
                 le retard structurel que vos concurrents qui construisent aujourd'hui auront sur vous dans 12 mois.
               </p>
             </div>
@@ -392,7 +392,7 @@ const Index = () => {
       {/* FAQ */}
       <section className="py-16 md:py-32 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-[26px] md:text-5xl text-ivory text-center mb-10 md:mb-16">Ce qu'on nous demande.</h2>
+          <h2 className="text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-10 md:mb-16">Ce qu'on nous demande.</h2>
           <div className="divide-y divide-border border-y border-border">
             {faqs.map((faq, i) => {
               const open = openFaq.includes(i);
@@ -426,7 +426,7 @@ const Index = () => {
           <div className="gold-line mb-10 md:mb-16 max-w-3xl mx-auto" />
           <div className="text-center mb-10 md:mb-16">
             <div className="text-[10px] tracking-[0.15em] md:tracking-luxe uppercase text-gold mb-6">Diagnostic stratégique · 5 jours · 500€</div>
-            <h2 className="text-[26px] md:text-6xl text-ivory mb-5 md:mb-6 leading-tight">
+            <h2 className="text-[1.3rem] md:text-[1.6rem] text-ivory mb-5 md:mb-6 leading-tight">
               Réservez votre Diagnostic
             </h2>
             <p className="text-[#a0aec0] max-w-xl mx-auto leading-relaxed text-[13px] md:text-base mb-4">
