@@ -202,19 +202,31 @@ const Index = () => {
 
       {/* BÉNÉFICES */}
       <section className="py-16 md:py-32 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto">
-          <div className="border-gold p-8 md:p-14" style={{ borderWidth: '0.5px' }}>
-            <h2 className="text-[26px] md:text-5xl text-ivory text-center mb-8 md:mb-12 leading-tight">
-              Ce que Code Kaizen <span className="italic text-gold-soft">construit pour vous.</span>
-            </h2>
-            <div className="grid md:grid-cols-2 gap-[0.5px] bg-gold/30">
-              {benefits.map(({ id, t, d, icon: Icon }) => (
-                <div key={id} className="bg-background p-6 md:p-8 group hover:bg-secondary/30 transition-colors">
-                  <Icon className="w-6 h-6 text-gold mb-5 md:mb-6 group-hover:text-gold-soft transition-colors" strokeWidth={1.2} />
-                  <h3 className="text-[18px] md:text-lg text-gold leading-snug mb-2 md:mb-3 font-medium">{t}</h3>
-                  <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">{d}</p>
-                </div>
-              ))}
+        <div className="max-w-6xl mx-auto text-center">
+          <p className="text-[#a0aec0] text-[13px] md:text-sm mb-6 md:mb-8 max-w-3xl mx-auto">
+            Code Kaizen construit l'infrastructure d'acquisition que votre entreprise aurait dû avoir dès le premier jour.
+          </p>
+          <h2 className="font-serif text-[26px] md:text-5xl text-ivory mb-10 md:mb-16 leading-tight">
+            Une infrastructure de revenus, pas une prestation de plus
+          </h2>
+          <div className="grid md:grid-cols-3 gap-6 md:gap-8">
+            <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Diagnostic de précision</h3>
+              <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
+                En 5 jours, nous identifions le levier exact qui bloque votre acquisition. Un livrable actionnable le jour de la restitution.
+              </p>
+            </div>
+            <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Système déployé</h3>
+              <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
+                Nous construisons et opérons l'infrastructure adaptée à votre marché. Le fondateur sort de la prospection. Le système entre en fonction.
+              </p>
+            </div>
+            <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Modèle à la performance</h3>
+              <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
+                Zéro coût fixe. 10% sur le CA généré pendant 12 mois. Vous ne payez que les résultats encaissés.
+              </p>
             </div>
           </div>
         </div>
