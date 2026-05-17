@@ -118,7 +118,7 @@ const Index = () => {
             Votre meilleur commercial, c'est encore vous. Ce n'est pas un compliment.
           </h1>
           <p className="text-[#F5F0E8] max-w-2xl mx-auto text-[15px] leading-[1.6] sm:text-base sm:leading-relaxed mb-8 md:mb-10">
-            Vous avez une offre. Ce qui manque, c'est le système qui la vend sans que vous soyez dans chaque deal.
+            Chaque mois sans système d'acquisition, c'est un mois où votre pipeline dépend d'un appel que quelqu'un accepte de vous passer. Code Kaizen construit l'infrastructure qui change ça.
           </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
             <button
