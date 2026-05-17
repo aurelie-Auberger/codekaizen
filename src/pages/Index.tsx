@@ -192,7 +192,7 @@ const Index = () => {
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Modèle à la performance</h3>
               <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
-                Zéro coût fixe. 10% sur le CA généré pendant 12 mois. Vous ne payez que les résultats encaissés.
+                10% sur le chiffre d'affaires généré par les deals sourcés via notre système, pendant 12 mois. Pas sur votre CA existant. Vous payez les résultats encaissés, rien d'autre.
               </p>
             </div>
           </div>
