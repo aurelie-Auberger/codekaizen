@@ -45,7 +45,6 @@ const expertise = [
 ];
 
 const faqs = [
-  { q: "Pour qui est-ce fait ?", r: "Pour les fondateurs et dirigeants B2B dont l'offre est validée, le ticket supérieur à 5 000€, et la croissance encore dépendante du réseau ou de l'effort individuel. Pas pour ceux qui cherchent une agence prestataire classique." },
   { q: "Qui gère le closing ?", r: "Code Kaizen par défaut. Si vous avez une équipe commerciale en place, nous pouvons travailler avec elle. Dans les deux cas, le système d'acquisition est le même." },
   { q: "C'est quoi le diagnostic stratégique ?", r: "Un audit de votre situation commerciale : ICP, canaux, gaps, plan d'action. 500€, livré en 5 jours. Déductible si vous continuez. Le système est opérationnel sous 30 jours. Les premiers résultats dépendent de votre cycle de vente." },
   { q: "Comment fonctionne la commission ?", r: "Code Kaizen est rémunéré uniquement sur les encaissements générés, pas sur les leads, pas sur les rendez-vous. Si rien ne rentre, rien n'est dû." },
