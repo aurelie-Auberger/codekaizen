@@ -354,27 +354,8 @@ const Index = () => {
             Exemples d'objectifs et de délais moyens.
           </p>
 
-          {/* Mobile: cards */}
-          <div className="md:hidden space-y-4">
-            {[
-              { s: "Lancement produit", o: "Créer la traction initiale", d: "30–60 jours", r: "Premiers RDV qualifiés" },
-              { s: "Développement commercial", o: "Générer un flux régulier", d: "60–90 jours", r: "Pipeline récurrent" },
-              { s: "Entrée sur un nouveau marché", o: "Valider un marché cible", d: "45–75 jours", r: "Opportunités qualifiées" },
-              { s: "Scaling des ventes", o: "Augmenter la performance", d: "90+ jours", r: "Croissance durable" },
-            ].map((row) => (
-              <div key={row.s} className="bg-[#111927] border border-[rgba(201,162,78,0.2)] rounded-lg p-5">
-                <div className="text-[#c9a24e] font-bold text-[0.85rem] mb-3">{row.s}</div>
-                <div className="space-y-2 text-[0.8rem]">
-                  <div><span className="text-[#a0aec0]">Objectif :</span> <span className="text-[#f7f7f7]">{row.o}</span></div>
-                  <div><span className="text-[#a0aec0]">Délai :</span> <span className="text-[#f7f7f7]">{row.d}</span></div>
-                  <div><span className="text-[#a0aec0]">Résultat :</span> <span className="text-[#f7f7f7]">{row.r}</span></div>
-                </div>
-              </div>
-            ))}
-          </div>
-
           {/* Desktop: table */}
-          <div className="hidden md:block overflow-x-auto">
+          <div className="overflow-x-auto">
             <table className="w-full bg-[#111927] border border-[rgba(201,162,78,0.2)] rounded-lg">
               <thead>
                 <tr className="border-b border-[rgba(201,162,78,0.2)]">
