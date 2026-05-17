@@ -114,10 +114,13 @@ const Index = () => {
       <section className="pt-24 sm:pt-40 md:pt-48 pb-3 sm:pb-20 md:pb-32 px-5 sm:px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="font-serif text-[1.6rem] leading-[1.15] md:text-[2.2rem] md:leading-[1.1] text-ivory mb-5 md:mb-10 tracking-tight">
-            Votre pipeline dépend de vous. Ce n'est pas tenable.
+            Votre pipeline ne devrait pas dépendre de vous.
           </h1>
-          <p className="text-[#a0aec0] max-w-2xl mx-auto text-[0.95rem] leading-[1.75] mb-8 md:mb-10">
-            Code Kaizen construit le système qui génère des leads sans que vous ayez à les chercher.
+          <p className="text-[#a0aec0] max-w-2xl mx-auto text-[0.95rem] leading-[1.75] mb-4">
+            Code Kaizen construit l'infrastructure d'acquisition qui génère des opportunités qualifiées, durablement. Chaque engagement commence par un Diagnostic de 5 jours.
+          </p>
+          <p className="text-[#a0aec0] italic text-[0.85rem] mb-8 md:mb-10">
+            Votre partenaire de croissance aligné sur vos résultats.
           </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
             <button
