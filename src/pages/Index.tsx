@@ -429,18 +429,18 @@ const Index = () => {
             <h2 className="text-[1.3rem] md:text-[1.6rem] text-ivory mb-5 md:mb-6 leading-tight">
               Réservez votre Diagnostic
             </h2>
-            <p className="text-[#a0aec0] max-w-xl mx-auto leading-relaxed text-[13px] md:text-base mb-4">
+            <p className="text-[#a0aec0] max-w-xl mx-auto leading-[1.75] text-[0.875rem] mb-4">
               Chaque semaine sans système, c'est un deal signé ailleurs.
             </p>
-            <p className="font-serif italic text-gold text-[18px] md:text-xl mb-4">Revenue, by system.</p>
-            <p className="text-[#F5F0E8] max-w-xl mx-auto leading-relaxed text-[13px] md:text-base">
+            <p className="font-serif italic text-gold text-[0.875rem] mb-4">Revenue, by system.</p>
+            <p className="text-[#F5F0E8] max-w-xl mx-auto leading-[1.75] text-[0.95rem]">
               Le diagnostic stratégique est la première étape. 500€. 5 jours. Un plan d'action précis sur votre situation réelle.
             </p>
           </div>
 
           <div className="max-w-2xl mx-auto space-y-8">
             <div className="pt-6 flex flex-col items-center gap-4">
-              <p className="italic text-ivory text-[14px] leading-relaxed text-center">
+              <p className="italic text-ivory text-[0.875rem] leading-[1.75] text-center">
                 Discrétion totale. Nous ne divulguons jamais l'identité de nos partenaires.
               </p>
               <a
