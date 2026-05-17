@@ -162,16 +162,25 @@ const Index = () => {
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
             Ce que personne ne dit aux fondateurs B2B
           </h2>
-          <div className="space-y-8 md:space-y-10 text-[#f7f7f7] leading-[1.75] text-[0.95rem]">
-            <p>
-              Votre entreprise tourne. Vos clients sont satisfaits. Et pourtant, chaque nouveau client est le résultat d'un appel, d'une recommandation, d'une rencontre que vous avez provoquée personnellement. Ce modèle n'est pas une force. C'est une fragilité structurelle que vous n'avez pas encore eu à payer au prix fort.
-            </p>
-            <p>
-              Le jour où votre réseau se tait, rien n'arrive. Pas de leads. Pas de séquence active. Juste le silence dans votre pipeline et la question que tout fondateur redoute : d'où vient le prochain client ?
-            </p>
-            <p>
-              La réponse instinctive est de recruter un commercial. C'est la mauvaise réponse. Un commercial sans infrastructure coûte en moyenne 45 000 EUR sur 12 mois pour un résultat aléatoire. Le problème n'est pas le nombre de personnes. C'est l'absence d'infrastructure.
-            </p>
+          <div className="grid md:grid-cols-3 gap-6 md:gap-8 text-left">
+            <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6">
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Pipeline otage</h3>
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
+                Chaque client vient d'un appel que vous avez passé. Quand vous vous arrêtez, le pipeline s'arrête.
+              </p>
+            </div>
+            <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6">
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Le réseau s'épuise</h3>
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
+                Le bouche-à-oreille ne scale pas. Le silence qui suit est brutal.
+              </p>
+            </div>
+            <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6">
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Le mauvais réflexe</h3>
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
+                Recruter sans système : 45 000 EUR, 12 mois, résultat aléatoire.
+              </p>
+            </div>
           </div>
           <p className="text-[#a0aec0] italic text-center mt-10 md:mt-14 text-[0.875rem]">
             Il existe une alternative à cette dépendance.
