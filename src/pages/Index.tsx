@@ -443,49 +443,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* STACK & OUTILS */}
-      <section className="py-16 md:py-32 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-4 md:mb-6 leading-tight">
-            Stack & outils
-          </h2>
-          <p className="text-[#a0aec0] text-center text-[0.875rem] mb-10 md:mb-16">
-            Technologies au service du système.
-          </p>
-          <div className="grid grid-cols-3 md:grid-cols-6 gap-6 md:gap-8 mb-10 md:mb-16">
-            {[
-              { n: "Sources privées", l: "🔒", p: true },
-              { n: "Apollo", l: "Sourcing", p: false },
-              { n: "Lemlist", l: "Outreach", p: false },
-              { n: "Systèmes internes", l: "🔒", p: true },
-              { n: "Make", l: "Automatisation", p: false },
-              { n: "HubSpot", l: "CRM", p: false },
-            ].map((item) => (
-              <div key={item.n} className="text-center">
-                {item.p ? (
-                  <div className="text-[#c9a24e] text-lg mb-1">{item.l}</div>
-                ) : null}
-                <div className="text-[#f7f7f7] text-[0.85rem] font-bold">{item.n}</div>
-                {!item.p ? (
-                  <div className="text-[#a0aec0] text-[0.75rem] mt-0.5">{item.l}</div>
-                ) : null}
-              </div>
-            ))}
-          </div>
-          <p className="text-[#a0aec0] italic text-center text-[0.875rem] mb-10 md:mb-16">
-            La stack exacte est adaptée à chaque mission.
-          </p>
-          <div className="max-w-[360px] mx-auto border border-[rgba(201,162,78,0.3)] rounded-lg p-6 text-center">
-            <h3 className="text-[#c9a24e] font-bold text-[0.9rem] mb-4">Discrétion totale</h3>
-            <div className="space-y-2 text-[0.85rem]">
-              <p className="text-[#a0aec0]">Confidentialité garantie.</p>
-              <p className="text-[#a0aec0]">Alignement d'intérêts.</p>
-              <p className="text-[#a0aec0]">Résultats durables.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* LE DIAGNOSTIC */}
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center">
