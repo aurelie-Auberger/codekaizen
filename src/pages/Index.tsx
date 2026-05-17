@@ -526,7 +526,7 @@ const Index = () => {
             Réservez votre Diagnostic
           </h2>
           <p className="text-[#a0aec0] text-[0.875rem] mb-10 md:mb-16">
-            Nous étudions votre dossier et revenons sous 2 heures. Si votre situation est pertinente, nous planifions le Diagnostic ensemble.
+            Quelques questions pour qualifier votre situation. Réponse sous 2 heures.
           </p>
           <iframe
             src="https://tally.so/embed/zx0Nrg"
