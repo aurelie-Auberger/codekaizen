@@ -159,6 +159,29 @@ const Index = () => {
         </div>
       </section>
 
+      {/* VÉRITÉS */}
+      <section className="py-16 md:py-32 px-6 md:px-10">
+        <div className="max-w-[720px] mx-auto text-center">
+          <h2 className="font-serif text-[26px] md:text-4xl text-ivory mb-10 md:mb-16 leading-tight">
+            Ce que personne ne dit aux fondateurs B2B
+          </h2>
+          <div className="space-y-8 md:space-y-10 text-[#f7f7f7] leading-[1.8] text-[15px] md:text-base">
+            <p>
+              Votre entreprise tourne. Vos clients sont satisfaits. Et pourtant, chaque nouveau client est le résultat d'un appel, d'une recommandation, d'une rencontre que vous avez provoquée personnellement. Ce modèle n'est pas une force. C'est une fragilité structurelle que vous n'avez pas encore eu à payer au prix fort.
+            </p>
+            <p>
+              Le jour où votre réseau se tait, rien n'arrive. Pas de leads. Pas de séquence active. Juste le silence dans votre pipeline et la question que tout fondateur redoute : d'où vient le prochain client ?
+            </p>
+            <p>
+              La réponse instinctive est de recruter un commercial. C'est la mauvaise réponse. Un commercial sans infrastructure coûte en moyenne 45 000 EUR sur 12 mois pour un résultat aléatoire. Le problème n'est pas le nombre de personnes. C'est l'absence d'infrastructure.
+            </p>
+          </div>
+          <p className="text-[#a0aec0] italic text-center mt-10 md:mt-14 text-[15px] md:text-base">
+            Il existe une alternative à cette dépendance.
+          </p>
+        </div>
+      </section>
+
       {/* MARCHÉS */}
       <section className="pt-3 pb-12 md:pt-8 md:pb-20 px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
