@@ -458,31 +458,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* MÉTRIQUES */}
-      <section className="bg-[#111927] border-t border-b border-[rgba(201,162,78,0.15)] py-8 md:py-12 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-8 md:gap-6">
-            {[
-              { n: "27", l: "RDV qualifiés générés", s: "Sur les 30 derniers jours" },
-              { n: "16,2%", l: "Taux de réponse moyen", s: "Sur campagnes outbound" },
-              { n: "68 K€", l: "Pipeline généré", s: "Sur les 90 derniers jours" },
-              { n: "4", l: "Deals signés", s: "Sur les 90 derniers jours" },
-              { n: "2,7x", l: "ROI moyen constaté", s: "Sur 6 mois d'accompagnement" },
-              { n: "9", l: "Opportunités en cours", s: "Dans les pipelines clients" },
-            ].map((m) => (
-              <div key={m.n} className="text-center">
-                <div className="text-[#c9a24e] text-[2rem] font-bold leading-tight">{m.n}</div>
-                <div className="text-[#f7f7f7] text-[0.8rem] mt-1">{m.l}</div>
-                <div className="text-[#a0aec0] text-[0.7rem] mt-0.5">{m.s}</div>
-              </div>
-            ))}
-          </div>
-          <p className="text-[#a0aec0] text-[0.75rem] italic text-center mt-8 md:mt-10">
-            Données réelles issues de missions opérées pour des entreprises B2B.
-          </p>
-        </div>
-      </section>
-
       {/* LE DIAGNOSTIC */}
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center">
