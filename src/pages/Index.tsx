@@ -117,18 +117,18 @@ const Index = () => {
           <h1 className="font-serif text-[2rem] leading-[1.15] sm:text-4xl md:text-6xl lg:text-7xl md:leading-[1.1] text-ivory mb-5 md:mb-10 tracking-tight">
             Votre meilleur commercial, c'est encore vous. Ce n'est pas un compliment.
           </h1>
-          <p className="text-[#F5F0E8] max-w-2xl mx-auto text-[15px] leading-[1.6] sm:text-base sm:leading-relaxed mb-6 md:mb-8">
+          <p className="text-[#a0aec0] max-w-2xl mx-auto text-[15px] leading-[1.6] sm:text-base sm:leading-relaxed mb-6 md:mb-8">
             Chaque mois sans système d'acquisition, c'est un mois où votre pipeline dépend d'un appel que quelqu'un accepte de vous passer. Code Kaizen construit l'infrastructure qui change ça.
           </p>
           <p className="text-[#a0aec0] max-w-2xl mx-auto text-[15px] leading-[1.6] sm:text-base sm:leading-relaxed mb-8 md:mb-10">
-            Vous avez validé votre offre. Vos clients ont besoin de vous. Ce qui manque, ce n'est pas le produit. C'est le système qui l'amène aux bons prospects, sans que vous ayez à le chercher vous-même.
+            Vous avez validé votre offre. Ce qui manque, c'est le système qui amène vos clients sans que vous ayez à le chercher vous-même.
           </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
             <button
-              onClick={() => scrollTo("conversion")}
+              onClick={() => scrollTo("formulaire")}
               className="bg-gold text-ink w-full sm:w-auto px-6 py-[14px] sm:px-14 sm:py-6 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
             >
-              Évaluer mon éligibilité
+              Obtenir mon Diagnostic
             </button>
           </div>
         </div>
@@ -137,9 +137,6 @@ const Index = () => {
       {/* MARCHÉS */}
       <section className="pt-3 pb-12 md:pt-8 md:pb-20 px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
-          <p className="font-serif italic text-[#F5F0E8] text-[15px] md:text-[17px] mb-6 md:mb-8">
-            Déjà opéré sur des marchés B2B premium.
-          </p>
           <div className="flex flex-wrap justify-center gap-3 md:gap-4">
             {["SaaS", "Fintech", "ESN / IT", "SaaS IA", "Formation B2B", "Architecture", "Logiciel"].map((tag) => (
               <span
@@ -254,7 +251,7 @@ const Index = () => {
       </section>
 
       {/* CONVERSION */}
-      <section id="conversion" className="py-16 md:py-32 px-6 md:px-10 relative overflow-hidden">
+      <section id="formulaire" className="py-16 md:py-32 px-6 md:px-10 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/20 to-transparent pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
           <div className="gold-line mb-10 md:mb-16 max-w-3xl mx-auto" />
