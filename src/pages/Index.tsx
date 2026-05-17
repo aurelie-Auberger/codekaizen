@@ -541,7 +541,24 @@ const Index = () => {
           </div>
         </div>
       </section>
-
+      {/* FORMULAIRE */}
+      <section id="formulaire" className="py-16 md:py-32 px-6 md:px-10">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-4 md:mb-6 leading-tight">
+            Réservez votre Diagnostic
+          </h2>
+          <p className="text-[#a0aec0] text-[0.875rem] mb-10 md:mb-16">
+            Nous étudions votre dossier et revenons sous 2 heures. Si votre situation est pertinente, nous planifions le Diagnostic ensemble.
+          </p>
+          <iframe
+            src="https://tally.so/embed/zx0Nrg"
+            frameBorder="0"
+            width="100%"
+            height="500"
+            title="Formulaire de réservation Diagnostic"
+          />
+        </div>
+      </section>
 
       {/* FOOTER */}
       <footer className="border-t border-border py-10 md:py-16 px-6 md:px-10">
