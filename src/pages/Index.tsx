@@ -235,10 +235,10 @@ const Index = () => {
       {/* CAS CLIENTS */}
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-[26px] md:text-5xl text-ivory text-center mb-4 md:mb-6 leading-tight">
+          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-4 md:mb-6 leading-tight">
             Ce que le système produit
           </h2>
-          <p className="text-[#a0aec0] text-center text-[13px] md:text-sm mb-10 md:mb-16">
+          <p className="text-[#a0aec0] text-center text-[0.875rem] mb-10 md:mb-16">
             Voici ce que cette infrastructure produit concrètement.
           </p>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
@@ -310,7 +310,7 @@ const Index = () => {
             Missions anonymisées. Données réelles.
           </p>
           <div className="max-w-2xl mx-auto mt-10 md:mt-14 text-center">
-            <p className="text-[#c9a24e] italic text-[15px] md:text-base leading-relaxed">
+            <p className="text-[#c9a24e] italic text-[0.875rem] leading-relaxed">
               "Pour la première fois depuis trois ans, j'ai eu un rendez-vous qualifié que je n'avais pas été chercher moi-même."
             </p>
             <p className="text-[#a0aec0] text-[13px] mt-3">
@@ -323,20 +323,20 @@ const Index = () => {
       {/* LE DIAGNOSTIC */}
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="font-serif text-[26px] md:text-5xl text-ivory mb-10 md:mb-16 leading-tight">
+          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
             Le Diagnostic Acquisition — 800 EUR HT
           </h2>
           <div className="max-w-[640px] mx-auto border border-[#c9a24e] rounded-xl p-6 md:p-10 text-left">
-            <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed mb-5">
+            <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-5">
               Un engagement de 5 jours ouvrés. Vous recevez un document couvrant la radiographie de votre situation réelle, les freins qui bloquent le scale, et le levier prioritaire avec une projection chiffrée sur 90 jours.
             </p>
-            <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed mb-5">
+            <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-5">
               La restitution en call de 45 minutes. Vous repartez avec une décision à prendre, pas un rapport à lire seul.
             </p>
-            <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed mb-5">
+            <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-5">
               800 EUR HT. Le coût d'une mauvaise décision de recrutement sur une semaine. Payable à la commande. Aucun engagement sur la suite.
             </p>
-            <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed mb-8">
+            <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-8">
               Si le Diagnostic révèle un levier actionnable, suivi à la performance : zéro coût fixe, 10% sur le CA généré pendant 12 mois.
             </p>
             <div className="text-center">
