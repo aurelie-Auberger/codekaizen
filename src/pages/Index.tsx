@@ -464,8 +464,8 @@ const Index = () => {
             <a href="#" className="hover:text-gold transition-colors">Mentions légales</a>
             <a href="#" className="hover:text-gold transition-colors">Confidentialité</a>
           </nav>
-          <p className="text-[10px] tracking-luxe uppercase text-gold/60 italic font-serif text-base">
-            Revenue, by system.
+          <p className="text-[#a0aec0] text-[0.75rem] tracking-[0.1em] uppercase italic">
+            REVENUE, BY SYSTEM.
           </p>
         </div>
       </footer>
