@@ -162,10 +162,10 @@ const Index = () => {
       {/* VÉRITÉS */}
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-[720px] mx-auto text-center">
-          <h2 className="font-serif text-[26px] md:text-4xl text-ivory mb-10 md:mb-16 leading-tight">
+          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
             Ce que personne ne dit aux fondateurs B2B
           </h2>
-          <div className="space-y-8 md:space-y-10 text-[#f7f7f7] leading-[1.8] text-[15px] md:text-base">
+          <div className="space-y-8 md:space-y-10 text-[#f7f7f7] leading-[1.75] text-[0.95rem]">
             <p>
               Votre entreprise tourne. Vos clients sont satisfaits. Et pourtant, chaque nouveau client est le résultat d'un appel, d'une recommandation, d'une rencontre que vous avez provoquée personnellement. Ce modèle n'est pas une force. C'est une fragilité structurelle que vous n'avez pas encore eu à payer au prix fort.
             </p>
@@ -176,7 +176,7 @@ const Index = () => {
               La réponse instinctive est de recruter un commercial. C'est la mauvaise réponse. Un commercial sans infrastructure coûte en moyenne 45 000 EUR sur 12 mois pour un résultat aléatoire. Le problème n'est pas le nombre de personnes. C'est l'absence d'infrastructure.
             </p>
           </div>
-          <p className="text-[#a0aec0] italic text-center mt-10 md:mt-14 text-[15px] md:text-base">
+          <p className="text-[#a0aec0] italic text-center mt-10 md:mt-14 text-[0.875rem]">
             Il existe une alternative à cette dépendance.
           </p>
         </div>
@@ -203,10 +203,10 @@ const Index = () => {
       {/* BÉNÉFICES */}
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-[#a0aec0] text-[13px] md:text-sm mb-6 md:mb-8 max-w-3xl mx-auto">
+          <p className="text-[#a0aec0] text-[0.875rem] mb-6 md:mb-8 max-w-3xl mx-auto">
             Code Kaizen construit l'infrastructure d'acquisition que votre entreprise aurait dû avoir dès le premier jour.
           </p>
-          <h2 className="font-serif text-[26px] md:text-5xl text-ivory mb-10 md:mb-16 leading-tight">
+          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
             Une infrastructure de revenus, pas une prestation de plus
           </h2>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
