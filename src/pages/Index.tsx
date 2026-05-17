@@ -451,16 +451,16 @@ const Index = () => {
           </h2>
           <div className="max-w-[640px] mx-auto border border-[#c9a24e] rounded-xl p-6 md:p-10 text-left">
             <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-5">
-              Un engagement de 5 jours ouvrés. Vous recevez un document couvrant la radiographie de votre situation réelle, les freins qui bloquent le scale, et le levier prioritaire avec une projection chiffrée sur 90 jours.
+              En 5 jours ouvrés, nous produisons un diagnostic complet de votre situation d'acquisition : les freins réels, le levier prioritaire, une projection chiffrée sur 90 jours.
             </p>
             <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-5">
-              La restitution en call de 45 minutes. Vous repartez avec une décision à prendre, pas un rapport à lire seul.
+              La restitution se fait en call de 45 minutes. Vous repartez avec une décision claire, pas un rapport à lire seul.
             </p>
             <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-5">
-              800 EUR HT. C'est le coût du Diagnostic de situation — 5 jours ouvrés, un livrable structuré, une restitution en call de 45 minutes. Si nous démarrons une mission ensemble, ces 800 EUR sont déduits de notre premier trimestre. Si vous ne continuez pas, vous conservez le livrable. Aucun engagement sur la suite.
+              800 EUR HT. Si nous démarrons une mission ensemble, ce montant est déduit intégralement. Si vous ne continuez pas, vous conservez le livrable. Aucun engagement sur la suite.
             </p>
             <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-8">
-              Si le Diagnostic révèle un levier actionnable, suivi à la performance : zéro coût fixe, 10% sur le CA généré pendant 12 mois.
+              En cas de mission : zéro coût fixe, 10% sur le chiffre d'affaires généré par les deals sourcés via notre système, pendant 12 mois. Pas sur votre CA existant.
             </p>
             <div className="text-center">
               <button
