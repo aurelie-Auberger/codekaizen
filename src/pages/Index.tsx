@@ -447,7 +447,7 @@ const Index = () => {
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
-            Le Diagnostic Acquisition — 800 EUR HT
+            Le Diagnostic Acquisition
           </h2>
           <div className="max-w-[640px] mx-auto border border-[#c9a24e] rounded-xl p-6 md:p-10 text-left">
             <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-5">
