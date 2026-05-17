@@ -457,7 +457,7 @@ const Index = () => {
               La restitution en call de 45 minutes. Vous repartez avec une décision à prendre, pas un rapport à lire seul.
             </p>
             <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-5">
-              800 EUR HT. Le coût d'une mauvaise décision de recrutement sur une semaine. Payable à la commande. Aucun engagement sur la suite.
+              800 EUR HT. C'est le coût du Diagnostic de situation — 5 jours ouvrés, un livrable structuré, une restitution en call de 45 minutes. Si nous démarrons une mission ensemble, ces 800 EUR sont déduits de notre premier trimestre. Si vous ne continuez pas, vous conservez le livrable. Aucun engagement sur la suite.
             </p>
             <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-8">
               Si le Diagnostic révèle un levier actionnable, suivi à la performance : zéro coût fixe, 10% sur le CA généré pendant 12 mois.
