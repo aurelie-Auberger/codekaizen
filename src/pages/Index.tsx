@@ -425,42 +425,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* CONVERSION */}
-      <section id="formulaire" className="py-16 md:py-32 px-6 md:px-10 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/20 to-transparent pointer-events-none" />
-        <div className="max-w-6xl mx-auto relative">
-          <div className="gold-line mb-10 md:mb-16 max-w-3xl mx-auto" />
-          <div className="text-center mb-10 md:mb-16">
-            <div className="text-[10px] tracking-[0.15em] md:tracking-luxe uppercase text-gold mb-6">Diagnostic stratégique · 5 jours · 500€</div>
-            <h2 className="text-[1.3rem] md:text-[1.6rem] text-ivory mb-5 md:mb-6 leading-tight">
-              Réservez votre Diagnostic
-            </h2>
-            <p className="text-[#a0aec0] max-w-xl mx-auto leading-[1.75] text-[0.875rem] mb-4">
-              Chaque semaine sans système, c'est un deal signé ailleurs.
-            </p>
-            <p className="font-serif italic text-gold text-[0.875rem] mb-4">Revenue, by system.</p>
-            <p className="text-[#F5F0E8] max-w-xl mx-auto leading-[1.75] text-[0.95rem]">
-              Le diagnostic stratégique est la première étape. 500€. 5 jours. Un plan d'action précis sur votre situation réelle.
-            </p>
-          </div>
-
-          <div className="max-w-2xl mx-auto space-y-8">
-            <div className="pt-6 flex flex-col items-center gap-4">
-              <p className="italic text-ivory text-[0.875rem] leading-[1.75] text-center">
-                Discrétion totale. Nous ne divulguons jamais l'identité de nos partenaires.
-              </p>
-              <a
-                href="https://calendly.com/aurelie-codekaizen/30min"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-gold text-ink px-6 py-[14px] sm:px-14 sm:py-6 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
-              >
-                Évaluer mon éligibilité
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* FOOTER */}
       <footer className="border-t border-border py-10 md:py-16 px-6 md:px-10">
