@@ -309,6 +309,26 @@ const Index = () => {
         </div>
       </section>
 
+      {/* FONDATRICE */}
+      <section className="bg-[#0f1a2e] py-16 md:py-24 px-6 md:px-10">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16">
+            <div
+              className="w-[280px] h-[280px] rounded-2xl bg-[#c9a24e] flex-shrink-0"
+              aria-label="Photo de la fondatrice"
+            />
+            <div className="max-w-xl text-center md:text-left">
+              <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-6 leading-tight">
+                Fondatrice
+              </h2>
+              <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
+                Code Kaizen est dirigée par une opératrice qui conçoit et déploie elle-même les systèmes d'acquisition de ses clients. Chaque mission est suivie de bout en bout, sans intermédiaire ni sous-traitance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* COMMENT LE SYSTÈME FONCTIONNE */}
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
