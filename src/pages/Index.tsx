@@ -148,7 +148,7 @@ const Index = () => {
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6">
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Pipeline otage</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                Chaque client vient d'un appel que vous avez passé. Quand vous vous arrêtez, le pipeline s'arrête.
+                Chaque client vient d'un appel que vous avez passé ou d'une relation que vous avez cultivée. Dès que vous arrêtez, le pipeline s'arrête. Ce n'est pas un modèle, c'est une dépendance.
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6">
