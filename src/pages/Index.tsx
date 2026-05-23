@@ -119,13 +119,13 @@ const Index = () => {
             Votre pipeline ne devrait pas dépendre de vous.
           </h1>
           <p className="text-[#94a3b8] max-w-2xl mx-auto text-[0.95rem] leading-[1.75] mb-4">
-            Code Kaizen construit l'infrastructure outbound B2B qui génère un pipeline commercial prévisible — sans dépendre du bouche-à-oreille ni d'une équipe SDR.
+            Code Kaizen construit et pilote votre système d'acquisition B2B. Vous recevez des rendez-vous qualifiés avec un brief complet. Vous closez.
           </p>
           <p className="text-gold/90 italic text-[0.8rem] max-w-2xl mx-auto mb-4">
             Pour les fondateurs et dirigeants B2B avec une offre validée, un ticket moyen ≥ 5 000 € et zéro système d'acquisition structuré.
           </p>
           <p className="text-[#94a3b8] italic text-[0.85rem] mb-8 md:mb-10">
-            Votre partenaire de croissance aligné sur vos résultats.
+            Vous gardez le contrôle de votre relation commerciale. Nous la rendons plus prévisible.
           </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
             <button
