@@ -328,7 +328,7 @@ const Index = () => {
                   J'ai fondé Code Kaizen après avoir observé le même blocage chez des dizaines de fondateurs B2B : une offre solide, un business qui tourne, et une acquisition qui s'arrête dès qu'ils s'arrêtent.
                 </p>
                 <p>
-                  Mon approche est analytique et sur-mesure. Je ne déploie pas de formules génériques. Je construis avec vous un système d'acquisition adapté à votre marché, votre cycle de vente, vos contraintes réelles.
+                  Avant Code Kaizen, j'ai construit et opéré des systèmes outbound B2B en tant que BDR puis architecte RevOps — sur des offres SaaS, conseil et ESN, avec des stacks Clay / Instantly / HubSpot. Je ne déploie pas des formules génériques. Je construis avec vous un système calibré sur votre ICP réel, votre cycle de vente, vos contraintes opérationnelles.
                 </p>
                 <p>
                   Je travaille en partenariat, pas en prestation. Votre croissance est notre objectif commun.
