@@ -295,7 +295,7 @@ const Index = () => {
             {[
               { n: "27", l: "RDV qualifiés générés", s: "Sur 1 850 contacts sourcés — taux de conversion 1,46%" },
               { n: "16,2%", l: "Taux de réponse moyen", s: "Moyenne sur séquences cold email 3 steps, secteur SaaS/ESN" },
-              { n: "68 K€", l: "Pipeline généré", s: "Sur les 90 derniers jours" },
+              { n: "68 K€", l: "Pipeline généré", s: "Sur 3 missions actives, 90 jours" },
               { n: "4", l: "Deals signés", s: "Sur les 90 derniers jours" },
               
               { n: "3,2x", l: "ROI médian constaté", s: "Sur 6 mois d'accompagnement" },
