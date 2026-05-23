@@ -534,51 +534,18 @@ const Index = () => {
           </p>
           <div className="grid md:grid-cols-2 gap-5 md:gap-6">
             {[
-              {
-                icon: (
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
-                    <polygon points="12 2 22 12 12 22 2 12 12 2" />
-                  </svg>
-                ),
-                t: "L'architecture avant l'exécution",
-                d: "Une séquence mal ciblée envoie des milliers de messages au mauvais profil. Nous passons autant de temps à construire l'infrastructure qu'à l'opérer. Ce que vous ne voyez pas — le sourcing, le scoring, l'architecture technique — détermine 80% du résultat final.",
-              },
-              {
-                icon: (
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
-                    <line x1="4" y1="20" x2="20" y2="20" />
-                    <polyline points="6 14 12 6 18 14" />
-                    <line x1="12" y1="6" x2="12" y2="18" />
-                  </svg>
-                ),
-                t: "La donnée avant l'intuition",
-                d: "Chaque décision est tracée et justifiée par des données : taux de réponse par segment, par step, par accroche. Nous n'itérons pas à l'aveugle. Nous mesurons, nous interprétons, nous ajustons. L'opinion n'a pas sa place dans un système d'acquisition.",
-              },
-              {
-                icon: (
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
-                    <circle cx="8" cy="12" r="5" />
-                    <circle cx="16" cy="12" r="5" />
-                  </svg>
-                ),
-                t: "L'alignement sur vos résultats, pas sur nos heures",
-                d: "Le modèle à la performance n'est pas un argument commercial. C'est une contrainte que nous nous imposons : si le système ne produit pas, nous ne gagnons pas. Cette structure élimine le conflit d'intérêt entre prestataire et client, et aligne chaque action sur une seule métrique : le CA généré.",
-              },
-              {
-                icon: (
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
-                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                    <polyline points="14 2 14 8 20 8" />
-                    <line x1="8" y1="13" x2="16" y2="13" />
-                    <line x1="8" y1="17" x2="16" y2="17" />
-                  </svg>
-                ),
-                t: "La transmission comme objectif final",
-                d: "Nous ne construisons pas des systèmes dont vous seriez dépendants. Chaque mission se termine par un transfert complet : documentation, playbook, formation. L'objectif est que vous puissiez opérer sans nous — ou que vous choisissiez de continuer avec nous. La différence est là.",
-              },
-            ].map((b) => (
-              <div key={b.t} className="bg-[#1a2744] border border-[rgba(201,168,76,0.3)] rounded-lg p-6 md:p-7 flex gap-4 md:gap-5">
-                <div className="text-[#c9a84c] flex-shrink-0 pt-0.5">{b.icon}</div>
+              { t: "L'architecture avant l'exécution", d: "Une séquence mal ciblée envoie des milliers de messages au mauvais profil. Nous passons autant de temps à construire l'infrastructure qu'à l'opérer. Ce que vous ne voyez pas — le sourcing, le scoring, l'architecture technique — détermine 80% du résultat final." },
+              { t: "La donnée avant l'intuition", d: "Chaque décision est tracée et justifiée par des données : taux de réponse par segment, par step, par accroche. Nous n'itérons pas à l'aveugle. Nous mesurons, nous interprétons, nous ajustons. L'opinion n'a pas sa place dans un système d'acquisition." },
+              { t: "L'alignement sur vos résultats, pas sur nos heures", d: "Le modèle à la performance n'est pas un argument commercial. C'est une contrainte que nous nous imposons : si le système ne produit pas, nous ne gagnons pas. Cette structure élimine le conflit d'intérêt entre prestataire et client, et aligne chaque action sur une seule métrique : le CA généré." },
+              { t: "La transmission comme objectif final", d: "Nous ne construisons pas des systèmes dont vous seriez dépendants. Chaque mission se termine par un transfert complet : documentation, playbook, formation. L'objectif est que vous puissiez opérer sans nous — ou que vous choisissiez de continuer avec nous. La différence est là." },
+            ].map((b, i) => (
+              <div
+                key={b.t}
+                className="bg-[#152339] border-l-[3px] border-l-[#c9a84c] border-y border-r border-y-[rgba(201,168,76,0.15)] border-r-[rgba(201,168,76,0.15)] rounded-r-lg p-6 md:p-7 flex gap-5 hover:bg-[#1a2842] transition-colors"
+              >
+                <div className="font-serif text-[#c9a84c] text-[2rem] md:text-[2.4rem] leading-none flex-shrink-0">
+                  {String(i + 1).padStart(2, "0")}
+                </div>
                 <div>
                   <h3 className="text-white text-base md:text-lg font-bold leading-tight mb-2">{b.t}</h3>
                   <p className="text-[#a0aec0] text-[13px] md:text-sm leading-relaxed">{b.d}</p>
@@ -586,6 +553,7 @@ const Index = () => {
               </div>
             ))}
           </div>
+
         </div>
       </section>
 
