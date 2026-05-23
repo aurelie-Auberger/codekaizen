@@ -406,10 +406,10 @@ const Index = () => {
           <div>
             <div className="text-center mb-10 md:mb-12">
               <h3 className="font-serif text-[1.15rem] md:text-[1.4rem] text-ivory mb-2 leading-tight">
-                Protocole de qualification SQL
+                Comment on filtre les leads
               </h3>
               <p className="text-[#94a3b8] text-[0.82rem] md:text-[0.875rem]">
-                Aucun lead n'entre dans votre pipeline sans scoring validé.
+                Vous ne recevez que les prospects qui ont un vrai projet.
               </p>
             </div>
 
