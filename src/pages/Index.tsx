@@ -118,13 +118,13 @@ const Index = () => {
           <h1 className="font-serif text-[1.6rem] leading-[1.15] md:text-[2.2rem] md:leading-[1.1] text-ivory mb-5 md:mb-10 tracking-tight">
             Votre pipeline ne devrait pas dépendre de vous.
           </h1>
-          <p className="text-[#a0aec0] max-w-2xl mx-auto text-[0.95rem] leading-[1.75] mb-4">
+          <p className="text-[#94a3b8] max-w-2xl mx-auto text-[0.95rem] leading-[1.75] mb-4">
             Code Kaizen construit l'infrastructure outbound B2B qui génère un pipeline commercial prévisible — sans dépendre du bouche-à-oreille ni d'une équipe SDR.
           </p>
           <p className="text-gold/90 italic text-[0.8rem] max-w-2xl mx-auto mb-4">
             Pour les fondateurs et dirigeants B2B avec une offre validée, un ticket moyen ≥ 5 000 € et zéro système d'acquisition structuré.
           </p>
-          <p className="text-[#a0aec0] italic text-[0.85rem] mb-8 md:mb-10">
+          <p className="text-[#94a3b8] italic text-[0.85rem] mb-8 md:mb-10">
             Votre partenaire de croissance aligné sur vos résultats.
           </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
@@ -165,7 +165,7 @@ const Index = () => {
               </p>
             </div>
           </div>
-          <p className="text-[#a0aec0] italic text-center mt-10 md:mt-14 text-[0.875rem]">
+          <p className="text-[#94a3b8] italic text-center mt-10 md:mt-14 text-[0.875rem]">
             Il existe une alternative à cette dépendance.
           </p>
         </div>
@@ -207,7 +207,7 @@ const Index = () => {
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-4 md:mb-6 leading-tight">
             Ce que le système produit
           </h2>
-          <p className="text-[#a0aec0] text-center text-[0.875rem] mb-10 md:mb-16">
+          <p className="text-[#94a3b8] text-center text-[0.875rem] mb-10 md:mb-16">
             Voici ce que cette infrastructure produit.
           </p>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
@@ -215,15 +215,15 @@ const Index = () => {
               <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">ESN Conseil, 18 collaborateurs, France</div>
               <div className="space-y-3 text-[13px] md:text-sm">
                 <div>
-                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Offre</div>
+                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Offre</div>
                   <div className="text-[#f7f7f7] leading-relaxed">Missions data & IA, ticket moyen 22K€</div>
                 </div>
                 <div>
-                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Levier</div>
+                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Levier</div>
                   <div className="text-[#f7f7f7] leading-relaxed">Outbound cold email ciblé DSI + DG de PME industrielles</div>
                 </div>
                 <div>
-                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Résultat</div>
+                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Résultat</div>
                   <div className="text-[#f7f7f7] leading-relaxed">3 deals signés / 67K€ pipeline qualifié en 73 jours</div>
                 </div>
               </div>
@@ -232,15 +232,15 @@ const Index = () => {
               <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">SaaS RH B2B, 8 collaborateurs, France</div>
               <div className="space-y-3 text-[13px] md:text-sm">
                 <div>
-                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Offre</div>
+                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Offre</div>
                   <div className="text-[#f7f7f7] leading-relaxed">Logiciel de gestion d'entretiens, ticket annuel 8K€</div>
                 </div>
                 <div>
-                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Levier</div>
+                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Levier</div>
                   <div className="text-[#f7f7f7] leading-relaxed">Séquences LinkedIn + email ciblées DRH entreprises 50-200 salariés</div>
                 </div>
                 <div>
-                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Résultat</div>
+                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Résultat</div>
                   <div className="text-[#f7f7f7] leading-relaxed">2 deals signés / 38K€ ARR généré en 61 jours</div>
                 </div>
               </div>
@@ -249,28 +249,28 @@ const Index = () => {
               <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">Cabinet de conseil en stratégie, 12 collaborateurs</div>
               <div className="space-y-3 text-[13px] md:text-sm">
                 <div>
-                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Offre</div>
+                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Offre</div>
                   <div className="text-[#f7f7f7] leading-relaxed">Accompagnement transformation, ticket moyen 35K€</div>
                 </div>
                 <div>
-                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Levier</div>
+                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Levier</div>
                   <div className="text-[#f7f7f7] leading-relaxed">Outbound ciblé DAF + DG de ETI en phase de structuration</div>
                 </div>
                 <div>
-                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Résultat</div>
+                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Résultat</div>
                   <div className="text-[#f7f7f7] leading-relaxed">1 deal signé + 2 en négociation / 105K€ pipeline en 88 jours</div>
                 </div>
               </div>
             </div>
           </div>
-          <p className="text-[#a0aec0] text-[0.75rem] italic text-center mt-8 md:mt-10">
+          <p className="text-[#94a3b8] text-[0.75rem] italic text-center mt-8 md:mt-10">
             Missions anonymisées. Données réelles.
           </p>
           <div className="max-w-2xl mx-auto mt-10 md:mt-14 text-center">
             <p className="text-[#c9a24e] italic text-[0.875rem] leading-relaxed">
               "Pour la première fois depuis trois ans, j'ai eu un rendez-vous qualifié que je n'avais pas été chercher moi-même. En 6 semaines, le système a produit plus de pipeline que mes 8 derniers mois de networking."
             </p>
-            <p className="text-[#a0aec0] text-[13px] mt-3">
+            <p className="text-[#94a3b8] text-[13px] mt-3">
               — Fondateur, ESN Data & IA, 18 collaborateurs, France — 2025
             </p>
           </div>
@@ -285,7 +285,7 @@ const Index = () => {
             <h2 className="font-serif text-[1.5rem] md:text-[2.1rem] text-ivory mb-4 leading-tight">
               Comment fonctionne l'infrastructure Code Kaizen
             </h2>
-            <p className="text-[#a0aec0] text-[0.9rem] md:text-[0.95rem] leading-relaxed">
+            <p className="text-[#94a3b8] text-[0.9rem] md:text-[0.95rem] leading-relaxed">
               Un système en 6 phases, documenté et transmissible.
             </p>
           </div>
@@ -296,7 +296,7 @@ const Index = () => {
               <h3 className="font-serif text-[1.15rem] md:text-[1.4rem] text-ivory mb-2 leading-tight">
                 Les 6 phases du système
               </h3>
-              <p className="text-[#a0aec0] text-[0.82rem] md:text-[0.875rem]">
+              <p className="text-[#94a3b8] text-[0.82rem] md:text-[0.875rem]">
                 De l'ICP au deal — séquence stricte, aucune étape sautée.
               </p>
             </div>
@@ -385,7 +385,7 @@ const Index = () => {
               <h3 className="font-serif text-[1.15rem] md:text-[1.4rem] text-ivory mb-2 leading-tight">
                 La stack technique
               </h3>
-              <p className="text-[#a0aec0] text-[0.82rem] md:text-[0.875rem]">
+              <p className="text-[#94a3b8] text-[0.82rem] md:text-[0.875rem]">
                 4 couches d'infrastructure, du sourcing à la transmission.
               </p>
             </div>
@@ -420,7 +420,7 @@ const Index = () => {
                 </div>
               ))}
             </div>
-            <p className="text-[#a0aec0] text-[0.78rem] md:text-[0.82rem] italic text-center mt-6">
+            <p className="text-[#94a3b8] text-[0.78rem] md:text-[0.82rem] italic text-center mt-6">
               Chaque couche est documentée et transmissible en fin de mission.
             </p>
           </div>
@@ -431,7 +431,7 @@ const Index = () => {
               <h3 className="font-serif text-[1.15rem] md:text-[1.4rem] text-ivory mb-2 leading-tight">
                 Protocole de qualification SQL
               </h3>
-              <p className="text-[#a0aec0] text-[0.82rem] md:text-[0.875rem]">
+              <p className="text-[#94a3b8] text-[0.82rem] md:text-[0.875rem]">
                 Aucun lead n'entre dans votre pipeline sans scoring validé.
               </p>
             </div>
@@ -456,7 +456,7 @@ const Index = () => {
                   <div className="text-white text-[0.85rem] md:text-[0.9rem] font-bold leading-tight mb-1">{title}</div>
                   {sub && <div className="text-[#cbd5e1] text-[0.72rem] md:text-[0.75rem] leading-snug">{sub}</div>}
                   {note && (
-                    <div style={{ borderColor: `${color}44` }} className="mt-2 pt-2 border-t text-[#a0aec0] text-[0.68rem] md:text-[0.7rem] font-mono leading-snug">
+                    <div style={{ borderColor: `${color}44` }} className="mt-2 pt-2 border-t text-[#94a3b8] text-[0.68rem] md:text-[0.7rem] font-mono leading-snug">
                       {note}
                     </div>
                   )}
@@ -510,7 +510,7 @@ const Index = () => {
                     <div className="hidden md:block" />
                   </div>
 
-                  <p className="text-[#a0aec0] text-[0.78rem] md:text-[0.82rem] italic text-center mt-10">
+                  <p className="text-[#94a3b8] text-[0.78rem] md:text-[0.82rem] italic text-center mt-10">
                     Aucun lead n'entre dans votre pipeline sans brief complet et scoring validé.
                   </p>
                 </div>
@@ -529,7 +529,7 @@ const Index = () => {
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-3 md:mb-4 leading-tight">
             Nos principes
           </h2>
-          <p className="text-[#a0aec0] text-center text-[0.875rem] mb-12 md:mb-16">
+          <p className="text-[#94a3b8] text-center text-[0.875rem] mb-12 md:mb-16">
             Ce qui guide chaque décision, chaque séquence, chaque mission.
           </p>
           <div className="grid md:grid-cols-2 gap-5 md:gap-6">
@@ -548,7 +548,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="text-white text-base md:text-lg font-bold leading-tight mb-2">{b.t}</h3>
-                  <p className="text-[#a0aec0] text-[13px] md:text-sm leading-relaxed">{b.d}</p>
+                  <p className="text-[#94a3b8] text-[13px] md:text-sm leading-relaxed">{b.d}</p>
                 </div>
               </div>
             ))}
@@ -613,7 +613,7 @@ const Index = () => {
               <div key={step.t} className="flex items-center gap-4 md:gap-6 flex-shrink-0">
                 <div className="bg-[#111927] border border-[rgba(201,162,78,0.2)] rounded-lg p-4 w-[200px] md:w-auto md:min-w-[180px]">
                   <h3 className="text-[#c9a24e] font-bold text-[0.85rem] mb-2">{step.t}</h3>
-                  <p className="text-[#a0aec0] text-[0.8rem] leading-[1.6]">{step.d}</p>
+                  <p className="text-[#94a3b8] text-[0.8rem] leading-[1.6]">{step.d}</p>
                 </div>
                 {i < arr.length - 1 && (
                   <ArrowRight className="w-4 h-4 text-[#c9a24e] flex-shrink-0 hidden md:block" />
@@ -621,7 +621,7 @@ const Index = () => {
               </div>
             ))}
           </div>
-          <p className="text-[#a0aec0] italic text-center mt-10 md:mt-14 text-[0.875rem]">
+          <p className="text-[#94a3b8] italic text-center mt-10 md:mt-14 text-[0.875rem]">
             Chaque système est construit sur mesure. La logique et les automatisations sont documentées et vous sont transmises en fin de mission.
           </p>
         </div>
@@ -633,7 +633,7 @@ const Index = () => {
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-4 md:mb-6 leading-tight">
             Scénarios types
           </h2>
-          <p className="text-[#a0aec0] text-center text-[0.875rem] mb-10 md:mb-16">
+          <p className="text-[#94a3b8] text-center text-[0.875rem] mb-10 md:mb-16">
             Exemples d'objectifs et de délais moyens.
           </p>
 
@@ -658,15 +658,15 @@ const Index = () => {
                     className={i < arr.length - 1 ? "border-b border-[rgba(201,162,78,0.1)]" : ""}
                   >
                     <td className="p-4 text-[#f7f7f7] text-[0.85rem] font-medium">{row.s}</td>
-                    <td className="p-4 text-[#a0aec0] text-[0.85rem]">{row.o}</td>
-                    <td className="p-4 text-[#a0aec0] text-[0.85rem]">{row.d}</td>
-                    <td className="p-4 text-[#a0aec0] text-[0.85rem]">{row.r}</td>
+                    <td className="p-4 text-[#94a3b8] text-[0.85rem]">{row.o}</td>
+                    <td className="p-4 text-[#94a3b8] text-[0.85rem]">{row.d}</td>
+                    <td className="p-4 text-[#94a3b8] text-[0.85rem]">{row.r}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="text-[#a0aec0] italic text-center mt-8 md:mt-10 text-[0.8rem] max-w-3xl mx-auto leading-relaxed">
+          <p className="text-[#94a3b8] italic text-center mt-8 md:mt-10 text-[0.8rem] max-w-3xl mx-auto leading-relaxed">
             Code Kaizen n'intervient pas sur des offres en phase de recherche de product-market fit, des tickets inférieurs à 5 000 € par deal, ou des activités sans fondateur impliqué dans les premières semaines.
           </p>
         </div>
@@ -678,7 +678,7 @@ const Index = () => {
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-4 md:mb-6 leading-tight">
             Projection des résultats
           </h2>
-          <p className="text-[#a0aec0] text-center text-[0.875rem] mb-10 md:mb-16">
+          <p className="text-[#94a3b8] text-center text-[0.875rem] mb-10 md:mb-16">
             Projection sur 90 jours. Basée sur des scénarios types observés.
           </p>
           <div className="space-y-6">
@@ -702,7 +702,7 @@ const Index = () => {
               </div>
             ))}
           </div>
-          <p className="text-[#a0aec0] italic text-center mt-10 md:mt-14 text-[0.875rem]">
+          <p className="text-[#94a3b8] italic text-center mt-10 md:mt-14 text-[0.875rem]">
             Basé sur les performances moyennes des missions opérées.
           </p>
         </div>
@@ -742,7 +742,7 @@ const Index = () => {
       {/* COÛT DE L'ATTENTE */}
       <section className="py-16 md:py-32 px-6 md:px-10 bg-[rgba(201,162,78,0.05)] border-t border-b border-[rgba(201,162,78,0.15)]">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-[#a0aec0] italic text-[0.875rem] mb-4 md:mb-6">
+          <p className="text-[#94a3b8] italic text-[0.875rem] mb-4 md:mb-6">
             Et si vous attendez encore six mois ?
           </p>
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
@@ -783,7 +783,7 @@ const Index = () => {
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-4 md:mb-6 leading-tight">
             Ce que Code Kaizen n'est pas
           </h2>
-          <p className="text-[#a0aec0] text-center text-[0.875rem] mb-10 md:mb-16">
+          <p className="text-[#94a3b8] text-center text-[0.875rem] mb-10 md:mb-16">
             Pour éviter de perdre du temps des deux côtés.
           </p>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8 text-left">
@@ -836,7 +836,7 @@ const Index = () => {
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-4 md:mb-6 leading-tight">
             Réservez votre Diagnostic
           </h2>
-          <p className="text-[#a0aec0] text-[0.875rem] mb-10 md:mb-16">
+          <p className="text-[#94a3b8] text-[0.875rem] mb-10 md:mb-16">
             Quelques questions pour qualifier votre situation.
           </p>
           <iframe
