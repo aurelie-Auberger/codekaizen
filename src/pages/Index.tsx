@@ -341,41 +341,18 @@ const Index = () => {
               );
 
               return (
-                <>
-                  <div className="hidden md:block">
-                    <div className="flex items-stretch gap-3">
-                      {top.map((p, i) => (
-                        <div key={p.n} className="flex items-center flex-1 gap-3">
-                          <PhaseCard p={p} />
-                          {i < top.length - 1 && <ArrowRight />}
-                        </div>
-                      ))}
+                <div className="space-y-3 max-w-2xl mx-auto">
+                  {phases.map((p, i) => (
+                    <div key={p.n}>
+                      <PhaseCard p={p} />
+                      {i < phases.length - 1 && (
+                        <div className="flex justify-center my-2"><ArrowDown /></div>
+                      )}
                     </div>
-                    <div className="flex justify-end pr-[8%] my-2">
-                      <ArrowDown />
-                    </div>
-                    <div className="flex items-stretch gap-3 flex-row-reverse">
-                      {bottom.map((p, i) => (
-                        <div key={p.n} className="flex items-center flex-row-reverse flex-1 gap-3">
-                          <PhaseCard p={p} />
-                          {i < bottom.length - 1 && <ArrowLeft />}
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  <div className="md:hidden space-y-3">
-                    {phases.map((p, i) => (
-                      <div key={p.n}>
-                        <PhaseCard p={p} />
-                        {i < phases.length - 1 && (
-                          <div className="flex justify-center my-2"><ArrowDown /></div>
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                </>
+                  ))}
+                </div>
               );
+
             })()}
           </div>
 
