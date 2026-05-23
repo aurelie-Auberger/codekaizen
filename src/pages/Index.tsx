@@ -455,7 +455,7 @@ const Index = () => {
             ))}
           </div>
           <p className="text-[#a0aec0] italic text-center mt-10 md:mt-14 text-[0.875rem]">
-            Projections basées sur des comportements moyens observés.
+            Basé sur les performances moyennes des missions opérées.
           </p>
         </div>
       </section>
