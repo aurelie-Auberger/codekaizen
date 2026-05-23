@@ -37,6 +37,8 @@ const TallyForm = () => {
 
     // Listen for Tally form submission and redirect to Calendly
     const handleMessage = (e: MessageEvent) => {
+      // Only trust messages from Tally's embed origin
+      if (e.origin !== "https://tally.so") return;
       const data = e.data;
       if (typeof data === "string" && data.includes("Tally.FormSubmitted")) {
         window.open(CALENDLY_URL, "_blank");
