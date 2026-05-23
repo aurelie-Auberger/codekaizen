@@ -294,7 +294,7 @@ const Index = () => {
               { n: "16,2%", l: "Taux de réponse moyen", s: "Sur campagnes outbound" },
               { n: "68 K€", l: "Pipeline généré", s: "Sur les 90 derniers jours" },
               { n: "4", l: "Deals signés", s: "Sur les 90 derniers jours" },
-              { n: "2,7x", l: "ROI moyen constaté", s: "Sur 6 mois d'accompagnement" },
+              
               { n: "3,2x", l: "ROI médian constaté", s: "Sur 6 mois d'accompagnement" },
             ].map((m) => (
               <div key={m.n} className="text-center">
