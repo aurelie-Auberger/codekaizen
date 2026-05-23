@@ -521,6 +521,30 @@ const Index = () => {
         </div>
       </section>
 
+      {/* CE QUE CODE KAIZEN N'EST PAS */}
+      <section className="py-16 md:py-32 px-6 md:px-10">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-4 md:mb-6 leading-tight">
+            Ce que Code Kaizen n'est pas
+          </h2>
+          <p className="text-[#a0aec0] text-center text-[0.875rem] mb-10 md:mb-16">
+            Pour éviter de perdre du temps des deux côtés.
+          </p>
+          <div className="grid md:grid-cols-3 gap-6 md:gap-8 text-left">
+            {[
+              "Votre offre est encore en phase de validation marché. Nous construisons des systèmes d'acquisition, pas des outils de discovery produit.",
+              "Votre ticket moyen est inférieur à 5 000 € par deal. Le modèle à la performance n'est pas viable en dessous de ce seuil pour les deux parties.",
+              "Vous cherchez une délégation totale sans implication. Les 4 premières semaines requièrent 2h/semaine de votre temps pour calibrer l'ICP et valider les séquences.",
+            ].map((text, i) => (
+              <div key={i} className="bg-[rgba(232,93,58,0.04)] border border-[rgba(232,93,58,0.25)] rounded-lg p-6">
+                <h3 className="text-[#e85d3a] text-lg font-medium mb-4">Pas pour vous si...</h3>
+                <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">{text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-16 md:py-32 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
