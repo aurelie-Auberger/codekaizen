@@ -270,7 +270,7 @@ const Index = () => {
               "Pour la première fois depuis trois ans, j'ai eu un rendez-vous qualifié que je n'avais pas été chercher moi-même. En 6 semaines, le système a produit plus de pipeline que mes 8 derniers mois de networking."
             </p>
             <p className="text-[#a0aec0] text-[13px] mt-3">
-              — Fondateur, SaaS RH, France, 2025
+              — Fondateur, ESN Data & IA, 18 collaborateurs, France — 2025
             </p>
           </div>
         </div>
