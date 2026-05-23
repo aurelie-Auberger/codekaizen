@@ -632,7 +632,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-6 md:gap-8 text-left">
             {[
               "Votre offre est encore en phase de validation marché. Nous construisons des systèmes d'acquisition, pas des outils de discovery produit.",
-              "Votre ticket moyen est inférieur à 5 000 € par deal. Le modèle à la performance n'est pas viable en dessous de ce seuil pour les deux parties.",
+              "Votre ticket moyen est inférieur à 5 000 € par deal. Le pilotage mensuel n'est pas rentable en dessous de ce seuil — ni pour vous, ni pour nous.",
               "Vous cherchez une délégation totale sans implication. Les 4 premières semaines requièrent 2h/semaine de votre temps pour calibrer l'ICP et valider les séquences.",
             ].map((text, i) => (
               <div key={i} className="bg-[rgba(232,93,58,0.04)] border border-[rgba(232,93,58,0.25)] rounded-lg p-6">
