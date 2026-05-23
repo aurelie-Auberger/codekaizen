@@ -228,23 +228,19 @@ const Index = () => {
               </div>
             </div>
             <div className="bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6">
-              <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">Cabinet IT · 4 mois</div>
-              <div className="grid grid-cols-2 gap-y-4 gap-x-4 text-[13px] md:text-sm">
+              <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">SaaS RH B2B, 8 collaborateurs, France</div>
+              <div className="space-y-3 text-[13px] md:text-sm">
                 <div>
-                  <div className="text-[#f7f7f7] font-bold text-lg">26</div>
-                  <div className="text-[#a0aec0] text-[0.7rem]">RDV qualifiés</div>
+                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Offre</div>
+                  <div className="text-[#f7f7f7] leading-relaxed">Logiciel de gestion d'entretiens, ticket annuel 8K€</div>
                 </div>
                 <div>
-                  <div className="text-[#f7f7f7] font-bold text-lg">19,1%</div>
-                  <div className="text-[#a0aec0] text-[0.7rem]">Taux de réponse</div>
+                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Levier</div>
+                  <div className="text-[#f7f7f7] leading-relaxed">Séquences LinkedIn + email ciblées DRH entreprises 50-200 salariés</div>
                 </div>
                 <div>
-                  <div className="text-[#f7f7f7] font-bold text-lg">2</div>
-                  <div className="text-[#a0aec0] text-[0.7rem]">Deals signés</div>
-                </div>
-                <div>
-                  <div className="text-[#f7f7f7] font-bold text-lg">37 K€</div>
-                  <div className="text-[#a0aec0] text-[0.7rem]">Pipeline généré</div>
+                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Résultat</div>
+                  <div className="text-[#f7f7f7] leading-relaxed">2 deals signés / 38K€ ARR généré en 61 jours</div>
                 </div>
               </div>
             </div>
