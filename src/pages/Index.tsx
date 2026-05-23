@@ -191,9 +191,9 @@ const Index = () => {
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
-              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Modèle à la performance</h3>
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Modèle 100% performance</h3>
               <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
-                10% sur le chiffre d'affaires généré par les deals sourcés via notre système, pendant 12 mois. Pas sur votre CA existant. Vous payez les résultats encaissés, rien d'autre.
+                Zéro coût fixe. 10% sur le chiffre d'affaires généré par les deals sourcés via notre système, pendant 12 mois. Applicable uniquement aux offres B2B avec ticket moyen ≥ 5 000 € par deal.
               </p>
             </div>
           </div>
