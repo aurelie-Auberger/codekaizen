@@ -179,9 +179,9 @@ const Index = () => {
           </h2>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
-              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Diagnostic Acquisition</h3>
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Diagnostic Acquisition — 5 jours</h3>
               <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
-                En 5 jours, nous identifions le levier exact qui bloque votre acquisition. Un livrable actionnable le jour de la restitution.
+                Nous cartographions votre ICP réel, votre positionnement outbound, et les leviers bloquants. Livrable structuré le jour de la restitution : ICP fiche, stack recommandée, architecture de séquences.
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
