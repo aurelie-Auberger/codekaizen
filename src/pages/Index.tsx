@@ -318,12 +318,23 @@ const Index = () => {
               aria-label="Photo de la fondatrice"
             />
             <div className="max-w-xl text-center md:text-left">
-              <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-6 leading-tight">
-                Fondatrice
+              <h2 className="font-serif text-[2rem] md:text-[2.5rem] text-ivory mb-2 leading-tight">
+                Aurélie
               </h2>
-              <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
-                Code Kaizen est dirigée par une opératrice qui conçoit et déploie elle-même les systèmes d'acquisition de ses clients. Chaque mission est suivie de bout en bout, sans intermédiaire ni sous-traitance.
+              <p className="text-[#c9a24e] text-sm md:text-base font-medium mb-6">
+                Fondatrice &amp; Architecte de croissance, Code Kaizen
               </p>
+              <div className="space-y-4 text-[#edeae2] text-[14px] md:text-[15px] leading-relaxed">
+                <p>
+                  J'ai fondé Code Kaizen après avoir observé un même blocage chez des fondateurs B2B : une offre solide, un business qui tourne, et une acquisition qui s'arrête dès qu'ils s'arrêtent.
+                </p>
+                <p>
+                  Mon approche est analytique et sur-mesure. Je ne déploie pas de formules génériques. Je construis avec vous un système d'acquisition adapté à votre marché, votre cycle de vente, vos contraintes réelles.
+                </p>
+                <p>
+                  Je travaille en partenariat, pas en prestation. Votre croissance est notre objectif commun.
+                </p>
+              </div>
             </div>
           </div>
         </div>
