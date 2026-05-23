@@ -370,9 +370,9 @@ const Index = () => {
             <div className="space-y-3">
               {[
                 { n: "01", t: "Trouver les bonnes cibles", color: "#3b82f6", bg: "rgba(59,130,246,0.06)", tools: ["Clay", "Apollo", "LinkedIn Sales Navigator", "Crunchbase", "Kaspr"] },
-                { n: "02", t: "Séquencement outbound", color: "#c9a84c", bg: "rgba(201,168,76,0.06)", tools: ["Instantly.ai", "LinkedIn outreach", "Domaines dédiés", "Warmup automatisé"] },
-                { n: "03", t: "Qualification & CRM", color: "#f97316", bg: "rgba(249,115,22,0.06)", tools: ["HubSpot CRM", "Scoring T1/T2/T3", "Brief lead complet", "Routing automatique"] },
-                { n: "04", t: "Transmission & pérennité", color: "#14b8a6", bg: "rgba(20,184,166,0.06)", tools: ["Documentation séquences", "ICP fiche opérationnelle", "Workflows N8N", "Playbook PDF"] },
+                { n: "02", t: "Déclencher les conversations", color: "#c9a84c", bg: "rgba(201,168,76,0.06)", tools: ["Instantly.ai", "LinkedIn outreach", "Domaines dédiés", "Warmup automatisé"] },
+                { n: "03", t: "Filtrer et router les opportunités", color: "#f97316", bg: "rgba(249,115,22,0.06)", tools: ["HubSpot CRM", "Scoring T1/T2/T3", "Brief lead complet", "Routing automatique"] },
+                { n: "04", t: "Vous rendre autonome", color: "#14b8a6", bg: "rgba(20,184,166,0.06)", tools: ["Documentation séquences", "ICP fiche opérationnelle", "Workflows N8N", "Playbook PDF"] },
               ].map((layer) => (
                 <div
                   key={layer.n}
@@ -380,9 +380,9 @@ const Index = () => {
                   className="border-l-4 border-y border-r border-[rgba(201,168,76,0.15)] rounded-r-md p-5 md:p-6 grid md:grid-cols-[200px_1fr] gap-4 md:gap-6 items-start hover:border-[rgba(201,168,76,0.3)] transition-colors"
                 >
                   <div>
-                    <div style={{ color: layer.color }} className="text-[0.65rem] font-mono tracking-[0.2em] uppercase mb-1.5">Couche {layer.n}</div>
                     <div className="text-white text-[0.95rem] md:text-[1rem] font-bold leading-tight">{layer.t}</div>
                   </div>
+
                   <div className="flex flex-wrap gap-2">
                     {layer.tools.map((tool) => (
                       <span
