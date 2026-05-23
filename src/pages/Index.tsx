@@ -278,131 +278,176 @@ const Index = () => {
       </section>
 
       {/* SECTION A — INFRASTRUCTURE */}
-      <section className="bg-[#0d1b2e] border-t border-b border-[rgba(201,162,78,0.15)] py-16 md:py-24 px-6 md:px-10">
+      <section className="bg-[#0d1b2e] border-t border-b border-[rgba(201,162,78,0.15)] py-16 md:py-28 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-3 md:mb-4 leading-tight">
-            Comment fonctionne l'infrastructure Code Kaizen
-          </h2>
-          <p className="text-[#a0aec0] text-center text-[0.875rem] mb-12 md:mb-16">
-            Un système en 6 phases, documenté et transmissible.
-          </p>
-
-          {/* Pipeline diagram */}
-          <div className="overflow-x-auto pb-4 mb-12 md:mb-16">
-            <div className="flex items-stretch gap-2 md:gap-3 min-w-[900px] md:min-w-0">
-              {[
-                { n: "01", t: "Diagnostic Acquisition", s: "ICP · Marché · Blocages" },
-                { n: "02", t: "Architecture Pipeline", s: "Stack · Séquences · CRM" },
-                { n: "03", t: "Sourcing & Segmentation", s: "Clay · Enrichissement · Score" },
-                { n: "04", t: "Acquisition Outbound", s: "Instantly · LinkedIn · Email" },
-                { n: "05", t: "Qualification SQL", s: "Scoring · Routing · Handoff" },
-                { n: "06", t: "Transmission Système", s: "Docs · Playbook · Formation" },
-              ].map((step, i, arr) => (
-                <div key={step.n} className="flex items-center flex-1">
-                  <div className="flex-1 bg-[#1a2744] border border-[#c9a84c] rounded-md p-3 md:p-4 relative">
-                    <div className="text-[#c9a84c] text-[0.7rem] font-bold tracking-wider mb-1.5">{step.n}</div>
-                    <div className="text-white text-[0.8rem] md:text-[0.85rem] font-bold leading-tight mb-1">{step.t}</div>
-                    <div className="text-[#a0aec0] text-[0.65rem] md:text-[0.7rem] leading-snug">{step.s}</div>
-                  </div>
-                  {i < arr.length - 1 && (
-                    <svg className="w-4 md:w-5 h-4 md:h-5 text-[#c9a84c] flex-shrink-0 mx-0.5 md:mx-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                      <polyline points="9 6 15 12 9 18" />
-                    </svg>
-                  )}
-                </div>
-              ))}
+          {/* Header */}
+          <div className="mb-12 md:mb-16">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="h-px w-8 bg-[#c9a84c]" />
+              <span className="text-[#c9a84c] text-[0.7rem] tracking-[0.25em] font-medium uppercase">Infrastructure · v2026</span>
             </div>
+            <h2 className="font-serif text-[1.5rem] md:text-[2.1rem] text-ivory mb-4 leading-tight max-w-3xl">
+              Comment fonctionne l'infrastructure Code Kaizen
+            </h2>
+            <p className="text-[#a0aec0] text-[0.9rem] md:text-[0.95rem] leading-relaxed max-w-2xl">
+              Un système d'acquisition outbound construit comme une infrastructure logicielle : 6 phases, 4 couches techniques, 18 modules opérationnels. Chaque composant est mesuré, versionné et transmissible.
+            </p>
           </div>
 
-          {/* 6 cards grid 2x3 */}
-          <div className="grid md:grid-cols-2 gap-5 md:gap-6">
+          {/* Stack layers */}
+          <div className="grid md:grid-cols-4 gap-3 mb-12 md:mb-16">
+            {[
+              { l: "L4", t: "Orchestration", d: "Routing · Scoring · CRM sync", s: "HubSpot · Make · n8n" },
+              { l: "L3", t: "Engagement", d: "Séquençage · Multi-canal · A/B", s: "Instantly · lemlist · LGM" },
+              { l: "L2", t: "Données", d: "Sourcing · Enrichissement · Waterfall", s: "Clay · Apollo · Dropcontact" },
+              { l: "L1", t: "Délivrabilité", d: "Domaines · DNS · Warm-up", s: "Mailreach · Google Postmaster" },
+            ].map((layer) => (
+              <div key={layer.l} className="bg-[#101f37] border border-[rgba(201,168,76,0.18)] rounded-md p-4">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-[#c9a84c] text-[0.65rem] font-mono tracking-wider">{layer.l}</span>
+                  <span className="text-[#a0aec0]/40 text-[0.6rem] font-mono">LAYER</span>
+                </div>
+                <div className="text-white text-[0.85rem] font-semibold mb-1">{layer.t}</div>
+                <div className="text-[#a0aec0] text-[0.7rem] leading-snug mb-3">{layer.d}</div>
+                <div className="text-[#c9a84c]/70 text-[0.65rem] font-mono leading-relaxed pt-2 border-t border-[rgba(201,168,76,0.1)]">{layer.s}</div>
+              </div>
+            ))}
+          </div>
+
+          {/* Timeline / pipeline header */}
+          <div className="flex items-center gap-3 mb-6">
+            <div className="h-px flex-1 bg-[rgba(201,168,76,0.2)]" />
+            <span className="text-[#c9a84c] text-[0.65rem] tracking-[0.25em] uppercase">Pipeline d'exécution · 90 jours</span>
+            <div className="h-px flex-1 bg-[rgba(201,168,76,0.2)]" />
+          </div>
+
+          {/* Detailed phase cards */}
+          <div className="space-y-4 md:space-y-5">
             {[
               {
                 n: "01",
-                t: "Diagnostic Acquisition — 5 jours",
-                d: "Avant de construire quoi que ce soit, nous cartographions la réalité commerciale de votre activité. Ce n'est pas un audit générique : c'est une analyse structurée de votre ICP réel, de votre positionnement perçu sur le marché et des leviers qui bloquent votre acquisition.",
-                items: [
-                  "Analyse ICP : qui achète vraiment, pourquoi, avec quel cycle",
-                  "Cartographie des signaux d'intention et des canaux actifs",
-                  "Identification des objections récurrentes et points de friction",
-                  "Livrable : fiche ICP opérationnelle + recommandations priorisées",
-                ],
+                phase: "Phase Discovery",
+                duration: "J0 → J+5",
+                t: "Diagnostic Acquisition",
+                d: "Cartographie de la réalité commerciale. Pas un audit générique : une analyse structurée de l'ICP réel, du positionnement perçu, des leviers bloquants.",
+                inputs: ["CRM existant", "Historique deals 12 mois", "Site & positionnement"],
+                outputs: ["Fiche ICP T1/T2/T3", "Cartographie objections", "Roadmap acquisition 90j"],
+                kpi: "Livrable : 18 pages · 5 jours ouvrés",
               },
               {
                 n: "02",
+                phase: "Phase Build",
+                duration: "J+5 → J+20",
                 t: "Architecture Pipeline",
-                d: "Nous concevons l'infrastructure technique et commerciale avant d'écrire une seule ligne de séquence. L'architecture détermine la performance : stack, domaines, échauffement, scoring, CRM.",
-                items: [
-                  "Configuration technique : domaines d'envoi, DNS, échauffement",
-                  "Choix et paramétrage de la stack (Clay, Instantly, HubSpot)",
-                  "Définition du scoring SQL et des règles de qualification",
-                  "Architecture des workflows d'automatisation et de routing",
-                ],
+                d: "Construction de l'infrastructure technique avant la première séquence. Délivrabilité, stack, scoring, workflows — l'architecture détermine 80% de la performance.",
+                inputs: ["Domaines secondaires", "Accès stack outils", "Scoring SQL défini"],
+                outputs: ["3-6 domaines warm-up J+14", "Stack opérationnelle", "Workflows automation"],
+                kpi: "Délivrabilité cible : >95% inbox · SPF/DKIM/DMARC alignés",
               },
               {
                 n: "03",
+                phase: "Phase Data",
+                duration: "J+15 → J+25",
                 t: "Sourcing & Segmentation",
-                d: "Le sourcing détermine 80% de la performance outbound. Nous construisons des bases de contacts hyper-segmentées à partir de signaux d'intention réels, pas de listes génériques.",
-                items: [
-                  "Sourcing multicritère via Clay : LinkedIn, Apollo, Crunchbase",
-                  "Enrichissement : email pro, fonction, technos utilisées, signaux",
-                  "Segmentation par ICP tier (T1/T2/T3) et séquence assignée",
-                  "Score de priorité calculé sur 8 variables comportementales",
-                ],
+                d: "Bases hyper-segmentées construites sur signaux d'intention réels. Multi-source, waterfall d'enrichissement, scoring comportemental sur 8 variables.",
+                inputs: ["ICP tier 1/2/3", "Critères firmographiques", "Signaux d'intention"],
+                outputs: ["2 000–5 000 contacts/mois", "Taux d'enrichissement >85%", "Segments scorés"],
+                kpi: "Précision ICP : >92% · Bounce rate cible <3%",
               },
               {
                 n: "04",
+                phase: "Phase Launch",
+                duration: "J+25 → J+90",
                 t: "Acquisition Outbound",
-                d: "Les séquences sont rédigées en partant du problème de l'acheteur, pas du produit. Chaque message est testé, itéré et calibré sur les données de réponse réelles de votre marché.",
-                items: [
-                  "Séquences cold email 3-5 steps, personnalisation niveau 3",
-                  "Outreach LinkedIn ciblé sur les décideurs T1",
-                  "A/B testing systématique : sujet, accroche, CTA, longueur",
-                  "Cadence optimisée selon le secteur et le cycle de vente",
-                ],
+                d: "Séquences écrites depuis le problème acheteur, pas le produit. Personnalisation niveau 3, A/B testing systématique, cadence calibrée sur le cycle de vente.",
+                inputs: ["Segments scorés", "Messaging validé", "Cadence définie"],
+                outputs: ["3–5 steps multi-canal", "Variants A/B/C", "Réponses qualifiées"],
+                kpi: "Reply rate cible : 8–15% · Positive reply : 2–4%",
               },
               {
                 n: "05",
+                phase: "Phase Qualify",
+                duration: "Continu",
                 t: "Qualification SQL",
-                d: "Toutes les réponses ne sont pas des opportunités. Nous appliquons un protocole de qualification strict pour ne transmettre que des leads avec un potentiel de deal réel.",
-                items: [
-                  "Critères SQL définis en amont avec vous : budget, autorité, timing",
-                  "Première conversation de qualification menée par nos soins",
-                  "Scoring post-call : T1 SQL / T2 nurture / T3 disqualifié",
-                  "Routing vers votre pipeline avec brief complet sur chaque lead",
-                ],
+                d: "Protocole de qualification strict. Seuls les leads avec potentiel de deal réel sont transmis. Brief complet, scoring post-call, routing CRM.",
+                inputs: ["Réponses positives", "Critères SQL BANT", "Calendrier dirigeant"],
+                outputs: ["Brief lead structuré", "Score T1/T2/T3", "Handoff CRM HubSpot"],
+                kpi: "Conversion reply → SQL : >40% · No-show <15%",
               },
               {
                 n: "06",
+                phase: "Phase Handoff",
+                duration: "J+90",
                 t: "Transmission Système",
-                d: "À la fin de la mission, vous ne perdez pas le système. Tout est documenté, transmis et opérable en interne. La dépendance s'arrête ici.",
-                items: [
-                  "Documentation complète : séquences, ICP, workflows, stack",
-                  "Playbook d'acquisition opérationnel pour votre équipe",
-                  "Session de transfert et formation sur les outils déployés",
-                  "Le système vous appartient intégralement dès J+1 post-mission",
-                ],
+                d: "À la fin de la mission, le système vous appartient. Documentation, playbook, formation. La dépendance s'arrête ici — sauf si vous choisissez la continuité.",
+                inputs: ["Système en production", "Métriques 90 jours", "Équipe interne"],
+                outputs: ["Documentation Notion", "Playbook PDF 40p", "2 sessions formation"],
+                kpi: "Autonomie opérationnelle : J+1 post-handoff",
               },
             ].map((c) => (
-              <div key={c.n} className="bg-[#1a2744] border border-[rgba(201,168,76,0.3)] rounded-lg p-6 md:p-7">
-                <div className="flex items-baseline gap-3 mb-3">
-                  <span className="text-[#c9a84c] text-[0.85rem] font-bold tracking-wider">{c.n}</span>
-                  <h3 className="text-[#c9a84c] text-base md:text-lg font-semibold leading-tight">{c.t}</h3>
+              <div key={c.n} className="bg-[#101f37] border border-[rgba(201,168,76,0.18)] rounded-lg overflow-hidden hover:border-[rgba(201,168,76,0.4)] transition-colors">
+                <div className="grid md:grid-cols-[200px_1fr_280px] gap-0">
+                  {/* Left rail */}
+                  <div className="bg-[#0c1828] border-b md:border-b-0 md:border-r border-[rgba(201,168,76,0.15)] p-5 md:p-6 flex md:flex-col items-center md:items-start justify-between md:justify-start gap-2">
+                    <div>
+                      <div className="text-[#c9a84c] text-[0.7rem] font-mono tracking-wider mb-1">{c.n} / 06</div>
+                      <div className="text-white text-[0.95rem] font-semibold leading-tight mb-1">{c.phase}</div>
+                      <div className="text-[#a0aec0] text-[0.7rem] font-mono">{c.duration}</div>
+                    </div>
+                  </div>
+
+                  {/* Center content */}
+                  <div className="p-5 md:p-6 border-b md:border-b-0 md:border-r border-[rgba(201,168,76,0.1)]">
+                    <h3 className="text-[#c9a84c] text-[1rem] md:text-[1.05rem] font-semibold mb-3 leading-tight">{c.t}</h3>
+                    <p className="text-[#cbd5e1] text-[0.82rem] md:text-[0.85rem] leading-relaxed mb-4">{c.d}</p>
+                    <div className="text-[#c9a84c]/80 text-[0.7rem] font-mono tracking-wider pt-3 border-t border-[rgba(201,168,76,0.1)]">{c.kpi}</div>
+                  </div>
+
+                  {/* Right I/O */}
+                  <div className="p-5 md:p-6 bg-[#0d1b2e]/60">
+                    <div className="mb-4">
+                      <div className="text-[#a0aec0]/60 text-[0.6rem] font-mono tracking-[0.2em] uppercase mb-2">Inputs</div>
+                      <ul className="space-y-1">
+                        {c.inputs.map((i) => (
+                          <li key={i} className="text-[#a0aec0] text-[0.72rem] leading-snug flex gap-1.5">
+                            <span className="text-[#c9a84c]/50 font-mono">→</span><span>{i}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <div className="text-[#a0aec0]/60 text-[0.6rem] font-mono tracking-[0.2em] uppercase mb-2">Outputs</div>
+                      <ul className="space-y-1">
+                        {c.outputs.map((o) => (
+                          <li key={o} className="text-[#cbd5e1] text-[0.72rem] leading-snug flex gap-1.5">
+                            <span className="text-[#c9a84c] font-mono">←</span><span>{o}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-                <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed mb-4">{c.d}</p>
-                <ul className="space-y-2">
-                  {c.items.map((it) => (
-                    <li key={it} className="text-[#a0aec0] text-[12.5px] md:text-[13px] leading-relaxed flex gap-2">
-                      <span className="text-[#c9a84c] flex-shrink-0">—</span>
-                      <span>{it}</span>
-                    </li>
-                  ))}
-                </ul>
+              </div>
+            ))}
+          </div>
+
+          {/* Footer metrics strip */}
+          <div className="mt-12 md:mt-16 grid grid-cols-2 md:grid-cols-4 gap-px bg-[rgba(201,168,76,0.15)] border border-[rgba(201,168,76,0.15)] rounded-lg overflow-hidden">
+            {[
+              { v: "6", l: "Phases" },
+              { v: "18", l: "Modules opérationnels" },
+              { v: "4", l: "Couches techniques" },
+              { v: "90j", l: "Cycle complet" },
+            ].map((m) => (
+              <div key={m.l} className="bg-[#0d1b2e] p-5 md:p-6 text-center">
+                <div className="font-serif text-[#c9a84c] text-[1.8rem] md:text-[2.2rem] leading-none mb-2">{m.v}</div>
+                <div className="text-[#a0aec0] text-[0.7rem] tracking-wider uppercase">{m.l}</div>
               </div>
             ))}
           </div>
         </div>
       </section>
+
 
       {/* SECTION B — PRINCIPES */}
       <section className="bg-[#0d1b2e] border-b border-[rgba(201,162,78,0.15)] py-16 md:py-24 px-6 md:px-10">
