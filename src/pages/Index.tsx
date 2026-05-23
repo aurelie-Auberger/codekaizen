@@ -125,7 +125,7 @@ const Index = () => {
             Pour les fondateurs et dirigeants B2B avec une offre validée, un ticket moyen ≥ 5 000 € et zéro système d'acquisition structuré.
           </p>
           <p className="text-[#94a3b8] italic text-[0.85rem] mb-8 md:mb-10">
-            Votre partenaire de croissance aligné sur vos résultats.
+            Vous gardez le contrôle de votre relation commerciale. Nous la rendons plus prévisible.
           </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
             <button
