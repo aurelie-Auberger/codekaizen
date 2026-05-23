@@ -277,28 +277,196 @@ const Index = () => {
         </div>
       </section>
 
-      {/* MÉTRIQUES */}
-      <section className="bg-[#111927] border-t border-b border-[rgba(201,162,78,0.15)] py-8 md:py-12 px-6 md:px-10">
+      {/* SECTION A — INFRASTRUCTURE */}
+      <section className="bg-[#0f1a2e] border-t border-b border-[rgba(201,162,78,0.15)] py-16 md:py-24 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-8 md:gap-6">
+          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-3 md:mb-4 leading-tight">
+            Comment fonctionne l'infrastructure Code Kaizen
+          </h2>
+          <p className="text-[#a0aec0] text-center text-[0.875rem] mb-12 md:mb-16">
+            Un système en 6 phases, documenté et transmissible.
+          </p>
+
+          {/* Pipeline diagram */}
+          <div className="overflow-x-auto pb-4 mb-12 md:mb-16">
+            <div className="flex items-stretch gap-2 md:gap-3 min-w-[900px] md:min-w-0">
+              {[
+                { n: "01", t: "Diagnostic Acquisition", s: "ICP · Marché · Blocages" },
+                { n: "02", t: "Architecture Pipeline", s: "Stack · Séquences · CRM" },
+                { n: "03", t: "Sourcing & Segmentation", s: "Clay · Enrichissement · Score" },
+                { n: "04", t: "Acquisition Outbound", s: "Instantly · LinkedIn · Email" },
+                { n: "05", t: "Qualification SQL", s: "Scoring · Routing · Handoff" },
+                { n: "06", t: "Transmission Système", s: "Docs · Playbook · Formation" },
+              ].map((step, i, arr) => (
+                <div key={step.n} className="flex items-center flex-1">
+                  <div className="flex-1 bg-[#1a2744] border border-[#c9a84c] rounded-md p-3 md:p-4 relative">
+                    <div className="text-[#c9a84c] text-[0.7rem] font-bold tracking-wider mb-1.5">{step.n}</div>
+                    <div className="text-white text-[0.8rem] md:text-[0.85rem] font-bold leading-tight mb-1">{step.t}</div>
+                    <div className="text-[#a0aec0] text-[0.65rem] md:text-[0.7rem] leading-snug">{step.s}</div>
+                  </div>
+                  {i < arr.length - 1 && (
+                    <svg className="w-4 md:w-5 h-4 md:h-5 text-[#c9a84c] flex-shrink-0 mx-0.5 md:mx-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                      <polyline points="9 6 15 12 9 18" />
+                    </svg>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* 6 cards grid 2x3 */}
+          <div className="grid md:grid-cols-2 gap-5 md:gap-6">
             {[
-              { n: "27", l: "RDV qualifiés générés", s: "Sur 1 850 contacts sourcés — taux de conversion 1,46%" },
-              { n: "16,2%", l: "Taux de réponse moyen", s: "Moyenne sur séquences cold email 3 steps, secteur SaaS/ESN" },
-              { n: "68 K€", l: "Pipeline généré", s: "Sur 3 missions actives, 90 jours" },
-              { n: "4", l: "Deals signés", s: "Ticket moyen : 17K€. Cycle de vente moyen : 34 jours" },
-              
-              { n: "3,2x", l: "ROI médian constaté", s: "Commission incluse, calculé sur CA encaissé vs coût total mission" },
-            ].map((m) => (
-              <div key={m.n} className="text-center">
-                <div className="text-[#c9a24e] text-[2rem] font-bold leading-tight">{m.n}</div>
-                <div className="text-[#f7f7f7] text-[0.8rem] mt-1">{m.l}</div>
-                <div className="text-[#a0aec0] text-[0.7rem] mt-0.5">{m.s}</div>
+              {
+                n: "01",
+                t: "Diagnostic Acquisition — 5 jours",
+                d: "Avant de construire quoi que ce soit, nous cartographions la réalité commerciale de votre activité. Ce n'est pas un audit générique : c'est une analyse structurée de votre ICP réel, de votre positionnement perçu sur le marché et des leviers qui bloquent votre acquisition.",
+                items: [
+                  "Analyse ICP : qui achète vraiment, pourquoi, avec quel cycle",
+                  "Cartographie des signaux d'intention et des canaux actifs",
+                  "Identification des objections récurrentes et points de friction",
+                  "Livrable : fiche ICP opérationnelle + recommandations priorisées",
+                ],
+              },
+              {
+                n: "02",
+                t: "Architecture Pipeline",
+                d: "Nous concevons l'infrastructure technique et commerciale avant d'écrire une seule ligne de séquence. L'architecture détermine la performance : stack, domaines, échauffement, scoring, CRM.",
+                items: [
+                  "Configuration technique : domaines d'envoi, DNS, échauffement",
+                  "Choix et paramétrage de la stack (Clay, Instantly, HubSpot)",
+                  "Définition du scoring SQL et des règles de qualification",
+                  "Architecture des workflows d'automatisation et de routing",
+                ],
+              },
+              {
+                n: "03",
+                t: "Sourcing & Segmentation",
+                d: "Le sourcing détermine 80% de la performance outbound. Nous construisons des bases de contacts hyper-segmentées à partir de signaux d'intention réels, pas de listes génériques.",
+                items: [
+                  "Sourcing multicritère via Clay : LinkedIn, Apollo, Crunchbase",
+                  "Enrichissement : email pro, fonction, technos utilisées, signaux",
+                  "Segmentation par ICP tier (T1/T2/T3) et séquence assignée",
+                  "Score de priorité calculé sur 8 variables comportementales",
+                ],
+              },
+              {
+                n: "04",
+                t: "Acquisition Outbound",
+                d: "Les séquences sont rédigées en partant du problème de l'acheteur, pas du produit. Chaque message est testé, itéré et calibré sur les données de réponse réelles de votre marché.",
+                items: [
+                  "Séquences cold email 3-5 steps, personnalisation niveau 3",
+                  "Outreach LinkedIn ciblé sur les décideurs T1",
+                  "A/B testing systématique : sujet, accroche, CTA, longueur",
+                  "Cadence optimisée selon le secteur et le cycle de vente",
+                ],
+              },
+              {
+                n: "05",
+                t: "Qualification SQL",
+                d: "Toutes les réponses ne sont pas des opportunités. Nous appliquons un protocole de qualification strict pour ne transmettre que des leads avec un potentiel de deal réel.",
+                items: [
+                  "Critères SQL définis en amont avec vous : budget, autorité, timing",
+                  "Première conversation de qualification menée par nos soins",
+                  "Scoring post-call : T1 SQL / T2 nurture / T3 disqualifié",
+                  "Routing vers votre pipeline avec brief complet sur chaque lead",
+                ],
+              },
+              {
+                n: "06",
+                t: "Transmission Système",
+                d: "À la fin de la mission, vous ne perdez pas le système. Tout est documenté, transmis et opérable en interne. La dépendance s'arrête ici.",
+                items: [
+                  "Documentation complète : séquences, ICP, workflows, stack",
+                  "Playbook d'acquisition opérationnel pour votre équipe",
+                  "Session de transfert et formation sur les outils déployés",
+                  "Le système vous appartient intégralement dès J+1 post-mission",
+                ],
+              },
+            ].map((c) => (
+              <div key={c.n} className="bg-[#1a2744] border border-[rgba(201,168,76,0.3)] rounded-lg p-6 md:p-7">
+                <div className="flex items-baseline gap-3 mb-3">
+                  <span className="text-[#c9a84c] text-[0.85rem] font-bold tracking-wider">{c.n}</span>
+                  <h3 className="text-[#c9a84c] text-base md:text-lg font-semibold leading-tight">{c.t}</h3>
+                </div>
+                <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed mb-4">{c.d}</p>
+                <ul className="space-y-2">
+                  {c.items.map((it) => (
+                    <li key={it} className="text-[#a0aec0] text-[12.5px] md:text-[13px] leading-relaxed flex gap-2">
+                      <span className="text-[#c9a84c] flex-shrink-0">—</span>
+                      <span>{it}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
-          <p className="text-[#a0aec0] text-[0.75rem] italic text-center mt-8 md:mt-10">
-            Données issues de missions opérées sur des offres B2B à ticket ≥ 5 000 €. Résultats variables selon secteur et maturité commerciale.
+        </div>
+      </section>
+
+      {/* SECTION B — PRINCIPES */}
+      <section className="bg-[#0f1a2e] border-b border-[rgba(201,162,78,0.15)] py-16 md:py-24 px-6 md:px-10">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-3 md:mb-4 leading-tight">
+            Nos principes
+          </h2>
+          <p className="text-[#a0aec0] text-center text-[0.875rem] mb-12 md:mb-16">
+            Ce qui guide chaque décision, chaque séquence, chaque mission.
           </p>
+          <div className="grid md:grid-cols-2 gap-5 md:gap-6">
+            {[
+              {
+                icon: (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
+                    <polygon points="12 2 22 12 12 22 2 12 12 2" />
+                  </svg>
+                ),
+                t: "L'architecture avant l'exécution",
+                d: "Une séquence mal ciblée envoie des milliers de messages au mauvais profil. Nous passons autant de temps à construire l'infrastructure qu'à l'opérer. Ce que vous ne voyez pas — le sourcing, le scoring, l'architecture technique — détermine 80% du résultat final.",
+              },
+              {
+                icon: (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
+                    <line x1="4" y1="20" x2="20" y2="20" />
+                    <polyline points="6 14 12 6 18 14" />
+                    <line x1="12" y1="6" x2="12" y2="18" />
+                  </svg>
+                ),
+                t: "La donnée avant l'intuition",
+                d: "Chaque décision est tracée et justifiée par des données : taux de réponse par segment, par step, par accroche. Nous n'itérons pas à l'aveugle. Nous mesurons, nous interprétons, nous ajustons. L'opinion n'a pas sa place dans un système d'acquisition.",
+              },
+              {
+                icon: (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
+                    <circle cx="8" cy="12" r="5" />
+                    <circle cx="16" cy="12" r="5" />
+                  </svg>
+                ),
+                t: "L'alignement sur vos résultats, pas sur nos heures",
+                d: "Le modèle à la performance n'est pas un argument commercial. C'est une contrainte que nous nous imposons : si le système ne produit pas, nous ne gagnons pas. Cette structure élimine le conflit d'intérêt entre prestataire et client, et aligne chaque action sur une seule métrique : le CA généré.",
+              },
+              {
+                icon: (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <polyline points="14 2 14 8 20 8" />
+                    <line x1="8" y1="13" x2="16" y2="13" />
+                    <line x1="8" y1="17" x2="16" y2="17" />
+                  </svg>
+                ),
+                t: "La transmission comme objectif final",
+                d: "Nous ne construisons pas des systèmes dont vous seriez dépendants. Chaque mission se termine par un transfert complet : documentation, playbook, formation. L'objectif est que vous puissiez opérer sans nous — ou que vous choisissiez de continuer avec nous. La différence est là.",
+              },
+            ].map((b) => (
+              <div key={b.t} className="bg-[#1a2744] border border-[rgba(201,168,76,0.3)] rounded-lg p-6 md:p-7 flex gap-4 md:gap-5">
+                <div className="text-[#c9a84c] flex-shrink-0 pt-0.5">{b.icon}</div>
+                <div>
+                  <h3 className="text-white text-base md:text-lg font-bold leading-tight mb-2">{b.t}</h3>
+                  <p className="text-[#a0aec0] text-[13px] md:text-sm leading-relaxed">{b.d}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
