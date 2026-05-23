@@ -304,8 +304,8 @@ const Index = () => {
             {(() => {
               const phases = [
                 { n: "01", t: "Diagnostic ICP", s: ["On identifie exactement qui achète, pourquoi, et ce qui bloque votre acquisition aujourd'hui."], bg: "#0f2547" },
-                { n: "02", t: "Architecture stack", s: ["Clay · Instantly · HubSpot", "DNS · Échauffement · Scoring SQL"], bg: "#0f2547" },
-                { n: "03", t: "Sourcing & segmentation", s: ["Clay · Apollo · Crunchbase", "T1/T2/T3 · 8 variables · Enrichissement"], bg: "#0f2547" },
+                { n: "02", t: "Architecture du système", s: ["On construit la fondation technique pour que les séquences fonctionnent avant d'envoyer le premier email."], bg: "#0f2547" },
+                { n: "03", t: "Sourcing des cibles", s: ["On identifie et qualifie vos 500 meilleurs prospects — ceux qui ont un besoin réel, maintenant."], bg: "#0f2547" },
                 { n: "04", t: "Acquisition outbound", s: ["Cold email 3–5 steps", "A/B testing · Perso. niveau 3 · Cadence"], bg: "#3a2410" },
                 { n: "05", t: "Qualification SQL", s: ["BANT · Scoring post-call", "T1 SQL → pipeline / T2 nurture / T3 archivé"], bg: "#3a2410" },
                 { n: "06", t: "Transmission système", s: ["Docs · Playbook · Formation", "Le système vous appartient dès J+1"], bg: "#1f2430" },
