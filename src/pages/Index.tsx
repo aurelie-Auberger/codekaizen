@@ -369,7 +369,7 @@ const Index = () => {
 
             <div className="space-y-3">
               {[
-                { n: "01", t: "Données & sourcing", color: "#3b82f6", bg: "rgba(59,130,246,0.06)", tools: ["Clay", "Apollo", "LinkedIn Sales Navigator", "Crunchbase", "Kaspr"] },
+                { n: "01", t: "Trouver les bonnes cibles", color: "#3b82f6", bg: "rgba(59,130,246,0.06)", tools: ["Clay", "Apollo", "LinkedIn Sales Navigator", "Crunchbase", "Kaspr"] },
                 { n: "02", t: "Séquencement outbound", color: "#c9a84c", bg: "rgba(201,168,76,0.06)", tools: ["Instantly.ai", "LinkedIn outreach", "Domaines dédiés", "Warmup automatisé"] },
                 { n: "03", t: "Qualification & CRM", color: "#f97316", bg: "rgba(249,115,22,0.06)", tools: ["HubSpot CRM", "Scoring T1/T2/T3", "Brief lead complet", "Routing automatique"] },
                 { n: "04", t: "Transmission & pérennité", color: "#14b8a6", bg: "rgba(20,184,166,0.06)", tools: ["Documentation séquences", "ICP fiche opérationnelle", "Workflows N8N", "Playbook PDF"] },
