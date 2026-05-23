@@ -325,7 +325,7 @@ const Index = () => {
               </p>
               <div className="space-y-4 text-[#edeae2] text-[14px] md:text-[15px] leading-relaxed">
                 <p>
-                  J'ai fondé Code Kaizen après avoir observé un même blocage chez des fondateurs B2B : une offre solide, un business qui tourne, et une acquisition qui s'arrête dès qu'ils s'arrêtent.
+                  J'ai fondé Code Kaizen après avoir observé le même blocage chez des dizaines de fondateurs B2B : une offre solide, un business qui tourne, et une acquisition qui s'arrête dès qu'ils s'arrêtent.
                 </p>
                 <p>
                   Mon approche est analytique et sur-mesure. Je ne déploie pas de formules génériques. Je construis avec vous un système d'acquisition adapté à votre marché, votre cycle de vente, vos contraintes réelles.
