@@ -314,7 +314,8 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16">
             <div
-              className="w-[280px] h-[280px] rounded-2xl bg-[#c9a24e] flex-shrink-0"
+              className="w-[280px] h-[280px] rounded-2xl bg-[#c9a24e] flex-shrink-0 border-2 border-[#c9a24e]"
+              style={{ boxShadow: "0 0 0 4px rgba(201,162,78,0.15)" }}
               aria-label="Photo de la fondatrice"
             />
             <div className="max-w-xl text-center md:text-left">
