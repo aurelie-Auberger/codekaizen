@@ -120,8 +120,11 @@ const Index = () => {
           <p className="text-[#a0aec0] max-w-2xl mx-auto text-[0.95rem] leading-[1.75] mb-4">
             Code Kaizen construit l'infrastructure outbound B2B qui génère un pipeline commercial prévisible — sans dépendre du bouche-à-oreille ni d'une équipe SDR.
           </p>
-          <p className="text-gold/90 italic text-[0.8rem] max-w-2xl mx-auto mb-8 md:mb-10">
+          <p className="text-gold/90 italic text-[0.8rem] max-w-2xl mx-auto mb-4">
             Pour les fondateurs et dirigeants B2B avec une offre validée, un ticket moyen ≥ 5 000 € et zéro système d'acquisition structuré.
+          </p>
+          <p className="text-[#a0aec0] italic text-[0.85rem] mb-8 md:mb-10">
+            Votre partenaire de croissance aligné sur vos résultats.
           </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
             <button
