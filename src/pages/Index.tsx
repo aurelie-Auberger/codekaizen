@@ -278,7 +278,7 @@ const Index = () => {
       </section>
 
       {/* SECTION A — INFRASTRUCTURE */}
-      <section className="bg-[#0f1a2e] border-t border-b border-[rgba(201,162,78,0.15)] py-16 md:py-24 px-6 md:px-10">
+      <section className="bg-[#0d1b2e] border-t border-b border-[rgba(201,162,78,0.15)] py-16 md:py-24 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-3 md:mb-4 leading-tight">
             Comment fonctionne l'infrastructure Code Kaizen
@@ -405,7 +405,7 @@ const Index = () => {
       </section>
 
       {/* SECTION B — PRINCIPES */}
-      <section className="bg-[#0f1a2e] border-b border-[rgba(201,162,78,0.15)] py-16 md:py-24 px-6 md:px-10">
+      <section className="bg-[#0d1b2e] border-b border-[rgba(201,162,78,0.15)] py-16 md:py-24 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-3 md:mb-4 leading-tight">
             Nos principes
