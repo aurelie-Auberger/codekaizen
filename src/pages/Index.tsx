@@ -154,7 +154,7 @@ const Index = () => {
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6">
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Le réseau s'épuise</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                Le bouche-à-oreille ne scale pas. Le silence qui suit est brutal.
+                Le bouche-à-oreille ne scale pas au-delà d'un certain seuil. Quand vous avez fait le tour de votre réseau, le silence qui suit est brutal — et difficile à expliquer en board.
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6">
