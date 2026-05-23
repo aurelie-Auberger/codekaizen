@@ -281,16 +281,12 @@ const Index = () => {
       <section className="bg-[#0d1b2e] border-t border-b border-[rgba(201,162,78,0.15)] py-16 md:py-28 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
-          <div className="mb-12 md:mb-16">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="h-px w-8 bg-[#c9a84c]" />
-              <span className="text-[#c9a84c] text-[0.7rem] tracking-[0.25em] font-medium uppercase">Infrastructure · v2026</span>
-            </div>
-            <h2 className="font-serif text-[1.5rem] md:text-[2.1rem] text-ivory mb-4 leading-tight max-w-3xl">
+          <div className="text-center mb-12 md:mb-16">
+            <h2 className="font-serif text-[1.5rem] md:text-[2.1rem] text-ivory mb-4 leading-tight">
               Comment fonctionne l'infrastructure Code Kaizen
             </h2>
-            <p className="text-[#a0aec0] text-[0.9rem] md:text-[0.95rem] leading-relaxed max-w-2xl">
-              Un système d'acquisition outbound construit comme une infrastructure logicielle : 6 phases, 4 couches techniques, 18 modules opérationnels. Chaque composant est mesuré, versionné et transmissible.
+            <p className="text-[#a0aec0] text-[0.9rem] md:text-[0.95rem] leading-relaxed">
+              Un système en 6 phases, documenté et transmissible.
             </p>
           </div>
 
