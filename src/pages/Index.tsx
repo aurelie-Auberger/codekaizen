@@ -204,7 +204,7 @@ const Index = () => {
             Ce que le système produit
           </h2>
           <p className="text-[#a0aec0] text-center text-[0.875rem] mb-10 md:mb-16">
-            Voici ce que cette infrastructure produit concrètement.
+            Voici ce que cette infrastructure produit.
           </p>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             <div className="bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6">
