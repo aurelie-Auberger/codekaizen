@@ -374,7 +374,7 @@ const Index = () => {
             ))}
           </div>
           <p className="text-[#a0aec0] italic text-center mt-10 md:mt-14 text-[0.875rem]">
-            La logique, les automatisations et les méthodes utilisées sont propriétaires et confidentielles.
+            Chaque système est construit sur mesure. La logique et les automatisations sont documentées et vous sont transmises en fin de mission.
           </p>
         </div>
       </section>
