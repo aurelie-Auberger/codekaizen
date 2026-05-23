@@ -579,36 +579,8 @@ const Index = () => {
 
 
 
-      {/* LE DIAGNOSTIC */}
-      <section className="py-16 md:py-32 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
-            Le Diagnostic Acquisition
-          </h2>
-          <div className="max-w-[640px] mx-auto border border-[#c9a24e] rounded-xl p-6 md:p-10 text-left">
-            <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-5">
-              En 5 jours ouvrés, nous produisons un diagnostic complet de votre situation d'acquisition : les freins réels, le levier prioritaire, une projection chiffrée sur 90 jours.
-            </p>
-            <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-5">
-              La restitution se fait en call de 45 minutes. Vous repartez avec une décision claire, pas un rapport à lire seul.
-            </p>
-            <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-5">
-              800 EUR HT. Si nous démarrons une mission ensemble, ce montant est intégralement déduit de notre première facture de commission. Si vous ne continuez pas, vous conservez le livrable. Aucun engagement sur la suite.
-            </p>
-            <p className="text-[#F5F0E8] text-[0.95rem] leading-[1.75] mb-8">
-              En cas de mission : zéro coût fixe, 10% sur le chiffre d'affaires généré par les deals sourcés via notre système, pendant 12 mois. Pas sur votre CA existant.
-            </p>
-            <div className="text-center">
-              <button
-                onClick={() => scrollTo("formulaire")}
-                className="bg-gold text-ink px-6 py-[14px] sm:px-14 sm:py-6 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
-              >
-                Réserver mon Diagnostic
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+
+
 
       {/* COÛT DE L'ATTENTE */}
       <section className="py-16 md:py-32 px-6 md:px-10 bg-[rgba(201,162,78,0.05)] border-t border-b border-[rgba(201,162,78,0.15)]">
