@@ -211,23 +211,19 @@ const Index = () => {
           </p>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             <div className="bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6">
-              <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">Agence Marketing B2B · 3 mois</div>
-              <div className="grid grid-cols-2 gap-y-4 gap-x-4 text-[13px] md:text-sm">
+              <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">ESN Conseil, 18 collaborateurs, France</div>
+              <div className="space-y-3 text-[13px] md:text-sm">
                 <div>
-                  <div className="text-[#f7f7f7] font-bold text-lg">29</div>
-                  <div className="text-[#a0aec0] text-[0.7rem]">RDV qualifiés</div>
+                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Offre</div>
+                  <div className="text-[#f7f7f7] leading-relaxed">Missions data & IA, ticket moyen 22K€</div>
                 </div>
                 <div>
-                  <div className="text-[#f7f7f7] font-bold text-lg">17,2%</div>
-                  <div className="text-[#a0aec0] text-[0.7rem]">Taux de réponse</div>
+                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Levier</div>
+                  <div className="text-[#f7f7f7] leading-relaxed">Outbound cold email ciblé DSI + DG de PME industrielles</div>
                 </div>
                 <div>
-                  <div className="text-[#f7f7f7] font-bold text-lg">2</div>
-                  <div className="text-[#a0aec0] text-[0.7rem]">Deals signés</div>
-                </div>
-                <div>
-                  <div className="text-[#f7f7f7] font-bold text-lg">43 K€</div>
-                  <div className="text-[#a0aec0] text-[0.7rem]">Pipeline généré</div>
+                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Résultat</div>
+                  <div className="text-[#f7f7f7] leading-relaxed">3 deals signés / 67K€ pipeline qualifié en 73 jours</div>
                 </div>
               </div>
             </div>
