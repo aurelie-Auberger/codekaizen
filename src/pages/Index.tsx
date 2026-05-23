@@ -572,37 +572,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* COMMENT LE SYSTÈME FONCTIONNE */}
-      <section className="py-16 md:py-32 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-10 md:mb-16 leading-tight">
-            Comment le système fonctionne
-          </h2>
-          <div className="flex overflow-x-auto md:flex-wrap md:justify-center gap-4 md:gap-6 pb-4 md:pb-0">
-            {[
-              { t: "Ciblage", d: "Définition ICP et segmentation avancée" },
-              { t: "Sourcing & Enrichissement", d: "Accès aux bases privées et données qualifiées" },
-              { t: "Outreach Multicanal", d: "Séquences personnalisées et optimisation continue" },
-              { t: "Nurturing Automatisé", d: "Relances intelligentes et contenus adaptés" },
-              { t: "Conversion & Closing", d: "Qualification avancée et closing assisté" },
-              { t: "Pilotage & Amélioration", d: "Analyse continue et optimisation des performances" },
-            ].map((step, i, arr) => (
-              <div key={step.t} className="flex items-center gap-4 md:gap-6 flex-shrink-0">
-                <div className="bg-[#111927] border border-[rgba(201,162,78,0.2)] rounded-lg p-4 w-[200px] md:w-auto md:min-w-[180px]">
-                  <h3 className="text-[#c9a24e] font-bold text-[0.85rem] mb-2">{step.t}</h3>
-                  <p className="text-[#94a3b8] text-[0.8rem] leading-[1.6]">{step.d}</p>
-                </div>
-                {i < arr.length - 1 && (
-                  <ArrowRight className="w-4 h-4 text-[#c9a24e] flex-shrink-0 hidden md:block" />
-                )}
-              </div>
-            ))}
-          </div>
-          <p className="text-[#94a3b8] italic text-center mt-10 md:mt-14 text-[0.875rem]">
-            Chaque système est construit sur mesure. La logique et les automatisations sont documentées et vous sont transmises en fin de mission.
-          </p>
-        </div>
-      </section>
+
+
 
       {/* SCÉNARIOS TYPES */}
       <section className="py-16 md:py-32 px-6 md:px-10">
