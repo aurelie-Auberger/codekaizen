@@ -379,6 +379,50 @@ const Index = () => {
             })()}
           </div>
 
+          {/* BLOC 2 — Stack technique 4 couches */}
+          <div className="mb-16 md:mb-24">
+            <div className="text-center mb-10 md:mb-12">
+              <h3 className="font-serif text-[1.15rem] md:text-[1.4rem] text-ivory mb-2 leading-tight">
+                La stack technique
+              </h3>
+              <p className="text-[#a0aec0] text-[0.82rem] md:text-[0.875rem]">
+                4 couches d'infrastructure, du sourcing à la transmission.
+              </p>
+            </div>
+
+            <div className="space-y-3">
+              {[
+                { n: "01", t: "Données & sourcing", color: "#3b82f6", bg: "rgba(59,130,246,0.06)", tools: ["Clay", "Apollo", "LinkedIn Sales Navigator", "Crunchbase", "Kaspr"] },
+                { n: "02", t: "Séquencement outbound", color: "#c9a84c", bg: "rgba(201,168,76,0.06)", tools: ["Instantly.ai", "LinkedIn outreach", "Domaines dédiés", "Warmup automatisé"] },
+                { n: "03", t: "Qualification & CRM", color: "#f97316", bg: "rgba(249,115,22,0.06)", tools: ["HubSpot CRM", "Scoring T1/T2/T3", "Brief lead complet", "Routing automatique"] },
+                { n: "04", t: "Transmission & pérennité", color: "#14b8a6", bg: "rgba(20,184,166,0.06)", tools: ["Documentation séquences", "ICP fiche opérationnelle", "Workflows N8N", "Playbook PDF"] },
+              ].map((layer) => (
+                <div
+                  key={layer.n}
+                  style={{ backgroundColor: layer.bg, borderLeftColor: layer.color }}
+                  className="border-l-4 border-y border-r border-[rgba(201,168,76,0.15)] rounded-r-md p-5 md:p-6 grid md:grid-cols-[200px_1fr] gap-4 md:gap-6 items-start hover:border-[rgba(201,168,76,0.3)] transition-colors"
+                >
+                  <div>
+                    <div style={{ color: layer.color }} className="text-[0.65rem] font-mono tracking-[0.2em] uppercase mb-1.5">Couche {layer.n}</div>
+                    <div className="text-white text-[0.95rem] md:text-[1rem] font-bold leading-tight">{layer.t}</div>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {layer.tools.map((tool) => (
+                      <span
+                        key={tool}
+                        style={{ borderColor: `${layer.color}55`, color: "#e2e8f0" }}
+                        className="text-[0.72rem] md:text-[0.75rem] font-mono px-2.5 py-1 rounded border bg-[#0d1b2e]/60"
+                      >
+                        {tool}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+
         </div>
       </section>
 
