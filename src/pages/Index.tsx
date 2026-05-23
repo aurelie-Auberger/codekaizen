@@ -46,7 +46,7 @@ const expertise = [
 ];
 
 const faqs = [
-  { q: "Qui gère le closing ?", r: "L'équipe Code Kaizen prend en charge la qualification et le closing sur l'ensemble des opportunités générées. Si vous disposez déjà d'une équipe commerciale, nous travaillons en coordination directe avec elle. Le système d'acquisition reste identique dans les deux cas." },
+  { q: "Qui gère le closing ?", r: "Je prends en charge la qualification et le closing sur l'ensemble des opportunités générées. Si vous disposez déjà d'une équipe commerciale, nous travaillons en coordination directe avec elle. Le système d'acquisition reste identique dans les deux cas." },
   { q: "C'est quoi le Diagnostic Acquisition ?", r: "Un audit de votre situation commerciale : ICP, canaux, gaps, plan d'action. 800 EUR HT, livré en 5 jours. Déductible si vous continuez. Le système est opérationnel sous 30 jours. Les premiers résultats dépendent de votre cycle de vente." },
   { q: "Comment fonctionne la commission ?", r: "Notre commission s'applique uniquement sur le chiffre d'affaires généré par les deals sourcés via notre système, pendant 12 mois suivant le démarrage de la mission. Elle ne s'applique pas sur votre CA existant, ni sur vos clients actuels. Sur les missions observées, la commission représente entre 8 000 € et 25 000 € sur 12 mois selon le volume de deals signés et le ticket moyen. Vous ne payez que ce que nous produisons." },
   { q: "Que se passe-t-il après 6 mois ?", r: "Vous pouvez acquérir le système complet : workflow, séquences, CRM, scripts et documentation. Formation à la prise en main incluse. Le système devient votre propriété. Le prix de rachat est défini lors de la restitution du Diagnostic, selon la complexité du système déployé." },
