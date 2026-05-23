@@ -12,6 +12,7 @@ import {
   
 } from "lucide-react";
 import Logo from "@/components/Logo";
+import PhasesTimeline from "@/components/PhasesTimeline";
 import aurelieImg from "@/assets/aurelie.png";
 
 
