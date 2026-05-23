@@ -410,6 +410,9 @@ const Index = () => {
               </tbody>
             </table>
           </div>
+          <p className="text-[#a0aec0] italic text-center mt-8 md:mt-10 text-[0.8rem] max-w-3xl mx-auto leading-relaxed">
+            Code Kaizen n'intervient pas sur des offres en phase de recherche de product-market fit, des tickets inférieurs à 5 000 € par deal, ou des activités sans fondateur impliqué dans les premières semaines.
+          </p>
         </div>
       </section>
 
