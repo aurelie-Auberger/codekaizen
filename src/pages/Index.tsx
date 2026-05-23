@@ -425,10 +425,102 @@ const Index = () => {
             </p>
           </div>
 
+          {/* BLOC 3 — Workflow qualification SQL */}
+          <div>
+            <div className="text-center mb-10 md:mb-12">
+              <h3 className="font-serif text-[1.15rem] md:text-[1.4rem] text-ivory mb-2 leading-tight">
+                Protocole de qualification SQL
+              </h3>
+              <p className="text-[#a0aec0] text-[0.82rem] md:text-[0.875rem]">
+                Aucun lead n'entre dans votre pipeline sans scoring validé.
+              </p>
+            </div>
 
+            {(() => {
+              const ArrowDown = ({ className = "" }: { className?: string }) => (
+                <svg className={`w-5 h-5 text-[#c9a84c] ${className}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <line x1="12" y1="3" x2="12" y2="20" /><polyline points="6 14 12 20 18 14" />
+                </svg>
+              );
+
+              const FlowBox = ({
+                color, label, title, sub, note,
+              }: { color: string; label?: string; title: string; sub?: string; note?: string }) => (
+                <div
+                  style={{ backgroundColor: `${color}14`, borderColor: color }}
+                  className="border rounded-md p-4 md:p-5"
+                >
+                  {label && (
+                    <div style={{ color }} className="text-[0.62rem] font-mono tracking-[0.22em] uppercase mb-1.5">{label}</div>
+                  )}
+                  <div className="text-white text-[0.85rem] md:text-[0.9rem] font-bold leading-tight mb-1">{title}</div>
+                  {sub && <div className="text-[#cbd5e1] text-[0.72rem] md:text-[0.75rem] leading-snug">{sub}</div>}
+                  {note && (
+                    <div style={{ borderColor: `${color}44` }} className="mt-2 pt-2 border-t text-[#a0aec0] text-[0.68rem] md:text-[0.7rem] font-mono leading-snug">
+                      {note}
+                    </div>
+                  )}
+                </div>
+              );
+
+              return (
+                <div className="max-w-4xl mx-auto">
+                  <div className="max-w-md mx-auto">
+                    <FlowBox color="#94a3b8" label="Entrée" title="Réponse positive reçue" sub="Cold email · LinkedIn · Inbound" />
+                  </div>
+                  <div className="flex justify-center my-3"><ArrowDown /></div>
+
+                  <div className="max-w-md mx-auto">
+                    <FlowBox color="#14b8a6" label="Étape 1" title="Call de qualification" sub="Budget · Autorité · Besoin · Timing" />
+                  </div>
+                  <div className="flex justify-center my-3"><ArrowDown /></div>
+
+                  <div className="max-w-md mx-auto">
+                    <FlowBox
+                      color="#3b82f6"
+                      label="Étape 2"
+                      title="Scoring post-call"
+                      sub="Score 0–10 sur 4 critères BANT"
+                      note="≥ 7 = T1 SQL · 4–6 = T2 Nurture · < 4 = T3"
+                    />
+                  </div>
+
+                  <div className="hidden md:flex justify-center items-stretch h-8">
+                    <div className="w-2/3 border-l border-r border-b border-[rgba(201,168,76,0.4)]" />
+                  </div>
+                  <div className="hidden md:flex justify-between w-2/3 mx-auto -mt-px">
+                    <div className="w-px h-4 bg-[rgba(201,168,76,0.4)]" />
+                    <div className="w-px h-4 bg-[rgba(201,168,76,0.4)]" />
+                    <div className="w-px h-4 bg-[rgba(201,168,76,0.4)]" />
+                  </div>
+                  <div className="md:hidden flex justify-center my-3"><ArrowDown /></div>
+
+                  <div className="grid md:grid-cols-3 gap-4 md:gap-5 mt-3">
+                    <FlowBox color="#14b8a6" label="Score ≥ 7" title="T1 — SQL" sub="Brief complet → Pipeline CRM" />
+                    <FlowBox color="#c9a84c" label="Score 4–6" title="T2 — Nurture" sub="Séquence longue · Relance J+30/60" />
+                    <FlowBox color="#94a3b8" label="Score < 4" title="T3 — Disqualifié" sub="Archivé · Motif documenté" />
+                  </div>
+
+                  <div className="grid md:grid-cols-3 gap-4 md:gap-5 mt-3 items-start">
+                    <div>
+                      <div className="flex justify-center mb-2"><ArrowDown /></div>
+                      <FlowBox color="#22c55e" label="Closing" title="Deal en closing" sub="Commission activée" />
+                    </div>
+                    <div className="hidden md:block" />
+                    <div className="hidden md:block" />
+                  </div>
+
+                  <p className="text-[#a0aec0] text-[0.78rem] md:text-[0.82rem] italic text-center mt-10">
+                    Aucun lead n'entre dans votre pipeline sans brief complet et scoring validé.
+                  </p>
+                </div>
+              );
+            })()}
+          </div>
 
         </div>
       </section>
+
 
 
       {/* SECTION B — PRINCIPES */}
