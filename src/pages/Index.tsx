@@ -267,7 +267,7 @@ const Index = () => {
           </p>
           <div className="max-w-2xl mx-auto mt-10 md:mt-14 text-center">
             <p className="text-[#c9a24e] italic text-[0.875rem] leading-relaxed">
-              "Pour la première fois depuis trois ans, j'ai eu un rendez-vous qualifié que je n'avais pas été chercher moi-même."
+              "Pour la première fois depuis trois ans, j'ai eu un rendez-vous qualifié que je n'avais pas été chercher moi-même. En 6 semaines, le système a produit plus de pipeline que mes 8 derniers mois de networking."
             </p>
             <p className="text-[#a0aec0] text-[13px] mt-3">
               — Fondateur, SaaS RH, France, 2025
