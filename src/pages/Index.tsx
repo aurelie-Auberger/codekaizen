@@ -443,12 +443,12 @@ const Index = () => {
               return (
                 <div className="max-w-4xl mx-auto">
                   <div className="max-w-md mx-auto">
-                    <FlowBox color="#94a3b8" label="Entrée" title="Réponse positive reçue" sub="Cold email · LinkedIn · Inbound" />
+                    <FlowBox color="#94a3b8" label="Entrée" title="Une réponse arrive" />
                   </div>
                   <div className="flex justify-center my-3"><ArrowDown /></div>
 
                   <div className="max-w-md mx-auto">
-                    <FlowBox color="#14b8a6" label="Étape 1" title="Call de qualification" sub="Budget · Autorité · Besoin · Timing" />
+                    <FlowBox color="#14b8a6" label="Étape 1" title="Appel de qualification — 20 minutes" />
                   </div>
                   <div className="flex justify-center my-3"><ArrowDown /></div>
 
@@ -456,9 +456,7 @@ const Index = () => {
                     <FlowBox
                       color="#3b82f6"
                       label="Étape 2"
-                      title="Scoring post-call"
-                      sub="Score 0–10 sur 4 critères BANT"
-                      note="≥ 7 = T1 SQL · 4–6 = T2 Nurture · < 4 = T3"
+                      title="3 questions décisives : Ont-ils un budget ? Un décideur ? Un timing ?"
                     />
                   </div>
 
