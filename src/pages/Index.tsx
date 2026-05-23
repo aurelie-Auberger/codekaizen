@@ -380,9 +380,9 @@ const Index = () => {
                   className="border-l-4 border-y border-r border-[rgba(201,168,76,0.15)] rounded-r-md p-5 md:p-6 grid md:grid-cols-[200px_1fr] gap-4 md:gap-6 items-start hover:border-[rgba(201,168,76,0.3)] transition-colors"
                 >
                   <div>
-                    <div style={{ color: layer.color }} className="text-[0.65rem] font-mono tracking-[0.2em] uppercase mb-1.5">Couche {layer.n}</div>
                     <div className="text-white text-[0.95rem] md:text-[1rem] font-bold leading-tight">{layer.t}</div>
                   </div>
+
                   <div className="flex flex-wrap gap-2">
                     {layer.tools.map((tool) => (
                       <span
