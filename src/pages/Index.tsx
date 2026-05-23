@@ -308,7 +308,7 @@ const Index = () => {
                 { n: "03", t: "Sourcing des cibles", s: ["On identifie et qualifie vos 500 meilleurs prospects — ceux qui ont un besoin réel, maintenant."], bg: "#0f2547" },
                 { n: "04", t: "Campagnes outbound", s: ["On envoie des séquences personnalisées et on teste jusqu'à obtenir des réponses qualifiées."], bg: "#3a2410" },
                 { n: "05", t: "Qualification", s: ["On filtre chaque réponse. Vous ne recevez que des leads avec un projet réel et un décideur impliqué."], bg: "#3a2410" },
-                { n: "06", t: "Transmission système", s: ["Docs · Playbook · Formation", "Le système vous appartient dès J+1"], bg: "#1f2430" },
+                { n: "06", t: "Transfert & autonomie", s: ["On vous remet le système documenté. Vous pouvez l'opérer seul ou continuer avec nous."], bg: "#1f2430" },
               ];
               const top = phases.slice(0, 3);
               const bottom = phases.slice(3).reverse();
@@ -369,7 +369,7 @@ const Index = () => {
 
             <div className="space-y-3">
               {[
-                { n: "01", t: "Données & sourcing", color: "#3b82f6", bg: "rgba(59,130,246,0.06)", tools: ["Clay", "Apollo", "LinkedIn Sales Navigator", "Crunchbase", "Kaspr"] },
+                { n: "01", t: "Trouver les bonnes cibles", color: "#3b82f6", bg: "rgba(59,130,246,0.06)", tools: ["Clay", "Apollo", "LinkedIn Sales Navigator", "Crunchbase", "Kaspr"] },
                 { n: "02", t: "Séquencement outbound", color: "#c9a84c", bg: "rgba(201,168,76,0.06)", tools: ["Instantly.ai", "LinkedIn outreach", "Domaines dédiés", "Warmup automatisé"] },
                 { n: "03", t: "Qualification & CRM", color: "#f97316", bg: "rgba(249,115,22,0.06)", tools: ["HubSpot CRM", "Scoring T1/T2/T3", "Brief lead complet", "Routing automatique"] },
                 { n: "04", t: "Transmission & pérennité", color: "#14b8a6", bg: "rgba(20,184,166,0.06)", tools: ["Documentation séquences", "ICP fiche opérationnelle", "Workflows N8N", "Playbook PDF"] },
