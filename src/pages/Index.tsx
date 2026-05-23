@@ -290,70 +290,9 @@ const Index = () => {
             </p>
           </div>
 
-          {/* BLOC 1 — Pipeline zigzag 6 phases */}
-          <div className="mb-16 md:mb-24">
-            <div className="text-center mb-10 md:mb-12">
-              <h3 className="font-serif text-[1.15rem] md:text-[1.4rem] text-ivory mb-2 leading-tight">
-                Les 6 phases du système
-              </h3>
-              <p className="text-[#94a3b8] text-[0.82rem] md:text-[0.875rem]">
-                De l'ICP au deal — séquence stricte, aucune étape sautée.
-              </p>
-            </div>
-
-            {(() => {
-              const phases = [
-                { n: "01", t: "Diagnostic ICP", s: ["On identifie exactement qui achète, pourquoi, et ce qui bloque votre acquisition aujourd'hui."], bg: "#0f2547" },
-                { n: "02", t: "Architecture du système", s: ["On construit la fondation technique pour que les séquences fonctionnent avant d'envoyer le premier email."], bg: "#0f2547" },
-                { n: "03", t: "Sourcing des cibles", s: ["On identifie et qualifie vos 500 meilleurs prospects — ceux qui ont un besoin réel, maintenant."], bg: "#0f2547" },
-                { n: "04", t: "Campagnes outbound", s: ["On envoie des séquences personnalisées et on teste jusqu'à obtenir des réponses qualifiées."], bg: "#3a2410" },
-                { n: "05", t: "Qualification", s: ["On filtre chaque réponse. Vous ne recevez que des leads avec un projet réel et un décideur impliqué."], bg: "#3a2410" },
-                { n: "06", t: "Transfert & autonomie", s: ["On vous remet le système documenté. Vous pouvez l'opérer seul ou continuer avec nous."], bg: "#1f2430" },
-              ];
-              const top = phases.slice(0, 3);
-              const bottom = phases.slice(3).reverse();
-
-              const PhaseCard = ({ p }: { p: typeof phases[number] }) => (
-                <div style={{ backgroundColor: p.bg }} className="flex-1 border border-[#c9a84c] rounded-md p-4 md:p-5 min-w-0 hover:border-[#e0c068] transition-colors">
-                  <div className="text-[#c9a84c] text-[0.7rem] font-mono font-bold tracking-wider mb-2">{p.n}</div>
-                  <div className="text-white text-[0.85rem] md:text-[0.9rem] font-bold leading-tight mb-2">{p.t}</div>
-                  <div className="text-[#cbd5e1] text-[0.7rem] md:text-[0.72rem] leading-snug">
-                    {p.s.map((line, i) => <div key={i}>{line}</div>)}
-                  </div>
-                </div>
-              );
-
-
-              const ArrowRight = () => (
-                <svg className="w-5 h-5 md:w-6 md:h-6 text-[#c9a84c] flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <line x1="3" y1="12" x2="20" y2="12" /><polyline points="14 6 20 12 14 18" />
-                </svg>
-              );
-              const ArrowLeft = () => (
-                <svg className="w-5 h-5 md:w-6 md:h-6 text-[#c9a84c] flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <line x1="4" y1="12" x2="21" y2="12" /><polyline points="10 6 4 12 10 18" />
-                </svg>
-              );
-              const ArrowDown = () => (
-                <svg className="w-5 h-5 md:w-6 md:h-6 text-[#c9a84c]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <line x1="12" y1="3" x2="12" y2="20" /><polyline points="6 14 12 20 18 14" />
-                </svg>
-              );
-
-              return (
-                <div className="space-y-3 max-w-2xl mx-auto">
-                  {phases.map((p, i) => (
-                    <div key={p.n}>
-                      <PhaseCard p={p} />
-                      {i < phases.length - 1 && (
-                        <div className="flex justify-center my-2"><ArrowDown /></div>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              );
-
-            })()}
+          {/* BLOC 1 — Timeline 6 phases */}
+          <div className="mb-16 md:mb-24 max-w-2xl mx-auto">
+            <PhasesTimeline />
           </div>
 
           {/* BLOC 2 — Stack technique 4 couches */}
