@@ -185,9 +185,9 @@ const Index = () => {
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
-              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Système déployé</h3>
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Système déployé & opéré</h3>
               <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
-                Nous construisons et opérons l'infrastructure adaptée à votre marché. Le fondateur sort de la prospection. Le système entre en fonction.
+                Nous construisons et opérons l'infrastructure : sourcing Clay, enrichissement, séquences Instantly, qualification SQL, CRM. Le fondateur sort de la prospection. Le système entre en fonction.
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
