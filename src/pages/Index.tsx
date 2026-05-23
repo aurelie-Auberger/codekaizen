@@ -471,22 +471,22 @@ const Index = () => {
                   <div className="md:hidden flex justify-center my-3"><ArrowDown /></div>
 
                   <div className="grid md:grid-cols-3 gap-4 md:gap-5 mt-3">
-                    <FlowBox color="#14b8a6" label="Score ≥ 7" title="T1 — SQL" sub="Brief complet → Pipeline CRM" />
-                    <FlowBox color="#c9a84c" label="Score 4–6" title="T2 — Nurture" sub="Séquence longue · Relance J+30/60" />
-                    <FlowBox color="#94a3b8" label="Score < 4" title="T3 — Disqualifié" sub="Archivé · Motif documenté" />
+                    <FlowBox color="#14b8a6" label="Oui aux 3" title="Lead qualifié — transmis avec brief complet" />
+                    <FlowBox color="#c9a84c" label="Partiel" title="En attente — relancé dans 30 jours" />
+                    <FlowBox color="#94a3b8" label="Non" title="Disqualifié — archivé avec motif" />
                   </div>
 
                   <div className="grid md:grid-cols-3 gap-4 md:gap-5 mt-3 items-start">
                     <div>
                       <div className="flex justify-center mb-2"><ArrowDown /></div>
-                      <FlowBox color="#22c55e" label="Closing" title="Deal en closing" sub="Commission activée" />
+                      <FlowBox color="#22c55e" label="Closing" title="Opportunité dans votre pipeline" />
                     </div>
                     <div className="hidden md:block" />
                     <div className="hidden md:block" />
                   </div>
 
                   <p className="text-[#94a3b8] text-[0.78rem] md:text-[0.82rem] italic text-center mt-10">
-                    Aucun lead n'entre dans votre pipeline sans brief complet et scoring validé.
+                    Vous ne recevez jamais un lead sans savoir exactement pourquoi il est qualifié.
                   </p>
                 </div>
               );
