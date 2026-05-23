@@ -308,7 +308,7 @@ const Index = () => {
             ))}
           </div>
           <p className="text-[#a0aec0] text-[0.75rem] italic text-center mt-8 md:mt-10">
-            Données réelles issues de missions opérées pour des entreprises B2B.
+            Données issues de missions opérées sur des offres B2B à ticket ≥ 5 000 €. Résultats variables selon secteur et maturité commerciale.
           </p>
         </div>
       </section>
