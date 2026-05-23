@@ -322,6 +322,7 @@ const Index = () => {
                 src={aurelieImg}
                 alt="Aurélie, fondatrice de Code Kaizen"
                 className="w-full h-full object-cover"
+                style={{ objectPosition: "50% 15%" }}
               />
             </div>
             <div className="max-w-xl text-center md:text-left">
