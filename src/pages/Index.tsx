@@ -420,7 +420,11 @@ const Index = () => {
                 </div>
               ))}
             </div>
+            <p className="text-[#a0aec0] text-[0.78rem] md:text-[0.82rem] italic text-center mt-6">
+              Chaque couche est documentée et transmissible en fin de mission.
+            </p>
           </div>
+
 
 
         </div>
