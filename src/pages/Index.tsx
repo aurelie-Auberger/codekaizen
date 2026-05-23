@@ -394,10 +394,8 @@ const Index = () => {
               </thead>
               <tbody>
                 {[
-                  { s: "Lancement produit", o: "Créer la traction initiale", d: "30–60 jours", r: "Premiers RDV qualifiés" },
-                  { s: "Développement commercial", o: "Générer un flux régulier", d: "60–90 jours", r: "Pipeline récurrent" },
-                  { s: "Entrée sur un nouveau marché", o: "Valider un marché cible", d: "45–75 jours", r: "Opportunités qualifiées" },
-                  { s: "Scaling des ventes", o: "Augmenter la performance", d: "90+ jours", r: "Croissance durable" },
+                  { s: "Développement commercial structuré", o: "Construire un flux outbound récurrent et prévisible", d: "60–90 jours", r: "Pipeline qualifié ≥ 3x votre mensuel actuel" },
+                  { s: "Scaling des ventes", o: "Industrialiser l'acquisition sur plusieurs segments ICP", d: "90–120 jours", r: "Système autonome + équipe formée" },
                 ].map((row, i, arr) => (
                   <tr
                     key={row.s}
