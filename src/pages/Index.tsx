@@ -303,25 +303,26 @@ const Index = () => {
 
             {(() => {
               const phases = [
-                { n: "01", t: "Diagnostic Acquisition", s: ["Analyse ICP, marché, blocages.", "Livrable structurant en 5 jours."] },
-                { n: "02", t: "Architecture Pipeline", s: ["Stack, domaines, scoring, CRM.", "L'infra avant la première séquence."] },
-                { n: "03", t: "Sourcing & Segmentation", s: ["Clay, enrichissement waterfall.", "Bases scorées par tier ICP."] },
-                { n: "04", t: "Acquisition Outbound", s: ["Séquences multi-canal calibrées.", "A/B testing systématique."] },
-                { n: "05", t: "Qualification SQL", s: ["Protocole BANT strict.", "Brief complet par lead transmis."] },
-                { n: "06", t: "Transmission Système", s: ["Documentation, playbook, formation.", "Autonomie opérationnelle J+1."] },
+                { n: "01", t: "Diagnostic ICP", s: ["5 jours ouvrés", "ICP réel · Cycle · Objections"], bg: "#0f2547" },
+                { n: "02", t: "Architecture stack", s: ["Clay · Instantly · HubSpot", "DNS · Échauffement · Scoring SQL"], bg: "#0f2547" },
+                { n: "03", t: "Sourcing & segmentation", s: ["Clay · Apollo · Crunchbase", "T1/T2/T3 · 8 variables · Enrichissement"], bg: "#0f2547" },
+                { n: "04", t: "Acquisition outbound", s: ["Cold email 3–5 steps", "A/B testing · Perso. niveau 3 · Cadence"], bg: "#3a2410" },
+                { n: "05", t: "Qualification SQL", s: ["BANT · Scoring post-call", "T1 SQL → pipeline / T2 nurture / T3 archivé"], bg: "#3a2410" },
+                { n: "06", t: "Transmission système", s: ["Docs · Playbook · Formation", "Le système vous appartient dès J+1"], bg: "#1f2430" },
               ];
               const top = phases.slice(0, 3);
               const bottom = phases.slice(3).reverse();
 
               const PhaseCard = ({ p }: { p: typeof phases[number] }) => (
-                <div className="flex-1 bg-[#101f37] border border-[rgba(201,168,76,0.25)] rounded-md p-4 md:p-5 min-w-0 hover:border-[rgba(201,168,76,0.5)] transition-colors">
+                <div style={{ backgroundColor: p.bg }} className="flex-1 border border-[#c9a84c] rounded-md p-4 md:p-5 min-w-0 hover:border-[#e0c068] transition-colors">
                   <div className="text-[#c9a84c] text-[0.7rem] font-mono font-bold tracking-wider mb-2">{p.n}</div>
                   <div className="text-white text-[0.85rem] md:text-[0.9rem] font-bold leading-tight mb-2">{p.t}</div>
-                  <div className="text-[#a0aec0] text-[0.7rem] md:text-[0.72rem] leading-snug">
+                  <div className="text-[#cbd5e1] text-[0.7rem] md:text-[0.72rem] leading-snug">
                     {p.s.map((line, i) => <div key={i}>{line}</div>)}
                   </div>
                 </div>
               );
+
 
               const ArrowRight = () => (
                 <svg className="w-5 h-5 md:w-6 md:h-6 text-[#c9a84c] flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
