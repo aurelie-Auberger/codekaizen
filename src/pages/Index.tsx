@@ -331,7 +331,7 @@ const Index = () => {
                   Avant Code Kaizen, j'ai construit et opéré des systèmes outbound B2B en tant que BDR puis architecte RevOps — sur des offres SaaS, conseil et ESN, avec des stacks Clay / Instantly / HubSpot. Je ne déploie pas des formules génériques. Je construis avec vous un système calibré sur votre ICP réel, votre cycle de vente, vos contraintes opérationnelles.
                 </p>
                 <p>
-                  Je travaille en partenariat, pas en prestation. Votre croissance est notre objectif commun.
+                  Je travaille en partenariat, pas en prestation. Votre pipeline est notre objectif commun.
                 </p>
               </div>
             </div>
