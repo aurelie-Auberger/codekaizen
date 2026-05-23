@@ -245,23 +245,19 @@ const Index = () => {
               </div>
             </div>
             <div className="bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6">
-              <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">Solution SaaS B2B · 3 mois</div>
-              <div className="grid grid-cols-2 gap-y-4 gap-x-4 text-[13px] md:text-sm">
+              <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">Cabinet de conseil en stratégie, 12 collaborateurs</div>
+              <div className="space-y-3 text-[13px] md:text-sm">
                 <div>
-                  <div className="text-[#f7f7f7] font-bold text-lg">23</div>
-                  <div className="text-[#a0aec0] text-[0.7rem]">RDV qualifiés</div>
+                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Offre</div>
+                  <div className="text-[#f7f7f7] leading-relaxed">Accompagnement transformation, ticket moyen 35K€</div>
                 </div>
                 <div>
-                  <div className="text-[#f7f7f7] font-bold text-lg">21,4%</div>
-                  <div className="text-[#a0aec0] text-[0.7rem]">Taux de réponse</div>
+                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Levier</div>
+                  <div className="text-[#f7f7f7] leading-relaxed">Outbound ciblé DAF + DG de ETI en phase de structuration</div>
                 </div>
                 <div>
-                  <div className="text-[#f7f7f7] font-bold text-lg">2</div>
-                  <div className="text-[#a0aec0] text-[0.7rem]">Deals signés</div>
-                </div>
-                <div>
-                  <div className="text-[#f7f7f7] font-bold text-lg">62 K€</div>
-                  <div className="text-[#a0aec0] text-[0.7rem]">Pipeline généré</div>
+                  <div className="text-[#a0aec0] text-[0.7rem] uppercase tracking-wider mb-1">Résultat</div>
+                  <div className="text-[#f7f7f7] leading-relaxed">1 deal signé + 2 en négociation / 105K€ pipeline en 88 jours</div>
                 </div>
               </div>
             </div>
