@@ -307,7 +307,7 @@ const Index = () => {
                 { n: "02", t: "Architecture du système", s: ["On construit la fondation technique pour que les séquences fonctionnent avant d'envoyer le premier email."], bg: "#0f2547" },
                 { n: "03", t: "Sourcing des cibles", s: ["On identifie et qualifie vos 500 meilleurs prospects — ceux qui ont un besoin réel, maintenant."], bg: "#0f2547" },
                 { n: "04", t: "Campagnes outbound", s: ["On envoie des séquences personnalisées et on teste jusqu'à obtenir des réponses qualifiées."], bg: "#3a2410" },
-                { n: "05", t: "Qualification SQL", s: ["BANT · Scoring post-call", "T1 SQL → pipeline / T2 nurture / T3 archivé"], bg: "#3a2410" },
+                { n: "05", t: "Qualification", s: ["On filtre chaque réponse. Vous ne recevez que des leads avec un projet réel et un décideur impliqué."], bg: "#3a2410" },
                 { n: "06", t: "Transmission système", s: ["Docs · Playbook · Formation", "Le système vous appartient dès J+1"], bg: "#1f2430" },
               ];
               const top = phases.slice(0, 3);
