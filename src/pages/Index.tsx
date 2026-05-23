@@ -303,7 +303,7 @@ const Index = () => {
 
             {(() => {
               const phases = [
-                { n: "01", t: "Diagnostic ICP", s: ["5 jours ouvrés", "ICP réel · Cycle · Objections"], bg: "#0f2547" },
+                { n: "01", t: "Diagnostic ICP", s: ["On identifie exactement qui achète, pourquoi, et ce qui bloque votre acquisition aujourd'hui."], bg: "#0f2547" },
                 { n: "02", t: "Architecture stack", s: ["Clay · Instantly · HubSpot", "DNS · Échauffement · Scoring SQL"], bg: "#0f2547" },
                 { n: "03", t: "Sourcing & segmentation", s: ["Clay · Apollo · Crunchbase", "T1/T2/T3 · 8 variables · Enrichissement"], bg: "#0f2547" },
                 { n: "04", t: "Acquisition outbound", s: ["Cold email 3–5 steps", "A/B testing · Perso. niveau 3 · Cadence"], bg: "#3a2410" },
