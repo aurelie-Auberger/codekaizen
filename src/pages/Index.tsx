@@ -471,7 +471,7 @@ const Index = () => {
       </section>
 
       {/* FONDATRICE */}
-      <section className="bg-[#0d1b2e] py-16 md:py-24 px-6 md:px-10">
+      <section className="bg-[#0f1a2e] py-16 md:py-24 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16">
             <div
