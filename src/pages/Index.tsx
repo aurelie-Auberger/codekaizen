@@ -47,9 +47,10 @@ const expertise = [
 
 const faqs = [
   { q: "Qui gère le closing ?", r: "Je prends en charge la qualification et le closing sur l'ensemble des opportunités générées. Si vous disposez déjà d'une équipe commerciale, nous travaillons en coordination directe avec elle. Le système d'acquisition reste identique dans les deux cas." },
-  { q: "C'est quoi le Diagnostic Acquisition ?", r: "Un audit de votre situation commerciale : ICP, canaux, gaps, plan d'action. 800 EUR HT, livré en 5 jours. Déductible si vous continuez. Le système est opérationnel sous 30 jours. Les premiers résultats dépendent de votre cycle de vente." },
-  { q: "Comment fonctionne la commission ?", r: "Notre commission s'applique uniquement sur le chiffre d'affaires généré par les deals sourcés via notre système, pendant 12 mois suivant le démarrage de la mission. Elle ne s'applique pas sur votre CA existant, ni sur vos clients actuels. Sur les missions observées, la commission représente entre 8 000 € et 25 000 € sur 12 mois selon le volume de deals signés et le ticket moyen. Vous ne payez que ce que nous produisons." },
-  { q: "Que se passe-t-il après 6 mois ?", r: "Vous pouvez acquérir le système complet : workflow, séquences, CRM, scripts et documentation. Formation à la prise en main incluse. Le système devient votre propriété. Le prix de rachat est défini lors de la restitution du Diagnostic, selon la complexité du système déployé." },
+  { q: "C'est quoi le Diagnostic Acquisition ?", r: "Un diagnostic de 5 jours ouvrés pendant lesquels nous analysons votre ICP réel, votre positionnement marché, vos séquences actuelles si elles existent, et les leviers bloquants. Livrable : fiche ICP opérationnelle, architecture de séquences recommandée, stack technique, et priorités d'exécution. Ce diagnostic est facturé 500€ HT, intégralement déduit de la première commission en cas de mission." },
+  { q: "Comment fonctionne la commission ?", r: "10% sur le CA généré par les deals sourcés via notre système, pendant 12 mois. Pas sur votre CA existant, pas sur vos deals inbound. Uniquement sur ce que le système produit. Facturation au moment de l'encaissement, pas de la signature." },
+  { q: "Que se passe-t-il après 12 mois ?", r: "Le système vous appartient intégralement — séquences, bases de contacts, automations, documentation. Vous pouvez l'opérer en interne ou prolonger le partenariat. Aucun engagement de renouvellement." },
+  { q: "Quel est le délai pour voir les premiers résultats ?", r: "Les premiers RDV qualifiés arrivent généralement entre J+21 et J+35 après le lancement du système. Le pipeline significatif se construit entre J+45 et J+90 selon le secteur et le ticket moyen de votre offre." },
 ];
 
 const Index = () => {
