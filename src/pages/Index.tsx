@@ -294,7 +294,7 @@ const Index = () => {
           <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-8 md:gap-6">
             {[
               { n: "27", l: "RDV qualifiés générés", s: "Sur 1 850 contacts sourcés — taux de conversion 1,46%" },
-              { n: "16,2%", l: "Taux de réponse moyen", s: "Sur campagnes outbound" },
+              { n: "16,2%", l: "Taux de réponse moyen", s: "Moyenne sur séquences cold email 3 steps, secteur SaaS/ESN" },
               { n: "68 K€", l: "Pipeline généré", s: "Sur les 90 derniers jours" },
               { n: "4", l: "Deals signés", s: "Sur les 90 derniers jours" },
               
