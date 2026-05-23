@@ -298,7 +298,7 @@ const Index = () => {
               { n: "68 K€", l: "Pipeline généré", s: "Sur 3 missions actives, 90 jours" },
               { n: "4", l: "Deals signés", s: "Ticket moyen : 17K€. Cycle de vente moyen : 34 jours" },
               
-              { n: "3,2x", l: "ROI médian constaté", s: "Sur 6 mois d'accompagnement" },
+              { n: "3,2x", l: "ROI médian constaté", s: "Commission incluse, calculé sur CA encaissé vs coût total mission" },
             ].map((m) => (
               <div key={m.n} className="text-center">
                 <div className="text-[#c9a24e] text-[2rem] font-bold leading-tight">{m.n}</div>
