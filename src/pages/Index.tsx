@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import Logo from "@/components/Logo";
 import PhasesTimeline from "@/components/PhasesTimeline";
-import CommentOnTravaille from "@/components/CommentOnTravaille";
+
 import aurelieImg from "@/assets/aurelie.png";
 
 
