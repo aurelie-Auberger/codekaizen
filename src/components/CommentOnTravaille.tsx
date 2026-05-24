@@ -57,7 +57,7 @@ const CommentOnTravaille = () => (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" style={{flexShrink:0}}><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
       <div>
         <div style={{fontSize:13,fontWeight:700,color:'#c9a84c',marginBottom:4}}>Votre seul rôle dans tout ça</div>
-        <div style={{fontSize:12,color:'#94a3b8',lineHeight:1.5}}>Valider l'ICP en semaine 1. Puis <span style={{color:'#f7f7f7',fontWeight:600}}>closer les rendez-vous qu'on vous livre</span>. C'est tout.</div>
+        <div style={{fontSize:12,color:'#94a3b8',lineHeight:1.5}}>Valider l'ICP en semaine 1. Puis <span style={{color:'#f7f7f7',fontWeight:600}}>prendre les rendez-vous qu'on vous livre — avec le brief complet</span>. C'est tout.</div>
       </div>
     </div>
   </div>
