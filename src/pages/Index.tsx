@@ -487,21 +487,21 @@ const Index = () => {
           </h2>
           <div className="grid md:grid-cols-3 gap-8 md:gap-10 mb-10 md:mb-14">
             <div>
-              <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">40–60 K€</div>
+              <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">2h / semaine</div>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                de capacité productive mobilisée chaque année sur de la prospection manuelle à 800 EUR/jour.
+                C'est le seul temps que nous vous demandons pendant le premier mois. Le reste, c'est nous.
               </p>
             </div>
             <div>
-              <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">45 K€</div>
+              <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">J+35</div>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                le coût moyen d'un premier recrutement commercial raté. Dans 80% des cas : absence de système.
+                Délai moyen pour les premiers rendez-vous qualifiés après le lancement des campagnes.
               </p>
             </div>
             <div>
-              <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">18 mois</div>
+              <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">J+90</div>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                le retard structurel que vos concurrents qui construisent aujourd'hui auront sur vous dans 18 mois.
+                Date à laquelle le système vous appartient intégralement — sans condition, sans surcoût.
               </p>
             </div>
           </div>
