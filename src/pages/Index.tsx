@@ -178,7 +178,7 @@ const Index = () => {
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
-            Une infrastructure de revenus. Pas un abonnement de plus.
+            Une infrastructure d'acquisition. Construite, pilotée, transmise.
           </h2>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
