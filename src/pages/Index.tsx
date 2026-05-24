@@ -203,6 +203,67 @@ const Index = () => {
         </div>
       </section>
 
+      {/* SECTION A — INFRASTRUCTURE */}
+      <section className="bg-[#0d1b2e] border-t border-b border-[rgba(201,162,78,0.15)] py-16 md:py-28 px-6 md:px-10">
+        <div className="max-w-6xl mx-auto">
+          {/* Header */}
+          <div className="text-center mb-12 md:mb-16">
+            <h2 className="font-serif text-[1.5rem] md:text-[2.1rem] text-ivory mb-4 leading-tight">
+              Comment fonctionne l'infrastructure Code Kaizen
+            </h2>
+            <p className="text-[#94a3b8] text-[0.9rem] md:text-[0.95rem] leading-relaxed">
+              Un système en 6 phases, documenté et transmissible.
+            </p>
+          </div>
+
+          {/* BLOC 1 — Timeline 6 phases */}
+          <div className="mb-16 md:mb-24 max-w-2xl mx-auto">
+            <PhasesTimeline />
+          </div>
+
+
+
+        </div>
+      </section>
+
+      {/* FONDATRICE */}
+      <section className="bg-[#0f1a2e] py-16 md:py-24 px-6 md:px-10">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16">
+            <div
+              className="w-[280px] h-[280px] rounded-2xl overflow-hidden flex-shrink-0 border-2 border-[#c9a24e] bg-transparent"
+              style={{ boxShadow: "0 0 0 4px rgba(201,162,78,0.15)" }}
+            >
+              <img
+                src={aurelieImg}
+                alt="Aurélie, fondatrice de Code Kaizen"
+                className="w-full h-full object-cover"
+                style={{ objectPosition: "50% 15%" }}
+              />
+            </div>
+            <div className="max-w-xl text-center md:text-left">
+              <h2 className="font-serif text-[2rem] md:text-[2.5rem] text-ivory mb-2 leading-tight">
+                Aurélie
+              </h2>
+              <p className="text-[#c9a24e] text-sm md:text-base font-medium mb-6">
+                Fondatrice &amp; Architecte de croissance, Code Kaizen
+              </p>
+              <div className="space-y-4 text-[#edeae2] text-[14px] md:text-[15px] leading-relaxed">
+                <p>
+                  Avant Code Kaizen, j'ai opéré en tant que BDR puis RevOps sur des offres B2B SaaS, conseil et ESN — avec des stacks Clay, Instantly et HubSpot. J'ai construit et piloté des séquences outbound, défini des ICP, structuré des pipelines de qualification. Ce ne sont pas des concepts que j'ai appris : ce sont les mêmes systèmes que je déploie pour vous.
+                </p>
+                <p>
+                  Code Kaizen est né d'un constat simple : la plupart des fondateurs B2B ont une offre solide et aucun système pour la mettre devant les bonnes personnes. Ils prospectent à la main, dépendent de leur réseau, et s'épuisent à faire ce qu'un système devrait faire à leur place.
+                </p>
+                <p>
+                  Je travaille avec un nombre limité de clients simultanément pour maintenir un niveau d'exécution élevé. Chaque mission est construite sur mesure, documentée, et transmise à la fin.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CAS CLIENTS */}
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
@@ -276,31 +337,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* SECTION A — INFRASTRUCTURE */}
-      <section className="bg-[#0d1b2e] border-t border-b border-[rgba(201,162,78,0.15)] py-16 md:py-28 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto">
-          {/* Header */}
-          <div className="text-center mb-12 md:mb-16">
-            <h2 className="font-serif text-[1.5rem] md:text-[2.1rem] text-ivory mb-4 leading-tight">
-              Comment fonctionne l'infrastructure Code Kaizen
-            </h2>
-            <p className="text-[#94a3b8] text-[0.9rem] md:text-[0.95rem] leading-relaxed">
-              Un système en 6 phases, documenté et transmissible.
-            </p>
-          </div>
-
-          {/* BLOC 1 — Timeline 6 phases */}
-          <div className="mb-16 md:mb-24 max-w-2xl mx-auto">
-            <PhasesTimeline />
-          </div>
-
-
-
-        </div>
-      </section>
-
-
-
       {/* SECTION B — PRINCIPES */}
       <section className="bg-[#0d1b2e] border-b border-[rgba(201,162,78,0.15)] py-16 md:py-24 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
@@ -335,55 +371,29 @@ const Index = () => {
         </div>
       </section>
 
-      {/* FONDATRICE */}
-      <section className="bg-[#0f1a2e] py-16 md:py-24 px-6 md:px-10">
+      {/* CE QUE CODE KAIZEN N'EST PAS */}
+      <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16">
-            <div
-              className="w-[280px] h-[280px] rounded-2xl overflow-hidden flex-shrink-0 border-2 border-[#c9a24e] bg-transparent"
-              style={{ boxShadow: "0 0 0 4px rgba(201,162,78,0.15)" }}
-            >
-              <img
-                src={aurelieImg}
-                alt="Aurélie, fondatrice de Code Kaizen"
-                className="w-full h-full object-cover"
-                style={{ objectPosition: "50% 15%" }}
-              />
-            </div>
-            <div className="max-w-xl text-center md:text-left">
-              <h2 className="font-serif text-[2rem] md:text-[2.5rem] text-ivory mb-2 leading-tight">
-                Aurélie
-              </h2>
-              <p className="text-[#c9a24e] text-sm md:text-base font-medium mb-6">
-                Fondatrice &amp; Architecte de croissance, Code Kaizen
-              </p>
-              <div className="space-y-4 text-[#edeae2] text-[14px] md:text-[15px] leading-relaxed">
-                <p>
-                  Avant Code Kaizen, j'ai opéré en tant que BDR puis RevOps sur des offres B2B SaaS, conseil et ESN — avec des stacks Clay, Instantly et HubSpot. J'ai construit et piloté des séquences outbound, défini des ICP, structuré des pipelines de qualification. Ce ne sont pas des concepts que j'ai appris : ce sont les mêmes systèmes que je déploie pour vous.
-                </p>
-                <p>
-                  Code Kaizen est né d'un constat simple : la plupart des fondateurs B2B ont une offre solide et aucun système pour la mettre devant les bonnes personnes. Ils prospectent à la main, dépendent de leur réseau, et s'épuisent à faire ce qu'un système devrait faire à leur place.
-                </p>
-                <p>
-                  Je travaille avec un nombre limité de clients simultanément pour maintenir un niveau d'exécution élevé. Chaque mission est construite sur mesure, documentée, et transmise à la fin.
-                </p>
+          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-4 md:mb-6 leading-tight">
+            Ce que Code Kaizen n'est pas
+          </h2>
+          <p className="text-[#94a3b8] text-center text-[0.875rem] mb-10 md:mb-16">
+            Pour éviter de perdre du temps des deux côtés.
+          </p>
+          <div className="grid md:grid-cols-3 gap-6 md:gap-8 text-left">
+            {[
+              "Votre offre est encore en phase de validation marché. Nous construisons des systèmes d'acquisition, pas des outils de discovery produit.",
+              "Votre ticket moyen est inférieur à 5 000 € par deal. Le pilotage mensuel n'est pas rentable en dessous de ce seuil — ni pour vous, ni pour nous.",
+              "Vous cherchez une délégation totale sans implication. Les 4 premières semaines requièrent 2h/semaine de votre temps pour calibrer l'ICP et valider les séquences.",
+            ].map((text, i) => (
+              <div key={i} className="bg-[rgba(232,93,58,0.04)] border border-[rgba(232,93,58,0.25)] rounded-lg p-6">
+                <h3 className="text-[#e85d3a] text-lg font-medium mb-4">Pas pour vous si...</h3>
+                <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">{text}</p>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
-
-
-
-
-
-
-
-
-
-
-
-
 
       {/* COÛT DE L'ATTENTE */}
       <section className="py-16 md:py-32 px-6 md:px-10 bg-[rgba(201,162,78,0.05)] border-t border-b border-[rgba(201,162,78,0.15)]">
@@ -420,30 +430,6 @@ const Index = () => {
           >
             Réserver mon Diagnostic
           </button>
-        </div>
-      </section>
-
-      {/* CE QUE CODE KAIZEN N'EST PAS */}
-      <section className="py-16 md:py-32 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-4 md:mb-6 leading-tight">
-            Ce que Code Kaizen n'est pas
-          </h2>
-          <p className="text-[#94a3b8] text-center text-[0.875rem] mb-10 md:mb-16">
-            Pour éviter de perdre du temps des deux côtés.
-          </p>
-          <div className="grid md:grid-cols-3 gap-6 md:gap-8 text-left">
-            {[
-              "Votre offre est encore en phase de validation marché. Nous construisons des systèmes d'acquisition, pas des outils de discovery produit.",
-              "Votre ticket moyen est inférieur à 5 000 € par deal. Le pilotage mensuel n'est pas rentable en dessous de ce seuil — ni pour vous, ni pour nous.",
-              "Vous cherchez une délégation totale sans implication. Les 4 premières semaines requièrent 2h/semaine de votre temps pour calibrer l'ICP et valider les séquences.",
-            ].map((text, i) => (
-              <div key={i} className="bg-[rgba(232,93,58,0.04)] border border-[rgba(232,93,58,0.25)] rounded-lg p-6">
-                <h3 className="text-[#e85d3a] text-lg font-medium mb-4">Pas pour vous si...</h3>
-                <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">{text}</p>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
