@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import Logo from "@/components/Logo";
 import PhasesTimeline from "@/components/PhasesTimeline";
-import CommentOnTravaille from "@/components/CommentOnTravaille";
+
 import aurelieImg from "@/assets/aurelie.png";
 
 
@@ -294,10 +294,6 @@ const Index = () => {
             <PhasesTimeline />
           </div>
 
-          {/* BLOC 2 — Comment on travaille */}
-          <div className="mb-16 md:mb-24 max-w-2xl mx-auto">
-            <CommentOnTravaille />
-          </div>
 
 
         </div>
