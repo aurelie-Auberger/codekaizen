@@ -480,10 +480,10 @@ const Index = () => {
       <section className="py-16 md:py-32 px-6 md:px-10 bg-[rgba(201,162,78,0.05)] border-t border-b border-[rgba(201,162,78,0.15)]">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-[#94a3b8] italic text-[0.875rem] mb-4 md:mb-6">
-            Et si vous attendez encore six mois ?
+            Trois repères concrets
           </p>
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
-            Le coût de l'attente
+            Ce que vous gagnez en démarrant maintenant
           </h2>
           <div className="grid md:grid-cols-3 gap-8 md:gap-10 mb-10 md:mb-14">
             <div>
