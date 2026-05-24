@@ -294,10 +294,6 @@ const Index = () => {
             <PhasesTimeline />
           </div>
 
-          {/* BLOC 2 — Comment on travaille */}
-          <div className="mb-16 md:mb-24 max-w-2xl mx-auto">
-            <CommentOnTravaille />
-          </div>
 
 
         </div>
