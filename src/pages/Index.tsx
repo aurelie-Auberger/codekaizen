@@ -207,66 +207,60 @@ const Index = () => {
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-4 md:mb-6 leading-tight">
-            Ce que le système produit
+            Ce qu'on a construit
           </h2>
           <p className="text-[#94a3b8] text-center text-[0.875rem] mb-10 md:mb-16">
-            Voici ce que cette infrastructure produit.
+            Exemples de systèmes déployés — secteurs et architectures réels.
           </p>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
-            <div className="bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6">
-              <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">ESN Conseil, 18 collaborateurs, France</div>
-              <div className="space-y-3 text-[13px] md:text-sm">
-                <div>
-                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Offre</div>
-                  <div className="text-[#f7f7f7] leading-relaxed">Missions data & IA, ticket moyen 22K€</div>
-                </div>
-                <div>
-                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Levier</div>
-                  <div className="text-[#f7f7f7] leading-relaxed">Outbound cold email ciblé DSI + DG de PME industrielles</div>
-                </div>
-                <div>
-                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Résultat</div>
-                  <div className="text-[#f7f7f7] leading-relaxed">3 deals signés / 67K€ pipeline qualifié en 73 jours</div>
-                </div>
-              </div>
-            </div>
-            <div className="bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6">
-              <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">SaaS RH B2B, 8 collaborateurs, France</div>
-              <div className="space-y-3 text-[13px] md:text-sm">
-                <div>
-                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Offre</div>
-                  <div className="text-[#f7f7f7] leading-relaxed">Logiciel de gestion d'entretiens, ticket annuel 8K€</div>
-                </div>
-                <div>
-                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Levier</div>
-                  <div className="text-[#f7f7f7] leading-relaxed">Séquences LinkedIn + email ciblées DRH entreprises 50-200 salariés</div>
-                </div>
-                <div>
-                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Résultat</div>
-                  <div className="text-[#f7f7f7] leading-relaxed">2 deals signés / 38K€ ARR généré en 61 jours</div>
-                </div>
-              </div>
-            </div>
-            <div className="bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6">
-              <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">Cabinet de conseil en stratégie, 12 collaborateurs</div>
-              <div className="space-y-3 text-[13px] md:text-sm">
-                <div>
-                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Offre</div>
-                  <div className="text-[#f7f7f7] leading-relaxed">Accompagnement transformation, ticket moyen 35K€</div>
-                </div>
-                <div>
-                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Levier</div>
-                  <div className="text-[#f7f7f7] leading-relaxed">Outbound ciblé DAF + DG de ETI en phase de structuration</div>
-                </div>
-                <div>
-                  <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Résultat</div>
-                  <div className="text-[#f7f7f7] leading-relaxed">1 deal signé + 2 en négociation / 105K€ pipeline en 88 jours</div>
+            {[
+              {
+                t: "ESN Data & IA — 18 collaborateurs",
+                secteur: "Missions conseil & IA, ticket moyen 20–25K€",
+                icp: "DSI et DG de PME industrielles 50–200 salariés",
+                archi: "Sourcing Clay + séquences Instantly 4 steps + qualification SQL HubSpot",
+                volu: "500 prospects T1 sourcés · 3 domaines dédiés · scoring sur 6 variables",
+              },
+              {
+                t: "SaaS RH B2B — 8 collaborateurs",
+                secteur: "Logiciel RH, ticket annuel 8–12K€",
+                icp: "DRH d'entreprises 50–200 salariés, phase de croissance",
+                archi: "LinkedIn outreach + cold email Instantly + nurture automatisé J+30",
+                volu: "320 prospects T1 · séquences 5 steps · A/B testing 3 variantes accroche",
+              },
+              {
+                t: "Cabinet de conseil stratégie — 12 collaborateurs",
+                secteur: "Transformation & restructuration, ticket moyen 30–40K€",
+                icp: "DAF et DG d'ETI en phase de structuration, 200–500 salariés",
+                archi: "Séquences multicanal Clay + Instantly + routing HubSpot automatique",
+                volu: "280 prospects T1 · workflow N8N qualification · playbook transmis J+90",
+              },
+            ].map((c) => (
+              <div key={c.t} className="bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6">
+                <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">{c.t}</div>
+                <div className="space-y-3 text-[13px] md:text-sm">
+                  <div>
+                    <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Secteur</div>
+                    <div className="text-[#f7f7f7] leading-relaxed">{c.secteur}</div>
+                  </div>
+                  <div>
+                    <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">ICP travaillé</div>
+                    <div className="text-[#f7f7f7] leading-relaxed">{c.icp}</div>
+                  </div>
+                  <div>
+                    <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Architecture</div>
+                    <div className="text-[#f7f7f7] leading-relaxed">{c.archi}</div>
+                  </div>
+                  <div>
+                    <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Volumétrie</div>
+                    <div className="text-[#f7f7f7] leading-relaxed">{c.volu}</div>
+                  </div>
                 </div>
               </div>
-            </div>
+            ))}
           </div>
           <p className="text-[#94a3b8] text-[0.75rem] italic text-center mt-8 md:mt-10">
-            Missions anonymisées. Données réelles.
+            Missions anonymisées. Architectures réelles.
           </p>
           <div className="max-w-2xl mx-auto mt-10 md:mt-14 text-center">
             <p className="text-[#c9a24e] italic text-[0.875rem] leading-relaxed">
