@@ -264,10 +264,13 @@ const Index = () => {
           </p>
           <div className="max-w-2xl mx-auto mt-10 md:mt-14 text-center">
             <p className="text-[#c9a24e] italic text-[0.875rem] leading-relaxed">
-              "Pour la première fois depuis trois ans, j'ai eu un rendez-vous qualifié que je n'avais pas été chercher moi-même. En 6 semaines, le système a produit plus de pipeline que mes 8 derniers mois de networking."
+              "Ce que Code Kaizen a construit pour nous n'était pas une liste de contacts. C'était un système : ICP défini, séquences testées, qualification structurée. Pour la première fois, notre pipeline ne dépendait plus d'une relation personnelle."
             </p>
             <p className="text-[#94a3b8] text-[13px] mt-3">
-              — Fondateur, ESN Data & IA, 18 collaborateurs, France — 2025
+              — Fondateur, cabinet de conseil B2B, France — 2025
+            </p>
+            <p className="text-[#94a3b8] text-[0.75rem] italic mt-3">
+              Témoignage recueilli à l'issue de la mission. Identité disponible sur demande.
             </p>
           </div>
         </div>
