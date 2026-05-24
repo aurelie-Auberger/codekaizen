@@ -268,61 +268,32 @@ const Index = () => {
       <section className="py-16 md:py-32 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-4 md:mb-6 leading-tight">
-            Ce qu'on a construit
+            Ce que vous recevez à la fin
           </h2>
           <p className="text-[#94a3b8] text-center text-[0.875rem] mb-10 md:mb-16">
-            Exemples de systèmes déployés — secteurs et architectures réels.
+            Les livrables concrets de chaque mission — documentés, transmissibles, opérables sans nous.
           </p>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             {[
               {
-                t: "ESN Data & IA — 18 collaborateurs",
-                secteur: "Missions conseil & IA, ticket moyen 20–25K€",
-                icp: "DSI et DG de PME industrielles 50–200 salariés",
-                archi: "Sourcing Clay + séquences Instantly 4 steps + qualification SQL HubSpot",
-                volu: "500 prospects T1 sourcés · 3 domaines dédiés · scoring sur 6 variables",
+                t: "Fiche ICP opérationnelle",
+                d: "Définition précise de votre client idéal : secteur, taille, poste, déclencheurs d'achat, objections récurrentes, cycle de décision. La base sur laquelle tout le système est construit. Pas un persona marketing — un outil d'exécution.",
               },
               {
-                t: "SaaS RH B2B — 8 collaborateurs",
-                secteur: "Logiciel RH, ticket annuel 8–12K€",
-                icp: "DRH d'entreprises 50–200 salariés, phase de croissance",
-                archi: "LinkedIn outreach + cold email Instantly + nurture automatisé J+30",
-                volu: "320 prospects T1 · séquences 5 steps · A/B testing 3 variantes accroche",
+                t: "Système outbound documenté",
+                d: "Séquences email et LinkedIn, domaines d'envoi configurés, workflows de qualification, scoring SQL, intégration CRM. Chaque composant est documenté et transférable à votre équipe ou à un futur prestataire.",
               },
               {
-                t: "Cabinet de conseil stratégie — 12 collaborateurs",
-                secteur: "Transformation & restructuration, ticket moyen 30–40K€",
-                icp: "DAF et DG d'ETI en phase de structuration, 200–500 salariés",
-                archi: "Séquences multicanal Clay + Instantly + routing HubSpot automatique",
-                volu: "280 prospects T1 · workflow N8N qualification · playbook transmis J+90",
+                t: "Playbook de transmission",
+                d: "Guide opérationnel complet : comment opérer le système en interne, comment recruter pour le faire tourner, comment l'adapter si votre ICP évolue. Vous n'êtes jamais dépendants d'une personne pour faire fonctionner votre acquisition.",
               },
             ].map((c) => (
               <div key={c.t} className="bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6">
                 <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">{c.t}</div>
-                <div className="space-y-3 text-[13px] md:text-sm">
-                  <div>
-                    <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Secteur</div>
-                    <div className="text-[#f7f7f7] leading-relaxed">{c.secteur}</div>
-                  </div>
-                  <div>
-                    <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">ICP travaillé</div>
-                    <div className="text-[#f7f7f7] leading-relaxed">{c.icp}</div>
-                  </div>
-                  <div>
-                    <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Architecture</div>
-                    <div className="text-[#f7f7f7] leading-relaxed">{c.archi}</div>
-                  </div>
-                  <div>
-                    <div className="text-[#94a3b8] text-[0.7rem] uppercase tracking-wider mb-1">Volumétrie</div>
-                    <div className="text-[#f7f7f7] leading-relaxed">{c.volu}</div>
-                  </div>
-                </div>
+                <div className="text-[#f7f7f7] text-[13px] md:text-sm leading-relaxed">{c.d}</div>
               </div>
             ))}
           </div>
-          <p className="text-[#94a3b8] text-[0.75rem] italic text-center mt-8 md:mt-10">
-            Missions anonymisées. Architectures réelles.
-          </p>
           <div className="max-w-2xl mx-auto mt-10 md:mt-14 text-center">
             <p className="text-[#c9a24e] italic text-[0.875rem] leading-relaxed">
               "Ce que Code Kaizen a construit pour nous n'était pas une liste de contacts. C'était un système : ICP défini, séquences testées, qualification structurée. Pour la première fois, notre pipeline ne dépendait plus d'une relation personnelle."
