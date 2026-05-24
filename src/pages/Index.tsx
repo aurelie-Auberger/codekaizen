@@ -294,17 +294,9 @@ const Index = () => {
               </div>
             ))}
           </div>
-          <div className="max-w-2xl mx-auto mt-10 md:mt-14 text-center">
-            <p className="text-[#c9a24e] italic text-[0.875rem] leading-relaxed">
-              "Ce que Code Kaizen a construit pour nous n'était pas une liste de contacts. C'était un système : ICP défini, séquences testées, qualification structurée. Pour la première fois, notre pipeline ne dépendait plus d'une relation personnelle."
-            </p>
-            <p className="text-[#94a3b8] text-[13px] mt-3">
-              — Fondateur, cabinet de conseil B2B, France — 2025
-            </p>
-            <p className="text-[#94a3b8] text-[0.75rem] italic mt-3">
-              Témoignage recueilli à l'issue de la mission. Identité disponible sur demande.
-            </p>
-          </div>
+          <p className="text-[#94a3b8] text-[0.8rem] italic text-center mt-10 md:mt-14 max-w-2xl mx-auto leading-relaxed">
+            Chaque mission se termine par un transfert complet. Les livrables sont conçus pour rester opérables sans nous.
+          </p>
         </div>
       </section>
 
