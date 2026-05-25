@@ -245,9 +245,17 @@ const Index = () => {
               <h2 className="font-serif text-[2rem] md:text-[2.5rem] text-ivory mb-2 leading-tight">
                 Aurélie
               </h2>
-              <p className="text-[#c9a24e] text-sm md:text-base font-medium mb-6">
+              <p className="text-[#c9a24e] text-sm md:text-base font-medium mb-2">
                 Fondatrice &amp; Architecte de croissance, Code Kaizen
               </p>
+              <a
+                href="https://www.linkedin.com/in/aurelie-auberger/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-[#c9a24e]/80 hover:text-[#c9a24e] text-xs mb-6 transition-colors"
+              >
+                → Profil LinkedIn
+              </a>
               <div className="space-y-4 text-[#edeae2] text-[14px] md:text-[15px] leading-relaxed">
                 <p>
                   Avant Code Kaizen, j'ai opéré en tant que BDR puis RevOps sur des offres B2B SaaS, conseil et ESN — avec des stacks Clay, Instantly et HubSpot. J'ai construit et piloté des séquences outbound, défini des ICP, structuré des pipelines de qualification. Ce ne sont pas des concepts que j'ai appris : ce sont les mêmes systèmes que je déploie pour vous.
