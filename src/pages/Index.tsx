@@ -200,11 +200,14 @@ const Index = () => {
               </p>
             </div>
           </div>
+          <p className="text-center text-[#94a3b8] text-xs mt-8">
+            <a href="#phases" className="text-[#c9a24e] hover:underline">Voir comment ça marche →</a>
+          </p>
         </div>
       </section>
 
       {/* SECTION A — INFRASTRUCTURE */}
-      <section className="bg-[#0d1b2e] border-t border-b border-[rgba(201,162,78,0.15)] py-16 md:py-28 px-6 md:px-10">
+      <section id="phases" className="bg-[#0d1b2e] border-t border-b border-[rgba(201,162,78,0.15)] py-16 md:py-28 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center mb-12 md:mb-16">
