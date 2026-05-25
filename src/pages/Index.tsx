@@ -118,10 +118,10 @@ const Index = () => {
       <section className="pt-24 sm:pt-40 md:pt-48 pb-3 sm:pb-20 md:pb-32 px-5 sm:px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="font-serif text-[1.6rem] leading-[1.15] md:text-[2.2rem] md:leading-[1.1] text-ivory mb-5 md:mb-10 tracking-tight">
-            Votre pipeline ne devrait pas dépendre de vous.
+            Des rendez-vous B2B qualifiés. Un brief complet à chaque call. Vous closez.
           </h1>
           <p className="text-[#94a3b8] max-w-2xl mx-auto text-[0.95rem] leading-[1.75] mb-4">
-            Code Kaizen construit et pilote votre système d'acquisition B2B. Vous recevez des rendez-vous qualifiés avec un brief complet. Vous closez.
+            Code Kaizen construit et pilote votre système d'acquisition outbound — ICP, séquences, qualification. Vous sortez de la prospection. Le pipeline tourne sans vous.
           </p>
           <p className="text-gold/90 italic text-[0.8rem] max-w-2xl mx-auto mb-4">
             Pour les fondateurs et dirigeants B2B avec une offre validée, un ticket moyen ≥ 5 000 € et zéro système d'acquisition structuré.
