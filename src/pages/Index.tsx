@@ -161,7 +161,7 @@ const Index = () => {
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6">
-              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Recruter sans système : 45K€ perdus</h3>
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Recruter un SDR sans système — ce que ça coûte vraiment</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
                 Un SDR sans infrastructure outbound, sans ICP défini, sans séquences qualifiées : vous payez un salaire pour improviser. 12 mois plus tard, le résultat est aléatoire et le coût réel dépasse 60K€.
               </p>
