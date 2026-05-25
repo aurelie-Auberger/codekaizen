@@ -375,11 +375,14 @@ const Index = () => {
       <section className="py-16 md:py-32 px-6 md:px-10 bg-[rgba(201,162,78,0.05)] border-t border-b border-[rgba(201,162,78,0.15)]">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-[#94a3b8] italic text-[0.875rem] mb-4 md:mb-6">
-            Trois repères concrets
+            Pourquoi démarrer maintenant
           </p>
-          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
+          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-6 md:mb-8 leading-tight">
             Ce que vous gagnez en démarrant maintenant
           </h2>
+          <p className="text-[#94a3b8] text-[0.85rem] md:text-[0.9rem] max-w-2xl mx-auto mb-10 md:mb-14 leading-relaxed">
+            Je travaille avec un nombre limité de clients en parallèle. Quand les créneaux sont occupés, les nouvelles missions démarrent en liste d'attente.
+          </p>
           <div className="grid md:grid-cols-3 gap-8 md:gap-10 mb-10 md:mb-14">
             <div>
               <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">2h / semaine</div>
