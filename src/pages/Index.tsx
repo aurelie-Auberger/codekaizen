@@ -142,7 +142,7 @@ const Index = () => {
 
 
       {/* VÉRITÉS */}
-      <section className="py-16 md:py-32 px-6 md:px-10">
+      <section className="py-16 md:py-20 px-6 md:px-10">
         <div className="max-w-[720px] mx-auto text-center">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
             Ce que personne ne dit aux fondateurs B2B
@@ -175,7 +175,7 @@ const Index = () => {
 
 
       {/* BÉNÉFICES */}
-      <section className="py-16 md:py-32 px-6 md:px-10">
+      <section className="py-16 md:py-20 px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
             Une infrastructure d'acquisition. Construite, pilotée, transmise.
@@ -276,7 +276,7 @@ const Index = () => {
       </section>
 
       {/* CAS CLIENTS */}
-      <section className="py-16 md:py-32 px-6 md:px-10">
+      <section className="py-16 md:py-20 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-4 md:mb-6 leading-tight">
             Ce que vous recevez à la fin
@@ -353,7 +353,7 @@ const Index = () => {
       </section>
 
       {/* CE QUE CODE KAIZEN N'EST PAS */}
-      <section className="py-16 md:py-32 px-6 md:px-10">
+      <section className="py-16 md:py-20 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-4 md:mb-6 leading-tight">
             Ce que Code Kaizen n'est pas
@@ -377,7 +377,7 @@ const Index = () => {
       </section>
 
       {/* COÛT DE L'ATTENTE */}
-      <section className="py-16 md:py-32 px-6 md:px-10 bg-[rgba(201,162,78,0.05)] border-t border-b border-[rgba(201,162,78,0.15)]">
+      <section className="py-16 md:py-20 px-6 md:px-10 bg-[rgba(201,162,78,0.05)] border-t border-b border-[rgba(201,162,78,0.15)]">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-[#94a3b8] italic text-[0.875rem] mb-4 md:mb-6">
             Pourquoi démarrer maintenant
@@ -418,7 +418,7 @@ const Index = () => {
       </section>
 
       {/* FAQ */}
-      <section className="py-16 md:py-32 px-6 md:px-10 bg-secondary/30">
+      <section className="py-16 md:py-20 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-10 md:mb-16">Questions fréquentes</h2>
           <div className="divide-y divide-border border-y border-border">
@@ -447,7 +447,7 @@ const Index = () => {
         </div>
       </section>
       {/* FORMULAIRE */}
-      <section id="formulaire" className="py-16 md:py-32 px-6 md:px-10">
+      <section id="formulaire" className="py-16 md:py-20 px-6 md:px-10">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-4 md:mb-6 leading-tight">
             Réservez votre Diagnostic
