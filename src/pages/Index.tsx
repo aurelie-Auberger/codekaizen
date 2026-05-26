@@ -261,7 +261,7 @@ const Index = () => {
               </a>
               <div className="space-y-4 text-[#edeae2] text-[14px] md:text-[15px] leading-relaxed">
                 <p>
-                  Avant Code Kaizen, j'ai opéré en tant que BDR puis RevOps sur des offres B2B SaaS, conseil et ESN — avec des stacks Clay, Instantly et HubSpot. J'ai construit et piloté des séquences outbound, défini des ICP, structuré des pipelines de qualification. Ce ne sont pas des concepts que j'ai appris : ce sont les mêmes systèmes que je déploie pour vous.
+                  Avant Code Kaizen, j'ai opéré en tant que <strong className="font-semibold text-[#c9a84c]">BDR</strong> puis <strong className="font-semibold text-[#c9a84c]">RevOps</strong> sur des offres B2B SaaS, conseil et ESN — avec des stacks <strong className="font-semibold text-[#c9a84c]">Clay</strong>, <strong className="font-semibold text-[#c9a84c]">Instantly</strong> et <strong className="font-semibold text-[#c9a84c]">HubSpot</strong>. J'ai construit et piloté des séquences outbound, défini des ICP, structuré des pipelines de qualification. Ce ne sont pas des concepts que j'ai appris : ce sont les mêmes systèmes que je déploie pour vous.
                 </p>
                 <p>
                   Code Kaizen est né d'un constat simple : la plupart des fondateurs B2B ont une offre solide et aucun système pour la mettre devant les bonnes personnes. Ils prospectent à la main, dépendent de leur réseau, et s'épuisent à faire ce qu'un système devrait faire à leur place.
