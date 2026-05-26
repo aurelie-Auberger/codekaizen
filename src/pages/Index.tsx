@@ -118,7 +118,7 @@ const Index = () => {
       <section className="pt-20 sm:pt-24 md:pt-28 pb-4 sm:pb-8 md:pb-12 px-5 sm:px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="font-serif text-[1.6rem] leading-[1.15] md:text-[2.2rem] md:leading-[1.1] text-ivory mb-5 md:mb-10 tracking-tight">
-            Des rendez-vous B2B qualifiés. Un brief complet à chaque call. Vous closez.
+            Des rendez-vous B2B qualifiés. Vous closez.
           </h1>
           <p className="text-[#94a3b8] max-w-2xl mx-auto text-[0.95rem] leading-[1.75] mb-4">
             Code Kaizen construit et pilote votre système d'acquisition outbound — ICP, séquences, qualification. Vous sortez de la prospection. Le pipeline tourne sans vous.
