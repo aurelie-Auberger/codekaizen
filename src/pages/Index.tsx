@@ -184,7 +184,7 @@ const Index = () => {
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Diagnostic Acquisition — 5 jours</h3>
               <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
-                Nous cartographions votre ICP réel, votre positionnement outbound, et les leviers bloquants. Livrable structuré le jour de la restitution : ICP fiche, stack recommandée, architecture de séquences.
+                Nous cartographions votre ICP réel, votre positionnement outbound, et les leviers bloquants. Livrable structuré le jour de la restitution : Fiche ICP, stack recommandée, architecture de séquences.
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
@@ -326,7 +326,7 @@ const Index = () => {
             {[
               { t: "On construit avant d'envoyer", s: "L'infrastructure avant les séquences. Ce que vous ne voyez pas détermine 80% du résultat.", d: "Une séquence mal ciblée envoie des milliers de messages au mauvais profil. Nous passons autant de temps à construire l'infrastructure qu'à l'opérer. Ce que vous ne voyez pas — le sourcing, le scoring, l'architecture technique — détermine 80% du résultat final." },
               { t: "On mesure tout, on décide sur les données", s: "Chaque décision est tracée et justifiée par des données. L'opinion n'a pas sa place.", d: "Chaque décision est tracée et justifiée par des données : taux de réponse par segment, par step, par accroche. Nous n'itérons pas à l'aveugle. Nous mesurons, nous interprétons, nous ajustons. L'opinion n'a pas sa place dans un système d'acquisition." },
-              { t: "Alignés sur vos résultats, pas sur nos heures", s: "On facture ce qu'on livre, pas du temps. Nos intérêts sont alignés sur vos résultats.", d: "Nous ne facturons pas du temps passé. Nous facturons ce que nous livrons : un diagnostic, un système déployé, un pilotage mensuel. Cette structure élimine le conflit d'intérêt classique entre prestataire et client — nous avons autant intérêt que vous à ce que le système produise des résultats réels." },
+              { t: "Alignés sur vos résultats, pas sur nos heures", s: "On facture ce qu'on livre, pas le temps passé. Nos intérêts sont alignés sur vos résultats.", d: "Nous ne facturons pas du temps passé. Nous facturons ce que nous livrons : un diagnostic, un système déployé, un pilotage mensuel. Cette structure élimine le conflit d'intérêt classique entre prestataire et client — nous avons autant intérêt que vous à ce que le système produise des résultats réels." },
               { t: "On vous rend indépendant", s: "Chaque mission se termine par un transfert complet. Vous opérez sans nous si vous le souhaitez.", d: "Nous ne construisons pas des systèmes dont vous seriez dépendants. Chaque mission se termine par un transfert complet : documentation, playbook, formation. L'objectif est que vous puissiez opérer sans nous — ou que vous choisissiez de continuer avec nous. La différence est là." },
             ].map((b, i) => (
               <details
