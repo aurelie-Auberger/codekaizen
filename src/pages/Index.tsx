@@ -261,13 +261,13 @@ const Index = () => {
               </a>
               <div className="space-y-4 text-[#edeae2] text-[14px] md:text-[15px] leading-relaxed">
                 <p>
-                  Avant Code Kaizen, j'ai opéré en tant que <strong className="font-semibold text-[#c9a84c]">BDR</strong> puis <strong className="font-semibold text-[#c9a84c]">RevOps</strong> sur des offres B2B SaaS, conseil et ESN — avec des stacks <strong className="font-semibold text-[#c9a84c]">Clay</strong>, <strong className="font-semibold text-[#c9a84c]">Instantly</strong> et <strong className="font-semibold text-[#c9a84c]">HubSpot</strong>. J'ai construit et piloté des séquences outbound, défini des ICP, structuré des pipelines de qualification. Ce ne sont pas des concepts que j'ai appris : ce sont les mêmes systèmes que je déploie pour vous.
+                  Je construis et opère des systèmes d'acquisition outbound B2B : définition de l'ICP, construction des personas, séquences multicanal, personnalisation avancée, campagnes LinkedIn et cold email, relances automatisées. Mon approche est analytique et orientée exécution — je ne théorise pas, je déploie.
                 </p>
                 <p>
-                  Code Kaizen est né d'un constat simple : la plupart des fondateurs B2B ont une offre solide et aucun système pour la mettre devant les bonnes personnes. Ils prospectent à la main, dépendent de leur réseau, et s'épuisent à faire ce qu'un système devrait faire à leur place.
+                  Code Kaizen est né d'un constat récurrent : des fondateurs avec une offre solide, aucun système pour la mettre devant les bonnes personnes, et une dépendance totale à leur réseau personnel. Je construis ce système pour eux — avec les mêmes outils et la même rigueur que j'applique dans ma propre pratique.
                 </p>
                 <p>
-                  Je travaille avec un nombre limité de clients simultanément pour maintenir un niveau d'exécution élevé. Chaque mission est construite sur mesure, documentée, et transmise à la fin.
+                  Je travaille avec un nombre limité de clients simultanément pour garantir un niveau d'exécution élevé. Chaque mission est construite sur mesure, documentée, et intégralement transmise à la fin.
                 </p>
               </div>
             </div>
