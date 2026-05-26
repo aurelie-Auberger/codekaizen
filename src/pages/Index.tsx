@@ -96,7 +96,7 @@ const Index = () => {
   }
 
   return (
-    <div className="min-h-screen bg-background text-ivory">
+    <div className="bg-background text-ivory">
       {/* NAV */}
       <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-background/70 border-b border-border/40">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-5 flex items-center justify-between">
