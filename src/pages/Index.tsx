@@ -132,7 +132,7 @@ const Index = () => {
           <div className="flex flex-col items-center gap-6 md:gap-8">
             <button
               onClick={() => scrollTo("formulaire")}
-              className="bg-gold text-ink w-full sm:w-auto px-6 py-[14px] sm:px-14 sm:py-6 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
+              className="bg-gold text-ink mx-auto flex w-auto px-12 py-4 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
             >
               Réserver mon Diagnostic
             </button>
@@ -305,7 +305,8 @@ const Index = () => {
               </div>
             ))}
           </div>
-          <div className="max-w-2xl mx-auto mt-10 md:mt-14 bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6 md:p-7">
+          <div className="max-w-2xl mx-auto mt-10 md:mt-14 bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6 md:p-7 bg-[rgba(201,162,78,0.06)] border-[rgba(201,162,78,0.25)]">
+            <p className="text-[10px] font-bold tracking-widest uppercase text-[#c9a84c] opacity-70 mb-3">Note de lancement</p>
             <p className="text-[#f7f7f7] text-[13px] md:text-sm leading-relaxed text-center">
               Code Kaizen est en lancement. Les premières missions sont en cours. Les résultats seront documentés et publiés ici au fil des missions. En attendant : le Diagnostic à 500 € HT vous permet de vérifier par vous-même la qualité de l'analyse et la clarté des recommandations — avant tout engagement.
             </p>
