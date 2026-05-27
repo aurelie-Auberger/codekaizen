@@ -121,7 +121,7 @@ const Index = () => {
             Votre offre est solide. Votre pipeline, lui, dépend encore de vous.
           </h1>
           <p className="text-[#94a3b8] max-w-2xl mx-auto text-[0.95rem] leading-[1.75] mb-4">
-            Code Kaizen construit et pilote votre système d'acquisition outbound — ICP, séquences, qualification. Vous sortez de la prospection. Le pipeline tourne sans vous.
+            Code Kaizen construit et opère votre système d'acquisition outbound — de l'ICP au rendez-vous qualifié. Vous arrêtez de prospecter. Le pipeline, lui, continue.
           </p>
           <p className="inline-block border border-[rgba(201,162,78,0.4)] bg-[rgba(201,162,78,0.08)] rounded-full px-5 py-1.5 text-sm text-[#c9a84c] not-italic mx-auto">
             Pour les fondateurs et dirigeants B2B avec une offre validée, un ticket moyen ≥ 5 000 € et zéro système d'acquisition structuré.
