@@ -472,7 +472,7 @@ const Index = () => {
             <div>
               <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">J+90</div>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                Date à laquelle le système vous appartient intégralement — sans condition, sans surcoût.
+                Date à laquelle le système vous appartient intégralement, sans condition, sans surcoût.
               </p>
             </div>
           </div>
