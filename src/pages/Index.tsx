@@ -129,6 +129,9 @@ const Index = () => {
           <p className="text-[#94a3b8] italic text-[0.85rem] mb-8 md:mb-10">
             Vous gardez le contrôle de votre relation commerciale. Nous la rendons plus prévisible.
           </p>
+          <p className="text-[#94a3b8] italic text-[0.85rem] mb-6 md:mb-8">
+            Le Diagnostic prend 5 jours. Ce qu'il révèle change la trajectoire.
+          </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
             <button
               onClick={() => scrollTo("formulaire")}
