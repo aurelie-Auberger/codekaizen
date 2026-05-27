@@ -3,13 +3,22 @@ import {
   ArrowRight,
   BarChart3,
   CheckCircle,
+  CheckCircle2,
   ChevronDown,
   Clock,
+  Filter,
+  HandMetal,
+  LineChart,
+  Repeat,
+  Settings2,
+  ShieldCheck,
+  Shuffle,
   Target,
+  TrendingDown,
   TrendingUp,
+  UserX,
   Users,
   Zap,
-  
 } from "lucide-react";
 import Logo from "@/components/Logo";
 import PhasesTimeline from "@/components/PhasesTimeline";
