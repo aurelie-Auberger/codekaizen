@@ -223,7 +223,7 @@ const Index = () => {
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6 md:p-8">
-              <img src="https://isssa.fr/lovable-uploads/d642e47a-9423-4f52-9e5f-5b11dcb96313.png" alt="Isssa" className="h-8 w-auto mb-5 object-contain" />
+              <div className="font-serif text-[#c9a24e] text-2xl mb-5">Isssa</div>
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Isssa — Start-up RSE, Nice</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-5">
                 Système de prospection LinkedIn + emailing multicanal construit sur un marché B2B local. ICP, séquences, A/B testing, workflow automatisé.
