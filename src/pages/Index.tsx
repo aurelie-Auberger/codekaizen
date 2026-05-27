@@ -311,7 +311,7 @@ const Index = () => {
 
           <div className="grid grid-cols-2 gap-px bg-[rgba(201,162,78,0.15)] border border-[rgba(201,162,78,0.15)]">
             {/* AVANT */}
-            <div className="bg-[#0d1b2e] p-8 md:p-10">
+            <div className="bg-[#0d1b2e] p-4 md:p-10">
               <div className="flex items-center gap-3 mb-8 pb-5 border-b border-[rgba(255,255,255,0.06)]">
                 <span className="text-[10px] tracking-luxe uppercase text-ivory/40">Avant</span>
                 <div className="h-px flex-1 bg-[rgba(255,255,255,0.06)]" />
@@ -337,7 +337,7 @@ const Index = () => {
             </div>
 
             {/* APRÈS */}
-            <div className="bg-[#0d1b2e] p-8 md:p-10 relative">
+            <div className="bg-[#0d1b2e] p-4 md:p-10 relative">
               <div className="flex items-center gap-3 mb-8 pb-5 border-b border-[rgba(201,162,78,0.2)]">
                 <span className="text-[10px] tracking-luxe uppercase text-gold">Après</span>
                 <div className="h-px flex-1 bg-[rgba(201,162,78,0.2)]" />
