@@ -355,7 +355,7 @@ const Index = () => {
             Ce que vous recevez à la fin
           </h2>
           <p className="text-[#94a3b8] text-center text-[0.875rem] mb-10 md:mb-16">
-            Les livrables concrets de chaque mission — documentés, transmissibles, opérables sans nous.
+            Les livrables concrets de chaque mission : documentés, transmissibles, opérables sans nous.
           </p>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             {[
