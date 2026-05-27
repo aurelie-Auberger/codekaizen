@@ -249,7 +249,7 @@ const Index = () => {
             </div>
           </div>
           <p className="text-[#94a3b8] italic text-center mt-10 md:mt-14 text-[0.875rem] max-w-2xl mx-auto">
-            Ces missions ont été conduites avant la création formelle de Code Kaizen — non rémunérées, dans le cadre de ma formation. Les systèmes, les outils et les résultats sont réels. Code Kaizen formalise aujourd'hui cette exécution avec un cadre contractuel et une priorité unique : votre pipeline.
+            Ces missions ont été conduites avant la création formelle de Code Kaizen, non rémunérées, dans le cadre de ma formation. Les systèmes, les outils et les résultats sont réels. Code Kaizen formalise aujourd'hui cette exécution avec un cadre contractuel et une priorité unique : votre pipeline.
           </p>
         </div>
       </section>
