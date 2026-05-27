@@ -304,6 +304,9 @@ const Index = () => {
               <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
                 Nous cartographions votre ICP réel, votre positionnement outbound, et les leviers bloquants. Livrable structuré le jour de la restitution : Fiche ICP, stack recommandée, architecture de séquences.
               </p>
+              <p className="mt-6 text-center text-[#c9a24e] text-[11px] tracking-[0.15em] uppercase font-medium">
+                Diagnostic à 500 € HT · Déduit intégralement si une mission démarre.
+              </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Système déployé & opéré</h3>
