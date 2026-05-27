@@ -23,7 +23,7 @@ const CommentOnTravaille = () => (
       </div>
     ))}
     <div style={{border:'1px dashed rgba(201,168,76,0.35)',borderRadius:10,padding:'14px 16px',margin:'0 0 28px 60px',position:'relative'}}>
-      <div style={{position:'absolute',top:-10,left:14,background:'#0d1b2e',padding:'0 8px',fontSize:9,fontWeight:700,letterSpacing:'0.12em',color:'#c9a84c',textTransform:'uppercase'}}>Automatisation — tourne seul 24h/24</div>
+      <div style={{position:'absolute',top:-10,left:14,background:'#0d1b2e',padding:'0 8px',fontSize:9,fontWeight:700,letterSpacing:'0.12em',color:'#c9a84c',textTransform:'uppercase'}}>Automatisation : tourne seul 24h/24</div>
       {[
         ['Relances automatiques','chaque prospect reçoit la bonne séquence au bon moment, sans intervention'],
         ['Enrichissement continu','les données prospects se mettent à jour en temps réel'],
