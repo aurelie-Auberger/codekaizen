@@ -174,6 +174,48 @@ const Index = () => {
       </section>
 
 
+      {/* NOTRE HISTOIRE */}
+      <section className="py-16 md:py-20 px-6 md:px-10">
+        <div className="max-w-[760px] mx-auto">
+          <div className="text-center mb-12 md:mb-16">
+            <h2 className="font-serif text-[1.6rem] md:text-[2rem] text-ivory leading-tight">
+              Notre histoire
+            </h2>
+            <p className="text-[#c9a24e] font-serif text-lg md:text-xl mt-2">
+              Code Kaizen
+            </p>
+          </div>
+
+          <div className="space-y-10 md:space-y-14">
+            <p className="text-[#f7f7f7] text-[1rem] md:text-[1.05rem] leading-[1.85]">
+              Il y a un problème que j'ai vu se répéter. Des fondateurs avec une offre réelle, un marché qui existe, et un pipeline qui repose entièrement sur eux. Pas par manque de volonté — par absence de système. Chaque nouveau client vient d'un appel qu'ils ont passé, d'une relation qu'ils ont cultivée, d'une énergie qu'ils ne peuvent pas déléguer. Ce n'est pas une stratégie d'acquisition. C'est une dépendance. Code Kaizen est né de ce constat.
+            </p>
+
+            <div className="border-t border-[rgba(201,162,78,0.2)] pt-10 md:pt-14">
+              <h3 className="font-serif text-[#c9a24e] text-xl md:text-2xl mb-5">
+                Ce que je construis
+              </h3>
+              <p className="text-[#f7f7f7] text-[1rem] md:text-[1.05rem] leading-[1.85]">
+                Pas des campagnes. Pas des hacks. Des systèmes. Un système d'acquisition, c'est une architecture : ICP défini avec précision, personas construits sur des comportements réels, séquences multicanal calibrées, personnalisation au niveau du signal, relances automatisées, pipeline qualifié. Chaque composant est pensé pour fonctionner ensemble — et pour durer sans moi. La philosophie Kaizen — l'amélioration continue appliquée à l'exécution — n'est pas un positionnement marketing. C'est la manière dont je travaille : mesurer, itérer, affiner. Jamais figer. Jamais improviser. Je ne suis pas une agence. Je suis l'architecte du pipeline.
+              </p>
+            </div>
+
+            <div className="border-t border-[rgba(201,162,78,0.2)] pt-10 md:pt-14">
+              <p className="text-[#f7f7f7] text-[1rem] md:text-[1.05rem] leading-[1.85]">
+                Chaque mission est construite sur mesure, documentée en temps réel, et transmise intégralement à la fin. Vous n'achetez pas une prestation. Vous acquérez une infrastructure — scalable, opérable, transmissible. Ce qui reste quand la mission se termine, c'est un système qui tourne sans vous.
+              </p>
+              <p className="text-[#c9a24e] italic text-center mt-8 font-serif text-lg">
+                Revenue, by system.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
       {/* VÉRITÉS */}
       <section className="py-16 md:py-20 px-6 md:px-10">
         <div className="max-w-[720px] mx-auto text-center">
