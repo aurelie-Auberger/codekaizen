@@ -4,11 +4,11 @@ const CommentOnTravaille = () => (
   <div style={{padding:'8px 0 24px',fontFamily:'Inter,system-ui,sans-serif'}}>
     <div style={{marginBottom:28,paddingBottom:16,borderBottom:'1px solid rgba(201,168,76,0.25)'}}>
       <div style={{fontSize:10,fontWeight:700,letterSpacing:'0.12em',color:'#c9a84c',textTransform:'uppercase',marginBottom:4}}>Comment on travaille</div>
-      <div style={{fontSize:13,color:'#94a3b8'}}>4 actions concrètes — vous n'avez rien à faire</div>
+      <div style={{fontSize:13,color:'#94a3b8'}}>4 actions concrètes. Vous n'avez rien à faire.</div>
     </div>
     {[
-      {icon:<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>,title:'On trouve vos prospects',desc:"On identifie les entreprises et décideurs qui correspondent exactement à votre ICP — ceux qui ont un besoin réel, maintenant.",tools:'Clay · Apollo · LinkedIn · Crunchbase'},
-      {icon:<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>,title:"On leur écrit — vous ne touchez à rien",desc:'Séquences personnalisées, testées, optimisées. Vous sortez de la prospection. Le système travaille pendant que vous gérez votre business.',tools:'Instantly · LinkedIn outreach · A/B testing continu'},
+      {icon:<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>,title:'On trouve vos prospects',desc:"On identifie les entreprises et décideurs qui correspondent exactement à votre ICP : ceux qui ont un besoin réel, maintenant.",tools:'Clay · Apollo · LinkedIn · Crunchbase'},
+      {icon:<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>,title:"On leur écrit. Vous ne touchez à rien.",desc:'Séquences personnalisées, testées, optimisées. Vous sortez de la prospection. Le système travaille pendant que vous gérez votre business.',tools:'Instantly · LinkedIn outreach · A/B testing continu'},
     ].map((s,i)=>(
       <div key={i} style={{display:'grid',gridTemplateColumns:'44px 1fr'}}>
         <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
