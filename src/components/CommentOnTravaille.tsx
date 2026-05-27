@@ -38,7 +38,7 @@ const CommentOnTravaille = () => (
     </div>
     <div style={{width:2,height:24,background:'rgba(201,168,76,0.2)',margin:'0 0 0 21px'}}/>
     {[
-      {icon:<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>,title:'On filtre — vous recevez un brief',desc:'Chaque réponse qualifiée. Vous ne recevez que les prospects avec un budget, un décideur, un timing. Brief complet avant chaque call.',tools:'HubSpot · Scoring · Routing automatique',green:false},
+      {icon:<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>,title:'On filtre. Vous recevez un brief.',desc:'Chaque réponse qualifiée. Vous ne recevez que les prospects avec un budget, un décideur, un timing. Brief complet avant chaque call.',tools:'HubSpot · Scoring · Routing automatique',green:false},
       {icon:<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9fe1cb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>,title:'Le système reste chez vous',desc:"À la fin de la mission, tout vous est remis : séquences, bases de contacts, workflows, playbook. Vous l'opérez seul ou continuez avec nous.",tools:'Documentation · Playbook · Formation équipe',green:true},
     ].map((s,i)=>(
       <div key={i} style={{display:'grid',gridTemplateColumns:'44px 1fr'}}>
