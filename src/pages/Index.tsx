@@ -105,14 +105,16 @@ const Index = () => {
           <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
             <Logo showTagline={false} />
           </button>
-          <button
-            onClick={() => scrollTo("formulaire")}
+          <a
+            href="https://tally.so/r/zx0Nrg"
+            target="_blank"
+            rel="noopener noreferrer"
             className={`whitespace-nowrap border border-gold text-gold px-3 py-2 sm:px-6 sm:py-2.5 text-[11px] tracking-[0.15em] sm:tracking-luxe uppercase font-semibold hover:bg-gold hover:text-ink transition-all duration-500 ${
               scrolled ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"
             }`}
           >
             Réserver mon Diagnostic
-          </button>
+          </a>
         </div>
       </header>
 
@@ -135,12 +137,14 @@ const Index = () => {
             Le Diagnostic prend 5 jours. Ce qu'il révèle change la trajectoire.
           </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
-            <button
-              onClick={() => scrollTo("formulaire")}
-              className="bg-gold text-ink mx-auto flex w-auto px-12 py-4 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
+            <a
+              href="https://tally.so/r/zx0Nrg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gold text-ink mx-auto inline-flex w-auto px-12 py-4 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
             >
               Réserver mon Diagnostic
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -478,12 +482,14 @@ const Index = () => {
               </p>
             </div>
           </div>
-          <button
-            onClick={() => scrollTo("formulaire")}
-            className="bg-gold text-ink px-6 py-[14px] sm:px-14 sm:py-6 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
+          <a
+            href="https://tally.so/r/zx0Nrg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gold text-ink inline-flex px-6 py-[14px] sm:px-14 sm:py-6 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
           >
             Réserver mon Diagnostic
-          </button>
+          </a>
         </div>
       </section>
 
@@ -514,24 +520,6 @@ const Index = () => {
               );
             })}
           </div>
-        </div>
-      </section>
-      {/* FORMULAIRE */}
-      <section id="formulaire" className="py-16 md:py-20 px-6 md:px-10">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-4 md:mb-6 leading-tight">
-            Réservez votre Diagnostic
-          </h2>
-          <p className="text-[#94a3b8] text-[0.875rem] mb-10 md:mb-16">
-            Quelques questions pour qualifier votre situation.
-          </p>
-          <iframe
-            src="https://tally.so/embed/zx0Nrg"
-            frameBorder="0"
-            width="100%"
-            height="500"
-            title="Formulaire de réservation Diagnostic"
-          />
         </div>
       </section>
 
