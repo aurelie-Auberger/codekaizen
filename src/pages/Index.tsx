@@ -381,12 +381,6 @@ const Index = () => {
               </div>
             ))}
           </div>
-          <div className="max-w-2xl mx-auto mt-10 md:mt-14 bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6 md:p-7 bg-[rgba(201,162,78,0.06)] border-[rgba(201,162,78,0.25)]">
-            <p className="text-[10px] font-bold tracking-widest uppercase text-[#c9a84c] opacity-70 mb-3">Note de lancement</p>
-            <p className="text-[#f7f7f7] text-[13px] md:text-sm leading-relaxed text-center">
-              Code Kaizen est en lancement. Les premières missions sont en cours. Les résultats seront documentés et publiés ici au fil des missions. En attendant : le Diagnostic à 500 € HT vous permet de vérifier par vous-même la qualité de l'analyse et la clarté des recommandations — avant tout engagement.
-            </p>
-          </div>
         </div>
       </section>
 
@@ -463,7 +457,7 @@ const Index = () => {
             Ce que vous gagnez en démarrant maintenant
           </h2>
           <p className="text-[#94a3b8] text-[0.85rem] md:text-[0.9rem] max-w-2xl mx-auto mb-10 md:mb-14 leading-relaxed">
-            Je travaille avec un nombre limité de clients en parallèle. Quand les créneaux sont occupés, les nouvelles missions démarrent en liste d'attente.
+            Les missions actives sont limitées à 3 simultanément. Quand les créneaux sont pris, les nouvelles missions démarrent en liste d'attente.
           </p>
           <div className="grid md:grid-cols-3 gap-8 md:gap-10 mb-10 md:mb-14">
             <div>
@@ -485,6 +479,9 @@ const Index = () => {
               </p>
             </div>
           </div>
+          <p className="text-[#94a3b8] italic text-[0.85rem] md:text-[0.9rem] max-w-2xl mx-auto mb-6">
+            Pas d'engagement. Pas de pitch commercial. Un diagnostic, un livrable, une décision.
+          </p>
           <a
             href="https://tally.so/r/zx0Nrg"
             target="_blank"
