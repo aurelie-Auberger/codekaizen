@@ -457,7 +457,7 @@ const Index = () => {
             Ce que vous gagnez en démarrant maintenant
           </h2>
           <p className="text-[#94a3b8] text-[0.85rem] md:text-[0.9rem] max-w-2xl mx-auto mb-10 md:mb-14 leading-relaxed">
-            Je travaille avec un nombre limité de clients en parallèle. Quand les créneaux sont occupés, les nouvelles missions démarrent en liste d'attente.
+            Les missions actives sont limitées à 3 simultanément. Quand les créneaux sont pris, les nouvelles missions démarrent en liste d'attente.
           </p>
           <div className="grid md:grid-cols-3 gap-8 md:gap-10 mb-10 md:mb-14">
             <div>
