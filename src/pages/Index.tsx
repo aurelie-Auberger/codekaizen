@@ -381,12 +381,6 @@ const Index = () => {
               </div>
             ))}
           </div>
-          <div className="max-w-2xl mx-auto mt-10 md:mt-14 bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6 md:p-7 bg-[rgba(201,162,78,0.06)] border-[rgba(201,162,78,0.25)]">
-            <p className="text-[10px] font-bold tracking-widest uppercase text-[#c9a84c] opacity-70 mb-3">Note de lancement</p>
-            <p className="text-[#f7f7f7] text-[13px] md:text-sm leading-relaxed text-center">
-              Code Kaizen est en lancement. Les premières missions sont en cours. Les résultats seront documentés et publiés ici au fil des missions. En attendant : le Diagnostic à 500 € HT vous permet de vérifier par vous-même la qualité de l'analyse et la clarté des recommandations — avant tout engagement.
-            </p>
-          </div>
         </div>
       </section>
 
