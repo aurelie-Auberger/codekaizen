@@ -314,7 +314,7 @@ const Index = () => {
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Pilotage mensuel</h3>
               <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
-                On opère le système : sourcing continu, optimisation campagnes, qualification des réponses, reporting hebdomadaire. Vous recevez des prospects qualifiés avec un brief complet — budget, autorité, urgence, contexte. Vous closez.
+                Nous opérons le système : sourcing continu, optimisation des campagnes, qualification des réponses, reporting hebdomadaire. Vous recevez des prospects qualifiés avec un brief complet (budget, autorité, urgence, contexte). Vous closez.
               </p>
             </div>
           </div>
