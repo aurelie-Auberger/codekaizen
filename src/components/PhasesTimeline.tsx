@@ -8,10 +8,10 @@ const PhasesTimeline = () => (
     </div>
     {[
       {num:'01',gold:true,timing:'J+0 · 5 jours ouvrés',title:'Diagnostic ICP',desc:"On identifie qui achète vraiment, pourquoi, et ce qui bloque votre acquisition aujourd'hui.",pills:[] as string[]},
-      {num:'02',timing:'J+5 · 2 semaines',title:'Architecture du système',desc:"Stack, CRM, domaines d'envoi, scoring SQL — la fondation technique avant le premier envoi.",pills:['Clay','HubSpot','Instantly']},
+      {num:'02',timing:'J+5 · 2 semaines',title:'Architecture du système',desc:"Stack, CRM, domaines d'envoi, scoring SQL : la fondation technique avant le premier envoi.",pills:['Clay','HubSpot','Instantly']},
       {num:'03',timing:'J+15 · continu',title:'Sourcing des cibles',desc:'500 prospects T1 identifiés, enrichis, scorés sur 8 variables comportementales.',pills:['Apollo','LinkedIn SN','Crunchbase']},
-      {num:'04',timing:"J+21 · jusqu'aux résultats",title:'Campagnes outbound',desc:'Séquences email + LinkedIn, personnalisation niveau 3, A/B testing systématique.',pills:['Instantly','Lemlist','LinkedIn']},
-      {num:'05',gold:true,timing:'J+35 à J+90 · récurrent',title:'Qualification — vous closez',accent:true,desc:'Chaque réponse filtrée. Brief complet livré avant chaque call : budget, autorité, urgence, contexte.',pills:['Budget confirmé','Décideur identifié','Timing défini']},
+      {num:'04',timing:"J+21 · jusqu'aux résultats",title:'Campagnes outbound',desc:'Séquences email et LinkedIn, personnalisation niveau 3, A/B testing systématique.',pills:['Instantly','Lemlist','LinkedIn']},
+      {num:'05',gold:true,timing:'J+35 à J+90 · récurrent',title:'Qualification : vous closez',accent:true,desc:'Chaque réponse filtrée. Brief complet livré avant chaque call : budget, autorité, urgence, contexte.',pills:['Budget confirmé','Décideur identifié','Timing défini']},
     ].map((p:any,i)=>(
       <div key={i} style={{display:'grid',gridTemplateColumns:'52px 1fr',position:'relative'}}>
         <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
