@@ -227,12 +227,12 @@ const Index = () => {
               <div className="bg-white rounded-md inline-flex items-center justify-center px-4 py-2 mb-5">
                 <img src={logoSpecgen} alt="Logo Specgen" className="h-8 w-auto" />
               </div>
-              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Specgen — SaaS IA, appels d'offres</h3>
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Specgen, SaaS IA appels d'offres</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-5">
-                Stratégie d'acquisition construite from scratch pour une startup sans infrastructure outbound : ICP défini, base de 5 000 contacts scrapés et enrichis sur LinkedIn, campagne email déployée.
+                Stratégie d'acquisition construite de zéro pour une startup sans infrastructure outbound : ICP défini, base de 5 000 contacts scrapés et enrichis sur LinkedIn, campagne email déployée.
               </p>
               <p className="text-[#c9a84c] text-sm font-medium leading-relaxed">
-                794 emails · 55% d'ouverture · 46% de clics · 17 inscrits webinaire
+                794 emails · 55 % d'ouverture · 46 % de clics · 17 inscrits au webinaire
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6 md:p-8">
