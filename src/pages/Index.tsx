@@ -158,9 +158,6 @@ const Index = () => {
               Aurélie Auberger
             </h2>
             <p className="text-[#94a3b8] text-sm mb-4 mt-1">Fondatrice, Code Kaizen</p>
-            <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-4">
-              Je construis des systèmes d'acquisition outbound pour des fondateurs dont l'offre est réelle mais le pipeline reste dépendant d'eux. Pas de théorie. Du déploiement.
-            </p>
             <a
               href="https://www.linkedin.com/company/code-kaizen"
               target="_blank"
