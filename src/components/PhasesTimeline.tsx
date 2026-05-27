@@ -4,7 +4,7 @@ const PhasesTimeline = () => (
   <div style={{padding:'8px 0 24px',fontFamily:'Inter,system-ui,sans-serif'}}>
     <div style={{marginBottom:28,paddingBottom:16,borderBottom:'1px solid rgba(201,168,76,0.25)'}}>
       <div style={{fontSize:10,fontWeight:700,letterSpacing:'0.12em',color:'#c9a84c',textTransform:'uppercase',marginBottom:4}}>Les 6 phases</div>
-      <div style={{fontSize:13,color:'#94a3b8'}}>De l'ICP au deal — séquence stricte, aucune étape sautée</div>
+      <div style={{fontSize:13,color:'#94a3b8'}}>De l'ICP au deal : séquence stricte, aucune étape sautée.</div>
     </div>
     {[
       {num:'01',gold:true,timing:'J+0 · 5 jours ouvrés',title:'Diagnostic ICP',desc:"On identifie qui achète vraiment, pourquoi, et ce qui bloque votre acquisition aujourd'hui.",pills:[] as string[]},
