@@ -155,7 +155,7 @@ const Index = () => {
           <img
             src={aurelieImg}
             alt="Aurélie Auberger, fondatrice de Code Kaizen"
-            className="w-[140px] h-[140px] md:w-[180px] md:h-[180px] rounded-full object-cover mx-auto md:mx-0 border border-[rgba(201,162,78,0.25)]"
+            className="w-[140px] h-[140px] md:w-[180px] md:h-[180px] rounded-full object-cover object-top mx-auto md:mx-0 border border-[rgba(201,162,78,0.25)]"
           />
           <div className="text-center md:text-left">
             <h2 className="font-serif text-[#c9a84c] text-[1.4rem] md:text-[1.6rem] leading-tight">
