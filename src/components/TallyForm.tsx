@@ -65,7 +65,7 @@ const TallyForm = () => {
       width="100%"
       height="500"
       frameBorder={0}
-      title="Audit Flash — Code Kaizen"
+      title="Audit Flash · Code Kaizen"
       className="w-full block"
     />
   );
