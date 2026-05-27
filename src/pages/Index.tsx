@@ -205,6 +205,41 @@ const Index = () => {
       </section>
 
 
+      {/* PREUVES MISSIONS */}
+      <section className="py-16 md:py-20 px-6 md:px-10">
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
+            Ce que ces missions ont démontré
+          </h2>
+          <div className="grid md:grid-cols-2 gap-6 md:gap-8 text-left">
+            <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6 md:p-8">
+              <img src="https://specgen.ai/img/logo.webp?v=2.0" alt="Specgen" className="h-8 w-auto mb-5 object-contain" />
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Specgen — SaaS IA, appels d'offres</h3>
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-5">
+                Stratégie d'acquisition construite from scratch pour une startup sans infrastructure outbound : ICP défini, base de 5 000 contacts scrapés et enrichis sur LinkedIn, campagne email déployée.
+              </p>
+              <p className="text-[#c9a84c] text-sm font-medium leading-relaxed">
+                794 emails · 55% d'ouverture · 46% de clics · 17 inscrits webinaire
+              </p>
+            </div>
+            <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6 md:p-8">
+              <img src="https://isssa.fr/lovable-uploads/d642e47a-9423-4f52-9e5f-5b11dcb96313.png" alt="Isssa" className="h-8 w-auto mb-5 object-contain" />
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Isssa — Start-up RSE, Nice</h3>
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-5">
+                Système de prospection LinkedIn + emailing multicanal construit sur un marché B2B local. ICP, séquences, A/B testing, workflow automatisé.
+              </p>
+              <p className="text-[#c9a84c] text-sm font-medium leading-relaxed">
+                160 leads construits · 51,9% d'ouverture email · 21,5% de taux de réponse
+              </p>
+            </div>
+          </div>
+          <p className="text-[#94a3b8] italic text-center mt-10 md:mt-14 text-[0.875rem] max-w-2xl mx-auto">
+            Ce que Code Kaizen apporte aujourd'hui, c'est la même rigueur d'exécution — avec un cadre contractuel, des outils renforcés, et une seule priorité : votre pipeline.
+          </p>
+        </div>
+      </section>
+
+
       {/* BÉNÉFICES */}
       <section className="py-16 md:py-20 px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center">
