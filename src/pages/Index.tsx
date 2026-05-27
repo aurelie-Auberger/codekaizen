@@ -249,7 +249,7 @@ const Index = () => {
             </div>
           </div>
           <p className="text-[#94a3b8] italic text-center mt-10 md:mt-14 text-[0.875rem] max-w-2xl mx-auto">
-            Ce que Code Kaizen apporte aujourd'hui, c'est la même rigueur d'exécution — avec un cadre contractuel, des outils renforcés, et une seule priorité : votre pipeline.
+            Ces missions ont été conduites avant la création formelle de Code Kaizen — non rémunérées, dans le cadre de ma formation. Les systèmes, les outils et les résultats sont réels. Code Kaizen formalise aujourd'hui cette exécution avec un cadre contractuel et une priorité unique : votre pipeline.
           </p>
         </div>
       </section>
@@ -267,11 +267,7 @@ const Index = () => {
           </div>
 
           <div className="space-y-10 md:space-y-14">
-            <p className="text-[#f7f7f7] text-[1rem] md:text-[1.05rem] leading-[1.85]">
-              Il y a un problème que j'ai vu se répéter. Des fondateurs avec une offre réelle, un marché qui existe, et un pipeline qui repose entièrement sur eux. Pas par manque de volonté — par absence de système. Chaque nouveau client vient d'un appel qu'ils ont passé, d'une relation qu'ils ont cultivée, d'une énergie qu'ils ne peuvent pas déléguer. Ce n'est pas une stratégie d'acquisition. C'est une dépendance. Code Kaizen est né de ce constat.
-            </p>
-
-            <div className="border-t border-[rgba(201,162,78,0.2)] pt-10 md:pt-14">
+            <div>
               <h3 className="font-serif text-[#c9a24e] text-xl md:text-2xl mb-5">
                 Ce que je construis
               </h3>
