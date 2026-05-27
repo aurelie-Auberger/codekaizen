@@ -479,6 +479,9 @@ const Index = () => {
               </p>
             </div>
           </div>
+          <p className="text-[#94a3b8] italic text-[0.85rem] md:text-[0.9rem] max-w-2xl mx-auto mb-6">
+            Pas d'engagement. Pas de pitch commercial. Un diagnostic, un livrable, une décision.
+          </p>
           <a
             href="https://tally.so/r/zx0Nrg"
             target="_blank"
