@@ -3,13 +3,22 @@ import {
   ArrowRight,
   BarChart3,
   CheckCircle,
+  CheckCircle2,
   ChevronDown,
   Clock,
+  Filter,
+  HandMetal,
+  LineChart,
+  Repeat,
+  Settings2,
+  ShieldCheck,
+  Shuffle,
   Target,
+  TrendingDown,
   TrendingUp,
+  UserX,
   Users,
   Zap,
-  
 } from "lucide-react";
 import Logo from "@/components/Logo";
 import PhasesTimeline from "@/components/PhasesTimeline";
@@ -288,6 +297,85 @@ const Index = () => {
         </div>
       </section>
 
+
+      {/* AVANT / APRÈS */}
+      <section className="py-16 md:py-24 px-6 md:px-10 bg-[#0d1b2e] border-t border-b border-[rgba(201,162,78,0.15)]">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12 md:mb-16">
+            <div className="text-[10px] tracking-luxe text-gold/80 uppercase mb-4">La transformation</div>
+            <h2 className="font-serif text-[1.5rem] md:text-[2rem] text-ivory leading-tight">
+              Avant Code Kaizen. Après Code Kaizen.
+            </h2>
+            <div className="gold-line w-24 mx-auto mt-6" />
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-px bg-[rgba(201,162,78,0.15)] border border-[rgba(201,162,78,0.15)]">
+            {/* AVANT */}
+            <div className="bg-[#0d1b2e] p-8 md:p-10">
+              <div className="flex items-center gap-3 mb-8 pb-5 border-b border-[rgba(255,255,255,0.06)]">
+                <span className="text-[10px] tracking-luxe uppercase text-ivory/40">Avant</span>
+                <div className="h-px flex-1 bg-[rgba(255,255,255,0.06)]" />
+                <TrendingDown className="text-ivory/30" size={18} />
+              </div>
+              <ul className="space-y-5">
+                {[
+                  { icon: UserX, t: "Pipeline dépendant du fondateur" },
+                  { icon: HandMetal, t: "Prospection manuelle" },
+                  { icon: Shuffle, t: "Flux de leads inconstant" },
+                  { icon: Filter, t: "Aucun processus de qualification" },
+                  { icon: Zap, t: "Outreach sans cadre" },
+                  { icon: LineChart, t: "Chiffre d'affaires imprévisible" },
+                ].map(({ icon: Icon, t }, i) => (
+                  <li key={i} className="flex items-start gap-4">
+                    <div className="w-9 h-9 flex items-center justify-center border border-[rgba(255,255,255,0.08)] rounded-sm shrink-0">
+                      <Icon className="text-ivory/40" size={16} />
+                    </div>
+                    <span className="text-ivory/60 text-[0.95rem] leading-relaxed pt-1.5">{t}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* APRÈS */}
+            <div className="bg-[#0d1b2e] p-8 md:p-10 relative">
+              <div className="flex items-center gap-3 mb-8 pb-5 border-b border-[rgba(201,162,78,0.2)]">
+                <span className="text-[10px] tracking-luxe uppercase text-gold">Après</span>
+                <div className="h-px flex-1 bg-[rgba(201,162,78,0.2)]" />
+                <TrendingUp className="text-gold" size={18} />
+              </div>
+              <ul className="space-y-5">
+                {[
+                  { icon: Settings2, t: "Système outbound structuré" },
+                  { icon: CheckCircle2, t: "Rendez-vous qualifiés" },
+                  { icon: Repeat, t: "Acquisition répétable" },
+                  { icon: ShieldCheck, t: "Qualification SQL" },
+                  { icon: Target, t: "Processus scalable" },
+                  { icon: TrendingUp, t: "Pipeline prévisible" },
+                ].map(({ icon: Icon, t }, i) => (
+                  <li key={i} className="flex items-start gap-4">
+                    <div className="w-9 h-9 flex items-center justify-center border border-[rgba(201,162,78,0.4)] rounded-sm shrink-0 bg-[rgba(201,162,78,0.06)]">
+                      <Icon className="text-gold" size={16} />
+                    </div>
+                    <span className="text-ivory text-[0.95rem] leading-relaxed pt-1.5">{t}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          <div className="text-center mt-12 md:mt-16">
+            <a
+              href="https://tally.so/r/zx0Nrg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 border border-gold text-gold px-8 py-4 text-sm tracking-wider uppercase hover:bg-gold hover:text-ink transition-colors"
+            >
+              Voir si votre acquisition peut être systématisée
+              <ArrowRight size={16} />
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* BÉNÉFICES */}
       <section className="py-16 md:py-20 px-6 md:px-10">
