@@ -377,66 +377,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* COMMENT ÇA MARCHE — 5 étapes */}
-      <section className="bg-[#0a1626] border-t border-[rgba(201,162,78,0.15)] py-16 md:py-24 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12 md:mb-16">
-            <div className="text-[10px] md:text-[11px] tracking-[0.25em] text-[#c9a24e] uppercase mb-4">Comment ça marche</div>
-            <h2 className="font-serif text-[1.5rem] md:text-[2.1rem] text-ivory leading-tight">
-              Cinq étapes. Un pipeline prévisible.
-            </h2>
-            <div className="gold-line w-24 mx-auto mt-6" />
-          </div>
-
-          {/* Steps */}
-          <div className="relative">
-            {/* Connector line (desktop) */}
-            <div className="hidden md:block absolute top-[44px] left-[10%] right-[10%] h-px bg-gradient-to-r from-transparent via-[rgba(201,162,78,0.35)] to-transparent" />
-
-            <ol className="grid grid-cols-1 md:grid-cols-5 gap-5 md:gap-4 relative">
-              {[
-                { n: "01", icon: Target, title: "Définition ICP", desc: "Cible précise : secteur, taille, déclencheurs d'achat." },
-                { n: "02", icon: Filter, title: "Sourcing", desc: "Contacts enrichis, scorés, prêts à activer." },
-                { n: "03", icon: Shuffle, title: "Outreach multicanal", desc: "Séquences email et LinkedIn personnalisées." },
-                { n: "04", icon: ShieldCheck, title: "Qualification", desc: "Filtrage strict : budget, autorité, urgence." },
-                { n: "05", icon: HandMetal, title: "Transmission SQL", desc: "Brief complet livré avant chaque rendez-vous." },
-              ].map(({ n, icon: Icon, title, desc }, i) => (
-                <li
-                  key={n}
-                  className="group relative bg-[#0d1b2e] border border-[rgba(201,162,78,0.2)] rounded-lg p-6 text-center transition-all duration-300 hover:border-[rgba(201,162,78,0.6)] hover:-translate-y-1 hover:shadow-[0_20px_40px_-20px_rgba(201,162,78,0.25)]"
-                >
-                  <div className="relative z-10 mx-auto mb-5 w-[88px] h-[88px] rounded-full bg-[#0a1626] border border-[rgba(201,162,78,0.35)] flex items-center justify-center transition-colors duration-300 group-hover:border-[#c9a24e]">
-                    <Icon className="text-[#c9a24e]" size={28} strokeWidth={1.5} />
-                  </div>
-                  <div className="text-[10px] tracking-[0.2em] text-[#c9a24e] uppercase mb-2">Étape {n}</div>
-                  <h3 className="font-serif text-[1.15rem] text-ivory mb-2 leading-tight">{title}</h3>
-                  <p className="text-[12.5px] text-[#94a3b8] leading-relaxed">{desc}</p>
-                </li>
-              ))}
-            </ol>
-          </div>
-
-          {/* Highlight */}
-          <div className="mt-12 md:mt-16 max-w-3xl mx-auto border-l-2 border-[#c9a24e] bg-[rgba(201,162,78,0.05)] px-6 md:px-8 py-5 md:py-6">
-            <p className="font-serif text-[1.05rem] md:text-[1.25rem] text-ivory leading-snug">
-              Le fondateur n'intervient qu'à l'étape du closing.
-            </p>
-          </div>
-
-          {/* CTA */}
-          <div className="mt-10 md:mt-12 text-center">
-            <a
-              href="https://tally.so/r/zx0Nrg"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 border border-gold text-gold px-8 py-4 text-sm tracking-wider uppercase hover:bg-gold hover:text-ink transition-colors"
-            >
-              Construire un pipeline prévisible
-              <ArrowRight size={16} />
-            </a>
-          </div>
-        </div>
-      </section>
 
       {/* BÉNÉFICES */}
       <section className="py-16 md:py-20 px-6 md:px-10">
