@@ -239,12 +239,12 @@ const Index = () => {
               <div className="mb-5">
                 <img src={logoIsssa} alt="Logo Isssa" className="h-12 w-12 rounded-full object-cover" />
               </div>
-              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Isssa — Start-up RSE, Nice</h3>
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Isssa, start-up RSE (Nice)</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-5">
-                Système de prospection LinkedIn + emailing multicanal construit sur un marché B2B local. ICP, séquences, A/B testing, workflow automatisé.
+                Système de prospection LinkedIn et emailing multicanal construit sur un marché B2B local. ICP, séquences, A/B testing, workflow automatisé.
               </p>
               <p className="text-[#c9a84c] text-sm font-medium leading-relaxed">
-                160 leads construits · 51,9% d'ouverture email · 21,5% de taux de réponse
+                160 leads construits · 51,9 % d'ouverture email · 21,5 % de taux de réponse
               </p>
             </div>
           </div>
