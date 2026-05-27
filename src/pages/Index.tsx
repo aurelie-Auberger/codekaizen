@@ -15,6 +15,8 @@ import Logo from "@/components/Logo";
 import PhasesTimeline from "@/components/PhasesTimeline";
 
 import aurelieImg from "@/assets/aurelie.png";
+import logoSpecgen from "@/assets/logo-specgen.png";
+import logoIsssa from "@/assets/logo-isssa.jpeg";
 
 
 const benefits = [
@@ -213,7 +215,9 @@ const Index = () => {
           </h2>
           <div className="grid md:grid-cols-2 gap-6 md:gap-8 text-left">
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6 md:p-8">
-              <div className="font-serif text-[#c9a24e] text-2xl mb-5">Specgen</div>
+              <div className="bg-white rounded-md inline-flex items-center justify-center px-4 py-2 mb-5">
+                <img src={logoSpecgen} alt="Logo Specgen" className="h-8 w-auto" />
+              </div>
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Specgen — SaaS IA, appels d'offres</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-5">
                 Stratégie d'acquisition construite from scratch pour une startup sans infrastructure outbound : ICP défini, base de 5 000 contacts scrapés et enrichis sur LinkedIn, campagne email déployée.
@@ -223,7 +227,9 @@ const Index = () => {
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6 md:p-8">
-              <div className="font-serif text-[#c9a24e] text-2xl mb-5">Isssa</div>
+              <div className="mb-5">
+                <img src={logoIsssa} alt="Logo Isssa" className="h-12 w-12 rounded-full object-cover" />
+              </div>
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Isssa — Start-up RSE, Nice</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-5">
                 Système de prospection LinkedIn + emailing multicanal construit sur un marché B2B local. ICP, séquences, A/B testing, workflow automatisé.
