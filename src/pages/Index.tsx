@@ -361,7 +361,7 @@ const Index = () => {
             {[
               {
                 t: "Fiche ICP opérationnelle",
-                d: "Définition précise de votre client idéal : secteur, taille, poste, déclencheurs d'achat, objections récurrentes, cycle de décision. La base sur laquelle tout le système est construit. Pas un persona marketing — un outil d'exécution.",
+                d: "Définition précise de votre client idéal : secteur, taille, poste, déclencheurs d'achat, objections récurrentes, cycle de décision. La base sur laquelle tout le système est construit. Pas un persona marketing, mais un outil d'exécution.",
               },
               {
                 t: "Système outbound documenté",
