@@ -32,7 +32,7 @@ const CommentOnTravaille = () => (
       ].map(([bold,rest],i)=>(
         <div key={i} style={{display:'flex',alignItems:'flex-start',gap:8,marginBottom:i<3?8:0}}>
           <div style={{width:6,height:6,borderRadius:'50%',background:'#c9a84c',flexShrink:0,marginTop:5}}/>
-          <div style={{fontSize:12,color:'#94a3b8',lineHeight:1.5}}><span style={{color:'#f7f7f7',fontWeight:600}}>{bold}</span> — {rest}</div>
+          <div style={{fontSize:12,color:'#94a3b8',lineHeight:1.5}}><span style={{color:'#f7f7f7',fontWeight:600}}>{bold}</span> : {rest}</div>
         </div>
       ))}
     </div>
