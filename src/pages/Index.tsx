@@ -309,7 +309,7 @@ const Index = () => {
             <div className="gold-line w-24 mx-auto mt-6" />
           </div>
 
-          <div className="grid md:grid-cols-2 gap-px bg-[rgba(201,162,78,0.15)] border border-[rgba(201,162,78,0.15)]">
+          <div className="grid grid-cols-2 gap-px bg-[rgba(201,162,78,0.15)] border border-[rgba(201,162,78,0.15)]">
             {/* AVANT */}
             <div className="bg-[#0d1b2e] p-8 md:p-10">
               <div className="flex items-center gap-3 mb-8 pb-5 border-b border-[rgba(255,255,255,0.06)]">
