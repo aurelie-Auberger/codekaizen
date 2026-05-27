@@ -343,51 +343,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* FONDATRICE */}
-      <section className="bg-[#0f1a2e] py-16 md:py-24 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16">
-            <div
-              className="w-[280px] h-[280px] rounded-2xl overflow-hidden flex-shrink-0 border-2 border-[#c9a24e] bg-transparent"
-              style={{ boxShadow: "0 0 0 4px rgba(201,162,78,0.15)" }}
-            >
-              <img
-                src={aurelieImg}
-                alt="Aurélie, fondatrice de Code Kaizen"
-                className="w-full h-full object-cover"
-                style={{ objectPosition: "50% 15%" }}
-              />
-            </div>
-            <div className="max-w-xl text-center md:text-left">
-              <h2 className="font-serif text-[2rem] md:text-[2.5rem] text-ivory mb-2 leading-tight">
-                Aurélie
-              </h2>
-              <p className="text-[#c9a24e] text-sm md:text-base font-medium mb-2">
-                Fondatrice &amp; Architecte de croissance, Code Kaizen
-              </p>
-              <a
-                href="https://www.linkedin.com/in/aurelie-auberger/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-[#c9a24e]/80 hover:text-[#c9a24e] text-xs mb-6 transition-colors"
-              >
-                → Profil LinkedIn
-              </a>
-              <div className="space-y-4 text-[#edeae2] text-[14px] md:text-[15px] leading-relaxed">
-                <p>
-                  Je construis et opère des systèmes d'acquisition outbound B2B : définition de l'ICP, construction des personas, séquences multicanal, personnalisation avancée, campagnes LinkedIn et cold email, relances automatisées. Mon approche est analytique et orientée exécution — je ne théorise pas, je déploie.
-                </p>
-                <p>
-                  Code Kaizen est né d'un constat récurrent : des fondateurs avec une offre solide, aucun système pour la mettre devant les bonnes personnes, et une dépendance totale à leur réseau personnel. Je construis ce système pour eux — avec les mêmes outils et la même rigueur que j'applique dans ma propre pratique.
-                </p>
-                <p>
-                  Je travaille avec un nombre limité de clients simultanément pour garantir un niveau d'exécution élevé. Chaque mission est construite sur mesure, documentée, et intégralement transmise à la fin.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* CAS CLIENTS */}
       <section className="py-16 md:py-20 px-6 md:px-10">
