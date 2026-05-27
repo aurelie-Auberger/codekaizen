@@ -272,7 +272,7 @@ const Index = () => {
                 Ce que je construis
               </h3>
               <p className="text-[#f7f7f7] text-[1rem] md:text-[1.05rem] leading-[1.85]">
-                Pas des campagnes. Pas des hacks. Des systèmes. Un système d'acquisition, c'est une architecture : ICP défini avec précision, personas construits sur des comportements réels, séquences multicanal calibrées, personnalisation au niveau du signal, relances automatisées, pipeline qualifié. Chaque composant est pensé pour fonctionner ensemble — et pour durer sans moi. La philosophie Kaizen — l'amélioration continue appliquée à l'exécution — n'est pas un positionnement marketing. C'est la manière dont je travaille : mesurer, itérer, affiner. Jamais figer. Jamais improviser. Je ne suis pas une agence. Je suis l'architecte du pipeline.
+                Pas de campagnes. Pas de hacks. Des systèmes. Un système d'acquisition, c'est une architecture : ICP défini avec précision, personas construits sur des comportements réels, séquences multicanal calibrées, personnalisation au niveau du signal, relances automatisées, pipeline qualifié. Chaque composant est pensé pour fonctionner avec les autres, et pour durer sans moi. La philosophie Kaizen, c'est l'amélioration continue appliquée à l'exécution. Ce n'est pas un positionnement marketing. C'est la manière dont je travaille : mesurer, itérer, affiner. Jamais figer. Jamais improviser. Je ne suis pas une agence. Je suis l'architecte du pipeline.
               </p>
             </div>
 
