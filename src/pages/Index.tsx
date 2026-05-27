@@ -119,32 +119,141 @@ const Index = () => {
       </header>
 
       {/* HERO */}
-      <section className="pt-20 sm:pt-24 md:pt-28 pb-4 sm:pb-8 md:pb-12 px-5 sm:px-6 md:px-10">
-        <div className="max-w-5xl mx-auto text-center">
-          <h1 className="font-serif text-[1.6rem] leading-[1.15] md:text-[2.2rem] md:leading-[1.1] text-ivory mb-5 md:mb-10 tracking-tight">
-            Votre offre est solide. Votre pipeline, lui, dépend encore de vous.
+      <section className="relative pt-24 sm:pt-28 md:pt-36 pb-12 sm:pb-16 md:pb-24 px-5 sm:px-6 md:px-10 overflow-hidden">
+        {/* Ambient background */}
+        <div className="pointer-events-none absolute inset-0 -z-10">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[900px] rounded-full bg-[radial-gradient(circle_at_center,rgba(201,162,78,0.10),transparent_60%)]" />
+          <div
+            className="absolute inset-0 opacity-[0.04]"
+            style={{
+              backgroundImage:
+                "linear-gradient(rgba(201,162,78,0.6) 1px, transparent 1px), linear-gradient(90deg, rgba(201,162,78,0.6) 1px, transparent 1px)",
+              backgroundSize: "64px 64px",
+              maskImage: "radial-gradient(ellipse at center, black 40%, transparent 75%)",
+              WebkitMaskImage: "radial-gradient(ellipse at center, black 40%, transparent 75%)",
+            }}
+          />
+        </div>
+
+        <div className="max-w-6xl mx-auto">
+          {/* Eyebrow */}
+          <div className="flex justify-center mb-6 md:mb-8 animate-fade-in">
+            <span className="inline-flex items-center gap-2 border border-[rgba(201,162,78,0.3)] bg-[rgba(201,162,78,0.06)] rounded-full px-4 py-1.5 text-[10px] tracking-luxe uppercase text-[#c9a84c]">
+              <span className="relative flex h-1.5 w-1.5">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#c9a84c] opacity-60"></span>
+                <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-[#c9a84c]"></span>
+              </span>
+              Infrastructure outbound B2B
+            </span>
+          </div>
+
+          {/* Headline */}
+          <h1 className="font-serif text-center text-[2rem] leading-[1.05] sm:text-[2.6rem] md:text-[3.6rem] md:leading-[1.02] text-ivory tracking-tight max-w-4xl mx-auto animate-fade-in">
+            Votre pipeline ne devrait pas
+            <br className="hidden sm:block" />{" "}
+            <span className="italic text-[#e8d8a8]">dépendre du fondateur.</span>
           </h1>
-          <p className="text-[#94a3b8] max-w-2xl mx-auto text-[0.95rem] leading-[1.75] mb-4">
-            Code Kaizen construit et opère votre système d'acquisition outbound, de l'ICP au rendez-vous qualifié. Vous arrêtez de prospecter. Le pipeline, lui, continue.
+
+          {/* Subheadline */}
+          <p className="mt-6 md:mt-8 text-center text-[#cbd5e1] max-w-2xl mx-auto text-[1rem] md:text-[1.15rem] leading-[1.7] animate-fade-in">
+            Nous construisons des systèmes outbound B2B qui génèrent des
+            rendez-vous qualifiés, de manière prévisible.
           </p>
-          <p className="inline-block border border-[rgba(201,162,78,0.4)] bg-[rgba(201,162,78,0.08)] rounded-full px-5 py-1.5 text-sm text-[#c9a84c] not-italic mx-auto">
-            Pour les fondateurs et dirigeants B2B avec une offre validée, un ticket moyen ≥ 5 000 € et zéro système d'acquisition structuré.
+
+          {/* Audience */}
+          <p className="mt-4 text-center text-[#94a3b8] text-sm md:text-[0.95rem] max-w-xl mx-auto animate-fade-in">
+            Pour les agences, ESN et sociétés de services B2B avec une offre validée.
           </p>
-          <p className="text-[#94a3b8] italic text-[0.85rem] mb-8 md:mb-10">
-            Vous gardez le contrôle de votre relation commerciale. Nous la rendons plus prévisible.
-          </p>
-          <p className="text-[#94a3b8] italic text-[0.85rem] mb-6 md:mb-8">
-            Le Diagnostic prend 5 jours. Ce qu'il révèle change la trajectoire.
-          </p>
-          <div className="flex flex-col items-center gap-6 md:gap-8">
+
+          {/* CTAs */}
+          <div className="mt-10 md:mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in">
             <a
               href="https://tally.so/r/zx0Nrg"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gold text-ink mx-auto inline-flex w-auto px-12 py-4 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
+              className="group bg-gold text-ink inline-flex items-center gap-2 px-8 py-4 rounded-[2px] font-bold text-[11px] tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
             >
-              Réserver mon Diagnostic
+              Construire mon système outbound
+              <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
             </a>
+            <button
+              onClick={() => scrollTo("phases")}
+              className="inline-flex items-center gap-2 px-6 py-4 rounded-[2px] text-ivory/80 text-[11px] tracking-luxe uppercase border border-border hover:border-gold hover:text-gold transition-all duration-500"
+            >
+              Voir comment ça marche
+              <ChevronDown className="w-3.5 h-3.5" />
+            </button>
+          </div>
+
+          {/* Trust strip */}
+          <div className="mt-14 md:mt-20">
+            <p className="text-center text-[10px] tracking-luxe uppercase text-[#64748b] mb-6">
+              Opérateurs et partenaires
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-6 opacity-70">
+              <img src={logoSpecgen} alt="Specgen" className="h-7 md:h-8 object-contain grayscale opacity-80 hover:opacity-100 hover:grayscale-0 transition" />
+              <img src={logoIsssa} alt="ISSSA" className="h-7 md:h-8 object-contain grayscale opacity-80 hover:opacity-100 hover:grayscale-0 transition" />
+            </div>
+          </div>
+
+          {/* Pipeline flow */}
+          <div className="mt-16 md:mt-24">
+            <div className="relative rounded-lg border border-[rgba(201,162,78,0.18)] bg-[rgba(15,23,42,0.6)] backdrop-blur-sm p-5 md:p-8 shadow-[var(--shadow-gold)]">
+              {/* Window chrome */}
+              <div className="flex items-center justify-between mb-6">
+                <div className="flex items-center gap-1.5">
+                  <span className="w-2.5 h-2.5 rounded-full bg-[#334155]" />
+                  <span className="w-2.5 h-2.5 rounded-full bg-[#334155]" />
+                  <span className="w-2.5 h-2.5 rounded-full bg-[#334155]" />
+                </div>
+                <span className="text-[9px] tracking-luxe uppercase text-[#64748b]">
+                  Pipeline · Live
+                </span>
+              </div>
+
+              {/* Flow */}
+              <div className="grid grid-cols-2 md:grid-cols-7 gap-3 md:gap-2 items-stretch">
+                {[
+                  "Comptes cibles",
+                  "Sourcing",
+                  "Enrichissement",
+                  "Outreach",
+                  "Qualification",
+                  "SQL",
+                  "RDV sales",
+                ].map((step, i, arr) => (
+                  <div key={step} className="flex items-center">
+                    <div className="flex-1 text-center px-2 py-3 md:py-4 rounded-md border border-border bg-[rgba(201,162,78,0.04)] hover:border-gold/60 transition-colors">
+                      <div className="text-[9px] tracking-luxe uppercase text-[#64748b] mb-1">
+                        {String(i + 1).padStart(2, "0")}
+                      </div>
+                      <div className="text-[11px] md:text-[12px] text-ivory font-medium leading-tight">
+                        {step}
+                      </div>
+                    </div>
+                    {i < arr.length - 1 && (
+                      <ArrowRight className="hidden md:block w-3 h-3 text-gold/40 mx-0.5 shrink-0" />
+                    )}
+                  </div>
+                ))}
+              </div>
+
+              {/* Mini metrics */}
+              <div className="mt-6 grid grid-cols-3 gap-3 md:gap-6 pt-6 border-t border-border/60">
+                <div>
+                  <div className="text-[9px] tracking-luxe uppercase text-[#64748b]">Comptes ciblés</div>
+                  <div className="text-ivory font-serif text-xl md:text-2xl">2 400</div>
+                </div>
+                <div>
+                  <div className="text-[9px] tracking-luxe uppercase text-[#64748b]">Taux de réponse</div>
+                  <div className="text-ivory font-serif text-xl md:text-2xl">12,4 %</div>
+                </div>
+                <div>
+                  <div className="text-[9px] tracking-luxe uppercase text-[#64748b]">RDV / mois</div>
+                  <div className="text-gold font-serif text-xl md:text-2xl">24</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
