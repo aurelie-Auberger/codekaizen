@@ -213,7 +213,7 @@ const Index = () => {
           </h2>
           <div className="grid md:grid-cols-2 gap-6 md:gap-8 text-left">
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6 md:p-8">
-              <img src="https://specgen.ai/img/logo.webp?v=2.0" alt="Specgen" className="h-8 w-auto mb-5 object-contain" />
+              <div className="font-serif text-[#c9a24e] text-2xl mb-5">Specgen</div>
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Specgen — SaaS IA, appels d'offres</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-5">
                 Stratégie d'acquisition construite from scratch pour une startup sans infrastructure outbound : ICP défini, base de 5 000 contacts scrapés et enrichis sur LinkedIn, campagne email déployée.
