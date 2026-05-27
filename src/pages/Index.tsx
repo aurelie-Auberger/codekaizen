@@ -50,10 +50,10 @@ const expertise = [
 ];
 
 const faqs = [
-  { q: "Qui gère le closing ?", r: "Le closing reste entre vos mains. Vous connaissez votre marché, vos clients, vos relations — c'est votre actif. Notre rôle s'arrête au rendez-vous qualifié : on vous livre un brief complet sur chaque prospect (budget, autorité de décision, urgence, contexte) pour que votre première conversation soit commerciale, pas exploratoire. Vous gardez le contrôle de votre relation commerciale. Nous la rendons plus prévisible." },
+  { q: "Qui gère le closing ?", r: "Le closing reste entre vos mains. Vous connaissez votre marché, vos clients, vos relations : c'est votre actif. Notre rôle s'arrête au rendez-vous qualifié. Nous vous livrons un brief complet sur chaque prospect (budget, autorité de décision, urgence, contexte) pour que votre première conversation soit commerciale, pas exploratoire. Vous gardez le contrôle de votre relation commerciale. Nous la rendons plus prévisible." },
   { q: "C'est quoi le Diagnostic Acquisition ?", r: "5 jours ouvrés pendant lesquels nous analysons votre ICP réel, votre positionnement marché, vos séquences actuelles si elles existent, et les leviers bloquants. La restitution se fait en call de 45 minutes. Vous repartez avec une décision claire, pas un rapport à lire seul. Livrable : fiche ICP opérationnelle, architecture de séquences recommandée, stack technique adaptée à votre secteur, et priorités d'exécution. Facturé 500 € HT, intégralement déduit si une mission de construction démarre." },
   { q: "Comment fonctionne la tarification ?", r: "Le diagnostic est facturé 500 € HT, déduit si une mission démarre. La construction du système est facturée à l'acte selon la complexité. Le pilotage est facturé mensuellement, sans engagement de durée. Pas de commission sur votre CA, pas de coûts variables cachés : vous savez exactement ce que vous payez et pourquoi." },
-  { q: "Que se passe-t-il après 12 mois ?", r: "Le système vous appartient intégralement — séquences, bases de contacts, automations, documentation. Vous pouvez l'opérer en interne ou prolonger le partenariat. Aucun engagement de renouvellement." },
+  { q: "Que se passe-t-il après 12 mois ?", r: "Le système vous appartient intégralement : séquences, bases de contacts, automations, documentation. Vous pouvez l'opérer en interne ou prolonger le partenariat. Aucun engagement de renouvellement." },
   { q: "Quel est le délai pour voir les premiers résultats ?", r: "Les premiers RDV qualifiés arrivent généralement entre J+21 et J+35 après le lancement du système. Le pipeline significatif se construit entre J+45 et J+90 selon le secteur et le ticket moyen de votre offre." },
 ];
 
@@ -125,7 +125,7 @@ const Index = () => {
             Votre offre est solide. Votre pipeline, lui, dépend encore de vous.
           </h1>
           <p className="text-[#94a3b8] max-w-2xl mx-auto text-[0.95rem] leading-[1.75] mb-4">
-            Code Kaizen construit et opère votre système d'acquisition outbound — de l'ICP au rendez-vous qualifié. Vous arrêtez de prospecter. Le pipeline, lui, continue.
+            Code Kaizen construit et opère votre système d'acquisition outbound, de l'ICP au rendez-vous qualifié. Vous arrêtez de prospecter. Le pipeline, lui, continue.
           </p>
           <p className="inline-block border border-[rgba(201,162,78,0.4)] bg-[rgba(201,162,78,0.08)] rounded-full px-5 py-1.5 text-sm text-[#c9a84c] not-italic mx-auto">
             Pour les fondateurs et dirigeants B2B avec une offre validée, un ticket moyen ≥ 5 000 € et zéro système d'acquisition structuré.
@@ -199,13 +199,13 @@ const Index = () => {
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6">
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Le réseau s'épuise</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                Le bouche-à-oreille ne scale pas au-delà d'un certain seuil. Quand vous avez fait le tour de votre réseau, le silence qui suit est brutal — et difficile à expliquer en board.
+                Le bouche-à-oreille ne passe pas un certain seuil. Quand vous avez fait le tour de votre réseau, le silence qui suit est brutal, et difficile à expliquer en board.
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6">
-              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Recruter un SDR sans système — ce que ça coûte vraiment</h3>
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Recruter un SDR sans système : ce que ça coûte vraiment</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                Un SDR sans infrastructure outbound, sans ICP défini, sans séquences qualifiées : vous payez un salaire pour improviser. 12 mois plus tard, le résultat est aléatoire et le coût réel dépasse 60K€.
+                Un SDR sans infrastructure outbound, sans ICP défini, sans séquences qualifiées : vous payez un salaire pour improviser. Douze mois plus tard, le résultat est aléatoire et le coût réel dépasse 60 000 €.
               </p>
             </div>
           </div>
@@ -227,29 +227,29 @@ const Index = () => {
               <div className="bg-white rounded-md inline-flex items-center justify-center px-4 py-2 mb-5">
                 <img src={logoSpecgen} alt="Logo Specgen" className="h-8 w-auto" />
               </div>
-              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Specgen — SaaS IA, appels d'offres</h3>
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Specgen, SaaS IA appels d'offres</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-5">
-                Stratégie d'acquisition construite from scratch pour une startup sans infrastructure outbound : ICP défini, base de 5 000 contacts scrapés et enrichis sur LinkedIn, campagne email déployée.
+                Stratégie d'acquisition construite de zéro pour une startup sans infrastructure outbound : ICP défini, base de 5 000 contacts scrapés et enrichis sur LinkedIn, campagne email déployée.
               </p>
               <p className="text-[#c9a84c] text-sm font-medium leading-relaxed">
-                794 emails · 55% d'ouverture · 46% de clics · 17 inscrits webinaire
+                794 emails · 55 % d'ouverture · 46 % de clics · 17 inscrits au webinaire
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6 md:p-8">
               <div className="mb-5">
                 <img src={logoIsssa} alt="Logo Isssa" className="h-12 w-12 rounded-full object-cover" />
               </div>
-              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Isssa — Start-up RSE, Nice</h3>
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Isssa, start-up RSE (Nice)</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-5">
-                Système de prospection LinkedIn + emailing multicanal construit sur un marché B2B local. ICP, séquences, A/B testing, workflow automatisé.
+                Système de prospection LinkedIn et emailing multicanal construit sur un marché B2B local. ICP, séquences, A/B testing, workflow automatisé.
               </p>
               <p className="text-[#c9a84c] text-sm font-medium leading-relaxed">
-                160 leads construits · 51,9% d'ouverture email · 21,5% de taux de réponse
+                160 leads construits · 51,9 % d'ouverture email · 21,5 % de taux de réponse
               </p>
             </div>
           </div>
           <p className="text-[#94a3b8] italic text-center mt-10 md:mt-14 text-[0.875rem] max-w-2xl mx-auto">
-            Ces missions ont été conduites avant la création formelle de Code Kaizen — non rémunérées, dans le cadre de ma formation. Les systèmes, les outils et les résultats sont réels. Code Kaizen formalise aujourd'hui cette exécution avec un cadre contractuel et une priorité unique : votre pipeline.
+            Ces missions ont été conduites avant la création formelle de Code Kaizen, non rémunérées, dans le cadre de ma formation. Les systèmes, les outils et les résultats sont réels. Code Kaizen formalise aujourd'hui cette exécution avec un cadre contractuel et une priorité unique : votre pipeline.
           </p>
         </div>
       </section>
@@ -272,13 +272,13 @@ const Index = () => {
                 Ce que je construis
               </h3>
               <p className="text-[#f7f7f7] text-[1rem] md:text-[1.05rem] leading-[1.85]">
-                Pas des campagnes. Pas des hacks. Des systèmes. Un système d'acquisition, c'est une architecture : ICP défini avec précision, personas construits sur des comportements réels, séquences multicanal calibrées, personnalisation au niveau du signal, relances automatisées, pipeline qualifié. Chaque composant est pensé pour fonctionner ensemble — et pour durer sans moi. La philosophie Kaizen — l'amélioration continue appliquée à l'exécution — n'est pas un positionnement marketing. C'est la manière dont je travaille : mesurer, itérer, affiner. Jamais figer. Jamais improviser. Je ne suis pas une agence. Je suis l'architecte du pipeline.
+                Pas de campagnes. Pas de hacks. Des systèmes. Un système d'acquisition, c'est une architecture : ICP défini avec précision, personas construits sur des comportements réels, séquences multicanal calibrées, personnalisation au niveau du signal, relances automatisées, pipeline qualifié. Chaque composant est pensé pour fonctionner avec les autres, et pour durer sans moi. La philosophie Kaizen, c'est l'amélioration continue appliquée à l'exécution. Ce n'est pas un positionnement marketing. C'est la manière dont je travaille : mesurer, itérer, affiner. Jamais figer. Jamais improviser. Je ne suis pas une agence. Je suis l'architecte du pipeline.
               </p>
             </div>
 
             <div className="border-t border-[rgba(201,162,78,0.2)] pt-10 md:pt-14">
               <p className="text-[#f7f7f7] text-[1rem] md:text-[1.05rem] leading-[1.85]">
-                Chaque mission est construite sur mesure, documentée en temps réel, et transmise intégralement à la fin. Vous n'achetez pas une prestation. Vous acquérez une infrastructure — scalable, opérable, transmissible. Ce qui reste quand la mission se termine, c'est un système qui tourne sans vous.
+                Chaque mission est construite sur mesure, documentée en temps réel, et transmise intégralement à la fin. Vous n'achetez pas une prestation. Vous acquérez une infrastructure : scalable, opérable, transmissible. Ce qui reste quand la mission se termine, c'est un système qui tourne sans vous.
               </p>
               <p className="text-[#c9a24e] italic text-center mt-8 font-serif text-lg">
                 Revenue, by system.
@@ -297,7 +297,7 @@ const Index = () => {
           </h2>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
-              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Diagnostic Acquisition — 5 jours</h3>
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Diagnostic Acquisition : 5 jours</h3>
               <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
                 Nous cartographions votre ICP réel, votre positionnement outbound, et les leviers bloquants. Livrable structuré le jour de la restitution : Fiche ICP, stack recommandée, architecture de séquences.
               </p>
@@ -314,7 +314,7 @@ const Index = () => {
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Pilotage mensuel</h3>
               <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
-                On opère le système : sourcing continu, optimisation campagnes, qualification des réponses, reporting hebdomadaire. Vous recevez des prospects qualifiés avec un brief complet — budget, autorité, urgence, contexte. Vous closez.
+                Nous opérons le système : sourcing continu, optimisation des campagnes, qualification des réponses, reporting hebdomadaire. Vous recevez des prospects qualifiés avec un brief complet (budget, autorité, urgence, contexte). Vous closez.
               </p>
             </div>
           </div>
@@ -355,13 +355,13 @@ const Index = () => {
             Ce que vous recevez à la fin
           </h2>
           <p className="text-[#94a3b8] text-center text-[0.875rem] mb-10 md:mb-16">
-            Les livrables concrets de chaque mission — documentés, transmissibles, opérables sans nous.
+            Les livrables concrets de chaque mission : documentés, transmissibles, opérables sans nous.
           </p>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             {[
               {
                 t: "Fiche ICP opérationnelle",
-                d: "Définition précise de votre client idéal : secteur, taille, poste, déclencheurs d'achat, objections récurrentes, cycle de décision. La base sur laquelle tout le système est construit. Pas un persona marketing — un outil d'exécution.",
+                d: "Définition précise de votre client idéal : secteur, taille, poste, déclencheurs d'achat, objections récurrentes, cycle de décision. La base sur laquelle tout le système est construit. Pas un persona marketing, mais un outil d'exécution.",
               },
               {
                 t: "Système outbound documenté",
@@ -392,10 +392,10 @@ const Index = () => {
           </p>
           <div className="grid md:grid-cols-2 gap-5 md:gap-6">
             {[
-              { t: "On construit avant d'envoyer", s: "L'infrastructure avant les séquences. Ce que vous ne voyez pas détermine 80% du résultat.", d: "Une séquence mal ciblée envoie des milliers de messages au mauvais profil. Nous passons autant de temps à construire l'infrastructure qu'à l'opérer. Ce que vous ne voyez pas — le sourcing, le scoring, l'architecture technique — détermine 80% du résultat final." },
-              { t: "On mesure tout, on décide sur les données", s: "Chaque décision est tracée et justifiée par des données. L'opinion n'a pas sa place.", d: "Chaque décision est tracée et justifiée par des données : taux de réponse par segment, par step, par accroche. Nous n'itérons pas à l'aveugle. Nous mesurons, nous interprétons, nous ajustons. L'opinion n'a pas sa place dans un système d'acquisition." },
-              { t: "Alignés sur vos résultats, pas sur nos heures", s: "On facture ce qu'on livre, pas le temps passé. Nos intérêts sont alignés sur vos résultats.", d: "Nous ne facturons pas du temps passé. Nous facturons ce que nous livrons : un diagnostic, un système déployé, un pilotage mensuel. Cette structure élimine le conflit d'intérêt classique entre prestataire et client — nous avons autant intérêt que vous à ce que le système produise des résultats réels." },
-              { t: "On vous rend indépendant", s: "Chaque mission se termine par un transfert complet. Vous opérez sans nous si vous le souhaitez.", d: "Nous ne construisons pas des systèmes dont vous seriez dépendants. Chaque mission se termine par un transfert complet : documentation, playbook, formation. L'objectif est que vous puissiez opérer sans nous — ou que vous choisissiez de continuer avec nous. La différence est là." },
+              { t: "On construit avant d'envoyer", s: "L'infrastructure avant les séquences. Ce que vous ne voyez pas détermine 80 % du résultat.", d: "Une séquence mal ciblée envoie des milliers de messages au mauvais profil. Nous passons autant de temps à construire l'infrastructure qu'à l'opérer. Ce que vous ne voyez pas (le sourcing, le scoring, l'architecture technique) détermine 80 % du résultat final." },
+              { t: "On mesure tout, on décide sur les données", s: "Chaque décision est tracée et justifiée par des données. L'opinion n'a pas sa place.", d: "Chaque décision est tracée et justifiée par des données : taux de réponse par segment, par étape, par accroche. Nous n'itérons pas à l'aveugle. Nous mesurons, nous interprétons, nous ajustons. L'opinion n'a pas sa place dans un système d'acquisition." },
+              { t: "Alignés sur vos résultats, pas sur nos heures", s: "On facture ce qu'on livre, pas le temps passé. Nos intérêts sont alignés sur vos résultats.", d: "Nous ne facturons pas du temps passé. Nous facturons ce que nous livrons : un diagnostic, un système déployé, un pilotage mensuel. Cette structure élimine le conflit d'intérêt classique entre prestataire et client. Nous avons autant intérêt que vous à ce que le système produise des résultats réels." },
+              { t: "On vous rend indépendant", s: "Chaque mission se termine par un transfert complet. Vous opérez sans nous si vous le souhaitez.", d: "Nous ne construisons pas des systèmes dont vous seriez dépendants. Chaque mission se termine par un transfert complet : documentation, playbook, formation. L'objectif est que vous puissiez opérer sans nous, ou que vous choisissiez de continuer avec nous. La différence est là." },
             ].map((b, i) => (
               <details
                 key={b.t}
@@ -432,7 +432,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-6 md:gap-8 text-left">
             {[
               "Votre offre est encore en phase de validation marché. Nous construisons des systèmes d'acquisition, pas des outils de discovery produit.",
-              "Votre ticket moyen est inférieur à 5 000 € par deal. Le pilotage mensuel n'est pas rentable en dessous de ce seuil — ni pour vous, ni pour nous.",
+              "Votre ticket moyen est inférieur à 5 000 € par deal. Le pilotage mensuel n'est pas rentable en dessous de ce seuil, ni pour vous, ni pour nous.",
               "Vous cherchez une délégation totale sans implication. Les 4 premières semaines requièrent 2h/semaine de votre temps pour calibrer l'ICP et valider les séquences.",
             ].map((text, i) => (
               <div key={i} className="bg-[rgba(232,93,58,0.04)] border border-[rgba(232,93,58,0.25)] rounded-lg p-6">
@@ -472,7 +472,7 @@ const Index = () => {
             <div>
               <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">J+90</div>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                Date à laquelle le système vous appartient intégralement — sans condition, sans surcoût.
+                Date à laquelle le système vous appartient intégralement, sans condition, sans surcoût.
               </p>
             </div>
           </div>

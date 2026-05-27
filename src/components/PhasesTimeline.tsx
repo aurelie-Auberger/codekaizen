@@ -4,14 +4,14 @@ const PhasesTimeline = () => (
   <div style={{padding:'8px 0 24px',fontFamily:'Inter,system-ui,sans-serif'}}>
     <div style={{marginBottom:28,paddingBottom:16,borderBottom:'1px solid rgba(201,168,76,0.25)'}}>
       <div style={{fontSize:10,fontWeight:700,letterSpacing:'0.12em',color:'#c9a84c',textTransform:'uppercase',marginBottom:4}}>Les 6 phases</div>
-      <div style={{fontSize:13,color:'#94a3b8'}}>De l'ICP au deal — séquence stricte, aucune étape sautée</div>
+      <div style={{fontSize:13,color:'#94a3b8'}}>De l'ICP au deal : séquence stricte, aucune étape sautée.</div>
     </div>
     {[
       {num:'01',gold:true,timing:'J+0 · 5 jours ouvrés',title:'Diagnostic ICP',desc:"On identifie qui achète vraiment, pourquoi, et ce qui bloque votre acquisition aujourd'hui.",pills:[] as string[]},
-      {num:'02',timing:'J+5 · 2 semaines',title:'Architecture du système',desc:"Stack, CRM, domaines d'envoi, scoring SQL — la fondation technique avant le premier envoi.",pills:['Clay','HubSpot','Instantly']},
+      {num:'02',timing:'J+5 · 2 semaines',title:'Architecture du système',desc:"Stack, CRM, domaines d'envoi, scoring SQL : la fondation technique avant le premier envoi.",pills:['Clay','HubSpot','Instantly']},
       {num:'03',timing:'J+15 · continu',title:'Sourcing des cibles',desc:'500 prospects T1 identifiés, enrichis, scorés sur 8 variables comportementales.',pills:['Apollo','LinkedIn SN','Crunchbase']},
-      {num:'04',timing:"J+21 · jusqu'aux résultats",title:'Campagnes outbound',desc:'Séquences email + LinkedIn, personnalisation niveau 3, A/B testing systématique.',pills:['Instantly','Lemlist','LinkedIn']},
-      {num:'05',gold:true,timing:'J+35 à J+90 · récurrent',title:'Qualification — vous closez',accent:true,desc:'Chaque réponse filtrée. Brief complet livré avant chaque call : budget, autorité, urgence, contexte.',pills:['Budget confirmé','Décideur identifié','Timing défini']},
+      {num:'04',timing:"J+21 · jusqu'aux résultats",title:'Campagnes outbound',desc:'Séquences email et LinkedIn, personnalisation niveau 3, A/B testing systématique.',pills:['Instantly','Lemlist','LinkedIn']},
+      {num:'05',gold:true,timing:'J+35 à J+90 · récurrent',title:'Qualification : vous closez',accent:true,desc:'Chaque réponse filtrée. Brief complet livré avant chaque call : budget, autorité, urgence, contexte.',pills:['Budget confirmé','Décideur identifié','Timing défini']},
     ].map((p:any,i)=>(
       <div key={i} style={{display:'grid',gridTemplateColumns:'52px 1fr',position:'relative'}}>
         <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
@@ -29,7 +29,7 @@ const PhasesTimeline = () => (
     <div style={{background:'rgba(15,74,58,0.25)',border:'1.5px solid rgba(159,225,203,0.4)',borderRadius:10,padding:'16px 18px',margin:'4px 0 24px',display:'grid',gridTemplateColumns:'1fr auto',gap:12,alignItems:'center'}}>
       <div>
         <div style={{fontSize:10,fontWeight:700,letterSpacing:'0.1em',color:'#9fe1cb',textTransform:'uppercase',marginBottom:5}}>Le système vous appartient quand ?</div>
-        <div style={{fontSize:13,color:'#f7f7f7',lineHeight:1.5}}>À la fin de la mission — <span style={{color:'#c9a84c',fontWeight:600}}>sans condition, sans surcoût</span>. Séquences, bases de contacts, workflows, playbook : tout vous est remis. Vous pouvez l'opérer seul ou continuer avec nous.</div>
+        <div style={{fontSize:13,color:'#f7f7f7',lineHeight:1.5}}>À la fin de la mission, <span style={{color:'#c9a84c',fontWeight:600}}>sans condition, sans surcoût</span>. Séquences, bases de contacts, workflows, playbook : tout vous est remis. Vous pouvez l'opérer seul ou continuer avec nous.</div>
       </div>
       <div style={{textAlign:'center',borderLeft:'1px solid rgba(159,225,203,0.2)',paddingLeft:16,flexShrink:0}}>
         <div style={{fontSize:28,fontWeight:700,color:'#c9a84c',lineHeight:1}}>J+90</div>
