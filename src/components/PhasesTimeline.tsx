@@ -87,6 +87,16 @@ const PhasesTimeline = () => (
         </div>
       );
     })}
+    <div style={{ background: 'rgba(15,74,58,0.25)', border: '1.5px solid rgba(159,225,203,0.4)', borderRadius: 10, padding: '16px 18px', margin: '4px 0 8px', display: 'grid', gridTemplateColumns: '1fr auto', gap: 12, alignItems: 'center' }}>
+      <div>
+        <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: '0.1em', color: '#9fe1cb', textTransform: 'uppercase', marginBottom: 5 }}>Le système vous appartient quand ?</div>
+        <div style={{ fontSize: 13, color: '#f7f7f7', lineHeight: 1.5 }}>À la fin de la mission, <span style={{ color: '#c9a84c', fontWeight: 600 }}>sans condition, sans surcoût</span>. Séquences, bases de contacts, workflows, playbook : tout vous est remis. Vous pouvez l'opérer seul ou continuer avec nous.</div>
+      </div>
+      <div style={{ textAlign: 'center', borderLeft: '1px solid rgba(159,225,203,0.2)', paddingLeft: 16, flexShrink: 0 }}>
+        <div style={{ fontSize: 28, fontWeight: 700, color: '#c9a84c', lineHeight: 1 }}>J+90</div>
+        <div style={{ fontSize: 10, color: '#94a3b8', marginTop: 3 }}>transmission<br />complète</div>
+      </div>
+    </div>
   </div>
 );
 
