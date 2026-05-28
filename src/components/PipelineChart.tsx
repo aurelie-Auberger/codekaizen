@@ -3,7 +3,7 @@ export default function PipelineChart() {
     <section className="py-16 md:py-24 px-6 md:px-10 bg-[#0a1424]">
       <div className="max-w-5xl mx-auto flex justify-center">
         <img
-          src="/maquette_PC_moderne.jpg"
+          src="/mockup_modern_pc.jpg"
           alt="Évolution du pipeline — Code Kaizen"
           className="w-full max-w-4xl rounded-xl"
         />
