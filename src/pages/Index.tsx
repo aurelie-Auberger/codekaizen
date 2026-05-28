@@ -60,8 +60,8 @@ const expertise = [
 
 const faqs = [
   { q: "Qui gère le closing ?", r: "Le closing reste entre vos mains. Vous connaissez votre marché, vos clients, vos relations : c'est votre actif. Notre rôle s'arrête au rendez-vous qualifié. Nous vous livrons un brief complet sur chaque prospect (budget, autorité de décision, urgence, contexte) pour que votre première conversation soit commerciale, pas exploratoire. Vous gardez le contrôle de votre relation commerciale. Nous la rendons plus prévisible." },
-  { q: "C'est quoi le Diagnostic Acquisition ?", r: "5 jours ouvrés pendant lesquels nous analysons votre ICP réel, votre positionnement marché, vos séquences actuelles si elles existent, et les leviers bloquants. La restitution se fait en call de 45 minutes. Vous repartez avec une décision claire, pas un rapport à lire seul. Livrable : fiche ICP opérationnelle, architecture de séquences recommandée, stack technique adaptée à votre secteur, et priorités d'exécution. Facturé 500 € HT, intégralement déduit si une mission de construction démarre." },
-  { q: "Comment fonctionne la tarification ?", r: "La tarification est définie au cas par cas lors du Diagnostic — c'est précisément l'objet de la restitution. Le diagnostic est facturé 500 € HT, intégralement déduit si une mission démarre. La construction et le pilotage sont calibrés selon la complexité de votre marché et le périmètre défini ensemble. Pas de commission sur votre CA, pas de coûts variables cachés." },
+  { q: "C'est quoi le Diagnostic Acquisition ?", r: "5 jours ouvrés pendant lesquels nous analysons votre ICP réel, votre positionnement marché, vos séquences actuelles si elles existent, et les leviers bloquants. La restitution se fait en call de 45 minutes. Vous repartez avec une décision claire, pas un rapport à lire seul. Livrable : fiche ICP opérationnelle, architecture de séquences recommandée, stack technique adaptée à votre secteur, et priorités d'exécution. Facturé 1 500 € HT, intégralement déduit si une mission de construction démarre." },
+  { q: "Comment fonctionne la tarification ?", r: "La tarification est définie au cas par cas lors du Diagnostic — c'est précisément l'objet de la restitution. Le diagnostic est facturé 1 500 € HT, intégralement déduit si une mission démarre. La construction et le pilotage sont calibrés selon la complexité de votre marché et le périmètre défini ensemble. Pas de commission sur votre CA, pas de coûts variables cachés." },
   { q: "Que se passe-t-il après 12 mois ?", r: "Le système vous appartient intégralement : séquences, bases de contacts, automations, documentation. Vous pouvez l'opérer en interne ou prolonger le partenariat. Aucun engagement de renouvellement." },
   { q: "Quel est le délai pour voir les premiers résultats ?", r: "Les premiers RDV qualifiés arrivent généralement entre J+21 et J+35 après le lancement du système. Le pipeline significatif se construit entre J+45 et J+90 selon le secteur et le ticket moyen de votre offre." },
 ];
@@ -309,7 +309,7 @@ const Index = () => {
                 Nous cartographions votre ICP réel, votre positionnement outbound, et les leviers bloquants. Livrable structuré le jour de la restitution : Fiche ICP, stack recommandée, architecture de séquences.
               </p>
               <p className="mt-6 text-center text-[#c9a24e] text-[11px] tracking-[0.15em] uppercase font-medium">
-                Diagnostic à 1 500 € HT · Déduit intégralement si une mission démarre.
+                Diagnostic à 1 1 500 € HT · Déduit intégralement si une mission démarre.
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
