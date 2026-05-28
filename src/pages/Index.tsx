@@ -340,7 +340,7 @@ const Index = () => {
               Comment fonctionne l'infrastructure Code Kaizen
             </h2>
             <p className="text-[#94a3b8] text-[0.9rem] md:text-[0.95rem] leading-relaxed">
-              Un système en 6 phases, documenté et transmissible.
+              Un système en 3 étapes, documenté et transmissible.
             </p>
           </div>
 
