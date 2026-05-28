@@ -37,7 +37,25 @@ export default function PipelineChart() {
   return (
     <section className="py-16 md:py-24 px-6 md:px-10 bg-[#0a1424]">
       <div className="max-w-5xl mx-auto">
-        <div className="relative rounded-2xl bg-[#0d1b2e] border border-[rgba(201,162,78,0.15)] p-5 md:p-8 shadow-2xl">
+        {/* Laptop frame */}
+        <div className="rounded-2xl bg-[#0f1117] border border-white/10 shadow-2xl overflow-hidden">
+          {/* Browser bar */}
+          <div className="flex items-center gap-3 px-4 py-3 bg-[#0f1117] border-b border-white/5">
+            <div className="flex gap-1.5">
+              <span className="w-3 h-3 rounded-full bg-[#ff5f57]" />
+              <span className="w-3 h-3 rounded-full bg-[#febc2e]" />
+              <span className="w-3 h-3 rounded-full bg-[#28c840]" />
+            </div>
+            <div className="flex-1 flex justify-center">
+              <div className="px-3 py-1 rounded-md bg-white/5 text-white/50 text-[11px] md:text-xs font-mono max-w-[240px] truncate">
+                codekaizen.fr
+              </div>
+            </div>
+            <div className="w-12" />
+          </div>
+          {/* Screen content */}
+          <div className="relative bg-[#0d1b2e] p-5 md:p-8">
+
           {/* Header */}
           <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
             <h3 className="font-serif text-white text-lg md:text-2xl">
@@ -117,6 +135,7 @@ export default function PipelineChart() {
             <p className="text-[11px] md:text-xs text-white/60 font-serif">
               Revenue, by <span className="text-[#c9a84c]">system.</span>
             </p>
+          </div>
           </div>
         </div>
       </div>
