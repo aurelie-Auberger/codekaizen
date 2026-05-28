@@ -300,6 +300,7 @@ const Index = () => {
       </section>
 
 
+      <PipelineChart />
 
       {/* SECTION B — PRINCIPES */}
       <section className="bg-[#0d1b2e] border-b border-[rgba(201,162,78,0.15)] py-16 md:py-24 px-6 md:px-10">
