@@ -278,7 +278,7 @@ const Index = () => {
                 Ce que je construis
               </h3>
               <p className="text-[#f7f7f7] text-[1rem] md:text-[1.05rem] leading-[1.85]">
-                Pas de campagnes. Pas de hacks. Des systèmes. Un système d'acquisition, c'est une architecture : ICP défini avec précision, personas construits sur des comportements réels, séquences multicanal calibrées, personnalisation au niveau du signal, relances automatisées, pipeline qualifié. Chaque composant est pensé pour fonctionner avec les autres, et pour durer sans moi. Je ne suis pas une agence. Je suis l'architecte du pipeline.
+                Pas des campagnes. Pas des hacks. Une infrastructure. Construire un système d'acquisition, c'est architecturer quelque chose de durable : ICP défini sur des comportements réels, séquences multicanal calibrées, qualification SQL, pipeline documenté. Chaque composant conçu pour fonctionner ensemble — et pour opérer sans vous. Je ne suis pas une agence. Je suis l'architecte de votre infrastructure commerciale.
               </p>
             </div>
 
@@ -309,7 +309,7 @@ const Index = () => {
                 Nous cartographions votre ICP réel, votre positionnement outbound, et les leviers bloquants. Livrable structuré le jour de la restitution : Fiche ICP, stack recommandée, architecture de séquences.
               </p>
               <p className="mt-6 text-center text-[#c9a24e] text-[11px] tracking-[0.15em] uppercase font-medium">
-                Diagnostic à 500 € HT · Déduit intégralement si une mission démarre.
+                Diagnostic à 1 500 € HT · Déduit intégralement si une mission démarre.
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
@@ -317,11 +317,17 @@ const Index = () => {
               <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
                 Nous construisons et opérons l'infrastructure : sourcing Clay, enrichissement, séquences Instantly, qualification SQL, CRM. Le fondateur sort de la prospection. Le système entre en fonction.
               </p>
+              <p className="mt-6 text-center text-[#c9a24e] text-[11px] tracking-[0.15em] uppercase font-medium">
+                Tarification sur mesure, définie à l'issue du Diagnostic.
+              </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Pilotage mensuel</h3>
               <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
                 Nous opérons le système : sourcing continu, optimisation des campagnes, qualification des réponses, reporting hebdomadaire. Vous recevez des prospects qualifiés avec un brief complet (budget, autorité, urgence, contexte). Vous closez.
+              </p>
+              <p className="mt-6 text-center text-[#c9a24e] text-[11px] tracking-[0.15em] uppercase font-medium">
+                Tarification sur mesure, définie à l'issue du Diagnostic.
               </p>
             </div>
           </div>
