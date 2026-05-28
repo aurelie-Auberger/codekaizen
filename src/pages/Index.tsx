@@ -30,41 +30,41 @@ import logoIsssa from "@/assets/logo-isssa.jpeg";
 
 
 const benefits = [
-  { id: "01", t: "ICP et ciblage", d: "On identifie les décideurs qui ont un problème que vous résolvez. Pas de masse, pas de hasard.", icon: Target },
-  { id: "02", t: "Système outbound complet", d: "Le système prospecte, qualifie et relance pendant que vous faites autre chose.", icon: Zap },
-  { id: "03", t: "Closing intégré", d: "On traite les objections et on accompagne jusqu'à la signature. Vous intervenez quand vous le choisissez.", icon: Users },
-  { id: "04", t: "Reporting et pilotage", d: "Chaque semaine : leads qualifiés, deals en cours. Reporting hebdomadaire.", icon: BarChart3 },
+  { id: "01", t: "ICP et ciblage", d: "On identifie les dÃ©cideurs qui ont un problÃ¨me que vous rÃ©solvez. Pas de masse, pas de hasard.", icon: Target },
+  { id: "02", t: "SystÃ¨me outbound complet", d: "Le systÃ¨me prospecte, qualifie et relance pendant que vous faites autre chose.", icon: Zap },
+  { id: "03", t: "Closing intÃ©grÃ©", d: "On traite les objections et on accompagne jusqu'Ã  la signature. Vous intervenez quand vous le choisissez.", icon: Users },
+  { id: "04", t: "Reporting et pilotage", d: "Chaque semaine : leads qualifiÃ©s, deals en cours. Reporting hebdomadaire.", icon: BarChart3 },
 ];
 
 const tickerItems = [
-  "Diagnostic stratégique",
-  "Système d'acquisition sur-mesure",
-  "Rémunération à la performance",
-  "Propriété intellectuelle préservée",
-  "Closing intégré",
+  "Diagnostic stratÃ©gique",
+  "SystÃ¨me d'acquisition sur-mesure",
+  "RÃ©munÃ©ration Ã  la performance",
+  "PropriÃ©tÃ© intellectuelle prÃ©servÃ©e",
+  "Closing intÃ©grÃ©",
   "Reporting hebdomadaire",
-  "Pipeline prévisible",
+  "Pipeline prÃ©visible",
   "B2B premium uniquement",
 ];
 
 const problems = [
-  { t: "Pipeline irrégulier", d: "Votre flux de prospects dépend du bouche-à-oreille ou de l'opportunisme." },
-  { t: "Closing aléatoire", d: "Des deals qualifiés sont perdus par simple manque de structure de suivi." },
-  { t: "Coûts fixes toxiques", d: "Payer des frais d'agence avant d'avoir généré le moindre euro de profit." },
+  { t: "Pipeline irrÃ©gulier", d: "Votre flux de prospects dÃ©pend du bouche-Ã -oreille ou de l'opportunisme." },
+  { t: "Closing alÃ©atoire", d: "Des deals qualifiÃ©s sont perdus par simple manque de structure de suivi." },
+  { t: "CoÃ»ts fixes toxiques", d: "Payer des frais d'agence avant d'avoir gÃ©nÃ©rÃ© le moindre euro de profit." },
 ];
 
 const expertise = [
-  { t: "Outbound B2B structuré", d: "Construction de systèmes de prospection multicanal : LinkedIn, cold email, séquences automatisées. Ciblage ICP, enrichissement de données, A/B test sur les accroches. De zéro à pipeline actif." },
-  { t: "Closing et conversion", d: "Qualification des leads entrants, scripts d'argumentation, traitement des objections. Accompagnement jusqu'à la signature et au premier encaissement." },
-  { t: "Pilotage orienté ROI", d: "Chaque action est tracée, mesurée, ajustée. Reporting hebdomadaire, attribution précise, optimisation continue. Vous savez exactement d'où vient chaque deal." },
+  { t: "Outbound B2B structurÃ©", d: "Construction de systÃ¨mes de prospection multicanal : LinkedIn, cold email, sÃ©quences automatisÃ©es. Ciblage ICP, enrichissement de donnÃ©es, A/B test sur les accroches. De zÃ©ro Ã  pipeline actif." },
+  { t: "Closing et conversion", d: "Qualification des leads entrants, scripts d'argumentation, traitement des objections. Accompagnement jusqu'Ã  la signature et au premier encaissement." },
+  { t: "Pilotage orientÃ© ROI", d: "Chaque action est tracÃ©e, mesurÃ©e, ajustÃ©e. Reporting hebdomadaire, attribution prÃ©cise, optimisation continue. Vous savez exactement d'oÃ¹ vient chaque deal." },
 ];
 
 const faqs = [
-  { q: "Qui gère le closing ?", r: "Le closing reste entre vos mains. Vous connaissez votre marché, vos clients, vos relations : c'est votre actif. Notre rôle s'arrête au rendez-vous qualifié. Nous vous livrons un brief complet sur chaque prospect (budget, autorité de décision, urgence, contexte) pour que votre première conversation soit commerciale, pas exploratoire. Vous gardez le contrôle de votre relation commerciale. Nous la rendons plus prévisible." },
-  { q: "C'est quoi le Diagnostic Acquisition ?", r: "5 jours ouvrés pendant lesquels nous analysons votre ICP réel, votre positionnement marché, vos séquences actuelles si elles existent, et les leviers bloquants. La restitution se fait en call de 45 minutes. Vous repartez avec une décision claire, pas un rapport à lire seul. Livrable : fiche ICP opérationnelle, architecture de séquences recommandée, stack technique adaptée à votre secteur, et priorités d'exécution. Facturé 1 500 € HT, intégralement déduit si une mission de construction démarre." },
-  { q: "Comment fonctionne la tarification ?", r: "La tarification est définie au cas par cas lors du Diagnostic — c'est précisément l'objet de la restitution. Le diagnostic est facturé 1 500 € HT, intégralement déduit si une mission démarre. La construction et le pilotage sont calibrés selon la complexité de votre marché et le périmètre défini ensemble. Pas de commission sur votre CA, pas de coûts variables cachés." },
-  { q: "Que se passe-t-il après 12 mois ?", r: "Le système vous appartient intégralement : séquences, bases de contacts, automatisations, documentation. Vous pouvez l'opérer en interne ou prolonger le partenariat. Aucun engagement de renouvellement." },
-  { q: "Quel est le délai pour voir les premiers résultats ?", r: "Les premiers RDV qualifiés arrivent généralement entre J+21 et J+35 après le lancement du système. Le pipeline significatif se construit entre J+45 et J+90 selon le secteur et le ticket moyen de votre offre." },
+  { q: "Qui gÃ¨re le closing ?", r: "Le closing reste entre vos mains. Vous connaissez votre marchÃ©, vos clients, vos relations : c'est votre actif. Notre rÃ´le s'arrÃªte au rendez-vous qualifiÃ©. Nous vous livrons un brief complet sur chaque prospect (budget, autoritÃ© de dÃ©cision, urgence, contexte) pour que votre premiÃ¨re conversation soit commerciale, pas exploratoire. Vous gardez le contrÃ´le de votre relation commerciale. Nous la rendons plus prÃ©visible." },
+  { q: "C'est quoi le Diagnostic Acquisition ?", r: "5 jours ouvrÃ©s pendant lesquels nous analysons votre ICP rÃ©el, votre positionnement marchÃ©, vos sÃ©quences actuelles si elles existent, et les leviers bloquants. La restitution se fait en call de 45 minutes. Vous repartez avec une dÃ©cision claire, pas un rapport Ã  lire seul. Livrable : fiche ICP opÃ©rationnelle, architecture de sÃ©quences recommandÃ©e, stack technique adaptÃ©e Ã  votre secteur, et prioritÃ©s d'exÃ©cution. FacturÃ© 1 500 â¬ HT, intÃ©gralement dÃ©duit si une mission de construction dÃ©marre." },
+  { q: "Comment fonctionne la tarification ?", r: "La tarification est dÃ©finie au cas par cas lors du Diagnostic â c'est prÃ©cisÃ©ment l'objet de la restitution. Le diagnostic est facturÃ© 1 500 â¬ HT, intÃ©gralement dÃ©duit si une mission dÃ©marre. La construction et le pilotage sont calibrÃ©s selon la complexitÃ© de votre marchÃ© et le pÃ©rimÃ¨tre dÃ©fini ensemble. Pas de commission sur votre CA, pas de coÃ»ts variables cachÃ©s." },
+  { q: "Que se passe-t-il aprÃ¨s 12 mois ?", r: "Le systÃ¨me vous appartient intÃ©gralement : sÃ©quences, bases de contacts, automatisations, documentation. Vous pouvez l'opÃ©rer en interne ou prolonger le partenariat. Aucun engagement de renouvellement." },
+  { q: "Quel est le dÃ©lai pour voir les premiers rÃ©sultats ?", r: "Les premiers RDV qualifiÃ©s arrivent gÃ©nÃ©ralement entre J+21 et J+35 aprÃ¨s le lancement du systÃ¨me. Le pipeline significatif se construit entre J+45 et J+90 selon le secteur et le ticket moyen de votre offre." },
 ];
 
 const Index = () => {
@@ -91,9 +91,9 @@ const Index = () => {
       <main className="min-h-screen bg-background flex items-center justify-center px-6">
         <div className="max-w-xl text-center">
           <div className="gold-line mb-12" />
-          <h1 className="text-5xl md:text-6xl text-ivory mb-8">C'est noté.</h1>
+          <h1 className="text-5xl md:text-6xl text-ivory mb-8">C'est notÃ©.</h1>
           <p className="text-[#F5F0E8] mb-12 leading-relaxed">
-            Vous recevrez une confirmation par email. On se retrouve à l'heure convenue.
+            Vous recevrez une confirmation par email. On se retrouve Ã  l'heure convenue.
           </p>
           <a
             href="#"
@@ -123,7 +123,7 @@ const Index = () => {
               scrolled ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"
             }`}
           >
-            Réserver mon Diagnostic
+            RÃ©server mon Diagnostic
           </a>
         </div>
       </header>
@@ -132,16 +132,16 @@ const Index = () => {
       <section className="pt-20 sm:pt-24 md:pt-28 pb-4 sm:pb-8 md:pb-12 px-5 sm:px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="font-serif text-[1.6rem] leading-[1.15] md:text-[2.2rem] md:leading-[1.1] text-ivory mb-5 md:mb-10 tracking-tight">
-            Votre offre est solide. Votre pipeline, lui, dépend encore de vous.
+            Votre offre est solide. Votre pipeline, lui, dÃ©pend encore de vous.
           </h1>
           <p className="text-[#94a3b8] max-w-2xl mx-auto text-[0.95rem] leading-[1.75] mb-4">
-            Code Kaizen installe l'infrastructure commerciale qui permet à votre entreprise de générer un pipeline prévisible sans dépendre de vous. Vous gardez le contrôle stratégique. Le système opère sans vous.
+            Code Kaizen installe l'infrastructure commerciale qui permet Ã  votre entreprise de gÃ©nÃ©rer un pipeline prÃ©visible sans dÃ©pendre de vous. Vous gardez le contrÃ´le stratÃ©gique. Le systÃ¨me opÃ¨re sans vous.
           </p>
-          <p className="inline-block border border-[rgba(201,162,78,0.4)] bg-[rgba(201,162,78,0.08)] rounded-full px-5 py-1.5 text-sm text-[#c9a84c] not-italic mx-auto">
-            Pour les fondateurs et dirigeants d'entreprises B2B founder-led avec une offre validée, un ticket ≥ 5 000 € et une croissance encore dépendante du réseau du fondateur.
+          <p className="inline-block border border-[rgba(201,162,78,0.4)] bg-[rgba(201,162,78,0.08)] rounded-lg px-4 py-2 text-sm text-[#c9a84c] not-italic mx-auto">
+            Pour les fondateurs et dirigeants d'entreprises B2B founder-led avec une offre validÃ©e, un ticket â¥ 5 000 â¬ et une croissance encore dÃ©pendante du rÃ©seau du fondateur.
           </p>
           <p className="text-[#94a3b8] italic text-[0.85rem] mb-6 md:mb-8">
-            Le Diagnostic prend 5 jours. Ce qu'il révèle change la trajectoire.
+            Le Diagnostic prend 5 jours. Ce qu'il rÃ©vÃ¨le change la trajectoire.
           </p>
           <div className="flex flex-col items-center gap-6 md:gap-8">
             <a
@@ -150,7 +150,7 @@ const Index = () => {
               rel="noopener noreferrer"
               className="bg-gold text-ink mx-auto inline-flex w-auto px-12 py-4 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
             >
-              Réserver mon Diagnostic
+              RÃ©server mon Diagnostic
             </a>
           </div>
         </div>
@@ -165,7 +165,7 @@ const Index = () => {
 
 
 
-      {/* VÉRITÉS */}
+      {/* VÃRITÃS */}
       <section className="py-16 md:py-20 px-6 md:px-10">
         <div className="max-w-[720px] mx-auto text-center">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
@@ -175,24 +175,24 @@ const Index = () => {
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6">
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Pipeline otage</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                Chaque client vient d'un appel que vous avez passé ou d'une relation que vous avez cultivée. Dès que vous arrêtez, le pipeline s'arrête. Ce n'est pas un modèle, c'est une dépendance.
+                Chaque client vient d'un appel que vous avez passÃ© ou d'une relation que vous avez cultivÃ©e. DÃ¨s que vous arrÃªtez, le pipeline s'arrÃªte. Ce n'est pas un modÃ¨le, c'est une dÃ©pendance.
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6">
-              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Le réseau s'épuise</h3>
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Le rÃ©seau s'Ã©puise</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                Le bouche-à-oreille ne passe pas un certain seuil. Quand vous avez fait le tour de votre réseau, le silence qui suit est brutal, et difficile à expliquer en board.
+                Le bouche-Ã -oreille ne passe pas un certain seuil. Quand vous avez fait le tour de votre rÃ©seau, le silence qui suit est brutal, et difficile Ã  expliquer en board.
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6">
-              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Recruter un SDR sans système : ce que ça coûte vraiment</h3>
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Recruter un SDR sans systÃ¨me : ce que Ã§a coÃ»te vraiment</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                Un SDR sans infrastructure outbound, sans ICP défini, sans séquences qualifiées : vous payez un salaire pour improviser. Douze mois plus tard, le résultat est aléatoire et le coût réel dépasse 60 000 €.
+                Un SDR sans infrastructure outbound, sans ICP dÃ©fini, sans sÃ©quences qualifiÃ©es : vous payez un salaire pour improviser. Douze mois plus tard, le rÃ©sultat est alÃ©atoire et le coÃ»t rÃ©el dÃ©passe 60 000 â¬.
               </p>
             </div>
           </div>
           <p className="text-[#94a3b8] italic text-center mt-10 md:mt-14 text-[0.875rem]">
-            Il existe une alternative à cette dépendance.
+            Il existe une alternative Ã  cette dÃ©pendance.
           </p>
         </div>
       </section>
@@ -202,7 +202,7 @@ const Index = () => {
       <section className="py-16 md:py-20 px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
-            Ce que ces missions ont démontré
+            Ce que ces missions ont dÃ©montrÃ©
           </h2>
           <div className="grid md:grid-cols-2 gap-6 md:gap-8 text-left">
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6 md:p-8">
@@ -211,10 +211,10 @@ const Index = () => {
               </div>
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Specgen, SaaS IA appels d'offres</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-5">
-                Stratégie d'acquisition construite de zéro pour une startup sans infrastructure outbound : ICP défini, base de 5 000 contacts scrapés et enrichis sur LinkedIn, campagne email déployée.
+                StratÃ©gie d'acquisition construite de zÃ©ro pour une startup sans infrastructure outbound : ICP dÃ©fini, base de 5 000 contacts scrapÃ©s et enrichis sur LinkedIn, campagne email dÃ©ployÃ©e.
               </p>
               <p className="text-[#c9a84c] text-sm font-medium leading-relaxed">
-                794 emails · 55 % d'ouverture · 46 % de clics · 17 inscrits au webinaire
+                794 emails Â· 55 % d'ouverture Â· 46 % de clics Â· 17 inscrits au webinaire
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6 md:p-8">
@@ -223,15 +223,15 @@ const Index = () => {
               </div>
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Issa, start-up RSE (Nice)</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-5">
-                Système de prospection LinkedIn et emailing multicanal construit sur un marché B2B local. ICP, séquences, A/B testing, workflow automatisé.
+                SystÃ¨me de prospection LinkedIn et emailing multicanal construit sur un marchÃ© B2B local. ICP, sÃ©quences, A/B testing, workflow automatisÃ©.
               </p>
               <p className="text-[#c9a84c] text-sm font-medium leading-relaxed">
-                160 leads construits · 51,9 % d'ouverture email · 21,5 % de taux de réponse
+                160 leads construits Â· 51,9 % d'ouverture email Â· 21,5 % de taux de rÃ©ponse
               </p>
             </div>
           </div>
           <p className="text-[#94a3b8] italic text-center mt-10 md:mt-14 text-[0.875rem] max-w-2xl mx-auto">
-            Ces missions ont été conduites avant la création formelle de Code Kaizen — missions terrain, non rémunérées. Les systèmes, les outils et les résultats sont réels.
+            Ces missions ont Ã©tÃ© conduites avant la crÃ©ation formelle de Code Kaizen â missions terrain, non rÃ©munÃ©rÃ©es. Les systÃ¨mes, les outils et les rÃ©sultats sont rÃ©els.
           </p>
         </div>
       </section>
@@ -241,23 +241,23 @@ const Index = () => {
         <div className="max-w-[900px] mx-auto grid md:grid-cols-[180px_1fr] gap-8 md:gap-12 items-center">
           <img
             src={aurelieImg}
-            alt="Aurélie Auberger, fondatrice de Code Kaizen"
-            className="w-[140px] h-[140px] md:w-[180px] md:h-[180px] rounded-full object-cover object-top mx-auto md:mx-0 border border-[rgba(201,162,78,0.25)]"
+            alt="AurÃ©lie Auberger, fondatrice de Code Kaizen"
+            className="w-[160px] h-[160px] md:w-[180px] md:h-[180px] rounded-full object-cover object-top mx-auto md:mx-0 border border-[rgba(201,162,78,0.25)]"
           />
           <div className="text-center md:text-left">
             <h2 className="font-serif text-[#c9a84c] text-[1.4rem] md:text-[1.6rem] leading-tight">
-              Aurélie Auberger — Fondatrice de Code Kaizen
+              AurÃ©lie Auberger â Fondatrice de Code Kaizen
             </h2>
 
             
             <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
-              Beaucoup d'entreprises B2B ont une offre solide, mais une acquisition encore trop dépendante du fondateur.
+              Beaucoup d'entreprises B2B ont une offre solide, mais une acquisition encore trop dÃ©pendante du fondateur.
             </p>
             <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
-              Code Kaizen aide les entreprises founder-led à structurer une infrastructure commerciale capable de générer un pipeline plus prévisible, plus stable et transmissible.
+              Code Kaizen aide les entreprises founder-led Ã  structurer une infrastructure commerciale capable de gÃ©nÃ©rer un pipeline plus prÃ©visible, plus stable et transmissible.
             </p>
             <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
-              L'objectif n'est pas de multiplier les actions. L'objectif est de construire un système de croissance qui fonctionne durablement.
+              L'objectif n'est pas de multiplier les actions. L'objectif est de construire un systÃ¨me de croissance qui fonctionne durablement.
             </p>
             <a
               href="https://www.linkedin.com/company/code-kaizen"
@@ -265,7 +265,7 @@ const Index = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center text-[#c9a84c] text-sm hover:text-ivory transition-colors"
             >
-              → Profil LinkedIn Code Kaizen
+              â Profil LinkedIn Code Kaizen
             </a>
           </div>
         </div>
@@ -283,13 +283,13 @@ const Index = () => {
                 Ce que je construis
               </h3>
               <p className="text-[#f7f7f7] text-[1rem] md:text-[1.05rem] leading-[1.85]">
-                Chaque mission produit une infrastructure documentée, transmissible, opérable sans nous à l'issue de la mission.
+                Chaque mission produit une infrastructure documentÃ©e, transmissible, opÃ©rable sans nous Ã  l'issue de la mission.
               </p>
             </div>
 
             <div className="border-t border-[rgba(201,162,78,0.2)] pt-10 md:pt-14">
               <p className="text-[#f7f7f7] text-[1rem] md:text-[1.05rem] leading-[1.85]">
-                Vous n'achetez pas une prestation. Vous acquérez un actif commercial qui tourne sans vous.
+                Vous n'achetez pas une prestation. Vous acquÃ©rez un actif commercial qui tourne sans vous.
               </p>
               <p className="text-[#c9a24e] italic text-center mt-8 font-serif text-lg">
                 Revenue, by system.
@@ -302,21 +302,21 @@ const Index = () => {
 
       <PipelineChart />
 
-      {/* SECTION B — PRINCIPES */}
+      {/* SECTION B â PRINCIPES */}
       <section className="bg-[#0d1b2e] border-b border-[rgba(201,162,78,0.15)] py-16 md:py-24 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-3 md:mb-4 leading-tight">
             Nos principes
           </h2>
           <p className="text-[#94a3b8] text-center text-[0.875rem] mb-12 md:mb-16">
-            Ce qui guide chaque décision, chaque séquence, chaque mission.
+            Ce qui guide chaque dÃ©cision, chaque sÃ©quence, chaque mission.
           </p>
           <div className="grid md:grid-cols-2 gap-5 md:gap-6">
             {[
-              { t: "On construit avant d'envoyer", s: "L'infrastructure avant les séquences. Ce que vous ne voyez pas détermine 80 % du résultat.", d: "Une séquence mal ciblée envoie des milliers de messages au mauvais profil. Nous passons autant de temps à construire l'infrastructure qu'à l'opérer. Ce que vous ne voyez pas (le sourcing, le scoring, l'architecture technique) détermine 80 % du résultat final." },
-              { t: "On mesure tout, on décide sur les données", s: "Chaque décision est tracée et justifiée par des données. L'opinion n'a pas sa place.", d: "Chaque décision est tracée et justifiée par des données : taux de réponse par segment, par étape, par accroche. Nous n'itérons pas à l'aveugle. Nous mesurons, nous interprétons, nous ajustons. L'opinion n'a pas sa place dans un système d'acquisition." },
-              { t: "Alignés sur vos résultats, pas sur nos heures", s: "On facture ce qu'on livre, pas le temps passé. Nos intérêts sont alignés sur vos résultats.", d: "Nous ne facturons pas du temps passé. Nous facturons ce que nous livrons : un diagnostic, un système déployé, un pilotage mensuel. Cette structure élimine le conflit d'intérêt classique entre prestataire et client. Nous avons autant intérêt que vous à ce que le système produise des résultats réels." },
-              { t: "On vous rend indépendant", s: "Chaque mission se termine par un transfert complet. Vous opérez sans nous si vous le souhaitez.", d: "Nous ne construisons pas des systèmes dont vous seriez dépendants. Chaque mission se termine par un transfert complet : documentation, playbook, formation. L'objectif est que vous puissiez opérer sans nous, ou que vous choisissiez de continuer avec nous. La différence est là." },
+              { t: "On construit avant d'envoyer", s: "L'infrastructure avant les sÃ©quences. Ce que vous ne voyez pas dÃ©termine 80 % du rÃ©sultat.", d: "Une sÃ©quence mal ciblÃ©e envoie des milliers de messages au mauvais profil. Nous passons autant de temps Ã  construire l'infrastructure qu'Ã  l'opÃ©rer. Ce que vous ne voyez pas (le sourcing, le scoring, l'architecture technique) dÃ©termine 80 % du rÃ©sultat final." },
+              { t: "On mesure tout, on dÃ©cide sur les donnÃ©es", s: "Chaque dÃ©cision est tracÃ©e et justifiÃ©e par des donnÃ©es. L'opinion n'a pas sa place.", d: "Chaque dÃ©cision est tracÃ©e et justifiÃ©e par des donnÃ©es : taux de rÃ©ponse par segment, par Ã©tape, par accroche. Nous n'itÃ©rons pas Ã  l'aveugle. Nous mesurons, nous interprÃ©tons, nous ajustons. L'opinion n'a pas sa place dans un systÃ¨me d'acquisition." },
+              { t: "AlignÃ©s sur vos rÃ©sultats, pas sur nos heures", s: "On facture ce qu'on livre, pas le temps passÃ©. Nos intÃ©rÃªts sont alignÃ©s sur vos rÃ©sultats.", d: "Nous ne facturons pas du temps passÃ©. Nous facturons ce que nous livrons : un diagnostic, un systÃ¨me dÃ©ployÃ©, un pilotage mensuel. Cette structure Ã©limine le conflit d'intÃ©rÃªt classique entre prestataire et client. Nous avons autant intÃ©rÃªt que vous Ã  ce que le systÃ¨me produise des rÃ©sultats rÃ©els." },
+              { t: "On vous rend indÃ©pendant", s: "Chaque mission se termine par un transfert complet. Vous opÃ©rez sans nous si vous le souhaitez.", d: "Nous ne construisons pas des systÃ¨mes dont vous seriez dÃ©pendants. Chaque mission se termine par un transfert complet : documentation, playbook, formation. L'objectif est que vous puissiez opÃ©rer sans nous, ou que vous choisissiez de continuer avec nous. La diffÃ©rence est lÃ ." },
             ].map((b, i) => (
               <details
                 key={b.t}
@@ -341,48 +341,48 @@ const Index = () => {
         </div>
       </section>
 
-      {/* BÉNÉFICES */}
+      {/* BÃNÃFICES */}
       <section className="py-16 md:py-20 px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
-            Trois niveaux d'intervention. Un seul objectif : que votre croissance ne dépende plus de vous.
+            Trois niveaux d'intervention. Un seul objectif : que votre croissance ne dÃ©pende plus de vous.
           </h2>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Diagnostic Acquisition : 5 jours</h3>
               <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
-                Nous cartographions votre ICP réel, votre positionnement outbound, et les leviers bloquants. Livrable structuré le jour de la restitution : Fiche ICP, stack recommandée, architecture de séquences.
+                Nous cartographions votre ICP rÃ©el, votre positionnement outbound, et les leviers bloquants. Livrable structurÃ© le jour de la restitution : Fiche ICP, stack recommandÃ©e, architecture de sÃ©quences.
               </p>
-              <p className="mt-6 text-center text-[#c9a24e] text-[11px] tracking-[0.15em] uppercase font-medium">
-                Diagnostic à 1 500 € HT · Déduit intégralement si une mission démarre.
+              <p className="mt-6 text-center text-[#c9a24e] text-[13px] tracking-[0.1em] uppercase font-medium">
+                Diagnostic Ã  1 500 â¬ HT Â· DÃ©duit intÃ©gralement si une mission dÃ©marre.
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
-              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Système déployé & opéré</h3>
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">SystÃ¨me dÃ©ployÃ© & opÃ©rÃ©</h3>
               <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
-                Nous construisons et opérons l'infrastructure : sourcing Clay, enrichissement, séquences Instantly, qualification SQL, CRM. Le fondateur sort de la prospection. Le système entre en fonction.
+                Nous construisons et opÃ©rons l'infrastructure : sourcing Clay, enrichissement, sÃ©quences Instantly, qualification SQL, CRM. Le fondateur sort de la prospection. Le systÃ¨me entre en fonction.
               </p>
-              <p className="mt-6 text-center text-[#c9a24e] text-[11px] tracking-[0.15em] uppercase font-medium">
-                Tarification sur mesure, définie à l'issue du Diagnostic.
+              <p className="mt-6 text-center text-[#c9a24e] text-[13px] tracking-[0.1em] uppercase font-medium">
+                Tarification sur mesure, dÃ©finie Ã  l'issue du Diagnostic.
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Pilotage mensuel</h3>
               <p className="text-[#F5F0E8] text-[13px] md:text-sm leading-relaxed">
-                Nous opérons le système : sourcing continu, optimisation des campagnes, qualification des réponses, reporting hebdomadaire. Vous recevez des prospects qualifiés avec un brief complet (budget, autorité, urgence, contexte). Vous closez.
+                Nous opÃ©rons le systÃ¨me : sourcing continu, optimisation des campagnes, qualification des rÃ©ponses, reporting hebdomadaire. Vous recevez des prospects qualifiÃ©s avec un brief complet (budget, autoritÃ©, urgence, contexte). Vous closez.
               </p>
-              <p className="mt-6 text-center text-[#c9a24e] text-[11px] tracking-[0.15em] uppercase font-medium">
-                Tarification sur mesure, définie à l'issue du Diagnostic.
+              <p className="mt-6 text-center text-[#c9a24e] text-[13px] tracking-[0.1em] uppercase font-medium">
+                Tarification sur mesure, dÃ©finie Ã  l'issue du Diagnostic.
               </p>
             </div>
           </div>
           <p className="text-center text-[#94a3b8] text-xs mt-8">
-            <a href="#phases" className="text-[#c9a24e] hover:underline">Voir comment ça marche →</a>
+            <a href="#phases" className="text-[#c9a24e] hover:underline">Voir comment Ã§a marche â</a>
           </p>
         </div>
       </section>
 
-      {/* SECTION A — INFRASTRUCTURE */}
+      {/* SECTION A â INFRASTRUCTURE */}
       <section id="phases" className="bg-[#0d1b2e] border-t border-b border-[rgba(201,162,78,0.15)] py-16 md:py-28 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
@@ -391,11 +391,11 @@ const Index = () => {
               Comment fonctionne l'infrastructure Code Kaizen
             </h2>
             <p className="text-[#94a3b8] text-[0.9rem] md:text-[0.95rem] leading-relaxed">
-              Un système en 3 étapes, documenté et transmissible.
+              Un systÃ¨me en 3 Ã©tapes, documentÃ© et transmissible.
             </p>
           </div>
 
-          {/* BLOC 1 — Timeline 6 phases */}
+          {/* BLOC 1 â Timeline 6 phases */}
           <div className="mb-16 md:mb-24 max-w-2xl mx-auto">
             <PhasesTimeline />
           </div>
@@ -415,22 +415,22 @@ const Index = () => {
             Ce que Code Kaizen n'est pas
           </h2>
           <p className="text-[#f7f7f7] text-center text-[0.95rem] md:text-[1rem] leading-[1.75] max-w-3xl mx-auto">
-            Pas fait pour vous si votre offre est encore en validation, si votre ticket moyen est inférieur à 5 000 €, ou si vous cherchez une délégation totale sans implication.
+            Pas fait pour vous si votre offre est encore en validation, si votre ticket moyen est infÃ©rieur Ã  5 000 â¬, ou si vous cherchez une dÃ©lÃ©gation totale sans implication.
           </p>
         </div>
       </section>
 
-      {/* COÛT DE L'ATTENTE */}
+      {/* COÃT DE L'ATTENTE */}
       <section className="py-16 md:py-20 px-6 md:px-10 bg-[rgba(201,162,78,0.05)] border-t border-b border-[rgba(201,162,78,0.15)]">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-[#94a3b8] italic text-[0.875rem] mb-4 md:mb-6">
-            Pourquoi démarrer maintenant
+            Pourquoi dÃ©marrer maintenant
           </p>
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-6 md:mb-8 leading-tight">
-            Ce que vous gagnez en démarrant maintenant
+            Ce que vous gagnez en dÃ©marrant maintenant
           </h2>
           <p className="text-[#94a3b8] text-[0.85rem] md:text-[0.9rem] max-w-2xl mx-auto mb-10 md:mb-14 leading-relaxed">
-            Les missions actives sont limitées à 3 simultanément. Quand les créneaux sont pris, les nouvelles missions démarrent en liste d'attente.
+            Les missions actives sont limitÃ©es Ã  3 simultanÃ©ment. Quand les crÃ©neaux sont pris, les nouvelles missions dÃ©marrent en liste d'attente.
           </p>
           <div className="grid md:grid-cols-3 gap-8 md:gap-10 mb-10 md:mb-14">
             <div>
@@ -442,18 +442,18 @@ const Index = () => {
             <div>
               <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">J+35</div>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                Délai moyen pour les premiers rendez-vous qualifiés après le lancement des campagnes.
+                DÃ©lai moyen pour les premiers rendez-vous qualifiÃ©s aprÃ¨s le lancement des campagnes.
               </p>
             </div>
             <div>
               <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">J+90</div>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                Date à laquelle le système vous appartient intégralement, sans condition, sans surcoût.
+                Date Ã  laquelle le systÃ¨me vous appartient intÃ©gralement, sans condition, sans surcoÃ»t.
               </p>
             </div>
           </div>
           <p className="text-[#94a3b8] italic text-[0.85rem] md:text-[0.9rem] max-w-2xl mx-auto mb-6">
-            Pas d'engagement. Pas de pitch commercial. Un diagnostic, un livrable, une décision.
+            Pas d'engagement. Pas de pitch commercial. Un diagnostic, un livrable, une dÃ©cision.
           </p>
           <a
             href="https://tally.so/r/zx0Nrg"
@@ -461,7 +461,7 @@ const Index = () => {
             rel="noopener noreferrer"
             className="bg-gold text-ink inline-flex px-6 py-[14px] sm:px-14 sm:py-6 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
           >
-            Réserver mon Diagnostic
+            RÃ©server mon Diagnostic
           </a>
         </div>
       </section>
@@ -469,7 +469,7 @@ const Index = () => {
       {/* FAQ */}
       <section className="py-16 md:py-20 px-6 md:px-10 bg-secondary/30">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-10 md:mb-16">Questions fréquentes</h2>
+          <h2 className="text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-10 md:mb-16">Questions frÃ©quentes</h2>
           <div className="divide-y divide-border border-y border-border">
             {faqs.map((faq, i) => {
               const open = openFaq.includes(i);
@@ -485,7 +485,7 @@ const Index = () => {
                     />
                   </button>
                   <div
-                    className={`overflow-hidden transition-all duration-500 ${open ? "max-h-40 pb-6" : "max-h-0"}`}
+                    className={`overflow-hidden transition-all duration-500 ${open ? "max-h-96 pb-6" : "max-h-0"}`}
                   >
                     <p className="text-[#F5F0E8] leading-relaxed text-[13px] md:text-sm">{faq.r}</p>
                   </div>
@@ -501,8 +501,8 @@ const Index = () => {
         <div className="max-w-6xl mx-auto flex flex-col items-center gap-8">
           <Logo />
           <nav className="flex flex-wrap justify-center gap-8 text-[10px] tracking-luxe uppercase text-muted-foreground">
-            <a href="#" className="hover:text-gold transition-colors">Mentions légales</a>
-            <a href="#" className="hover:text-gold transition-colors">Confidentialité</a>
+            <a href="#" className="hover:text-gold transition-colors">Mentions lÃ©gales</a>
+            <a href="#" className="hover:text-gold transition-colors">ConfidentialitÃ©</a>
           </nav>
         </div>
       </footer>
