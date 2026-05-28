@@ -169,7 +169,7 @@ const Index = () => {
             </h2>
             <p className="text-[#94a3b8] text-sm mt-1">Fondatrice, Code Kaizen</p>
             <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
-              Je construis des systèmes d'acquisition outbound pour des fondateurs dont l'offre est réelle mais le pipeline reste dépendant d'eux. Pas de théorie. Du déploiement.
+              Je construis l'infrastructure commerciale qui permet aux entreprises founder-led de générer un pipeline prévisible sans dépendre du fondateur. Pas de théorie. De l'exécution.
             </p>
             <a
               href="https://www.linkedin.com/company/code-kaizen"
