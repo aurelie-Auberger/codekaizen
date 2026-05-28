@@ -275,14 +275,6 @@ const Index = () => {
       {/* NOTRE HISTOIRE */}
       <section className="py-16 md:py-20 px-6 md:px-10">
         <div className="max-w-[760px] mx-auto">
-          <div className="text-center mb-12 md:mb-16">
-            <h2 className="font-serif text-[1.6rem] md:text-[2rem] text-ivory leading-tight">
-              Notre histoire
-            </h2>
-            <p className="text-[#c9a24e] font-serif text-lg md:text-xl mt-2">
-              Code Kaizen
-            </p>
-          </div>
 
           <div className="space-y-10 md:space-y-14">
             <div>
