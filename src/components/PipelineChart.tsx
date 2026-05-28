@@ -136,6 +136,7 @@ export default function PipelineChart() {
               Revenue, by <span className="text-[#c9a84c]">system.</span>
             </p>
           </div>
+          </div>
         </div>
       </div>
     </section>
