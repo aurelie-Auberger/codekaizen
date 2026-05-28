@@ -61,7 +61,7 @@ const expertise = [
 const faqs = [
   { q: "Qui gère le closing ?", r: "Le closing reste entre vos mains. Vous connaissez votre marché, vos clients, vos relations : c'est votre actif. Notre rôle s'arrête au rendez-vous qualifié. Nous vous livrons un brief complet sur chaque prospect (budget, autorité de décision, urgence, contexte) pour que votre première conversation soit commerciale, pas exploratoire. Vous gardez le contrôle de votre relation commerciale. Nous la rendons plus prévisible." },
   { q: "C'est quoi le Diagnostic Acquisition ?", r: "5 jours ouvrés pendant lesquels nous analysons votre ICP réel, votre positionnement marché, vos séquences actuelles si elles existent, et les leviers bloquants. La restitution se fait en call de 45 minutes. Vous repartez avec une décision claire, pas un rapport à lire seul. Livrable : fiche ICP opérationnelle, architecture de séquences recommandée, stack technique adaptée à votre secteur, et priorités d'exécution. Facturé 500 € HT, intégralement déduit si une mission de construction démarre." },
-  { q: "Comment fonctionne la tarification ?", r: "Le diagnostic est facturé 500 € HT, déduit si une mission démarre. La construction du système est facturée à l'acte selon la complexité. Le pilotage est facturé mensuellement, sans engagement de durée. Pas de commission sur votre CA, pas de coûts variables cachés : vous savez exactement ce que vous payez et pourquoi." },
+  { q: "Comment fonctionne la tarification ?", r: "La tarification est définie au cas par cas lors du Diagnostic — c'est précisément l'objet de la restitution. Le diagnostic est facturé 500 € HT, intégralement déduit si une mission démarre. La construction et le pilotage sont calibrés selon la complexité de votre marché et le périmètre défini ensemble. Pas de commission sur votre CA, pas de coûts variables cachés." },
   { q: "Que se passe-t-il après 12 mois ?", r: "Le système vous appartient intégralement : séquences, bases de contacts, automations, documentation. Vous pouvez l'opérer en interne ou prolonger le partenariat. Aucun engagement de renouvellement." },
   { q: "Quel est le délai pour voir les premiers résultats ?", r: "Les premiers RDV qualifiés arrivent généralement entre J+21 et J+35 après le lancement du système. Le pipeline significatif se construit entre J+45 et J+90 selon le secteur et le ticket moyen de votre offre." },
 ];
@@ -138,9 +138,6 @@ const Index = () => {
           </p>
           <p className="inline-block border border-[rgba(201,162,78,0.4)] bg-[rgba(201,162,78,0.08)] rounded-full px-5 py-1.5 text-sm text-[#c9a84c] not-italic mx-auto">
             Pour les fondateurs et dirigeants B2B avec une offre validée, un ticket moyen ≥ 5 000 € et zéro système d'acquisition structuré.
-          </p>
-          <p className="text-[#94a3b8] italic text-[0.85rem] mb-8 md:mb-10">
-            Vous gardez le contrôle de votre relation commerciale. Nous la rendons plus prévisible.
           </p>
           <p className="text-[#94a3b8] italic text-[0.85rem] mb-6 md:mb-8">
             Le Diagnostic prend 5 jours. Ce qu'il révèle change la trajectoire.
@@ -258,7 +255,7 @@ const Index = () => {
             </div>
           </div>
           <p className="text-[#94a3b8] italic text-center mt-10 md:mt-14 text-[0.875rem] max-w-2xl mx-auto">
-            Ces missions ont été conduites avant la création formelle de Code Kaizen, non rémunérées, dans le cadre de ma formation. Les systèmes, les outils et les résultats sont réels. Code Kaizen formalise aujourd'hui cette exécution avec un cadre contractuel et une priorité unique : votre pipeline.
+            Ces missions ont été conduites avant la création formelle de Code Kaizen — missions terrain, non rémunérées. Les systèmes, les outils et les résultats sont réels.
           </p>
         </div>
       </section>
@@ -281,7 +278,7 @@ const Index = () => {
                 Ce que je construis
               </h3>
               <p className="text-[#f7f7f7] text-[1rem] md:text-[1.05rem] leading-[1.85]">
-                Pas de campagnes. Pas de hacks. Des systèmes. Un système d'acquisition, c'est une architecture : ICP défini avec précision, personas construits sur des comportements réels, séquences multicanal calibrées, personnalisation au niveau du signal, relances automatisées, pipeline qualifié. Chaque composant est pensé pour fonctionner avec les autres, et pour durer sans moi. La philosophie Kaizen, c'est l'amélioration continue appliquée à l'exécution. Ce n'est pas un positionnement marketing. C'est la manière dont je travaille : mesurer, itérer, affiner. Jamais figer. Jamais improviser. Je ne suis pas une agence. Je suis l'architecte du pipeline.
+                Pas de campagnes. Pas de hacks. Des systèmes. Un système d'acquisition, c'est une architecture : ICP défini avec précision, personas construits sur des comportements réels, séquences multicanal calibrées, personnalisation au niveau du signal, relances automatisées, pipeline qualifié. Chaque composant est pensé pour fonctionner avec les autres, et pour durer sans moi. Je ne suis pas une agence. Je suis l'architecte du pipeline.
               </p>
             </div>
 
