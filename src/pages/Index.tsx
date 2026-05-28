@@ -404,38 +404,6 @@ const Index = () => {
       </section>
 
 
-      {/* CAS CLIENTS */}
-      <section className="py-16 md:py-20 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-4 md:mb-6 leading-tight">
-            Ce que vous recevez à la fin
-          </h2>
-          <p className="text-[#94a3b8] text-center text-[0.875rem] mb-10 md:mb-16">
-            Les livrables concrets de chaque mission : documentés, transmissibles, opérables sans nous.
-          </p>
-          <div className="grid md:grid-cols-3 gap-6 md:gap-8">
-            {[
-              {
-                t: "Fiche ICP opérationnelle",
-                d: "Définition précise de votre client idéal : secteur, taille, poste, déclencheurs d'achat, objections récurrentes, cycle de décision. La base sur laquelle tout le système est construit. Pas un persona marketing, mais un outil d'exécution.",
-              },
-              {
-                t: "Système outbound documenté",
-                d: "Séquences email et LinkedIn, domaines d'envoi configurés, workflows de qualification, scoring SQL, intégration CRM. Chaque composant est documenté et transférable à votre équipe ou à un futur prestataire.",
-              },
-              {
-                t: "Playbook de transmission",
-                d: "Guide opérationnel complet : comment opérer le système en interne, comment recruter pour le faire tourner, comment l'adapter si votre ICP évolue. Vous n'êtes jamais dépendants d'une personne pour faire fonctionner votre acquisition.",
-              },
-            ].map((c) => (
-              <div key={c.t} className="bg-[#111927] border border-[rgba(201,162,78,0.3)] rounded-lg p-6">
-                <div className="text-[#c9a24e] text-[13px] md:text-sm font-medium mb-5">{c.t}</div>
-                <div className="text-[#f7f7f7] text-[13px] md:text-sm leading-relaxed">{c.d}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
 
       {/* CE QUE CODE KAIZEN N'EST PAS */}
