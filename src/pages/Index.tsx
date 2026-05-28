@@ -155,33 +155,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* SIGNATURE FONDATRICE */}
-      <section className="py-16 md:py-20 px-6 md:px-10">
-        <div className="max-w-[900px] mx-auto grid md:grid-cols-[180px_1fr] gap-8 md:gap-12 items-center">
-          <img
-            src={aurelieImg}
-            alt="Aurélie Auberger, fondatrice de Code Kaizen"
-            className="w-[140px] h-[140px] md:w-[180px] md:h-[180px] rounded-full object-cover object-top mx-auto md:mx-0 border border-[rgba(201,162,78,0.25)]"
-          />
-          <div className="text-center md:text-left">
-            <h2 className="font-serif text-[#c9a84c] text-[1.4rem] md:text-[1.6rem] leading-tight">
-              Aurélie Auberger
-            </h2>
-            <p className="text-[#94a3b8] text-sm mt-1">Fondatrice, Code Kaizen</p>
-            <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
-              Je construis l'infrastructure commerciale qui permet aux entreprises founder-led de générer un pipeline prévisible sans dépendre du fondateur. Pas de théorie. De l'exécution.
-            </p>
-            <a
-              href="https://www.linkedin.com/company/code-kaizen"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center text-[#c9a84c] text-sm hover:text-ivory transition-colors"
-            >
-              → Profil LinkedIn Code Kaizen
-            </a>
-          </div>
-        </div>
-      </section>
+
+
 
 
 
@@ -259,6 +234,36 @@ const Index = () => {
           </p>
         </div>
       </section>
+
+      {/* SIGNATURE FONDATRICE */}
+      <section className="py-16 md:py-20 px-6 md:px-10">
+        <div className="max-w-[900px] mx-auto grid md:grid-cols-[180px_1fr] gap-8 md:gap-12 items-center">
+          <img
+            src={aurelieImg}
+            alt="Aurélie Auberger, fondatrice de Code Kaizen"
+            className="w-[140px] h-[140px] md:w-[180px] md:h-[180px] rounded-full object-cover object-top mx-auto md:mx-0 border border-[rgba(201,162,78,0.25)]"
+          />
+          <div className="text-center md:text-left">
+            <h2 className="font-serif text-[#c9a84c] text-[1.4rem] md:text-[1.6rem] leading-tight">
+              Aurélie Auberger
+            </h2>
+            <p className="text-[#94a3b8] text-sm mt-1">Fondatrice, Code Kaizen</p>
+            <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
+              Je construis l'infrastructure commerciale qui permet aux entreprises founder-led de générer un pipeline prévisible sans dépendre du fondateur. Pas de théorie. De l'exécution.
+            </p>
+            <a
+              href="https://www.linkedin.com/company/code-kaizen"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center text-[#c9a84c] text-sm hover:text-ivory transition-colors"
+            >
+              → Profil LinkedIn Code Kaizen
+            </a>
+          </div>
+        </div>
+      </section>
+
+
 
       {/* NOTRE HISTOIRE */}
       <section className="py-16 md:py-20 px-6 md:px-10">
