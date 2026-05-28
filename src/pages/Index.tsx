@@ -134,10 +134,10 @@ const Index = () => {
             Votre offre est solide. Votre pipeline, lui, dépend encore de vous.
           </h1>
           <p className="text-[#94a3b8] max-w-2xl mx-auto text-[0.95rem] leading-[1.75] mb-4">
-            Code Kaizen construit et opère votre système d'acquisition outbound, de l'ICP au rendez-vous qualifié. Vous arrêtez de prospecter. Le pipeline, lui, continue.
+            Code Kaizen installe l'infrastructure commerciale qui permet à votre entreprise de générer un pipeline prévisible sans dépendre de vous. Vous gardez le contrôle stratégique. Le système opère sans vous.
           </p>
           <p className="inline-block border border-[rgba(201,162,78,0.4)] bg-[rgba(201,162,78,0.08)] rounded-full px-5 py-1.5 text-sm text-[#c9a84c] not-italic mx-auto">
-            Pour les fondateurs et dirigeants B2B avec une offre validée, un ticket moyen ≥ 5 000 € et zéro système d'acquisition structuré.
+            Pour les fondateurs et dirigeants d'entreprises B2B founder-led avec une offre validée, un ticket ≥ 5 000 € et une croissance encore dépendante du réseau du fondateur.
           </p>
           <p className="text-[#94a3b8] italic text-[0.85rem] mb-6 md:mb-8">
             Le Diagnostic prend 5 jours. Ce qu'il révèle change la trajectoire.
@@ -300,7 +300,7 @@ const Index = () => {
       <section className="py-16 md:py-20 px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
-            Une infrastructure d'acquisition. Construite, pilotée, transmise.
+            Trois niveaux d'intervention. Un seul objectif : que votre croissance ne dépende plus de vous.
           </h2>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
