@@ -22,6 +22,7 @@ import {
 } from "lucide-react";
 import Logo from "@/components/Logo";
 import PhasesTimeline from "@/components/PhasesTimeline";
+import PipelineChart from "@/components/PipelineChart";
 
 import aurelieImg from "@/assets/aurelie.png";
 import logoSpecgen from "@/assets/logo-specgen.png";
