@@ -169,7 +169,7 @@ const Index = () => {
             </h2>
             <p className="text-[#94a3b8] text-sm mt-1">Fondatrice, Code Kaizen</p>
             <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
-              Je construis des systèmes d'acquisition outbound pour des fondateurs dont l'offre est réelle mais le pipeline reste dépendant d'eux. Pas de théorie. Du déploiement.
+              Je construis l'infrastructure commerciale qui permet aux entreprises founder-led de générer un pipeline prévisible sans dépendre du fondateur. Pas de théorie. De l'exécution.
             </p>
             <a
               href="https://www.linkedin.com/company/code-kaizen"
@@ -444,7 +444,7 @@ const Index = () => {
           </p>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8 text-left">
             {[
-              "Votre offre est encore en phase de validation marché. Nous construisons des systèmes d'acquisition, pas des outils de discovery produit.",
+              "Votre offre est encore en phase de validation marché. Nous construisons des infrastructures commerciales, pas des outils de discovery produit.",
               "Votre ticket moyen est inférieur à 5 000 € par deal. Le pilotage mensuel n'est pas rentable en dessous de ce seuil, ni pour vous, ni pour nous.",
               "Vous cherchez une délégation totale sans implication. Les 4 premières semaines requièrent 2h/semaine de votre temps pour calibrer l'ICP et valider les séquences.",
             ].map((text, i) => (
