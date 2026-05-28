@@ -282,13 +282,13 @@ const Index = () => {
                 Ce que je construis
               </h3>
               <p className="text-[#f7f7f7] text-[1rem] md:text-[1.05rem] leading-[1.85]">
-                Pas des campagnes. Pas des hacks. Une infrastructure. Construire un système d'acquisition, c'est architecturer quelque chose de durable : ICP défini sur des comportements réels, séquences multicanal calibrées, qualification SQL, pipeline documenté. Chaque composant conçu pour fonctionner ensemble — et pour opérer sans vous. Je ne suis pas une agence. Je suis l'architecte de votre infrastructure commerciale.
+                Chaque mission produit une infrastructure documentée, transmissible, opérable sans nous à l'issue de la mission.
               </p>
             </div>
 
             <div className="border-t border-[rgba(201,162,78,0.2)] pt-10 md:pt-14">
               <p className="text-[#f7f7f7] text-[1rem] md:text-[1.05rem] leading-[1.85]">
-                Chaque mission est construite sur mesure, documentée en temps réel, et transmise intégralement à la fin. Vous n'achetez pas une prestation. Vous acquérez une infrastructure : scalable, opérable, transmissible. Ce qui reste quand la mission se termine, c'est un système qui tourne sans vous.
+                Vous n'achetez pas une prestation. Vous acquérez un actif commercial qui tourne sans vous.
               </p>
               <p className="text-[#c9a24e] italic text-center mt-8 font-serif text-lg">
                 Revenue, by system.
