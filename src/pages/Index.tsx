@@ -300,6 +300,45 @@ const Index = () => {
 
 
 
+      {/* SECTION B — PRINCIPES */}
+      <section className="bg-[#0d1b2e] border-b border-[rgba(201,162,78,0.15)] py-16 md:py-24 px-6 md:px-10">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-3 md:mb-4 leading-tight">
+            Nos principes
+          </h2>
+          <p className="text-[#94a3b8] text-center text-[0.875rem] mb-12 md:mb-16">
+            Ce qui guide chaque décision, chaque séquence, chaque mission.
+          </p>
+          <div className="grid md:grid-cols-2 gap-5 md:gap-6">
+            {[
+              { t: "On construit avant d'envoyer", s: "L'infrastructure avant les séquences. Ce que vous ne voyez pas détermine 80 % du résultat.", d: "Une séquence mal ciblée envoie des milliers de messages au mauvais profil. Nous passons autant de temps à construire l'infrastructure qu'à l'opérer. Ce que vous ne voyez pas (le sourcing, le scoring, l'architecture technique) détermine 80 % du résultat final." },
+              { t: "On mesure tout, on décide sur les données", s: "Chaque décision est tracée et justifiée par des données. L'opinion n'a pas sa place.", d: "Chaque décision est tracée et justifiée par des données : taux de réponse par segment, par étape, par accroche. Nous n'itérons pas à l'aveugle. Nous mesurons, nous interprétons, nous ajustons. L'opinion n'a pas sa place dans un système d'acquisition." },
+              { t: "Alignés sur vos résultats, pas sur nos heures", s: "On facture ce qu'on livre, pas le temps passé. Nos intérêts sont alignés sur vos résultats.", d: "Nous ne facturons pas du temps passé. Nous facturons ce que nous livrons : un diagnostic, un système déployé, un pilotage mensuel. Cette structure élimine le conflit d'intérêt classique entre prestataire et client. Nous avons autant intérêt que vous à ce que le système produise des résultats réels." },
+              { t: "On vous rend indépendant", s: "Chaque mission se termine par un transfert complet. Vous opérez sans nous si vous le souhaitez.", d: "Nous ne construisons pas des systèmes dont vous seriez dépendants. Chaque mission se termine par un transfert complet : documentation, playbook, formation. L'objectif est que vous puissiez opérer sans nous, ou que vous choisissiez de continuer avec nous. La différence est là." },
+            ].map((b, i) => (
+              <details
+                key={b.t}
+                className="group bg-[#152339] border-l-[3px] border-l-[#c9a84c] border-y border-r border-y-[rgba(201,168,76,0.15)] border-r-[rgba(201,168,76,0.15)] rounded-r-lg p-6 md:p-7 hover:bg-[#1a2842] transition-colors"
+              >
+                <summary className="flex gap-5 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                  <div className="font-serif text-[#c9a84c] text-[2rem] md:text-[2.4rem] leading-none flex-shrink-0">
+                    {String(i + 1).padStart(2, "0")}
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-white text-base md:text-lg font-bold leading-tight mb-2">{b.t}</h3>
+                    <p className="text-[#94a3b8] text-[13px] md:text-sm leading-relaxed">{b.s}</p>
+                  </div>
+                  <div className="text-[#c9a84c] text-xl flex-shrink-0 transition-transform group-open:rotate-45 self-start">+</div>
+                </summary>
+                <p className="text-[#94a3b8] text-[13px] md:text-sm leading-relaxed mt-4 pl-[calc(2rem+1.25rem)] md:pl-[calc(2.4rem+1.25rem)]">{b.d}</p>
+              </details>
+            ))}
+          </div>
+
+
+        </div>
+      </section>
+
       {/* BÉNÉFICES */}
       <section className="py-16 md:py-20 px-6 md:px-10">
         <div className="max-w-6xl mx-auto text-center">
@@ -398,44 +437,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* SECTION B — PRINCIPES */}
-      <section className="bg-[#0d1b2e] border-b border-[rgba(201,162,78,0.15)] py-16 md:py-24 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-3 md:mb-4 leading-tight">
-            Nos principes
-          </h2>
-          <p className="text-[#94a3b8] text-center text-[0.875rem] mb-12 md:mb-16">
-            Ce qui guide chaque décision, chaque séquence, chaque mission.
-          </p>
-          <div className="grid md:grid-cols-2 gap-5 md:gap-6">
-            {[
-              { t: "On construit avant d'envoyer", s: "L'infrastructure avant les séquences. Ce que vous ne voyez pas détermine 80 % du résultat.", d: "Une séquence mal ciblée envoie des milliers de messages au mauvais profil. Nous passons autant de temps à construire l'infrastructure qu'à l'opérer. Ce que vous ne voyez pas (le sourcing, le scoring, l'architecture technique) détermine 80 % du résultat final." },
-              { t: "On mesure tout, on décide sur les données", s: "Chaque décision est tracée et justifiée par des données. L'opinion n'a pas sa place.", d: "Chaque décision est tracée et justifiée par des données : taux de réponse par segment, par étape, par accroche. Nous n'itérons pas à l'aveugle. Nous mesurons, nous interprétons, nous ajustons. L'opinion n'a pas sa place dans un système d'acquisition." },
-              { t: "Alignés sur vos résultats, pas sur nos heures", s: "On facture ce qu'on livre, pas le temps passé. Nos intérêts sont alignés sur vos résultats.", d: "Nous ne facturons pas du temps passé. Nous facturons ce que nous livrons : un diagnostic, un système déployé, un pilotage mensuel. Cette structure élimine le conflit d'intérêt classique entre prestataire et client. Nous avons autant intérêt que vous à ce que le système produise des résultats réels." },
-              { t: "On vous rend indépendant", s: "Chaque mission se termine par un transfert complet. Vous opérez sans nous si vous le souhaitez.", d: "Nous ne construisons pas des systèmes dont vous seriez dépendants. Chaque mission se termine par un transfert complet : documentation, playbook, formation. L'objectif est que vous puissiez opérer sans nous, ou que vous choisissiez de continuer avec nous. La différence est là." },
-            ].map((b, i) => (
-              <details
-                key={b.t}
-                className="group bg-[#152339] border-l-[3px] border-l-[#c9a84c] border-y border-r border-y-[rgba(201,168,76,0.15)] border-r-[rgba(201,168,76,0.15)] rounded-r-lg p-6 md:p-7 hover:bg-[#1a2842] transition-colors"
-              >
-                <summary className="flex gap-5 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-                  <div className="font-serif text-[#c9a84c] text-[2rem] md:text-[2.4rem] leading-none flex-shrink-0">
-                    {String(i + 1).padStart(2, "0")}
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-white text-base md:text-lg font-bold leading-tight mb-2">{b.t}</h3>
-                    <p className="text-[#94a3b8] text-[13px] md:text-sm leading-relaxed">{b.s}</p>
-                  </div>
-                  <div className="text-[#c9a84c] text-xl flex-shrink-0 transition-transform group-open:rotate-45 self-start">+</div>
-                </summary>
-                <p className="text-[#94a3b8] text-[13px] md:text-sm leading-relaxed mt-4 pl-[calc(2rem+1.25rem)] md:pl-[calc(2.4rem+1.25rem)]">{b.d}</p>
-              </details>
-            ))}
-          </div>
-
-
-        </div>
-      </section>
 
       {/* CE QUE CODE KAIZEN N'EST PAS */}
       <section className="py-16 md:py-20 px-6 md:px-10">
