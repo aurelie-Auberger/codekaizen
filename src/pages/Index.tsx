@@ -245,9 +245,10 @@ const Index = () => {
           />
           <div className="text-center md:text-left">
             <h2 className="font-serif text-[#c9a84c] text-[1.4rem] md:text-[1.6rem] leading-tight">
-              Aurélie Auberger
+              Aurélie Auberger — Fondatrice de Code Kaizen
             </h2>
-            <p className="text-[#94a3b8] text-sm mt-1">Fondatrice, Code Kaizen</p>
+
+            
             <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
               Je construis l'infrastructure commerciale qui permet aux entreprises founder-led de générer un pipeline prévisible sans dépendre du fondateur. Pas de théorie. De l'exécution.
             </p>
