@@ -250,7 +250,13 @@ const Index = () => {
 
             
             <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
-              Je construis l'infrastructure commerciale qui permet aux entreprises founder-led de générer un pipeline prévisible sans dépendre du fondateur. Pas de théorie. De l'exécution.
+              Beaucoup d'entreprises B2B ont une offre solide, mais une acquisition encore trop dépendante du fondateur.
+            </p>
+            <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
+              Code Kaizen aide les entreprises founder-led à structurer une infrastructure commerciale capable de générer un pipeline plus prévisible, plus stable et transmissible.
+            </p>
+            <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
+              L'objectif n'est pas de multiplier les actions. L'objectif est de construire un système de croissance qui fonctionne durablement.
             </p>
             <a
               href="https://www.linkedin.com/company/code-kaizen"
