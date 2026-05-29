@@ -206,7 +206,7 @@ const Index = () => {
           </h2>
           <div className="grid md:grid-cols-2 gap-6 md:gap-8 text-left">
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6 md:p-8">
-              <div className="bg-transparent inline-flex items-center justify-center px-4 py-2 mb-5">
+              <div className="bg-[rgba(255,255,255,0.06)] border border-[rgba(201,162,78,0.15)] inline-flex items-center justify-center px-4 py-2 mb-5 rounded">
                 <img src={logoSpecgen} alt="Logo Specgen" className="h-8 w-auto" />
               </div>
               <h3 className="text-[#c9a24e] text-lg font-medium mb-4">SpecGen, SaaS IA appels d'offres</h3>
@@ -409,7 +409,7 @@ const Index = () => {
 
 
       {/* CE QUE CODE KAIZEN N'EST PAS */}
-      <section className="py-16 md:py-20 px-6 md:px-10">
+      <section className="py-10 md:py-14 px-6 md:px-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory text-center mb-4 md:mb-6 leading-tight">
             Ce que Code Kaizen n'est pas
