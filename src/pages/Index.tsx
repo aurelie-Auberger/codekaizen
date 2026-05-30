@@ -291,31 +291,6 @@ const Index = () => {
 
 
 
-      {/* NOTRE HISTOIRE */}
-      <section className="py-8 md:py-12 px-6 md:px-10">
-        <div className="max-w-[760px] mx-auto">
-
-          <div className="space-y-10 md:space-y-14">
-            <div>
-              <h3 className="font-serif text-[#c9a24e] text-xl md:text-2xl mb-5">
-                Ce que je construis
-              </h3>
-              <p className="text-[#f7f7f7] text-[1rem] md:text-[1.05rem] leading-[1.85]">
-                Chaque mission produit une infrastructure documentée, transmissible, opérable sans nous à l'issue de la mission.
-              </p>
-            </div>
-
-            <div className="border-t border-[rgba(201,162,78,0.2)] pt-10 md:pt-14">
-              <p className="text-[#f7f7f7] text-[1rem] md:text-[1.05rem] leading-[1.85]">
-                Vous n'achetez pas une prestation. Vous acquérez un actif commercial qui tourne sans vous.
-              </p>
-              <p className="text-[#c9a24e] italic text-center mt-8 font-serif text-lg">
-                Revenue, by system.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
 
       <PipelineChart />
