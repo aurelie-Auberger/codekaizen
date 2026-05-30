@@ -462,50 +462,62 @@ const Index = () => {
 
       {/* COÛT DE L'ATTENTE */}
       <section className="py-16 md:py-20 px-6 md:px-10 bg-[rgba(201,162,78,0.05)] border-t border-b border-[rgba(201,162,78,0.15)]">
-        <div className="max-w-6xl mx-auto text-center">
-          <p className="text-[#94a3b8] italic text-[0.875rem] mb-4 md:mb-6">
-            Pourquoi démarrer maintenant
-          </p>
-          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-6 md:mb-8 leading-tight">
-            Ce que vous gagnez en démarrant maintenant
+        <div className="max-w-3xl mx-auto">
+          <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-14 leading-tight text-center">
+            Ce que vous gagnez concrètement
           </h2>
-          <p className="text-[#94a3b8] text-[0.85rem] md:text-[0.9rem] max-w-2xl mx-auto mb-10 md:mb-14 leading-relaxed">
-            Les missions actives sont limitées à 3 simultanément. Quand les créneaux sont pris, les nouvelles missions démarrent en liste d'attente.
-          </p>
-          <div className="grid md:grid-cols-3 gap-8 md:gap-10 mb-10 md:mb-14">
+
+          <div className="space-y-8 md:space-y-10 mb-10 md:mb-14">
             <div>
-              <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">2h / semaine</div>
+              <p className="text-gold text-[1.5rem] md:text-[1.75rem] font-bold leading-tight mb-3">
+                10 heures par semaine.
+              </p>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                C'est le seul temps que nous vous demandons pendant le premier mois. Le reste, c'est nous.
+                C'est le temps que la majorité des équipes B2B perdent encore en prospection manuelle. Du temps de fondateur. Du temps de décideur. Du temps qui ne devrait pas être là.
               </p>
             </div>
+
             <div>
-              <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">J+35</div>
+              <p className="text-gold text-[1.5rem] md:text-[1.75rem] font-bold leading-tight mb-3">
+                +50 % de leads qualifiés.
+              </p>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                Délai moyen pour les premiers rendez-vous qualifiés après le lancement des campagnes.
+                C'est ce que produisent en moyenne les entreprises qui structurent leur prospection avec un système automatisé. Pas plus d'efforts. Un meilleur système.
               </p>
             </div>
+
             <div>
-              <div className="text-[#c9a24e] text-[2rem] md:text-[2.5rem] font-bold leading-tight mb-4">J+90</div>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
-                Date à laquelle le système vous appartient intégralement, sans condition, sans surcoût.
+                Un SDR sans système improvise. Avec le bon système, il performe.
+              </p>
+            </div>
+
+            <div>
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
+                Le calcul est simple. Chaque rendez-vous qualifié que vous n'allez pas chercher vous-même est une opportunité de plus sur votre pipeline. Sur un ticket moyen de 5 000 €, un seul deal supplémentaire par mois couvre largement l'investissement. Le système travaille. Vous closez.
+              </p>
+            </div>
+
+            <div>
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
+                Les premiers rendez-vous qualifiés arrivent en moyenne à J+35. À J+90, le système vous appartient.
               </p>
             </div>
           </div>
-          <p className="text-[#94a3b8] italic text-[0.85rem] md:text-[0.9rem] max-w-2xl mx-auto mb-6">
-            Pas d'engagement. Pas de pitch commercial. Un diagnostic, un livrable, une décision.
-          </p>
-          <p className="text-[#94a3b8] text-[0.85rem] md:text-[0.9rem] max-w-2xl mx-auto mb-6 leading-relaxed">
+
+          <p className="text-[#94a3b8] text-[0.85rem] md:text-[0.9rem] text-center max-w-2xl mx-auto mb-6 leading-relaxed">
             Un échange de 30 minutes. Vous repartez avec une lecture claire de votre situation et une décision, quelle qu'elle soit.
           </p>
-          <a
-            href="https://tally.so/r/zx0Nrg"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gold text-ink inline-flex px-6 py-[14px] sm:px-14 sm:py-6 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
-          >
-            Réserver un échange
-          </a>
+          <div className="text-center">
+            <a
+              href="https://tally.so/r/zx0Nrg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gold text-ink inline-flex px-6 py-[14px] sm:px-14 sm:py-6 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
+            >
+              Réserver un échange
+            </a>
+          </div>
         </div>
       </section>
 
