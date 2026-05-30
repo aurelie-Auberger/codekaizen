@@ -219,9 +219,6 @@ const Index = () => {
               <p className="text-[#c9a84c] text-sm font-medium leading-relaxed mb-5">
                 794 emails · 100 % délivrés · 55 % d'ouverture · 46 % de clics · 17 inscrits au webinaire
               </p>
-              <p className="text-[#94a3b8] text-[0.85rem] leading-relaxed">
-                Contexte : mission conduite en environnement de formation terrain, sur une vraie entreprise, avec de vrais outils. Ce sont les systèmes et les résultats qui sont documentés ici.
-              </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6 md:p-8">
               <div className="mb-5">
@@ -236,9 +233,6 @@ const Index = () => {
               </p>
               <p className="text-[#c9a84c] text-sm font-medium leading-relaxed mb-5">
                 356 emails · 51,9 % d'ouverture · 21,5 % de taux de réponse · 2 prospects qualifiés en demande active
-              </p>
-              <p className="text-[#94a3b8] text-[0.85rem] leading-relaxed">
-                Contexte : mission conduite en environnement de formation terrain, sur une vraie startup, avec de vrais outils.
               </p>
             </div>
           </div>
