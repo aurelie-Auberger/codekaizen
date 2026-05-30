@@ -202,37 +202,46 @@ const Index = () => {
       <section className="py-16 md:py-20 px-6 md:px-10">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="font-serif text-[1.3rem] md:text-[1.6rem] text-ivory mb-10 md:mb-16 leading-tight">
-            Ce que ces missions ont démontré
+            Exemples de missions
           </h2>
           <div className="grid md:grid-cols-2 gap-6 md:gap-8 text-left">
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6 md:p-8">
               <div className="bg-[rgba(255,255,255,0.06)] border border-[rgba(201,162,78,0.15)] inline-flex items-center justify-center px-4 py-2 mb-5 rounded">
                 <img src={logoSpecgen} alt="Logo Specgen" className="h-8 w-auto" />
               </div>
-              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">SpecGen, SaaS IA appels d'offres</h3>
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">SpecGen · SaaS IA · Appels d'offres</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-5">
-                Stratégie d'acquisition construite de zéro pour une startup sans infrastructure outbound : ICP défini, base de 5 000 contacts extraits et enrichis sur LinkedIn, campagne email déployée.
+                Startup sans infrastructure outbound, zéro système en place. Mission : générer des inscriptions à un webinaire sur l'IA et les appels d'offres, de A à Z.
               </p>
-              <p className="text-[#c9a84c] text-sm font-medium leading-relaxed">
-                794 emails · 55 % d'ouverture · 46 % de clics · 17 inscrits au webinaire
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-5">
+                ICP défini. Base de 5 000 contacts extraits et enrichis sur LinkedIn. Campagne email déployée sur 794 contacts.
+              </p>
+              <p className="text-[#c9a84c] text-sm font-medium leading-relaxed mb-5">
+                794 emails · 100 % délivrés · 55 % d'ouverture · 46 % de clics · 17 inscrits au webinaire
+              </p>
+              <p className="text-[#94a3b8] text-[0.85rem] leading-relaxed">
+                Contexte : mission conduite en environnement de formation terrain, sur une vraie entreprise, avec de vrais outils. Ce sont les systèmes et les résultats qui sont documentés ici.
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-6 md:p-8">
               <div className="mb-5">
                 <img src={logoIsssa} alt="Logo Issa" className="h-12 w-12 rounded-full object-cover" />
               </div>
-              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Issa, startup RSE (Nice)</h3>
+              <h3 className="text-[#c9a24e] text-lg font-medium mb-4">Isssa · Startup RSE · Nice</h3>
               <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-5">
-                Système de prospection LinkedIn et emailing multicanal construit sur un marché B2B local. ICP, séquences, A/B testing, workflow automatisé.
+                Marché B2B local, zéro présence outbound. Mission : construire le système multicanal et qualifier les premières réponses.
               </p>
-              <p className="text-[#c9a84c] text-sm font-medium leading-relaxed">
-                160 leads construits · 51,9 % d'ouverture email · 21,5 % de taux de réponse
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-5">
+                ICP défini. 160 leads construits. Séquences LinkedIn + email déployées avec A/B testing.
+              </p>
+              <p className="text-[#c9a84c] text-sm font-medium leading-relaxed mb-5">
+                356 emails · 51,9 % d'ouverture · 21,5 % de taux de réponse · 2 prospects qualifiés en demande active
+              </p>
+              <p className="text-[#94a3b8] text-[0.85rem] leading-relaxed">
+                Contexte : mission conduite en environnement de formation terrain, sur une vraie startup, avec de vrais outils.
               </p>
             </div>
           </div>
-          <p className="text-[#94a3b8] italic text-center mt-10 md:mt-14 text-[0.875rem] max-w-2xl mx-auto">
-            Ces missions ont été conduites avant la création formelle de Code Kaizen — missions terrain, non rémunérées. Les systèmes, les outils et les résultats sont réels.
-          </p>
         </div>
       </section>
 
