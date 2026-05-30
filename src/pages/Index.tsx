@@ -123,7 +123,7 @@ const Index = () => {
               scrolled ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"
             }`}
           >
-            Réserver mon Diagnostic
+            Réserver un échange
           </a>
         </div>
       </header>
@@ -150,7 +150,7 @@ const Index = () => {
               rel="noopener noreferrer"
               className="bg-gold text-ink mx-auto inline-flex w-auto px-12 py-4 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
             >
-              Réserver mon Diagnostic
+              Réserver un échange
             </a>
           </div>
         </div>
@@ -494,6 +494,9 @@ const Index = () => {
           </div>
           <p className="text-[#94a3b8] italic text-[0.85rem] md:text-[0.9rem] max-w-2xl mx-auto mb-6">
             Pas d'engagement. Pas de pitch commercial. Un diagnostic, un livrable, une décision.
+          </p>
+          <p className="text-[#94a3b8] text-[0.85rem] md:text-[0.9rem] max-w-2xl mx-auto mb-6 leading-relaxed">
+            Un échange de 30 minutes. Vous repartez avec une lecture claire de votre situation et une décision, quelle qu'elle soit.
           </p>
           <a
             href="https://tally.so/r/zx0Nrg"
