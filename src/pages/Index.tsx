@@ -366,26 +366,82 @@ const Index = () => {
         </div>
       </section>
 
-      {/* SECTION A — INFRASTRUCTURE */}
+      {/* SECTION A — COMMENT SE PASSE UNE MISSION */}
       <section id="phases" className="bg-[#0d1b2e] border-t border-b border-[rgba(201,162,78,0.15)] py-16 md:py-28 px-6 md:px-10">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-3xl mx-auto">
           {/* Header */}
           <div className="text-center mb-12 md:mb-16">
             <h2 className="font-serif text-[1.5rem] md:text-[2.1rem] text-ivory mb-4 leading-tight">
-              Comment fonctionne l'infrastructure Code Kaizen
+              Comment se passe une mission Code Kaizen
             </h2>
             <p className="text-[#94a3b8] text-[0.9rem] md:text-[0.95rem] leading-relaxed">
-              Un système en 3 étapes, documenté et transmissible.
+              Du premier échange à la transmission complète — voici ce que vous vivez.
             </p>
           </div>
 
-          {/* BLOC 1 — Timeline 6 phases */}
-          <div className="mb-16 md:mb-24 max-w-2xl mx-auto">
-            <PhasesTimeline />
+          {/* Steps */}
+          <div className="space-y-10 md:space-y-12">
+            {/* Étape 0 */}
+            <div className="relative pl-8 md:pl-10 border-l-2 border-[rgba(201,168,76,0.25)]">
+              <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-[#c9a84c] border-2 border-[#0d1b2e]" />
+              <div className="text-[10px] font-bold tracking-[0.12em] text-[#c9a84c] uppercase mb-2">
+                Étape 0 — Diagnostic Acquisition · 5 jours
+              </div>
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-4">
+                Avant de toucher au moindre outil, je comprends votre marché, votre offre, vos clients actuels et pourquoi ils vous choisissent. Vous remplissez un questionnaire à votre rythme. On se retrouve 45 minutes pour aligner, clarifier, poser les bases.
+              </p>
+              <p className="text-[#94a3b8] text-[0.9rem] leading-[1.7]">
+                À l'issue des 5 jours : ICP réel, positionnement outbound, leviers bloquants, stack recommandée, architecture de séquences. Un livrable structuré et une décision claire.
+              </p>
+              <p className="text-[#c9a84c] text-[0.85rem] italic mt-3">
+                C'est le moment le plus exigeant de notre collaboration. Ce qui suit est entre mes mains.
+              </p>
+            </div>
+
+            {/* Étape 1 */}
+            <div className="relative pl-8 md:pl-10 border-l-2 border-[rgba(201,168,76,0.25)]">
+              <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-[#c9a84c] border-2 border-[#0d1b2e]" />
+              <div className="text-[10px] font-bold tracking-[0.12em] text-[#c9a84c] uppercase mb-2">
+                Étape 1 · J+0 à J+15 — On pose la fondation
+              </div>
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-4">
+                Vous ne voyez pas tout ce qui se passe. C'est voulu. ICP défini, stack technique installée, domaines configurés, scoring SQL posé. À J+15 vous recevez un livrable structuré : votre ICP réel, l'architecture des séquences, la stack recommandée. Un call de 30 minutes pour valider ensemble.
+              </p>
+            </div>
+
+            {/* Étape 2 */}
+            <div className="relative pl-8 md:pl-10 border-l-2 border-[rgba(201,168,76,0.25)]">
+              <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-[#c9a84c] border-2 border-[#0d1b2e]" />
+              <div className="text-[10px] font-bold tracking-[0.12em] text-[#c9a84c] uppercase mb-2">
+                Étape 2 · J+15 à J+35 — Le système entre en fonction
+              </div>
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-4">
+                Prospects ciblés, enrichis, scorés selon votre ICP. Séquences email et LinkedIn déployées. Vous recevez un reporting écrit chaque semaine — chiffres, actions, prochaines étapes. Vous le lisez quand vous voulez. Aucune réunion imposée.
+              </p>
+            </div>
+
+            {/* Étape 3 */}
+            <div className="relative pl-8 md:pl-10 border-l-2 border-[rgba(201,168,76,0.25)]">
+              <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-[#c9a84c] border-2 border-[#0d1b2e]" />
+              <div className="text-[10px] font-bold tracking-[0.12em] text-[#c9a84c] uppercase mb-2">
+                Étape 3 · J+35 à J+90 — Vous recevez des prospects qualifiés
+              </div>
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75] mb-4">
+                Chaque réponse est filtrée. Avant chaque call commercial, vous recevez un brief complet sur le prospect — budget, autorité de décision, urgence, contexte. Votre première conversation est commerciale, pas exploratoire. Un call mensuel de 30 minutes pour piloter ensemble.
+              </p>
+            </div>
+
+            {/* J+90 */}
+            <div className="relative pl-8 md:pl-10">
+              <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-[#9fe1cb] border-2 border-[#0d1b2e]" />
+              <div className="text-[10px] font-bold tracking-[0.12em] text-[#9fe1cb] uppercase mb-2">
+                J+90 — Le système vous appartient
+              </div>
+              <p className="text-[#f7f7f7] text-[0.95rem] leading-[1.75]">
+                Séquences, bases de contacts, workflows, playbook : tout vous est remis sans condition, sans surcoût. Une option de formation sur site est disponible pour que vous ou vos équipes opèrent le système en autonomie.
+              </p>
+            </div>
           </div>
-
-
-
         </div>
       </section>
 
