@@ -350,7 +350,7 @@ const Index = () => {
                 Nous construisons et opérons l'infrastructure : sourcing Clay, enrichissement, séquences Instantly, qualification SQL, CRM. Le fondateur sort de la prospection. Le système entre en fonction.
               </p>
               <p className="mt-6 text-center text-[#c9a24e] text-[13px] tracking-[0.1em] uppercase font-medium">
-                Tarification sur mesure, définie à l'issue du Diagnostic.
+                Les missions démarrent généralement entre 5 000 € et 12 000 € HT selon la complexité de votre marché et le périmètre défini ensemble. Le Diagnostic permet de calibrer précisément ce chiffre et d'en déduire les 1 500 € déjà investis.
               </p>
             </div>
             <div className="bg-[rgba(201,162,78,0.04)] border border-[rgba(201,162,78,0.2)] rounded-lg p-8 text-left">
