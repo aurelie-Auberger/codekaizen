@@ -251,13 +251,22 @@ const Index = () => {
 
             
             <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
-              Beaucoup d'entreprises B2B ont une offre solide, mais une acquisition encore trop dépendante du fondateur.
+              Ce qui m'a frappée, ce n'est pas le manque d'effort. C'est le chaos organisé.
             </p>
             <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
-              Code Kaizen aide les entreprises founder-led à structurer une infrastructure commerciale capable de générer un pipeline plus prévisible, plus stable et transmissible.
+              Des équipes qui travaillent en silo. Le même prospect contacté trois fois par trois personnes différentes. Des séquences LinkedIn copiées-collées où chaque message commence par "félicitations pour votre nouveau poste." Des outils utilisés à 10 % de leur capacité. Et en dehors de cela : un fondateur qui prospecte seul dans son réseau, jusqu'à ce qu'il n'y ait plus personne à appeler.
             </p>
             <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
-              L'objectif n'est pas de multiplier les actions. L'objectif est de construire un système de croissance qui fonctionne durablement.
+              J'ai vu cela de l'intérieur. 6 ans de terrain en expérience client, e-commerce et projets digitaux, puis en environnement B2B exigeant. Pas en consultant. En opérant.
+            </p>
+            <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
+              Ce que je construis chez Code Kaizen, c'est l'exact opposé. Une infrastructure où chaque action est coordonnée, chaque prospect est approché une seule fois, avec le bon message, au bon moment. Pas du volume. De la précision.
+            </p>
+            <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
+              Je ne suis pas une agence. Je comprends à la fois comment attirer un prospect et comment le convertir. Ce qui me permet de construire un système où rien ne se perd entre les deux.
+            </p>
+            <p className="text-[#f7f7f7] text-[1rem] leading-[1.85] my-4 text-center max-w-xl mx-auto md:mx-0">
+              Ce n'est pas une délégation. C'est une fondation.
             </p>
             <a
               href="https://www.linkedin.com/company/code-kaizen"
