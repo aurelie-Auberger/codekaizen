@@ -504,7 +504,7 @@ const Index = () => {
             rel="noopener noreferrer"
             className="bg-gold text-ink inline-flex px-6 py-[14px] sm:px-14 sm:py-6 rounded-[2px] font-bold text-[12px] sm:text-xs tracking-[0.15em] sm:tracking-luxe uppercase hover:bg-ivory transition-all duration-500 shadow-[var(--shadow-gold)]"
           >
-            Réserver mon Diagnostic
+            Réserver un échange
           </a>
         </div>
       </section>
