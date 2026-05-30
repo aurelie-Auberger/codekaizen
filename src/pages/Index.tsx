@@ -363,9 +363,6 @@ const Index = () => {
               </p>
             </div>
           </div>
-          <p className="text-center text-[#94a3b8] text-xs mt-8">
-            <a href="#phases" className="text-[#c9a24e] hover:underline">Voir comment ça marche →</a>
-          </p>
         </div>
       </section>
 
