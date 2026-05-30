@@ -359,7 +359,7 @@ const Index = () => {
                 Nous opérons le système : sourcing continu, optimisation des campagnes, qualification des réponses, reporting hebdomadaire. Vous recevez des prospects qualifiés avec un brief complet (budget, autorité, urgence, contexte). Vous closez.
               </p>
               <p className="mt-6 text-center text-[#c9a24e] text-[13px] tracking-[0.1em] uppercase font-medium">
-                Tarification sur mesure, définie à l'issue du Diagnostic.
+                Les missions démarrent généralement entre 5 000 € et 12 000 € HT selon la complexité de votre marché et le périmètre défini ensemble. Le Diagnostic permet de calibrer précisément ce chiffre et d'en déduire les 1 500 € déjà investis.
               </p>
             </div>
           </div>
